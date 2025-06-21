@@ -17,20 +17,44 @@
         "message": {
           "type": "message",
           "settings": {
-            "text": "Announce something here",
+            "text": "OFFRE FIN DE PRINTEMPS -50%",
+            "url": ""
+          }
+        },
+        "message_AMzctQ": {
+          "type": "message",
+          "settings": {
+            "text": "STOCK BIENTÖT ÉPUISÉS",
+            "url": ""
+          }
+        },
+        "message_niV38B": {
+          "type": "message",
+          "settings": {
+            "text": "LIVRAISON OFERTE",
+            "url": ""
+          }
+        },
+        "message_C9by3D": {
+          "type": "message",
+          "settings": {
+            "text": "STOCKS BIENTÖT ÉPUISÉS",
             "url": ""
           }
         }
       },
       "block_order": [
-        "message"
+        "message",
+        "message_AMzctQ",
+        "message_niV38B",
+        "message_C9by3D"
       ],
       "settings": {
         "enable_sticky": false,
         "text_size": "text-xs",
         "navigation_mode": "scrolling",
         "scrolling_speed": 10,
-        "background": "#1a1a1a",
+        "background": "#0e5133",
         "background_gradient": "",
         "text_color": "#ffffff"
       }
@@ -40,9 +64,9 @@
       "settings": {
         "enable_sticky": true,
         "hide_on_scroll": false,
-        "logo": "shopify://shop_images/XIONORA_34_73a8fc7b-6463-4963-abde-e2ad7672d2a2.jpg",
+        "logo": "shopify://shop_images/XIONORA_35.jpg",
         "logo_max_width": 300,
-        "logo_mobile_max_width": 140,
+        "logo_mobile_max_width": 170,
         "menu": "main-menu",
         "sidebar_menu": "",
         "secondary_menu": "",
@@ -55,6 +79,7 @@
         "show_country_flag": true,
         "show_country_name": true,
         "transparent_header_text_color": "#000000",
+        "transparent_logo": "shopify://shop_images/XIONORA_34_73a8fc7b-6463-4963-abde-e2ad7672d2a2.jpg",
         "reduce_padding": false,
         "background_opacity": 100,
         "background_blur_radius": 0
