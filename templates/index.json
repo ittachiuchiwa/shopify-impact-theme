@@ -119,7 +119,7 @@
           "type": "heading",
           "settings": {
             "text": "Ils parlent de nous",
-            "heading_tag": "h4",
+            "heading_tag": "h6",
             "text_color": "",
             "gradient": ""
           }
@@ -173,7 +173,7 @@
           "type": "heading",
           "settings": {
             "text": "Dites adieu au ventre gonflé après chaque repas",
-            "heading_tag": "h5",
+            "heading_tag": "h6",
             "text_color": "",
             "gradient": ""
           }
