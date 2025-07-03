@@ -158,6 +158,46 @@
         "text_color": ""
       }
     },
+    "rich_text_UXzW84": {
+      "type": "rich-text",
+      "blocks": {
+        "subheading_MxWbFb": {
+          "type": "subheading",
+          "settings": {
+            "text": ""
+          }
+        },
+        "heading_ANrQHC": {
+          "type": "heading",
+          "settings": {
+            "text": "Pour dire adieu au ventre gonflé après chaque repas",
+            "heading_tag": "h5",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_NEFgDY": {
+          "type": "richtext",
+          "settings": {
+            "content": ""
+          }
+        }
+      },
+      "block_order": [
+        "subheading_MxWbFb",
+        "heading_ANrQHC",
+        "richtext_NEFgDY"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "logo_list_Y8ajKE": {
       "type": "logo-list",
       "blocks": {
@@ -1032,6 +1072,7 @@
     "custom_liquid_eUVjTR",
     "rich_text_6irJgH",
     "custom_liquid_krKgqT",
+    "rich_text_UXzW84",
     "logo_list_Y8ajKE",
     "image-link-blocks",
     "scrolling-text",
