@@ -79,6 +79,7 @@
       "block_order": [
         "slide-1"
       ],
+      "disabled": true,
       "settings": {
         "full_width": false,
         "allow_transparent_header": true,
