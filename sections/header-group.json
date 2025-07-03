@@ -52,7 +52,7 @@
       "settings": {
         "enable_sticky": false,
         "text_size": "text-xs",
-        "navigation_mode": "scrolling",
+        "navigation_mode": "arrows",
         "scrolling_speed": 10,
         "background": "#000000",
         "background_gradient": "",
@@ -80,7 +80,7 @@
         "show_country_name": true,
         "transparent_header_text_color": "#00a341",
         "transparent_logo": "shopify://shop_images/XIONORA_34_73a8fc7b-6463-4963-abde-e2ad7672d2a2.jpg",
-        "reduce_padding": false,
+        "reduce_padding": true,
         "background_opacity": 100,
         "background_blur_radius": 0
       }
