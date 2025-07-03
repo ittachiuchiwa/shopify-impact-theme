@@ -9,19 +9,6 @@
  */
 {
   "sections": {
-    "custom_liquid_UPb9Ly": {
-      "type": "custom-liquid",
-      "name": "Custom Liquid",
-      "settings": {
-        "full_width": true,
-        "remove_vertical_spacing": false,
-        "remove_horizontal_spacing": false,
-        "liquid": "<div style=\"text-align: center; font-family: sans-serif;\">\n  <h3 style=\"font-size: 20px; font-weight: 600; margin-bottom: 10px;\">Nos clientes en parlent le mieux</h3>\n  \n  <div style=\"display: flex; justify-content: center; align-items: center; gap: 8px; margin-bottom: 6px;\">\n    <span style=\"font-size: 16px;\">Excellent</span>\n    <strong style=\"font-size: 18px;\">4.7 / 5</strong>\n\n    <div style=\"display: flex; gap: 2px;\">\n      {% for i in (1..5) %}\n      <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" fill=\"#00B67A\" viewBox=\"0 0 24 24\">\n        <path d=\"M12 .587l3.668 7.431 8.2 1.151-5.934 5.663 1.402 8.168L12 18.897l-7.336 3.903 1.402-8.168L.132 9.169l8.2-1.151z\"/>\n      </svg>\n      {% endfor %}\n    </div>\n  </div>\n\n  <p style=\"font-size: 14px; color: #333;\">\n    Basé sur <strong>+5000 avis</strong>\n    <span style=\"display: inline-flex; align-items: center; gap: 4px; color: #000000;\">\n      <svg width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"#00B67A\" xmlns=\"http://www.w3.org/2000/svg\">\n        <path d=\"M12 .587l3.668 7.431 8.2 1.151-5.934 5.663 1.402 8.168L12 18.897l-7.336 3.903 1.402-8.168L.132 9.169l8.2-1.151z\"/>\n      </svg>\n      <span style=\"font-weight: bold;\">Trustpilot</span>\n    </span>\n  </p>\n</div>",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
     "image_with_text_overlay_C89KzF": {
       "type": "image-with-text-overlay",
       "blocks": {
@@ -240,6 +227,19 @@
         "text_color": "#ffffff",
         "overlay_color": "#000000",
         "overlay_opacity": 0
+      }
+    },
+    "custom_liquid_UPb9Ly": {
+      "type": "custom-liquid",
+      "name": "Custom Liquid",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "liquid": "<div style=\"text-align: center; font-family: sans-serif;\">\n  <h3 style=\"font-size: 20px; font-weight: 600; margin-bottom: 10px;\">Nos clientes en parlent le mieux</h3>\n  \n  <div style=\"display: flex; justify-content: center; align-items: center; gap: 8px; margin-bottom: 6px;\">\n    <span style=\"font-size: 16px;\">Excellent</span>\n    <strong style=\"font-size: 18px;\">4.7 / 5</strong>\n\n    <div style=\"display: flex; gap: 2px;\">\n      {% for i in (1..5) %}\n      <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" fill=\"#00B67A\" viewBox=\"0 0 24 24\">\n        <path d=\"M12 .587l3.668 7.431 8.2 1.151-5.934 5.663 1.402 8.168L12 18.897l-7.336 3.903 1.402-8.168L.132 9.169l8.2-1.151z\"/>\n      </svg>\n      {% endfor %}\n    </div>\n  </div>\n\n  <p style=\"font-size: 14px; color: #333;\">\n    Basé sur <strong>+5000 avis</strong>\n    <span style=\"display: inline-flex; align-items: center; gap: 4px; color: #000000;\">\n      <svg width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"#00B67A\" xmlns=\"http://www.w3.org/2000/svg\">\n        <path d=\"M12 .587l3.668 7.431 8.2 1.151-5.934 5.663 1.402 8.168L12 18.897l-7.336 3.903 1.402-8.168L.132 9.169l8.2-1.151z\"/>\n      </svg>\n      <span style=\"font-weight: bold;\">Trustpilot</span>\n    </span>\n  </p>\n</div>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
       }
     },
     "logo_list_Y8ajKE": {
@@ -1111,7 +1111,6 @@
     }
   },
   "order": [
-    "custom_liquid_UPb9Ly",
     "image_with_text_overlay_C89KzF",
     "slideshow",
     "custom_liquid_eUVjTR",
@@ -1119,6 +1118,7 @@
     "custom_liquid_krKgqT",
     "rich_text_UXzW84",
     "image_with_text_overlay_wWWrPw",
+    "custom_liquid_UPb9Ly",
     "logo_list_Y8ajKE",
     "image-link-blocks",
     "scrolling-text",
