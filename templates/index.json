@@ -105,6 +105,46 @@
         "text_color": ""
       }
     },
+    "rich_text_6irJgH": {
+      "type": "rich-text",
+      "blocks": {
+        "subheading_wmpE8a": {
+          "type": "subheading",
+          "settings": {
+            "text": ""
+          }
+        },
+        "heading_PNjenG": {
+          "type": "heading",
+          "settings": {
+            "text": "Ils parlent de nous",
+            "heading_tag": "h2",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_RJaPQT": {
+          "type": "richtext",
+          "settings": {
+            "content": ""
+          }
+        }
+      },
+      "block_order": [
+        "subheading_wmpE8a",
+        "heading_PNjenG",
+        "richtext_RJaPQT"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "custom_liquid_krKgqT": {
       "type": "custom-liquid",
       "name": "Custom Liquid",
@@ -990,6 +1030,7 @@
     "image_with_text_overlay_C89KzF",
     "slideshow",
     "custom_liquid_eUVjTR",
+    "rich_text_6irJgH",
     "custom_liquid_krKgqT",
     "logo_list_Y8ajKE",
     "image-link-blocks",
