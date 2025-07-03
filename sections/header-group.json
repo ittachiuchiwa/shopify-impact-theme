@@ -54,7 +54,7 @@
         "text_size": "text-xs",
         "navigation_mode": "scrolling",
         "scrolling_speed": 10,
-        "background": "#58a614",
+        "background": "#000000",
         "background_gradient": "",
         "text_color": "#ffffff"
       }
@@ -64,7 +64,7 @@
       "settings": {
         "enable_sticky": true,
         "hide_on_scroll": false,
-        "logo": "shopify://shop_images/XIONORA_35.jpg",
+        "logo": "shopify://shop_images/Xionora_42.jpg",
         "logo_max_width": 300,
         "logo_mobile_max_width": 170,
         "menu": "main-menu",
@@ -78,7 +78,7 @@
         "show_country_selector": true,
         "show_country_flag": true,
         "show_country_name": true,
-        "transparent_header_text_color": "#000000",
+        "transparent_header_text_color": "#00a341",
         "transparent_logo": "shopify://shop_images/XIONORA_34_73a8fc7b-6463-4963-abde-e2ad7672d2a2.jpg",
         "reduce_padding": false,
         "background_opacity": 100,
