@@ -9,19 +9,6 @@
  */
 {
   "sections": {
-    "custom_liquid_eUVjTR": {
-      "type": "custom-liquid",
-      "name": "Custom Liquid",
-      "settings": {
-        "full_width": true,
-        "remove_vertical_spacing": false,
-        "remove_horizontal_spacing": false,
-        "liquid": "<style>\n  .quality-section {\n    background-color: #f8fdf7;\n    padding: 1.5rem 1rem;\n    border-radius: 12px;\n    border: 1px solid #e0ebdf;\n  }\n\n  .quality-container {\n    display: flex;\n    justify-content: space-between;\n    align-items: center;\n    flex-wrap: nowrap;\n    max-width: 100%;\n    margin: 0 auto;\n    gap: 1rem;\n  }\n\n  .quality-block {\n    flex: 1;\n    min-width: 0;\n    text-align: center;\n    background: white;\n    padding: 1rem 0.5rem;\n    border-radius: 10px;\n    box-shadow: 0 2px 8px rgba(0,0,0,0.05);\n    transition: all 0.3s ease;\n  }\n\n  .quality-block:hover {\n    transform: translateY(-4px);\n    box-shadow: 0 8px 20px rgba(0,0,0,0.1);\n  }\n\n  .quality-icon {\n    background-color: #dff2e0;\n    border-radius: 50%;\n    width: 48px;\n    height: 48px;\n    margin: 0 auto 0.5rem;\n    display: flex;\n    align-items: center;\n    justify-content: center;\n  }\n\n  .quality-block img {\n    width: 24px;\n    height: 24px;\n  }\n\n  .quality-block h3 {\n    font-size: 0.95rem;\n    font-weight: 600;\n    color: #1d4629;\n    margin: 0.2rem 0;\n  }\n\n  .quality-block p {\n    font-size: 0.75rem;\n    color: #5d735f;\n    margin: 0;\n  }\n</style>\n\n<div class=\"quality-section\">\n  <h2 style=\"text-align:center; font-size: 1.3rem; font-weight: 600; color:#1d4629; margin-bottom: 1.5rem;\">\n    Qualité & Sécurité Garantis\n  </h2>\n\n  <div class=\"quality-container\">\n\n    <!-- Bloc 1 -->\n    <div class=\"quality-block\">\n      <div class=\"quality-icon\">\n        <img src=\"https://cdn.shopify.com/s/files/1/0913/2759/4876/files/icons8-stopwatch-100.png?v=1751558023\" alt=\"Standards Européens\">\n      </div>\n      <h3>Standards Européens</h3>\n      <p>Normes CE</p>\n    </div>\n\n    <!-- Bloc 2 -->\n    <div class=\"quality-block\">\n      <div class=\"quality-icon\">\n        <img src=\"https://cdn.shopify.com/s/files/1/0913/2759/4876/files/icons8-pill-100.png?v=1751558040\" alt=\"Laboratoire Certifié\">\n      </div>\n      <h3>Testé en Labo</h3>\n      <p>Pureté validée</p>\n    </div>\n\n    <!-- Bloc 3 -->\n    <div class=\"quality-block\">\n      <div class=\"quality-icon\">\n        <img src=\"https://cdn.shopify.com/s/files/1/0913/2759/4876/files/icons8-user-groups-100.png?v=1751558047\" alt=\"Contrôles Qualité\">\n      </div>\n      <h3>Traçabilité</h3>\n      <p>Contrôles complets</p>\n    </div>\n\n  </div>\n</div>",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
     "image_with_text_overlay_C89KzF": {
       "type": "image-with-text-overlay",
       "blocks": {
@@ -103,6 +90,19 @@
         "cycle_speed": 6,
         "background": "#ffffff",
         "background_gradient": ""
+      }
+    },
+    "custom_liquid_eUVjTR": {
+      "type": "custom-liquid",
+      "name": "Custom Liquid",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "liquid": "<style>\n  .quality-section {\n    background-color: #f8fdf7;\n    padding: 1.5rem 1rem;\n    border-radius: 12px;\n    border: 1px solid #e0ebdf;\n  }\n\n  .quality-container {\n    display: flex;\n    justify-content: space-between;\n    align-items: center;\n    flex-wrap: nowrap;\n    max-width: 100%;\n    margin: 0 auto;\n    gap: 1rem;\n  }\n\n  .quality-block {\n    flex: 1;\n    min-width: 0;\n    text-align: center;\n    background: white;\n    padding: 1rem 0.5rem;\n    border-radius: 10px;\n    box-shadow: 0 2px 8px rgba(0,0,0,0.05);\n    transition: all 0.3s ease;\n  }\n\n  .quality-block:hover {\n    transform: translateY(-4px);\n    box-shadow: 0 8px 20px rgba(0,0,0,0.1);\n  }\n\n  .quality-icon {\n    background-color: #dff2e0;\n    border-radius: 50%;\n    width: 48px;\n    height: 48px;\n    margin: 0 auto 0.5rem;\n    display: flex;\n    align-items: center;\n    justify-content: center;\n  }\n\n  .quality-block img {\n    width: 24px;\n    height: 24px;\n  }\n\n  .quality-block h3 {\n    font-size: 0.95rem;\n    font-weight: 600;\n    color: #1d4629;\n    margin: 0.2rem 0;\n  }\n\n  .quality-block p {\n    font-size: 0.75rem;\n    color: #5d735f;\n    margin: 0;\n  }\n</style>\n\n<div class=\"quality-section\">\n  <h2 style=\"text-align:center; font-size: 1.3rem; font-weight: 600; color:#1d4629; margin-bottom: 1.5rem;\">\n    Qualité & Sécurité Garantis\n  </h2>\n\n  <div class=\"quality-container\">\n\n    <!-- Bloc 1 -->\n    <div class=\"quality-block\">\n      <div class=\"quality-icon\">\n        <img src=\"https://cdn.shopify.com/s/files/1/0913/2759/4876/files/icons8-stopwatch-100.png?v=1751558023\" alt=\"Standards Européens\">\n      </div>\n      <h3>Standards Européens</h3>\n      <p>Normes CE</p>\n    </div>\n\n    <!-- Bloc 2 -->\n    <div class=\"quality-block\">\n      <div class=\"quality-icon\">\n        <img src=\"https://cdn.shopify.com/s/files/1/0913/2759/4876/files/icons8-pill-100.png?v=1751558040\" alt=\"Laboratoire Certifié\">\n      </div>\n      <h3>Testé en Labo</h3>\n      <p>Pureté validée</p>\n    </div>\n\n    <!-- Bloc 3 -->\n    <div class=\"quality-block\">\n      <div class=\"quality-icon\">\n        <img src=\"https://cdn.shopify.com/s/files/1/0913/2759/4876/files/icons8-user-groups-100.png?v=1751558047\" alt=\"Contrôles Qualité\">\n      </div>\n      <h3>Traçabilité</h3>\n      <p>Contrôles complets</p>\n    </div>\n\n  </div>\n</div>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
       }
     },
     "logo_list_Y8ajKE": {
@@ -973,9 +973,9 @@
     }
   },
   "order": [
-    "custom_liquid_eUVjTR",
     "image_with_text_overlay_C89KzF",
     "slideshow",
+    "custom_liquid_eUVjTR",
     "logo_list_Y8ajKE",
     "image-link-blocks",
     "scrolling-text",
