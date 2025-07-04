@@ -1013,6 +1013,13 @@
             "content": "<p>📦 <strong>Une formulation exceptionnelle :</strong><br/><br/>• 6 000 mg d’huile d’origan pur (extrait 20:1)<br/><br/>• 200 mg d’huile précieuse de graine noire<br/><br/>• 165 mg de carvacrol naturel, principal actif<br/><br/>• 180 gélules délicates et faciles à ingérer</p><p>💪 <strong>Les bénéfices au quotidien :</strong><br/><br/>• Défenses naturelles renforcées<br/><br/>• Digestion harmonieuse<br/><br/>• Détoxification en douceur<br/><br/>• Vitalité retrouvée</p><p>🧪 <strong>Engagement qualité :</strong><br/><br/>• Sans additifs superflus ni agents de remplissage<br/><br/>• Production contrôlée et testée pour la pureté<br/><br/>• Formule plus concentrée que la moyenne du marché<br/><br/>• Gélules élaborées à partir de gélatine et glycinine végétales</p><p>🧊 <strong>Stockage pratique :</strong><br/><br/>• À l’abri de l’humidité et de la chaleur<br/><br/>• Se conserve sans réfrigérateur</p>"
           }
         },
+        "collapsible_text_xHeebP": {
+          "type": "collapsible_text",
+          "settings": {
+            "title": "Avantage clés",
+            "content": "<p>🦠 <strong>Antifongique</strong><br/><br/>• Agit efficacement contre les infections fongiques et les problèmes de levures dans tout le corps.</p><p>⚖️ <strong>Combat le Candida</strong><br/><br/>• Aide à contrôler la prolifération du candida dans l’intestin et ailleurs dans l’organisme.</p><p>🍽️ <strong>Soutien digestif</strong><br/><br/>• Favorise le confort digestif et facilite la digestion des aliments.</p><p>⚡ <strong>Aide à la perte de poids</strong><br/><br/>• Peut contribuer à la perte de poids en optimisant la digestion et l’équilibre intestinal.</p><p>🌿 <strong>Antibiotique naturel</strong><br/><br/>• Agit comme un antibiotique naturel, sans les effets secondaires des médicaments chimiques.</p><p>🧼 <strong>Nettoyage puissant</strong><br/><br/>• Aide à éliminer les toxines et les substances indésirables de l’organisme.</p><p>🔋 <strong>Plus d’énergie</strong><br/><br/>• Beaucoup de personnes rapportent un regain d’énergie après quelques semaines d’utilisation.</p><p>🔥 <strong>Effet anti-inflammatoire</strong><br/><br/>• Aide à réduire les inflammations, douleurs et gonflements.</p>"
+          }
+        },
         "quantity-selector": {
           "type": "quantity_selector",
           "settings": {}
@@ -1040,6 +1047,7 @@
         "variant-picker",
         "collapsible_text_FTY6b9",
         "collapsible_text_gLVHzd",
+        "collapsible_text_xHeebP",
         "quantity-selector",
         "buy-buttons"
       ],
