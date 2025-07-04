@@ -250,7 +250,7 @@
           "settings": {
             "image": "shopify://shop_images/Design_sans_titre_27.jpg",
             "column_size": "3",
-            "title": "",
+            "title": "- Joêlle L.  51 ans",
             "heading_tag": "h4",
             "content": "<p>Après la ménopause, mon ventre était toujours gonflé.<strong> Avec cette cure, il s’est aplati,</strong> ma digestion s’est relancée. Je revis enfin, sans me battre contre mon corps.<br/><br/></p>",
             "link_url": "",
@@ -261,10 +261,11 @@
         "item_EgKiWh": {
           "type": "item",
           "settings": {
+            "image": "shopify://shop_images/Votre_texte_de_paragraphe_6.jpg",
             "column_size": "3",
-            "title": "Column title",
+            "title": "- Christelle R. 45 ans",
             "heading_tag": "h4",
-            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "content": "<p>Pendant des années, j’ai vécu avec cette boule au ventre. C’était gênant, douloureux, parfois même honteux. <strong>Aujourd’hui, je respire enfin. Mon ventre est paisible.</strong> Je n’y pense plus, et pour moi, c’est ça le vrai luxe. <strong>Je me sens libre.</strong></p>",
             "link_url": "",
             "link_text": "",
             "link_style": "link"
@@ -273,10 +274,11 @@
         "item_hYNNEd": {
           "type": "item",
           "settings": {
+            "image": "shopify://shop_images/Xionora_44.jpg",
             "column_size": "3",
-            "title": "Column title",
+            "title": "- Céline E. 57 ans",
             "heading_tag": "h4",
-            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "content": "<p>Mon ventre était constamment gonflé, même sans rien avoir mangé. J’ai tout essayé, sans résultat. Depuis que je fais cette cure, <strong>je me sens tellement plus légère, enfin normale.</strong> Plus de gêne, plus de tensions… <strong>j’ai retrouvé le vrai confort digestif.</strong> C’est une libération. <br/><br/></p>",
             "link_url": "",
             "link_text": "",
             "link_style": "link"
