@@ -287,10 +287,36 @@
         "item_DcXhLr": {
           "type": "item",
           "settings": {
+            "image": "shopify://shop_images/Design_sans_titre_27_0bcf8417-63ed-47e2-ad2a-0f9e8e11cc5e.jpg",
+            "column_size": "3",
+            "title": "- Chantal T. 56 ans",
+            "heading_tag": "h4",
+            "content": "<p>Depuis la ménopause, j’avais l’impression d’avoir constamment un ballon à la place du ventre. Rien n’y faisait. <strong>Grâce à cette cure, mon ventre s’est enfin apaisé, ma digestion a repris son rythme.</strong> Je me sens de nouveau moi-même, sans avoir à lutter contre mon corps.<br/><br/></p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_M4XkwA": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/61YA4ItnYHL._SY800.webp",
             "column_size": "3",
             "title": "Column title",
             "heading_tag": "h4",
             "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_N7b3cR": {
+          "type": "item",
+          "settings": {
+            "column_size": "3",
+            "title": "- Marie-Christine G. 62 ans",
+            "heading_tag": "h4",
+            "content": "<p>Je n’arrivais presque plus à aller aux toilettes sans aide. Laxatifs, tisanes… rien ne tenait. Aujourd’hui, <strong>tout est rentré dans l’ordre, en douceur.</strong> Plus de lourdeur, plus ce ventre dur. <strong>Je me sens enfin alignée, c’est vraiment le jour et la nuit.</strong></p>",
             "link_url": "",
             "link_text": "",
             "link_style": "link"
@@ -301,7 +327,9 @@
         "item_nCjt8P",
         "item_EgKiWh",
         "item_hYNNEd",
-        "item_DcXhLr"
+        "item_DcXhLr",
+        "item_M4XkwA",
+        "item_N7b3cR"
       ],
       "name": "Multi-column",
       "settings": {
