@@ -11,6 +11,7 @@
   "sections": {
     "custom_liquid_EzwG6y": {
       "type": "custom-liquid",
+      "disabled": true,
       "name": "Custom Liquid",
       "settings": {
         "full_width": true,
