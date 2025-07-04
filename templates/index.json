@@ -1020,6 +1020,13 @@
             "content": "<p>🦠 <strong>Antifongique</strong><br/><br/>• Agit efficacement contre les infections fongiques et les problèmes de levures dans tout le corps.</p><p>⚖️ <strong>Combat le Candida</strong><br/><br/>• Aide à contrôler la prolifération du candida dans l’intestin et ailleurs dans l’organisme.</p><p>🍽️ <strong>Soutien digestif</strong><br/><br/>• Favorise le confort digestif et facilite la digestion des aliments.</p><p>⚡ <strong>Aide à la perte de poids</strong><br/><br/>• Peut contribuer à la perte de poids en optimisant la digestion et l’équilibre intestinal.</p><p>🌿 <strong>Antibiotique naturel</strong><br/><br/>• Agit comme un antibiotique naturel, sans les effets secondaires des médicaments chimiques.</p><p>🧼 <strong>Nettoyage puissant</strong><br/><br/>• Aide à éliminer les toxines et les substances indésirables de l’organisme.</p><p>🔋 <strong>Plus d’énergie</strong><br/><br/>• Beaucoup de personnes rapportent un regain d’énergie après quelques semaines d’utilisation.</p><p>🔥 <strong>Effet anti-inflammatoire</strong><br/><br/>• Aide à réduire les inflammations, douleurs et gonflements.</p>"
           }
         },
+        "collapsible_text_VrQtxb": {
+          "type": "collapsible_text",
+          "settings": {
+            "title": "Notre garantie",
+            "content": "<p>🎯 <strong>Notre garantie satisfait ou remboursé à 100 %</strong><br/><br/>Nous croyons fermement en la qualité de notre huile d’origan. Si vous n’êtes pas satisfait des résultats, vous êtes couvert.</p><p>🗓 <strong>Garantie de remboursement 60 jours</strong><br/><br/>Essayez notre huile d’origan pendant 30 jours. Si vous ne constatez pas les bienfaits attendus, il vous suffit de nous le dire. Nous vous rembourserons intégralement, sans poser de questions.</p><p>🔄 <strong>Retours simplifiés</strong><br/><br/>Envoyez simplement un e-mail à notre service client dans les 30 jours suivant votre achat. Vous n’avez même pas besoin de nous renvoyer le produit.</p><p>💡 <strong>Pourquoi proposons-nous cela ?</strong><br/><br/>Parce que nous sommes convaincus de l’efficacité de notre produit, nous prenons tout le risque à notre charge. Vous n’avez rien à perdre, seulement une meilleure santé à gagner.</p><p>✅ <strong>Notre engagement qualité :</strong><br/><br/>• Certifié sans OGM<br/><br/>• Testé par des laboratoires indépendants<br/><br/>• Sans allergènes courants<br/><br/>• Sans conservateurs ni arômes artificiels<br/><br/>• Fabriqué aux États-Unis</p><p>✅ <strong>Version plus marketing / engageante :</strong></p><p>🎉 <strong>Essayez sans risque !</strong><br/><br/>Nous sommes tellement sûrs de notre huile d’origan que nous vous offrons une <strong>garantie de remboursement de 60 jours</strong>.</p><p>🚀 <strong>Testez-la pendant 30 jours</strong>. Si vous n’êtes pas conquis, dites-le-nous et nous vous rembourserons intégralement, sans aucune question.</p><p>✉️ <strong>Retour ultra simple :</strong><br/><br/>Un simple e-mail à notre équipe dans les 30 jours après votre achat et c’est réglé. Pas besoin de retourner le produit.</p><p>✨ <strong>Pourquoi faire cela ?</strong><br/><br/>Parce que nous croyons sincèrement à la qualité de notre huile d’origan. Vous n’avez rien à perdre, et tout à gagner pour votre santé.</p>"
+          }
+        },
         "quantity-selector": {
           "type": "quantity_selector",
           "settings": {}
@@ -1048,6 +1055,7 @@
         "collapsible_text_FTY6b9",
         "collapsible_text_gLVHzd",
         "collapsible_text_xHeebP",
+        "collapsible_text_VrQtxb",
         "quantity-selector",
         "buy-buttons"
       ],
