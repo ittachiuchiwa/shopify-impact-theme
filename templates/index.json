@@ -999,6 +999,20 @@
             "size_chart_page": ""
           }
         },
+        "collapsible_text_FTY6b9": {
+          "type": "collapsible_text",
+          "settings": {
+            "title": "COMMENT L'UTILISER ?",
+            "content": "<p>📅 <strong>Dosage :</strong><br/><br/>• 1 comprimé avec un verre d’eau, 1 à 2 fois par jour, pendant les repas.</p><p>✅ <strong>Résultats :</strong><br/><br/>• Programme recommandé d’au moins 30 jours.<br/><br/>• Effets maximaux visibles sous 2 à 3 mois.</p>"
+          }
+        },
+        "collapsible_text_gLVHzd": {
+          "type": "collapsible_text",
+          "settings": {
+            "title": "Détails du produit",
+            "content": "<p>📦 <strong>Une formulation exceptionnelle :</strong><br/><br/>• 6 000 mg d’huile d’origan pur (extrait 20:1)<br/><br/>• 200 mg d’huile précieuse de graine noire<br/><br/>• 165 mg de carvacrol naturel, principal actif<br/><br/>• 180 gélules délicates et faciles à ingérer</p><p>💪 <strong>Les bénéfices au quotidien :</strong><br/><br/>• Défenses naturelles renforcées<br/><br/>• Digestion harmonieuse<br/><br/>• Détoxification en douceur<br/><br/>• Vitalité retrouvée</p><p>🧪 <strong>Engagement qualité :</strong><br/><br/>• Sans additifs superflus ni agents de remplissage<br/><br/>• Production contrôlée et testée pour la pureté<br/><br/>• Formule plus concentrée que la moyenne du marché<br/><br/>• Gélules élaborées à partir de gélatine et glycinine végétales</p><p>🧊 <strong>Stockage pratique :</strong><br/><br/>• À l’abri de l’humidité et de la chaleur<br/><br/>• Se conserve sans réfrigérateur</p>"
+          }
+        },
         "quantity-selector": {
           "type": "quantity_selector",
           "settings": {}
@@ -1024,6 +1038,8 @@
         "separator",
         "description",
         "variant-picker",
+        "collapsible_text_FTY6b9",
+        "collapsible_text_gLVHzd",
         "quantity-selector",
         "buy-buttons"
       ],
