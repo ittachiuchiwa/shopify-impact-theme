@@ -300,11 +300,11 @@
         "item_M4XkwA": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/61YA4ItnYHL._SY800.webp",
+            "image": "shopify://shop_images/Xionora_45.jpg",
             "column_size": "3",
             "title": "Column title",
             "heading_tag": "h4",
-            "content": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "content": "<p>Franchement, j’étais sceptique, comme toujours face aux remèdes naturels. Et pourtant… dès la première semaine, <strong>j’ai ressenti une vraie différence</strong>. Maintenant, je me sens plus stable, plus solide, tout simplement mieux.<br/><br/></p>",
             "link_url": "",
             "link_text": "",
             "link_style": "link"
@@ -313,6 +313,7 @@
         "item_N7b3cR": {
           "type": "item",
           "settings": {
+            "image": "shopify://shop_images/61YA4ItnYHL._SY800.webp",
             "column_size": "3",
             "title": "- Marie-Christine G. 62 ans",
             "heading_tag": "h4",
