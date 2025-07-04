@@ -9,6 +9,19 @@
  */
 {
   "sections": {
+    "custom_liquid_EzwG6y": {
+      "type": "custom-liquid",
+      "name": "Custom Liquid",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "liquid": "<div style=\"display: flex; justify-content: space-between; gap: 10px; margin: 20px 0;\">\n  <!-- Première bulle -->\n  <div style=\"width: 80px; height: 80px; border-radius: 50%; overflow: hidden; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);\">\n    <video autoplay loop muted playsinline style=\"width: 100%; height: 100%; object-fit: cover;\">\n      <source src=\"https://cdn.shopify.com/videos/c/o/v/3d455e934df3477d99e27405e2e3177c.mp4\" type=\"video/mp4\">\n    </video>\n  </div>\n\n  <!-- Deuxième bulle -->\n  <div style=\"width: 80px; height: 80px; border-radius: 50%; overflow: hidden; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);\">\n    <video autoplay loop muted playsinline style=\"width: 100%; height: 100%; object-fit: cover;\">\n      <source src=\"https://cdn.shopify.com/videos/c/o/v/3a143326391a4e709a231a6b5e6ef984.mp4\" type=\"video/mp4\">\n    </video>\n  </div>\n\n  <!-- Troisième bulle -->\n  <div style=\"width: 80px; height: 80px; border-radius: 50%; overflow: hidden; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);\">\n    <video autoplay loop muted playsinline style=\"width: 100%; height: 100%; object-fit: cover;\">\n      <source src=\"https://cdn.shopify.com/videos/c/o/v/4ca454bd2926442e84b5aff020853b52.mp4\" type=\"video/mp4\">\n    </video>\n  </div>\n</div>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "image_with_text_overlay_C89KzF": {
       "type": "image-with-text-overlay",
       "blocks": {
@@ -1261,6 +1274,7 @@
     }
   },
   "order": [
+    "custom_liquid_EzwG6y",
     "image_with_text_overlay_C89KzF",
     "slideshow",
     "custom_liquid_eUVjTR",
