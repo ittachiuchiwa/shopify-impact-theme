@@ -560,6 +560,47 @@
         "testimonial_card_text_color": "#1a1a1a"
       }
     },
+    "rich_text_ft66VY": {
+      "type": "rich-text",
+      "blocks": {
+        "subheading_rk73eA": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "text": "Subheading"
+          }
+        },
+        "heading_hkJywG": {
+          "type": "heading",
+          "settings": {
+            "text": "NOS INGRÉDIENTS CURATIFS",
+            "heading_tag": "h4",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_AjUJmg": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Chez Xionora, nous avons passé des années à perfectionner cette formule, en éliminant les additifs inutiles tout en <strong>maximisant la pureté, la puissance et l’efficacité,</strong>afin que vous obteniez de vrais résultats, et pas seulement de vaines promesses.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_rk73eA",
+        "heading_hkJywG",
+        "richtext_AjUJmg"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "faq": {
       "type": "faq",
       "blocks": {
@@ -692,47 +733,6 @@
         "accordion_text_color": ""
       }
     },
-    "rich_text_ft66VY": {
-      "type": "rich-text",
-      "blocks": {
-        "subheading_rk73eA": {
-          "type": "subheading",
-          "disabled": true,
-          "settings": {
-            "text": "Subheading"
-          }
-        },
-        "heading_hkJywG": {
-          "type": "heading",
-          "settings": {
-            "text": "NOS INGRÉDIENTS CURATIFS",
-            "heading_tag": "h4",
-            "text_color": "",
-            "gradient": ""
-          }
-        },
-        "richtext_AjUJmg": {
-          "type": "richtext",
-          "settings": {
-            "content": "<p>Chez Xionora, nous avons passé des années à perfectionner cette formule, en éliminant les additifs inutiles tout en <strong>maximisant la pureté, la puissance et l’efficacité,</strong>afin que vous obteniez de vrais résultats, et pas seulement de vaines promesses.</p>"
-          }
-        }
-      },
-      "block_order": [
-        "subheading_rk73eA",
-        "heading_hkJywG",
-        "richtext_AjUJmg"
-      ],
-      "name": "Rich text",
-      "settings": {
-        "full_width": true,
-        "content_width": "small",
-        "text_position": "center",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
     "slideshow_GUKWNK": {
       "type": "slideshow",
       "blocks": {
@@ -812,8 +812,8 @@
     "multiple_images_with_text_Hf6fGE",
     "custom_liquid_9XVWRc",
     "testimonials_tan9Et",
-    "faq",
     "rich_text_ft66VY",
-    "slideshow_GUKWNK"
+    "slideshow_GUKWNK",
+    "faq"
   ]
 }
