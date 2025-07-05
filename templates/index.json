@@ -420,138 +420,6 @@
         "logo_item_border": ""
       }
     },
-    "faq": {
-      "type": "faq",
-      "blocks": {
-        "166442457738b23caf-0": {
-          "type": "item",
-          "settings": {
-            "title": "Est-ce que ça marche même si j'ai déjà tout essayé ?",
-            "content": "<p><strong>Absolument, et ça se remarque vite.</strong> Nos clients témoignent d’une énergie retrouvée, d’une digestion plus légère et d’un réel sentiment de protection au quotidien. Ce n’est pas de la magie, c’est la puissance de la nature soutenue par la science : l’origan et le cumin noir sont réputés pour renforcer les défenses immunitaires et aider l’organisme à fonctionner de façon optimale.</p>"
-          }
-        },
-        "166442457738b23caf-1": {
-          "type": "item",
-          "settings": {
-            "title": "Quand est-ce que je vais commencer à voir mon ventre dégonfler ?",
-            "content": "<p>Les premiers résultats sont souvent spectaculaires :</p><p><strong>3-7 jours</strong> : Diminution des gaz et ballonnements</p><p><strong>10-15 jours</strong> : Ventre visiblement plus plat, surtout le matin</p><p><strong>30 jours</strong> : Digestion normalisée, plus de \"ventre de femme enceinte\" après les repas</p><p><strong>90 jours</strong> : Rééquilibrage complet, énergie retrouvée</p><p>⚠️ <strong>Important</strong> : Chaque corps est unique. Certaines personnes voient des résultats dès 48h, d'autres ont besoin de 2-3 semaines. Plus le déséquilibre est ancien, plus il faut être patiente.</p>"
-          }
-        },
-        "166442457738b23caf-2": {
-          "type": "item",
-          "settings": {
-            "title": "Est-ce que c'est vraiment naturel ?",
-            "content": "<p>Absolument ! OregaZen contient UNIQUEMENT :</p><p><strong>Huile d'origan sauvage</strong> (Origanum vulgare) : 150mg d'huile ultra-concentrée à 80% de carvacrol</p><p><strong>Huile de nigelle</strong> (Nigella sativa) : Pressée à froid, qualité premium</p><p><strong>Gélule végétale</strong> : Sans gélatine animale</p><p><strong>C'est TOUT !</strong> Pas d'additifs, pas de conservateurs, pas d'excipients douteux</p><p>Notre engagement : Si vous ne pouvez pas prononcer un ingrédient, c'est qu'il n'est pas dans nos produits.</p>"
-          }
-        },
-        "item_R6EUUE": {
-          "type": "item",
-          "settings": {
-            "title": "Y a-t-il des efets secondaires ?",
-            "content": "<p>OregaZen est <strong>très bien toléré par l’organisme</strong>, grâce à la pureté et à la qualité de ses composants. Toutefois, durant les premiers jours, il est possible d’observer certains signes transitoires liés au processus naturel de détoxification. Parmi eux : de <strong>légers maux de tête</strong>, une <strong>augmentation de la fréquence des selles</strong>, voire, très rarement, de <strong>légères nausées</strong>.</p><p>Ces manifestations sont considérées comme <strong>des réponses physiologiques normales</strong>, indiquant que l’organisme commence à mobiliser et éliminer les toxines accumulées. Elles disparaissent généralement en <strong>3 à 5 jours</strong>, le temps que le corps s’adapte.</p><p>💡 Pour les personnes à terrain sensible ou en phase de rééquilibrage digestif avancé, il est recommandé de débuter par <strong>1 gélule par jour</strong>, puis d’augmenter progressivement jusqu’à la dose optimale, afin d’accompagner l’organisme en douceur.</p>"
-          }
-        },
-        "item_eKWaKJ": {
-          "type": "item",
-          "settings": {
-            "title": "Pourquoi choisir Xionora plutôt qu'un autre complément ?",
-            "content": "<p>Parce qu’ici, il ne s’agit pas de vous vendre une pilule miracle. <strong>Amaora, c’est un concentré d’actifs puissants, formulé avec des ingrédients de qualité supérieure.</strong> Là où beaucoup de produits bas de gamme diluent leurs principes actifs pour réduire les coûts, nous faisons exactement l’inverse : nous privilégions la pureté, la concentration et l’efficacité.<br/><br/></p>"
-          }
-        },
-        "item_gqWgnQ": {
-          "type": "item",
-          "settings": {
-            "title": "Et si je ne suis pas satisfait(e)?",
-            "content": "<p>Testez Xionora pendant <strong>30 jours en toute confiance</strong>. Si vous n’êtes pas pleinement satisfait, nous vous remboursons intégralement, sans poser de questions. C’est notre engagement qualité : vous permettre d’essayer sereinement, avec la garantie d’être remboursé si le produit ne répond pas à vos attentes.<br/><br/></p>"
-          }
-        },
-        "item_X9qMtC": {
-          "type": "item",
-          "settings": {
-            "title": "Comment le prendre ?",
-            "content": "<p>👉 <strong>Mode d’emploi simplifié :</strong> </p><p>prenez <strong>1 à 2 capsules par jour</strong> avec un grand verre d’eau. Sans aucune contrainte, Xionora s’intègre facilement à votre routine quotidienne, que ce soit le matin ou le soir, selon vos préférences.<br/><br/></p>"
-          }
-        },
-        "item_zTcXAf": {
-          "type": "item",
-          "settings": {
-            "title": "Est-ce que je peux le prendre avec mes autres compléments ou médicaments ?",
-            "content": "<p>Oui, dans la grande majorité des cas. Amaora est un produit d’origine naturelle, bien toléré. Toutefois, si vous suivez un traitement médical spécifique ou présentez une condition particulière, il est toujours préférable de demander l’avis de votre médecin ou pharmacien. Une simple mesure de précaution, par bon sens.<br/><br/></p>"
-          }
-        },
-        "item_FqbN39": {
-          "type": "item",
-          "settings": {
-            "title": "Certifications & Garanties",
-            "content": "<h3><strong>Qu'est-ce que la certification HACCP ?</strong></h3><p>La certification HACCP (Hazard Analysis Critical Control Point) est une norme internationale de sécurité alimentaire. Elle garantit que notre processus de fabrication identifie et maîtrise tous les risques potentiels. Concrètement, cela signifie que chaque étape de production d'OregaPlus est surveillée et contrôlée pour assurer votre sécurité.</p><h3><strong>Qu'est-ce que la certification GMP ?</strong></h3><p>GMP (Good Manufacturing Practices - Bonnes Pratiques de Fabrication) est le standard de qualité de l'industrie pharmaceutique. Cette certification garantit que nos produits sont fabriqués selon les mêmes normes strictes que les médicaments : pureté des ingrédients, traçabilité complète, environnement de production stérile et contrôles qualité rigoureux.</p>"
-          }
-        },
-        "item_8gnaRh": {
-          "type": "item",
-          "settings": {
-            "title": "J'ai la maladie de Crohn/RCH/SII, puis-je le prendre ?",
-            "content": "<p>Nos clientes souffrant de troubles digestifs chroniques observent souvent <strong>d’excellents résultats</strong>.<br/><br/>✨ L’action anti-inflammatoire de l’origan aide à <strong>apaiser les symptômes intestinaux</strong> et à améliorer le confort digestif.</p><p>👉 Pour démarrer, allez-y <strong>progressivement</strong> : commencez par <strong>1 gélule par jour</strong> et surveillez comment votre corps réagit durant les premiers jours.</p><p>🩺 Par précaution, informez toujours votre <strong>gastro-entérologue</strong> avant de commencer.<br/><br/>📌 À noter : certaines clientes atteintes de <strong>Crohn en poussée</strong> préfèrent attendre avant d’introduire le produit.</p>"
-          }
-        },
-        "item_twRztE": {
-          "type": "item",
-          "settings": {
-            "title": "Pourquoi ces certifications sont-elles importante pour moi ?",
-            "content": "<p>Ces certifications vous garantissent :</p><p>✅ <strong>Sécurité maximale</strong> : Aucun risque de contamination</p><p>✅ <strong>Pureté garantie</strong> : Exactement ce qui est indiqué sur l'étiquette</p><p>✅ <strong>Traçabilité complète</strong> : Chaque lot est contrôlé et documenté</p><p>✅ <strong>Efficacité optimale</strong> : Les principes actifs sont préservés</p><p>✅ <strong>Conformité légale</strong> : Respect de toutes les réglementations</p>"
-          }
-        },
-        "item_PPUirY": {
-          "type": "item",
-          "settings": {
-            "title": "Est-ce que tous les compléments alimentaire ont ces certifications ?",
-            "content": "<p>Non, et c’est justement ce qui nous différencie !</p><p>💎 Beaucoup de compléments vendus en ligne n’ont <strong>aucune certification</strong>.<br/><br/>👉 Les certifications <strong>HACCP</strong> et <strong>GMP</strong> sont pourtant <strong>exigeantes et coûteuses</strong> : seules les marques réellement sérieuses investissent dans ces garanties qualité.</p><p>C’est ce qui fait toute la différence entre un produit ordinaire et un produit digne de confiance.</p>"
-          }
-        },
-        "item_HpC8ty": {
-          "type": "item",
-          "settings": {
-            "title": "existe-t-il d'autres garantie sur la qualité ?",
-            "content": "<p>Oui ! En plus des certifications HACCP et GMP :</p><p>🌿 Ingrédients 100% naturels et traçables</p><p>🔬 Tests de pureté en laboratoire indépendant</p><p>📦 Emballage protecteur qui préserve les principes actifs</p><p>💚 Garantie satisfait ou remboursé 30 jours</p><p>🇪🇺 Conforme à la réglementation européenne</p>"
-          }
-        }
-      },
-      "block_order": [
-        "166442457738b23caf-0",
-        "166442457738b23caf-1",
-        "166442457738b23caf-2",
-        "item_R6EUUE",
-        "item_eKWaKJ",
-        "item_gqWgnQ",
-        "item_X9qMtC",
-        "item_zTcXAf",
-        "item_FqbN39",
-        "item_8gnaRh",
-        "item_twRztE",
-        "item_PPUirY",
-        "item_HpC8ty"
-      ],
-      "settings": {
-        "full_width": false,
-        "subheading": "",
-        "title": "FAQ",
-        "content": "<p>Use this text to share information about your product or shipping policies.</p>",
-        "team_avatar_width": 160,
-        "support_hours": "Notre service client est disponible du lundi au vendredi, de 8h à 20h30.",
-        "answer_time": "Délai moyen de réponse : 24h",
-        "button_text": "",
-        "button_url": "",
-        "text_position": "start",
-        "background": "#ffffff",
-        "background_gradient": "",
-        "text_color": "",
-        "heading_color": "",
-        "heading_gradient": "",
-        "button_background": "",
-        "button_text_color": "",
-        "accordion_background": "",
-        "accordion_text_color": ""
-      }
-    },
     "rich_text_jNY6BJ": {
       "type": "rich-text",
       "blocks": {
@@ -731,6 +599,138 @@
         "testimonial_card_background": "#e1ffed",
         "testimonial_card_text_color": "#1a1a1a"
       }
+    },
+    "faq": {
+      "type": "faq",
+      "blocks": {
+        "166442457738b23caf-0": {
+          "type": "item",
+          "settings": {
+            "title": "Est-ce que ça marche même si j'ai déjà tout essayé ?",
+            "content": "<p><strong>Absolument, et ça se remarque vite.</strong> Nos clients témoignent d’une énergie retrouvée, d’une digestion plus légère et d’un réel sentiment de protection au quotidien. Ce n’est pas de la magie, c’est la puissance de la nature soutenue par la science : l’origan et le cumin noir sont réputés pour renforcer les défenses immunitaires et aider l’organisme à fonctionner de façon optimale.</p>"
+          }
+        },
+        "166442457738b23caf-1": {
+          "type": "item",
+          "settings": {
+            "title": "Quand est-ce que je vais commencer à voir mon ventre dégonfler ?",
+            "content": "<p>Les premiers résultats sont souvent spectaculaires :</p><p><strong>3-7 jours</strong> : Diminution des gaz et ballonnements</p><p><strong>10-15 jours</strong> : Ventre visiblement plus plat, surtout le matin</p><p><strong>30 jours</strong> : Digestion normalisée, plus de \"ventre de femme enceinte\" après les repas</p><p><strong>90 jours</strong> : Rééquilibrage complet, énergie retrouvée</p><p>⚠️ <strong>Important</strong> : Chaque corps est unique. Certaines personnes voient des résultats dès 48h, d'autres ont besoin de 2-3 semaines. Plus le déséquilibre est ancien, plus il faut être patiente.</p>"
+          }
+        },
+        "166442457738b23caf-2": {
+          "type": "item",
+          "settings": {
+            "title": "Est-ce que c'est vraiment naturel ?",
+            "content": "<p>Absolument ! OregaZen contient UNIQUEMENT :</p><p><strong>Huile d'origan sauvage</strong> (Origanum vulgare) : 150mg d'huile ultra-concentrée à 80% de carvacrol</p><p><strong>Huile de nigelle</strong> (Nigella sativa) : Pressée à froid, qualité premium</p><p><strong>Gélule végétale</strong> : Sans gélatine animale</p><p><strong>C'est TOUT !</strong> Pas d'additifs, pas de conservateurs, pas d'excipients douteux</p><p>Notre engagement : Si vous ne pouvez pas prononcer un ingrédient, c'est qu'il n'est pas dans nos produits.</p>"
+          }
+        },
+        "item_R6EUUE": {
+          "type": "item",
+          "settings": {
+            "title": "Y a-t-il des efets secondaires ?",
+            "content": "<p>OregaZen est <strong>très bien toléré par l’organisme</strong>, grâce à la pureté et à la qualité de ses composants. Toutefois, durant les premiers jours, il est possible d’observer certains signes transitoires liés au processus naturel de détoxification. Parmi eux : de <strong>légers maux de tête</strong>, une <strong>augmentation de la fréquence des selles</strong>, voire, très rarement, de <strong>légères nausées</strong>.</p><p>Ces manifestations sont considérées comme <strong>des réponses physiologiques normales</strong>, indiquant que l’organisme commence à mobiliser et éliminer les toxines accumulées. Elles disparaissent généralement en <strong>3 à 5 jours</strong>, le temps que le corps s’adapte.</p><p>💡 Pour les personnes à terrain sensible ou en phase de rééquilibrage digestif avancé, il est recommandé de débuter par <strong>1 gélule par jour</strong>, puis d’augmenter progressivement jusqu’à la dose optimale, afin d’accompagner l’organisme en douceur.</p>"
+          }
+        },
+        "item_eKWaKJ": {
+          "type": "item",
+          "settings": {
+            "title": "Pourquoi choisir Xionora plutôt qu'un autre complément ?",
+            "content": "<p>Parce qu’ici, il ne s’agit pas de vous vendre une pilule miracle. <strong>Amaora, c’est un concentré d’actifs puissants, formulé avec des ingrédients de qualité supérieure.</strong> Là où beaucoup de produits bas de gamme diluent leurs principes actifs pour réduire les coûts, nous faisons exactement l’inverse : nous privilégions la pureté, la concentration et l’efficacité.<br/><br/></p>"
+          }
+        },
+        "item_gqWgnQ": {
+          "type": "item",
+          "settings": {
+            "title": "Et si je ne suis pas satisfait(e)?",
+            "content": "<p>Testez Xionora pendant <strong>30 jours en toute confiance</strong>. Si vous n’êtes pas pleinement satisfait, nous vous remboursons intégralement, sans poser de questions. C’est notre engagement qualité : vous permettre d’essayer sereinement, avec la garantie d’être remboursé si le produit ne répond pas à vos attentes.<br/><br/></p>"
+          }
+        },
+        "item_X9qMtC": {
+          "type": "item",
+          "settings": {
+            "title": "Comment le prendre ?",
+            "content": "<p>👉 <strong>Mode d’emploi simplifié :</strong> </p><p>prenez <strong>1 à 2 capsules par jour</strong> avec un grand verre d’eau. Sans aucune contrainte, Xionora s’intègre facilement à votre routine quotidienne, que ce soit le matin ou le soir, selon vos préférences.<br/><br/></p>"
+          }
+        },
+        "item_zTcXAf": {
+          "type": "item",
+          "settings": {
+            "title": "Est-ce que je peux le prendre avec mes autres compléments ou médicaments ?",
+            "content": "<p>Oui, dans la grande majorité des cas. Amaora est un produit d’origine naturelle, bien toléré. Toutefois, si vous suivez un traitement médical spécifique ou présentez une condition particulière, il est toujours préférable de demander l’avis de votre médecin ou pharmacien. Une simple mesure de précaution, par bon sens.<br/><br/></p>"
+          }
+        },
+        "item_FqbN39": {
+          "type": "item",
+          "settings": {
+            "title": "Certifications & Garanties",
+            "content": "<h3><strong>Qu'est-ce que la certification HACCP ?</strong></h3><p>La certification HACCP (Hazard Analysis Critical Control Point) est une norme internationale de sécurité alimentaire. Elle garantit que notre processus de fabrication identifie et maîtrise tous les risques potentiels. Concrètement, cela signifie que chaque étape de production d'OregaPlus est surveillée et contrôlée pour assurer votre sécurité.</p><h3><strong>Qu'est-ce que la certification GMP ?</strong></h3><p>GMP (Good Manufacturing Practices - Bonnes Pratiques de Fabrication) est le standard de qualité de l'industrie pharmaceutique. Cette certification garantit que nos produits sont fabriqués selon les mêmes normes strictes que les médicaments : pureté des ingrédients, traçabilité complète, environnement de production stérile et contrôles qualité rigoureux.</p>"
+          }
+        },
+        "item_8gnaRh": {
+          "type": "item",
+          "settings": {
+            "title": "J'ai la maladie de Crohn/RCH/SII, puis-je le prendre ?",
+            "content": "<p>Nos clientes souffrant de troubles digestifs chroniques observent souvent <strong>d’excellents résultats</strong>.<br/><br/>✨ L’action anti-inflammatoire de l’origan aide à <strong>apaiser les symptômes intestinaux</strong> et à améliorer le confort digestif.</p><p>👉 Pour démarrer, allez-y <strong>progressivement</strong> : commencez par <strong>1 gélule par jour</strong> et surveillez comment votre corps réagit durant les premiers jours.</p><p>🩺 Par précaution, informez toujours votre <strong>gastro-entérologue</strong> avant de commencer.<br/><br/>📌 À noter : certaines clientes atteintes de <strong>Crohn en poussée</strong> préfèrent attendre avant d’introduire le produit.</p>"
+          }
+        },
+        "item_twRztE": {
+          "type": "item",
+          "settings": {
+            "title": "Pourquoi ces certifications sont-elles importante pour moi ?",
+            "content": "<p>Ces certifications vous garantissent :</p><p>✅ <strong>Sécurité maximale</strong> : Aucun risque de contamination</p><p>✅ <strong>Pureté garantie</strong> : Exactement ce qui est indiqué sur l'étiquette</p><p>✅ <strong>Traçabilité complète</strong> : Chaque lot est contrôlé et documenté</p><p>✅ <strong>Efficacité optimale</strong> : Les principes actifs sont préservés</p><p>✅ <strong>Conformité légale</strong> : Respect de toutes les réglementations</p>"
+          }
+        },
+        "item_PPUirY": {
+          "type": "item",
+          "settings": {
+            "title": "Est-ce que tous les compléments alimentaire ont ces certifications ?",
+            "content": "<p>Non, et c’est justement ce qui nous différencie !</p><p>💎 Beaucoup de compléments vendus en ligne n’ont <strong>aucune certification</strong>.<br/><br/>👉 Les certifications <strong>HACCP</strong> et <strong>GMP</strong> sont pourtant <strong>exigeantes et coûteuses</strong> : seules les marques réellement sérieuses investissent dans ces garanties qualité.</p><p>C’est ce qui fait toute la différence entre un produit ordinaire et un produit digne de confiance.</p>"
+          }
+        },
+        "item_HpC8ty": {
+          "type": "item",
+          "settings": {
+            "title": "existe-t-il d'autres garantie sur la qualité ?",
+            "content": "<p>Oui ! En plus des certifications HACCP et GMP :</p><p>🌿 Ingrédients 100% naturels et traçables</p><p>🔬 Tests de pureté en laboratoire indépendant</p><p>📦 Emballage protecteur qui préserve les principes actifs</p><p>💚 Garantie satisfait ou remboursé 30 jours</p><p>🇪🇺 Conforme à la réglementation européenne</p>"
+          }
+        }
+      },
+      "block_order": [
+        "166442457738b23caf-0",
+        "166442457738b23caf-1",
+        "166442457738b23caf-2",
+        "item_R6EUUE",
+        "item_eKWaKJ",
+        "item_gqWgnQ",
+        "item_X9qMtC",
+        "item_zTcXAf",
+        "item_FqbN39",
+        "item_8gnaRh",
+        "item_twRztE",
+        "item_PPUirY",
+        "item_HpC8ty"
+      ],
+      "settings": {
+        "full_width": false,
+        "subheading": "",
+        "title": "FAQ",
+        "content": "<p>Use this text to share information about your product or shipping policies.</p>",
+        "team_avatar_width": 160,
+        "support_hours": "Notre service client est disponible du lundi au vendredi, de 8h à 20h30.",
+        "answer_time": "Délai moyen de réponse : 24h",
+        "button_text": "",
+        "button_url": "",
+        "text_position": "start",
+        "background": "#ffffff",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "button_background": "",
+        "button_text_color": "",
+        "accordion_background": "",
+        "accordion_text_color": ""
+      }
     }
   },
   "order": [
@@ -745,10 +745,10 @@
     "custom_liquid_UPb9Ly",
     "multi_column_jwNAQX",
     "logo_list_Y8ajKE",
-    "faq",
     "rich_text_jNY6BJ",
     "multiple_images_with_text_Hf6fGE",
     "custom_liquid_9XVWRc",
-    "testimonials_tan9Et"
+    "testimonials_tan9Et",
+    "faq"
   ]
 }
