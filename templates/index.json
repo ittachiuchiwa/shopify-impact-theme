@@ -552,66 +552,6 @@
         "accordion_text_color": ""
       }
     },
-    "testimonials_KErhqX": {
-      "type": "testimonials",
-      "blocks": {
-        "testimonial_GQBbeQ": {
-          "type": "testimonial",
-          "settings": {
-            "round_avatar": true,
-            "show_rating": true,
-            "rating": 5,
-            "author": "John S.",
-            "title": "Testimonial 1",
-            "content": "<p>Share what your customers are saying about your products, customer service or shipping rates.</p>"
-          }
-        },
-        "testimonial_CBBwLM": {
-          "type": "testimonial",
-          "settings": {
-            "round_avatar": true,
-            "show_rating": true,
-            "rating": 5,
-            "author": "Mary U.",
-            "title": "Testimonial 2",
-            "content": "<p>Share what your customers are saying about your products, customer service or shipping rates.</p>"
-          }
-        },
-        "testimonial_BaKjYc": {
-          "type": "testimonial",
-          "settings": {
-            "round_avatar": true,
-            "show_rating": true,
-            "rating": 4,
-            "author": "Joshua A.",
-            "title": "Testimonial 3",
-            "content": "<p>Share what your customers are saying about your products, customer service or shipping rates.</p>"
-          }
-        }
-      },
-      "block_order": [
-        "testimonial_GQBbeQ",
-        "testimonial_CBBwLM",
-        "testimonial_BaKjYc"
-      ],
-      "name": "Testimonials",
-      "settings": {
-        "full_width": false,
-        "stack_testimonials": false,
-        "subheading": "",
-        "title": "Testimonials",
-        "content": "",
-        "link_url": "",
-        "link_text": "",
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "heading_color": "",
-        "heading_gradient": "",
-        "testimonial_card_background": "",
-        "testimonial_card_text_color": ""
-      }
-    },
     "rich_text_jNY6BJ": {
       "type": "rich-text",
       "blocks": {
@@ -697,7 +637,6 @@
     "multi_column_jwNAQX",
     "logo_list_Y8ajKE",
     "faq",
-    "testimonials_KErhqX",
     "rich_text_jNY6BJ",
     "multiple_images_with_text_Hf6fGE"
   ]
