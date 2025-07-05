@@ -492,6 +492,27 @@
             "title": "J'ai la maladie de Crohn/RCH/SII, puis-je le prendre ?",
             "content": "<p>Nos clientes souffrant de troubles digestifs chroniques observent souvent <strong>d’excellents résultats</strong>.<br/><br/>✨ L’action anti-inflammatoire de l’origan aide à <strong>apaiser les symptômes intestinaux</strong> et à améliorer le confort digestif.</p><p>👉 Pour démarrer, allez-y <strong>progressivement</strong> : commencez par <strong>1 gélule par jour</strong> et surveillez comment votre corps réagit durant les premiers jours.</p><p>🩺 Par précaution, informez toujours votre <strong>gastro-entérologue</strong> avant de commencer.<br/><br/>📌 À noter : certaines clientes atteintes de <strong>Crohn en poussée</strong> préfèrent attendre avant d’introduire le produit.</p>"
           }
+        },
+        "item_twRztE": {
+          "type": "item",
+          "settings": {
+            "title": "Pourquoi ces certifications sont-elles importante pour moi ?",
+            "content": "<p>Ces certifications vous garantissent :</p><p>✅ <strong>Sécurité maximale</strong> : Aucun risque de contamination</p><p>✅ <strong>Pureté garantie</strong> : Exactement ce qui est indiqué sur l'étiquette</p><p>✅ <strong>Traçabilité complète</strong> : Chaque lot est contrôlé et documenté</p><p>✅ <strong>Efficacité optimale</strong> : Les principes actifs sont préservés</p><p>✅ <strong>Conformité légale</strong> : Respect de toutes les réglementations</p>"
+          }
+        },
+        "item_PPUirY": {
+          "type": "item",
+          "settings": {
+            "title": "Est-ce que tous les compléments alimentaire ont ces certifications ?",
+            "content": "<p>Non, et c’est justement ce qui nous différencie !</p><p>💎 Beaucoup de compléments vendus en ligne n’ont <strong>aucune certification</strong>.<br/><br/>👉 Les certifications <strong>HACCP</strong> et <strong>GMP</strong> sont pourtant <strong>exigeantes et coûteuses</strong> : seules les marques réellement sérieuses investissent dans ces garanties qualité.</p><p>C’est ce qui fait toute la différence entre un produit ordinaire et un produit digne de confiance.</p>"
+          }
+        },
+        "item_HpC8ty": {
+          "type": "item",
+          "settings": {
+            "title": "Question",
+            "content": "<p>Write content to answer to common questions your customers may have about your products, shipping policies..</p>"
+          }
         }
       },
       "block_order": [
@@ -504,7 +525,10 @@
         "item_X9qMtC",
         "item_zTcXAf",
         "item_FqbN39",
-        "item_8gnaRh"
+        "item_8gnaRh",
+        "item_twRztE",
+        "item_PPUirY",
+        "item_HpC8ty"
       ],
       "settings": {
         "full_width": false,
