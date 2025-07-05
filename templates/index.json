@@ -632,9 +632,9 @@
             "round_avatar": true,
             "show_rating": true,
             "rating": 5,
-            "author": "Avis vérifié",
+            "author": "",
             "title": "Richard",
-            "content": "<p>Je le prends depuis une semaine, très bon pour la digestion, sans goût<br/></p>"
+            "content": "<p>Honnêtement, je revis ! Ma digestion est tellement plus légère et je me sens bien au quotidien. Pour moi, c’est un petit prix à payer pour un tel confort. Je ne regrette vraiment pas, c’est même l’un de mes meilleurs achats.<br/><br/></p>"
           }
         },
         "testimonial_kcjFHR": {
@@ -643,9 +643,9 @@
             "round_avatar": true,
             "show_rating": true,
             "rating": 5,
-            "author": "Mary U.",
-            "title": "Testimonial 2",
-            "content": "<p>Share what your customers are saying about your products, customer service or shipping rates.</p>"
+            "author": "",
+            "title": "Marie",
+            "content": "<p>Franchement, c’est l’un des meilleurs cadeaux que je me suis faits pour ma santé. Mon ventre est visiblement plus plat, je me sens tellement mieux — et tout ça pour un prix vraiment dérisoire !<br/><br/></p>"
           }
         },
         "testimonial_pATCzf": {
@@ -654,16 +654,40 @@
             "round_avatar": true,
             "show_rating": true,
             "rating": 4,
-            "author": "Joshua A.",
-            "title": "Testimonial 3",
-            "content": "<p>Share what your customers are saying about your products, customer service or shipping rates.</p>"
+            "author": "",
+            "title": "Genneviève",
+            "content": "<p>Ça faisait des mois que je souffrais après chaque repas. Une semaine avec cette cure et c’est le jour et la nuit : fini les ballonnements, mon ventre est plus plat et je revis !<br/><br/></p>"
+          }
+        },
+        "testimonial_BPGCR9": {
+          "type": "testimonial",
+          "settings": {
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 4,
+            "author": "",
+            "title": "Alexia",
+            "content": "<p>Super facile à prendre, sans goût bizarre, et franchement ça change tout pour mon transit. Je me sens tellement mieux !<br/><br/></p>"
+          }
+        },
+        "testimonial_hFWBCb": {
+          "type": "testimonial",
+          "settings": {
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 4,
+            "author": "",
+            "title": "Testimonial",
+            "content": "<p>Au début j’étais un peu sceptique à cause du prix, mais les résultats ont été bluffants dès les premières semaines. C’est largement rentabilisé : je déborde d’énergie comme jamais !<br/><br/></p>"
           }
         }
       },
       "block_order": [
         "testimonial_nJY8Wd",
         "testimonial_kcjFHR",
-        "testimonial_pATCzf"
+        "testimonial_pATCzf",
+        "testimonial_BPGCR9",
+        "testimonial_hFWBCb"
       ],
       "name": "Testimonials",
       "settings": {
@@ -674,12 +698,12 @@
         "content": "",
         "link_url": "",
         "link_text": "",
-        "background": "",
+        "background": "#ffffff",
         "background_gradient": "",
         "text_color": "",
         "heading_color": "",
         "heading_gradient": "",
-        "testimonial_card_background": "",
+        "testimonial_card_background": "#f2f2f2",
         "testimonial_card_text_color": ""
       }
     }
