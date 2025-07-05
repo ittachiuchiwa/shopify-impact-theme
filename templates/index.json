@@ -552,12 +552,113 @@
         "accordion_text_color": ""
       }
     },
-    "multiple_images_with_text_pr7677": {
+    "testimonials_KErhqX": {
+      "type": "testimonials",
+      "blocks": {
+        "testimonial_GQBbeQ": {
+          "type": "testimonial",
+          "settings": {
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 5,
+            "author": "John S.",
+            "title": "Testimonial 1",
+            "content": "<p>Share what your customers are saying about your products, customer service or shipping rates.</p>"
+          }
+        },
+        "testimonial_CBBwLM": {
+          "type": "testimonial",
+          "settings": {
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 5,
+            "author": "Mary U.",
+            "title": "Testimonial 2",
+            "content": "<p>Share what your customers are saying about your products, customer service or shipping rates.</p>"
+          }
+        },
+        "testimonial_BaKjYc": {
+          "type": "testimonial",
+          "settings": {
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 4,
+            "author": "Joshua A.",
+            "title": "Testimonial 3",
+            "content": "<p>Share what your customers are saying about your products, customer service or shipping rates.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "testimonial_GQBbeQ",
+        "testimonial_CBBwLM",
+        "testimonial_BaKjYc"
+      ],
+      "name": "Testimonials",
+      "settings": {
+        "full_width": false,
+        "stack_testimonials": false,
+        "subheading": "",
+        "title": "Testimonials",
+        "content": "",
+        "link_url": "",
+        "link_text": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "testimonial_card_background": "",
+        "testimonial_card_text_color": ""
+      }
+    },
+    "rich_text_jNY6BJ": {
+      "type": "rich-text",
+      "blocks": {
+        "subheading_L3wY3x": {
+          "type": "subheading",
+          "settings": {
+            "text": "Subheading"
+          }
+        },
+        "heading_BqxaT9": {
+          "type": "heading",
+          "settings": {
+            "text": "Heading",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_NLeQNm": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_L3wY3x",
+        "heading_BqxaT9",
+        "richtext_NLeQNm"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "multiple_images_with_text_Hf6fGE": {
       "type": "multiple-images-with-text",
       "blocks": {
-        "item_YFEAcU": {
+        "item_9J8bzN": {
           "type": "item",
           "settings": {
+            "image": "shopify://shop_images/certificat.webp",
             "image_rotation_degrees": -2,
             "subheading": "",
             "title": "Heading 1",
@@ -566,7 +667,7 @@
             "button_text": ""
           }
         },
-        "item_jBcVKT": {
+        "item_4dHiPW": {
           "type": "item",
           "settings": {
             "image_rotation_degrees": 1.5,
@@ -579,8 +680,8 @@
         }
       },
       "block_order": [
-        "item_YFEAcU",
-        "item_jBcVKT"
+        "item_9J8bzN",
+        "item_4dHiPW"
       ],
       "name": "Multiple images with text",
       "settings": {
@@ -608,6 +709,8 @@
     "multi_column_jwNAQX",
     "logo_list_Y8ajKE",
     "faq",
-    "multiple_images_with_text_pr7677"
+    "testimonials_KErhqX",
+    "rich_text_jNY6BJ",
+    "multiple_images_with_text_Hf6fGE"
   ]
 }
