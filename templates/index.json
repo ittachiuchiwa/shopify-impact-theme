@@ -420,46 +420,6 @@
         "logo_item_border": ""
       }
     },
-    "rich_text_jNY6BJ": {
-      "type": "rich-text",
-      "blocks": {
-        "subheading_L3wY3x": {
-          "type": "subheading",
-          "settings": {
-            "text": "Subheading"
-          }
-        },
-        "heading_BqxaT9": {
-          "type": "heading",
-          "settings": {
-            "text": "Heading",
-            "heading_tag": "h1",
-            "text_color": "",
-            "gradient": ""
-          }
-        },
-        "richtext_NLeQNm": {
-          "type": "richtext",
-          "settings": {
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
-          }
-        }
-      },
-      "block_order": [
-        "subheading_L3wY3x",
-        "heading_BqxaT9",
-        "richtext_NLeQNm"
-      ],
-      "name": "Rich text",
-      "settings": {
-        "full_width": true,
-        "content_width": "small",
-        "text_position": "center",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
     "multiple_images_with_text_Hf6fGE": {
       "type": "multiple-images-with-text",
       "blocks": {
@@ -500,7 +460,7 @@
         "remove_horizontal_spacing": true,
         "liquid": "<div style=\"background: #E1FFED; padding: 20px; border-radius: 12px; text-align: center; font-family: sans-serif;\">\n  <h3 style=\"font-size: 20px; font-weight: 600; margin-bottom: 10px;\">Nos clientes en parlent le mieux</h3>\n\n  <div style=\"display: flex; justify-content: center; align-items: center; gap: 8px; margin-bottom: 6px; flex-wrap: wrap;\">\n    <span style=\"font-size: 16px;\">Excellent</span>\n    <strong style=\"font-size: 18px;\">4.7 / 5</strong>\n\n    <div style=\"display: flex; gap: 2px;\">\n      {% for i in (1..5) %}\n      <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" fill=\"#00B67A\" viewBox=\"0 0 24 24\">\n        <path d=\"M12 .587l3.668 7.431 8.2 1.151-5.934 5.663 1.402 8.168L12 18.897l-7.336 3.903 1.402-8.168L.132 9.169l8.2-1.151z\"/>\n      </svg>\n      {% endfor %}\n    </div>\n  </div>\n\n  <p style=\"font-size: 14px; color: #333; margin: 0;\">\n    Basé sur <strong>2 310 avis</strong>\n    <span style=\"display: inline-flex; align-items: center; gap: 4px; color: #000000; margin-left: 6px;\">\n      <svg width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"#00B67A\" xmlns=\"http://www.w3.org/2000/svg\">\n        <path d=\"M12 .587l3.668 7.431 8.2 1.151-5.934 5.663 1.402 8.168L12 18.897l-7.336 3.903 1.402-8.168L.132 9.169l8.2-1.151z\"/>\n      </svg>\n      <span style=\"font-weight: bold;\">Trustpilot</span>\n    </span>\n  </p>\n</div>",
         "background": "#e1ffed",
-        "background_gradient": "linear-gradient(278deg, rgba(114, 255, 179, 1) 72%, rgba(255, 250, 99, 1) 85%)",
+        "background_gradient": "",
         "text_color": ""
       }
     },
@@ -514,7 +474,7 @@
             "show_rating": true,
             "rating": 5,
             "author": "",
-            "title": "Richard",
+            "title": "Melissa",
             "content": "<p>Honnêtement, je revis ! Ma digestion est tellement plus légère et je me sens bien au quotidien. Pour moi, c’est un petit prix à payer pour un tel confort. Je ne regrette vraiment pas, c’est même l’un de mes meilleurs achats.<br/><br/></p>"
           }
         },
@@ -745,7 +705,6 @@
     "custom_liquid_UPb9Ly",
     "multi_column_jwNAQX",
     "logo_list_Y8ajKE",
-    "rich_text_jNY6BJ",
     "multiple_images_with_text_Hf6fGE",
     "custom_liquid_9XVWRc",
     "testimonials_tan9Et",
