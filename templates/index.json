@@ -716,8 +716,8 @@
       ],
       "name": "Testimonials",
       "settings": {
-        "full_width": true,
-        "stack_testimonials": false,
+        "full_width": false,
+        "stack_testimonials": true,
         "subheading": "",
         "title": "",
         "content": "",
