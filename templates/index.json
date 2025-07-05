@@ -478,6 +478,13 @@
             "title": "Est-ce que je peux le prendre avec mes autres compléments ou médicaments ?",
             "content": "<p>Oui, dans la grande majorité des cas. Amaora est un produit d’origine naturelle, bien toléré. Toutefois, si vous suivez un traitement médical spécifique ou présentez une condition particulière, il est toujours préférable de demander l’avis de votre médecin ou pharmacien. Une simple mesure de précaution, par bon sens.<br/><br/></p>"
           }
+        },
+        "item_FqbN39": {
+          "type": "item",
+          "settings": {
+            "title": "Certifications & Garanties",
+            "content": "<h3><strong>Qu'est-ce que la certification HACCP ?</strong></h3><p>La certification HACCP (Hazard Analysis Critical Control Point) est une norme internationale de sécurité alimentaire. Elle garantit que notre processus de fabrication identifie et maîtrise tous les risques potentiels. Concrètement, cela signifie que chaque étape de production d'OregaPlus est surveillée et contrôlée pour assurer votre sécurité.</p><h3><strong>Qu'est-ce que la certification GMP ?</strong></h3><p>GMP (Good Manufacturing Practices - Bonnes Pratiques de Fabrication) est le standard de qualité de l'industrie pharmaceutique. Cette certification garantit que nos produits sont fabriqués selon les mêmes normes strictes que les médicaments : pureté des ingrédients, traçabilité complète, environnement de production stérile et contrôles qualité rigoureux.</p>"
+          }
         }
       },
       "block_order": [
@@ -488,7 +495,8 @@
         "item_eKWaKJ",
         "item_gqWgnQ",
         "item_X9qMtC",
-        "item_zTcXAf"
+        "item_zTcXAf",
+        "item_FqbN39"
       ],
       "settings": {
         "full_width": false,
