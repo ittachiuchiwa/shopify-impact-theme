@@ -691,6 +691,110 @@
         "accordion_background": "",
         "accordion_text_color": ""
       }
+    },
+    "rich_text_ft66VY": {
+      "type": "rich-text",
+      "blocks": {
+        "subheading_rk73eA": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "text": "Subheading"
+          }
+        },
+        "heading_hkJywG": {
+          "type": "heading",
+          "settings": {
+            "text": "NOS INGRÉDIENTS CURATIFS",
+            "heading_tag": "h4",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_AjUJmg": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Chez Xionora, nous avons passé des années à perfectionner cette formule, en éliminant les additifs inutiles tout en <strong>maximisant la pureté, la puissance et l’efficacité,</strong>afin que vous obteniez de vrais résultats, et pas seulement de vaines promesses.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_rk73eA",
+        "heading_hkJywG",
+        "richtext_AjUJmg"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "slideshow_GUKWNK": {
+      "type": "slideshow",
+      "blocks": {
+        "image_Hdaek7": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/gempages_555070284432933968-56fffdf7-191e-49ed-bf8f-92b83683553d.webp",
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "subheading": "HUILE D'ORIGAN",
+            "title": "Un extrait puissant concentré en carvacrol, réputé pour combattre les microbes nocifs et renforcer les défenses de votre corps.",
+            "heading_tag": "h6",
+            "button_text": "",
+            "button_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30,
+            "background": "",
+            "background_gradient": ""
+          }
+        },
+        "image_Gi4Tx9": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/gempages_555070284432933968-e28fca95-f72c-469d-b217-585cac40fed9.webp",
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "subheading": "HUILE DE NIGELLE",
+            "title": "Une huile de guérison précieuse utilisée depuis des générations, louée pour sa force et sa capacité à améliorer le bien-être, la résilience et la vitalité.",
+            "heading_tag": "h6",
+            "button_text": "",
+            "button_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30,
+            "background": "",
+            "background_gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_Hdaek7",
+        "image_Gi4Tx9"
+      ],
+      "name": "Slideshow",
+      "settings": {
+        "full_width": false,
+        "allow_transparent_header": true,
+        "image_size": "auto",
+        "controls_type": "dots",
+        "transition_type": "fade_with_text",
+        "autoplay": false,
+        "cycle_speed": 6,
+        "background": "#F2F2F2",
+        "background_gradient": ""
+      }
     }
   },
   "order": [
@@ -708,6 +812,8 @@
     "multiple_images_with_text_Hf6fGE",
     "custom_liquid_9XVWRc",
     "testimonials_tan9Et",
-    "faq"
+    "faq",
+    "rich_text_ft66VY",
+    "slideshow_GUKWNK"
   ]
 }
