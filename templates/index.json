@@ -485,6 +485,13 @@
             "title": "Certifications & Garanties",
             "content": "<h3><strong>Qu'est-ce que la certification HACCP ?</strong></h3><p>La certification HACCP (Hazard Analysis Critical Control Point) est une norme internationale de sécurité alimentaire. Elle garantit que notre processus de fabrication identifie et maîtrise tous les risques potentiels. Concrètement, cela signifie que chaque étape de production d'OregaPlus est surveillée et contrôlée pour assurer votre sécurité.</p><h3><strong>Qu'est-ce que la certification GMP ?</strong></h3><p>GMP (Good Manufacturing Practices - Bonnes Pratiques de Fabrication) est le standard de qualité de l'industrie pharmaceutique. Cette certification garantit que nos produits sont fabriqués selon les mêmes normes strictes que les médicaments : pureté des ingrédients, traçabilité complète, environnement de production stérile et contrôles qualité rigoureux.</p>"
           }
+        },
+        "item_8gnaRh": {
+          "type": "item",
+          "settings": {
+            "title": "J'ai la maladie de Crohn/RCH/SII, puis-je le prendre ?",
+            "content": "<p>Nos clientes souffrant de troubles digestifs chroniques observent souvent <strong>d’excellents résultats</strong>.<br/><br/>✨ L’action anti-inflammatoire de l’origan aide à <strong>apaiser les symptômes intestinaux</strong> et à améliorer le confort digestif.</p><p>👉 Pour démarrer, allez-y <strong>progressivement</strong> : commencez par <strong>1 gélule par jour</strong> et surveillez comment votre corps réagit durant les premiers jours.</p><p>🩺 Par précaution, informez toujours votre <strong>gastro-entérologue</strong> avant de commencer.<br/><br/>📌 À noter : certaines clientes atteintes de <strong>Crohn en poussée</strong> préfèrent attendre avant d’introduire le produit.</p>"
+          }
         }
       },
       "block_order": [
@@ -496,7 +503,8 @@
         "item_gqWgnQ",
         "item_X9qMtC",
         "item_zTcXAf",
-        "item_FqbN39"
+        "item_FqbN39",
+        "item_8gnaRh"
       ],
       "settings": {
         "full_width": false,
