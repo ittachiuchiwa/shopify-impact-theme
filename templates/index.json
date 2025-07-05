@@ -510,8 +510,8 @@
         "item_HpC8ty": {
           "type": "item",
           "settings": {
-            "title": "Question",
-            "content": "<p>Write content to answer to common questions your customers may have about your products, shipping policies..</p>"
+            "title": "existe-t-il d'autres garantie sur la qualité ?",
+            "content": "<p>Oui ! En plus des certifications HACCP et GMP :</p><p>🌿 Ingrédients 100% naturels et traçables</p><p>🔬 Tests de pureté en laboratoire indépendant</p><p>📦 Emballage protecteur qui préserve les principes actifs</p><p>💚 Garantie satisfait ou remboursé 30 jours</p><p>🇪🇺 Conforme à la réglementation européenne</p>"
           }
         }
       },
