@@ -677,8 +677,19 @@
             "show_rating": true,
             "rating": 4,
             "author": "",
-            "title": "Testimonial",
+            "title": "Marie",
             "content": "<p>Au début j’étais un peu sceptique à cause du prix, mais les résultats ont été bluffants dès les premières semaines. C’est largement rentabilisé : je déborde d’énergie comme jamais !<br/><br/></p>"
+          }
+        },
+        "testimonial_dgPKMP": {
+          "type": "testimonial",
+          "settings": {
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 4,
+            "author": "",
+            "title": "Julie",
+            "content": "<p>Un produit naturel super facile à prendre, sans le moindre goût désagréable. Et honnêtement, c’est bluffant pour mon transit — je me sens tellement plus légère.<br/><br/></p>"
           }
         }
       },
@@ -687,7 +698,8 @@
         "testimonial_kcjFHR",
         "testimonial_pATCzf",
         "testimonial_BPGCR9",
-        "testimonial_hFWBCb"
+        "testimonial_hFWBCb",
+        "testimonial_dgPKMP"
       ],
       "name": "Testimonials",
       "settings": {
