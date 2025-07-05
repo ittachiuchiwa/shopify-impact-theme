@@ -795,6 +795,49 @@
         "accordion_background": "",
         "accordion_text_color": ""
       }
+    },
+    "multiple_images_with_text_96h7ed": {
+      "type": "multiple-images-with-text",
+      "blocks": {
+        "item_K7WzdG": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/OregaZen_1_p.jpg",
+            "image_rotation_degrees": -2,
+            "subheading": "",
+            "title": "Boostez vos défenses naturelles",
+            "content": "<p>Un système immunitaire fort est essentiel pour votre bien-être général et votre protection saisonnière.</p><p>Le complexe OregaZen 2 en 1 à base d'huile d'origan et d'huile de cumin noir aide à renforcer votre système immunitaire – grâce à de puissants antioxydants comme le carvacrol et la thymoquinone.</p><p>Ceux-ci soutiennent vos défenses naturelles et votre bien-être général.</p>",
+            "button_url": "",
+            "button_text": ""
+          }
+        },
+        "item_hCkg9m": {
+          "type": "item",
+          "settings": {
+            "image_rotation_degrees": 1.5,
+            "subheading": "",
+            "title": "Heading 2",
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>",
+            "button_url": "",
+            "button_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_K7WzdG",
+        "item_hCkg9m"
+      ],
+      "name": "Multiple images with text",
+      "settings": {
+        "full_width": true,
+        "images_layout": "stacked",
+        "collage_images_alignment": "middle",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "button_background": "",
+        "button_text_color": ""
+      }
     }
   },
   "order": [
@@ -814,6 +857,7 @@
     "testimonials_tan9Et",
     "rich_text_ft66VY",
     "slideshow_GUKWNK",
-    "faq"
+    "faq",
+    "multiple_images_with_text_96h7ed"
   ]
 }
