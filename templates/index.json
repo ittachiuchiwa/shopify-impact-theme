@@ -643,7 +643,7 @@
           "type": "testimonial",
           "settings": {
             "round_avatar": true,
-            "show_rating": false,
+            "show_rating": true,
             "rating": 5,
             "author": "",
             "title": "Richard",
@@ -717,7 +717,7 @@
       "name": "Testimonials",
       "settings": {
         "full_width": false,
-        "stack_testimonials": false,
+        "stack_testimonials": true,
         "subheading": "",
         "title": "",
         "content": "",
@@ -725,7 +725,7 @@
         "link_text": "",
         "background": "#ffffff",
         "background_gradient": "",
-        "text_color": "",
+        "text_color": "#ffffff",
         "heading_color": "",
         "heading_gradient": "",
         "testimonial_card_background": "#ffffff",
