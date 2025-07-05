@@ -601,6 +601,69 @@
         "text_color": ""
       }
     },
+    "slideshow_GUKWNK": {
+      "type": "slideshow",
+      "blocks": {
+        "image_Hdaek7": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/gempages_555070284432933968-56fffdf7-191e-49ed-bf8f-92b83683553d.webp",
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "subheading": "HUILE D'ORIGAN",
+            "title": "Un extrait puissant concentré en carvacrol, réputé pour combattre les microbes nocifs et renforcer les défenses de votre corps.",
+            "heading_tag": "h6",
+            "button_text": "",
+            "button_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30,
+            "background": "",
+            "background_gradient": ""
+          }
+        },
+        "image_Gi4Tx9": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/gempages_555070284432933968-e28fca95-f72c-469d-b217-585cac40fed9.webp",
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "subheading": "HUILE DE NIGELLE",
+            "title": "Une huile de guérison précieuse utilisée depuis des générations, louée pour sa force et sa capacité à améliorer le bien-être, la résilience et la vitalité.",
+            "heading_tag": "h6",
+            "button_text": "",
+            "button_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30,
+            "background": "",
+            "background_gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_Hdaek7",
+        "image_Gi4Tx9"
+      ],
+      "name": "Slideshow",
+      "settings": {
+        "full_width": false,
+        "allow_transparent_header": true,
+        "image_size": "auto",
+        "controls_type": "dots",
+        "transition_type": "fade_with_text",
+        "autoplay": false,
+        "cycle_speed": 6,
+        "background": "#F2F2F2",
+        "background_gradient": ""
+      }
+    },
     "faq": {
       "type": "faq",
       "blocks": {
@@ -715,13 +778,13 @@
         "full_width": false,
         "subheading": "",
         "title": "FAQ",
-        "content": "<p>Use this text to share information about your product or shipping policies.</p>",
+        "content": "",
         "team_avatar_width": 160,
         "support_hours": "Notre service client est disponible du lundi au vendredi, de 8h à 20h30.",
         "answer_time": "Délai moyen de réponse : 24h",
         "button_text": "",
         "button_url": "",
-        "text_position": "start",
+        "text_position": "center",
         "background": "#ffffff",
         "background_gradient": "",
         "text_color": "",
@@ -731,69 +794,6 @@
         "button_text_color": "",
         "accordion_background": "",
         "accordion_text_color": ""
-      }
-    },
-    "slideshow_GUKWNK": {
-      "type": "slideshow",
-      "blocks": {
-        "image_Hdaek7": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/gempages_555070284432933968-56fffdf7-191e-49ed-bf8f-92b83683553d.webp",
-            "content_max_width": 780,
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_text_position": "sm:place-self-center sm:text-center",
-            "subheading": "HUILE D'ORIGAN",
-            "title": "Un extrait puissant concentré en carvacrol, réputé pour combattre les microbes nocifs et renforcer les défenses de votre corps.",
-            "heading_tag": "h6",
-            "button_text": "",
-            "button_link": "",
-            "text_color": "#ffffff",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "overlay_color": "#000000",
-            "overlay_opacity": 30,
-            "background": "",
-            "background_gradient": ""
-          }
-        },
-        "image_Gi4Tx9": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/gempages_555070284432933968-e28fca95-f72c-469d-b217-585cac40fed9.webp",
-            "content_max_width": 780,
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_text_position": "sm:place-self-center sm:text-center",
-            "subheading": "HUILE DE NIGELLE",
-            "title": "Une huile de guérison précieuse utilisée depuis des générations, louée pour sa force et sa capacité à améliorer le bien-être, la résilience et la vitalité.",
-            "heading_tag": "h6",
-            "button_text": "",
-            "button_link": "",
-            "text_color": "#ffffff",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "overlay_color": "#000000",
-            "overlay_opacity": 30,
-            "background": "",
-            "background_gradient": ""
-          }
-        }
-      },
-      "block_order": [
-        "image_Hdaek7",
-        "image_Gi4Tx9"
-      ],
-      "name": "Slideshow",
-      "settings": {
-        "full_width": false,
-        "allow_transparent_header": true,
-        "image_size": "auto",
-        "controls_type": "dots",
-        "transition_type": "fade_with_text",
-        "autoplay": false,
-        "cycle_speed": 6,
-        "background": "#F2F2F2",
-        "background_gradient": ""
       }
     }
   },
