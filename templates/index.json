@@ -464,6 +464,13 @@
             "title": "Et si je ne suis pas satisfait(e)?",
             "content": "<p>Testez Xionora pendant <strong>30 jours en toute confiance</strong>. Si vous n’êtes pas pleinement satisfait, nous vous remboursons intégralement, sans poser de questions. C’est notre engagement qualité : vous permettre d’essayer sereinement, avec la garantie d’être remboursé si le produit ne répond pas à vos attentes.<br/><br/></p>"
           }
+        },
+        "item_X9qMtC": {
+          "type": "item",
+          "settings": {
+            "title": "Comment le prendre ?",
+            "content": "<p>👉 <strong>Mode d’emploi simplifié :</strong> prenez <strong>1 à 2 capsules par jour</strong> avec un grand verre d’eau. Sans aucune contrainte, Xionora s’intègre facilement à votre routine quotidienne, que ce soit le matin ou le soir, selon vos préférences.<br/><br/></p>"
+          }
         }
       },
       "block_order": [
@@ -472,7 +479,8 @@
         "166442457738b23caf-2",
         "item_R6EUUE",
         "item_eKWaKJ",
-        "item_gqWgnQ"
+        "item_gqWgnQ",
+        "item_X9qMtC"
       ],
       "settings": {
         "full_width": false,
