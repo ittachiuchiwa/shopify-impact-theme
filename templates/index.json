@@ -643,7 +643,7 @@
           "type": "testimonial",
           "settings": {
             "round_avatar": true,
-            "show_rating": true,
+            "show_rating": false,
             "rating": 5,
             "author": "",
             "title": "Richard",
@@ -728,7 +728,7 @@
         "text_color": "",
         "heading_color": "",
         "heading_gradient": "",
-        "testimonial_card_background": "#00a341",
+        "testimonial_card_background": "#ffffff",
         "testimonial_card_text_color": ""
       }
     }
