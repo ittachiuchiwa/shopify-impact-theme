@@ -52,9 +52,9 @@
       "settings": {
         "enable_sticky": false,
         "text_size": "text-xs",
-        "navigation_mode": "arrows",
+        "navigation_mode": "scrolling",
         "scrolling_speed": 10,
-        "background": "#000000",
+        "background": "#00a341",
         "background_gradient": "",
         "text_color": "#ffffff"
       }
