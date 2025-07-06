@@ -747,6 +747,107 @@
         "button_text_color": ""
       }
     },
+    "featured_product_t9t9Jj": {
+      "type": "featured-product",
+      "blocks": {
+        "vendor_NyWPKh": {
+          "type": "vendor",
+          "settings": {}
+        },
+        "title_z3tRVg": {
+          "type": "title",
+          "settings": {
+            "heading_tag": "h5"
+          }
+        },
+        "badges_Ap8TAg": {
+          "type": "badges",
+          "settings": {}
+        },
+        "price_8W4V43": {
+          "type": "price",
+          "settings": {
+            "show_taxes_notice": false
+          }
+        },
+        "rating_MameFC": {
+          "type": "rating",
+          "settings": {
+            "show_empty": false
+          }
+        },
+        "separator_dVzUBY": {
+          "type": "separator",
+          "settings": {}
+        },
+        "description_wXhaQq": {
+          "type": "description",
+          "settings": {
+            "collapse_content": false
+          }
+        },
+        "variant_picker_dKt3Ay": {
+          "type": "variant_picker",
+          "settings": {
+            "hide_sold_out_variants": false,
+            "stack_blocks": true,
+            "selector_mode": "block",
+            "color_mode": "color",
+            "size_chart_page": ""
+          }
+        },
+        "quantity_selector_QDfzPy": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "buy_buttons_zjXiAE": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_payment_button": true,
+            "show_gift_card_recipient": true,
+            "atc_button_background": "",
+            "atc_button_text_color": "",
+            "payment_button_background": "",
+            "payment_button_text_color": ""
+          }
+        },
+        "pickup_availability_WHLMk4": {
+          "type": "pickup_availability",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "vendor_NyWPKh",
+        "title_z3tRVg",
+        "badges_Ap8TAg",
+        "price_8W4V43",
+        "rating_MameFC",
+        "separator_dVzUBY",
+        "description_wXhaQq",
+        "variant_picker_dKt3Ay",
+        "quantity_selector_QDfzPy",
+        "buy_buttons_zjXiAE",
+        "pickup_availability_WHLMk4"
+      ],
+      "name": "Featured product",
+      "settings": {
+        "full_width": true,
+        "product": "oregazen™-boost-votre-energie-sante-bien-etre",
+        "desktop_media_width": 55,
+        "desktop_media_layout": "carousel_thumbnails_left",
+        "mobile_media_size": "contained",
+        "mobile_carousel_control": "thumbnails",
+        "enable_video_autoplay": true,
+        "enable_video_looping": false,
+        "enable_image_zoom": true,
+        "max_image_zoom_level": 3,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "input_background": "rgba(0,0,0,0)",
+        "input_text_color": ""
+      }
+    },
     "faq": {
       "type": "faq",
       "blocks": {
@@ -878,107 +979,6 @@
         "accordion_background": "",
         "accordion_text_color": ""
       }
-    },
-    "featured_product_t9t9Jj": {
-      "type": "featured-product",
-      "blocks": {
-        "vendor_NyWPKh": {
-          "type": "vendor",
-          "settings": {}
-        },
-        "title_z3tRVg": {
-          "type": "title",
-          "settings": {
-            "heading_tag": "h5"
-          }
-        },
-        "badges_Ap8TAg": {
-          "type": "badges",
-          "settings": {}
-        },
-        "price_8W4V43": {
-          "type": "price",
-          "settings": {
-            "show_taxes_notice": false
-          }
-        },
-        "rating_MameFC": {
-          "type": "rating",
-          "settings": {
-            "show_empty": false
-          }
-        },
-        "separator_dVzUBY": {
-          "type": "separator",
-          "settings": {}
-        },
-        "description_wXhaQq": {
-          "type": "description",
-          "settings": {
-            "collapse_content": false
-          }
-        },
-        "variant_picker_dKt3Ay": {
-          "type": "variant_picker",
-          "settings": {
-            "hide_sold_out_variants": false,
-            "stack_blocks": true,
-            "selector_mode": "block",
-            "color_mode": "color",
-            "size_chart_page": ""
-          }
-        },
-        "quantity_selector_QDfzPy": {
-          "type": "quantity_selector",
-          "settings": {}
-        },
-        "buy_buttons_zjXiAE": {
-          "type": "buy_buttons",
-          "settings": {
-            "show_payment_button": true,
-            "show_gift_card_recipient": true,
-            "atc_button_background": "",
-            "atc_button_text_color": "",
-            "payment_button_background": "",
-            "payment_button_text_color": ""
-          }
-        },
-        "pickup_availability_WHLMk4": {
-          "type": "pickup_availability",
-          "settings": {}
-        }
-      },
-      "block_order": [
-        "vendor_NyWPKh",
-        "title_z3tRVg",
-        "badges_Ap8TAg",
-        "price_8W4V43",
-        "rating_MameFC",
-        "separator_dVzUBY",
-        "description_wXhaQq",
-        "variant_picker_dKt3Ay",
-        "quantity_selector_QDfzPy",
-        "buy_buttons_zjXiAE",
-        "pickup_availability_WHLMk4"
-      ],
-      "name": "Featured product",
-      "settings": {
-        "full_width": true,
-        "product": "oregazen™-boost-votre-energie-sante-bien-etre",
-        "desktop_media_width": 55,
-        "desktop_media_layout": "carousel_thumbnails_left",
-        "mobile_media_size": "contained",
-        "mobile_carousel_control": "thumbnails",
-        "enable_video_autoplay": true,
-        "enable_video_looping": false,
-        "enable_image_zoom": true,
-        "max_image_zoom_level": 3,
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "input_background": "rgba(0,0,0,0)",
-        "input_text_color": ""
-      }
     }
   },
   "order": [
@@ -1000,7 +1000,7 @@
     "slideshow_GUKWNK",
     "rich_text_QYwCYE",
     "multiple_images_with_text_96h7ed",
-    "faq",
-    "featured_product_t9t9Jj"
+    "featured_product_t9t9Jj",
+    "faq"
   ]
 }
