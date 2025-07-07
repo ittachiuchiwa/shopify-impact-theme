@@ -796,6 +796,12 @@
           "type": "badges",
           "settings": {}
         },
+        "liquid_JBTPV9": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<div class=\"quality-section\">\n  <h2 style=\"text-align:center; font-size: 1.4rem; font-weight: 600; color:#153c1e; margin-bottom: 1.5rem;\">\n    Simplicité & Efficacité\n  </h2>\n\n  <div class=\"quality-container\">\n\n    <!-- Bloc 1 -->\n    <div class=\"quality-block\">\n      <div class=\"quality-icon\">\n        <img src=\"https://cdn-icons-png.flaticon.com/512/847/847969.png\" alt=\"Pour tous\">\n      </div>\n      <h3>Pour tous</h3>\n      <p>Hommes & femmes</p>\n    </div>\n\n    <!-- Bloc 2 -->\n    <div class=\"quality-block\">\n      <div class=\"quality-icon\">\n        <img src=\"https://cdn-icons-png.flaticon.com/512/2910/2910768.png\" alt=\"Ultra facile\">\n      </div>\n      <h3>Ultra facile</h3>\n      <p>1 à 2 gélules par jour</p>\n    </div>\n\n    <!-- Bloc 3 -->\n    <div class=\"quality-block\">\n      <div class=\"quality-icon\">\n        <img src=\"https://cdn-icons-png.flaticon.com/512/847/847969.png\" alt=\"Agit vite\">\n      </div>\n      <h3>Agit vite</h3>\n      <p>Dès les 1res prises</p>\n    </div>\n\n  </div>\n</div>"
+          }
+        },
         "price_8W4V43": {
           "type": "price",
           "settings": {
@@ -861,6 +867,7 @@
         "liquid_tJVytd",
         "liquid_MmDGCx",
         "badges_Ap8TAg",
+        "liquid_JBTPV9",
         "price_8W4V43",
         "rating_MameFC",
         "separator_dVzUBY",
