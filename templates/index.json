@@ -747,9 +747,41 @@
         "button_text_color": ""
       }
     },
+    "custom_liquid_4ME4Hg": {
+      "type": "custom-liquid",
+      "name": "Custom Liquid",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "liquid": "<div style=\"text-align: center;\">\n  <div style=\"\n    display: inline-flex;\n    align-items: center;\n    justify-content: center;\n    background-color: #00A341;\n    color: white;\n    font-weight: 700;\n    font-size: 14px;\n    padding: 10px 20px;\n    border-radius: 30px;\n    gap: 8px;\n    box-shadow: 0 4px 12px rgba(0,0,0,0.1);\n    letter-spacing: 0.5px;\n  \">\n    ÉLU N°1 Des Compléments naturels\n    <img src=\"https://upload.wikimedia.org/wikipedia/en/c/c3/Flag_of_France.svg\" alt=\"France\" style=\"width:20px; height:auto;\">\n  </div>\n</div>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "custom_liquid_VfgqeX": {
+      "type": "custom-liquid",
+      "name": "Custom Liquid",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "liquid": "<div style=\"display: flex; align-items: center; gap: 8px; margin: 15px 0;\">\n\n  <!-- Étoiles Trustpilot -->\n  <div style=\"display: flex; gap: 2px;\">\n    <!-- Étoile 1 -->\n    <div style=\"width: 20px; height: 20px; background: #00B67A; display: flex; align-items: center; justify-content: center; border-radius: 3px;\">\n      <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"white\" width=\"14\" height=\"14\"><path d=\"M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z\"/></svg>\n    </div>\n    <!-- Étoile 2 -->\n    <div style=\"width: 20px; height: 20px; background: #00B67A; display: flex; align-items: center; justify-content: center; border-radius: 3px;\">\n      <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"white\" width=\"14\" height=\"14\"><path d=\"M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z\"/></svg>\n    </div>\n    <!-- Étoile 3 -->\n    <div style=\"width: 20px; height: 20px; background: #00B67A; display: flex; align-items: center; justify-content: center; border-radius: 3px;\">\n      <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"white\" width=\"14\" height=\"14\"><path d=\"M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z\"/></svg>\n    </div>\n    <!-- Étoile 4 -->\n    <div style=\"width: 20px; height: 20px; background: #00B67A; display: flex; align-items: center; justify-content: center; border-radius: 3px;\">\n      <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"white\" width=\"14\" height=\"14\"><path d=\"M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z\"/></svg>\n    </div>\n    <!-- Étoile 5 -->\n    <div style=\"width: 20px; height: 20px; background: #00B67A; display: flex; align-items: center; justify-content: center; border-radius: 3px;\">\n      <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"white\" width=\"14\" height=\"14\"><path d=\"M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z\"/></svg>\n    </div>\n  </div>\n\n  <!-- Texte notation -->\n  <div style=\"font-size: 14px; color: #000;\">\n    Noté <strong>4.7/5</strong> sur <strong>1832 avis</strong>\n  </div>\n\n</div>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "featured_product_t9t9Jj": {
       "type": "featured-product",
       "blocks": {
+        "liquid_tJVytd": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<div style=\"display: flex; align-items: center; gap: 8px; margin: 15px 0;\">\n\n  <!-- Étoiles Trustpilot -->\n  <div style=\"display: flex; gap: 2px;\">\n    <!-- Étoile 1 -->\n    <div style=\"width: 20px; height: 20px; background: #00B67A; display: flex; align-items: center; justify-content: center; border-radius: 3px;\">\n      <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"white\" width=\"14\" height=\"14\"><path d=\"M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z\"/></svg>\n    </div>\n    <!-- Étoile 2 -->\n    <div style=\"width: 20px; height: 20px; background: #00B67A; display: flex; align-items: center; justify-content: center; border-radius: 3px;\">\n      <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"white\" width=\"14\" height=\"14\"><path d=\"M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z\"/></svg>\n    </div>\n    <!-- Étoile 3 -->\n    <div style=\"width: 20px; height: 20px; background: #00B67A; display: flex; align-items: center; justify-content: center; border-radius: 3px;\">\n      <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"white\" width=\"14\" height=\"14\"><path d=\"M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z\"/></svg>\n    </div>\n    <!-- Étoile 4 -->\n    <div style=\"width: 20px; height: 20px; background: #00B67A; display: flex; align-items: center; justify-content: center; border-radius: 3px;\">\n      <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"white\" width=\"14\" height=\"14\"><path d=\"M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z\"/></svg>\n    </div>\n    <!-- Étoile 5 -->\n    <div style=\"width: 20px; height: 20px; background: #00B67A; display: flex; align-items: center; justify-content: center; border-radius: 3px;\">\n      <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"white\" width=\"14\" height=\"14\"><path d=\"M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z\"/></svg>\n    </div>\n  </div>\n\n  <!-- Texte notation -->\n  <div style=\"font-size: 14px; color: #000;\">\n    Noté <strong>4.7/5</strong> sur <strong>1832 avis</strong>\n  </div>\n\n</div>"
+          }
+        },
         "vendor_NyWPKh": {
           "type": "vendor",
           "settings": {}
@@ -817,6 +849,7 @@
         }
       },
       "block_order": [
+        "liquid_tJVytd",
         "vendor_NyWPKh",
         "title_z3tRVg",
         "badges_Ap8TAg",
@@ -1000,6 +1033,8 @@
     "slideshow_GUKWNK",
     "rich_text_QYwCYE",
     "multiple_images_with_text_96h7ed",
+    "custom_liquid_4ME4Hg",
+    "custom_liquid_VfgqeX",
     "featured_product_t9t9Jj",
     "faq"
   ]
