@@ -802,12 +802,6 @@
             "show_taxes_notice": false
           }
         },
-        "liquid_HTYpEJ": {
-          "type": "liquid",
-          "settings": {
-            "liquid": "<div style=\"\n  border: 1px solid #dce8dc;\n  border-radius: 12px;\n  padding: 20px;\n  max-width: 520px;\n  margin: 20px auto;\n  box-shadow: 0 2px 6px rgba(0,0,0,0.05);\n  position: relative;\n  overflow: hidden;\n\">\n\n  <!-- Liseré vert en haut -->\n  <div style=\"\n    position: absolute;\n    top: 0; left: 0; \n    width: 100%; \n    height: 4px; \n    background: linear-gradient(to right, #4fa54f, #7ac97a);\n    border-top-left-radius: 12px;\n    border-top-right-radius: 12px;\n  \"></div>\n\n  <ul style=\"list-style: none; padding: 0; margin: 0;\">\n    \n    <li style=\"display: flex; align-items: flex-start; gap: 12px; margin-bottom: 18px;\">\n      <div style=\"min-width:14px; height:14px; background:#3d6f44; border-radius:50%; box-shadow:0 2px 4px rgba(0,0,0,0.1); margin-top:6px;\"></div>\n      <div style=\"font-size: 15px; color:#2e5032;\">\n        <strong>Cure recommandée de 3 mois</strong> pour rétablir l'équilibre interne et éliminer les parasites.\n      </div>\n    </li>\n\n    <li style=\"display: flex; align-items: flex-start; gap: 12px; margin-bottom: 18px;\">\n      <div style=\"min-width:14px; height:14px; background:#3d6f44; border-radius:50%; box-shadow:0 2px 4px rgba(0,0,0,0.1); margin-top:6px;\"></div>\n      <div style=\"font-size: 15px; color:#2e5032;\">\n        <strong>Résultats visibles</strong> dès les premières semaines : ventre plus léger, énergie retrouvée.\n      </div>\n    </li>\n\n    <li style=\"display: flex; align-items: flex-start; gap: 12px;\">\n      <div style=\"min-width:14px; height:14px; background:#3d6f44; border-radius:50%; box-shadow:0 2px 4px rgba(0,0,0,0.1); margin-top:6px;\"></div>\n      <div style=\"font-size: 15px; color:#2e5032;\">\n        <strong>Bien-être durable</strong>, naturellement et sans brusquer votre corps.\n      </div>\n    </li>\n\n  </ul>\n\n</div>"
-          }
-        },
         "rating_MameFC": {
           "type": "rating",
           "settings": {
@@ -852,6 +846,12 @@
         "pickup_availability_WHLMk4": {
           "type": "pickup_availability",
           "settings": {}
+        },
+        "liquid_HTYpEJ": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<div style=\"\n  border: 1px solid #dce8dc;\n  border-radius: 12px;\n  padding: 20px;\n  max-width: 520px;\n  margin: 20px auto;\n  box-shadow: 0 2px 6px rgba(0,0,0,0.05);\n  position: relative;\n  overflow: hidden;\n\">\n\n  <!-- Liseré vert en haut -->\n  <div style=\"\n    position: absolute;\n    top: 0; left: 0; \n    width: 100%; \n    height: 4px; \n    background: linear-gradient(to right, #4fa54f, #7ac97a);\n    border-top-left-radius: 12px;\n    border-top-right-radius: 12px;\n  \"></div>\n\n  <ul style=\"list-style: none; padding: 0; margin: 0;\">\n    \n    <li style=\"display: flex; align-items: flex-start; gap: 12px; margin-bottom: 18px;\">\n      <div style=\"min-width:14px; height:14px; background:#3d6f44; border-radius:50%; box-shadow:0 2px 4px rgba(0,0,0,0.1); margin-top:6px;\"></div>\n      <div style=\"font-size: 15px; color:#2e5032;\">\n        <strong>Cure recommandée de 3 mois</strong> pour rétablir l'équilibre interne et éliminer les parasites.\n      </div>\n    </li>\n\n    <li style=\"display: flex; align-items: flex-start; gap: 12px; margin-bottom: 18px;\">\n      <div style=\"min-width:14px; height:14px; background:#3d6f44; border-radius:50%; box-shadow:0 2px 4px rgba(0,0,0,0.1); margin-top:6px;\"></div>\n      <div style=\"font-size: 15px; color:#2e5032;\">\n        <strong>Résultats visibles</strong> dès les premières semaines : ventre plus léger, énergie retrouvée.\n      </div>\n    </li>\n\n    <li style=\"display: flex; align-items: flex-start; gap: 12px;\">\n      <div style=\"min-width:14px; height:14px; background:#3d6f44; border-radius:50%; box-shadow:0 2px 4px rgba(0,0,0,0.1); margin-top:6px;\"></div>\n      <div style=\"font-size: 15px; color:#2e5032;\">\n        <strong>Bien-être durable</strong>, naturellement et sans brusquer votre corps.\n      </div>\n    </li>\n\n  </ul>\n\n</div>"
+          }
         }
       },
       "block_order": [
@@ -862,14 +862,14 @@
         "liquid_MmDGCx",
         "badges_Ap8TAg",
         "price_8W4V43",
-        "liquid_HTYpEJ",
         "rating_MameFC",
         "separator_dVzUBY",
         "description_wXhaQq",
         "variant_picker_dKt3Ay",
         "quantity_selector_QDfzPy",
         "buy_buttons_zjXiAE",
-        "pickup_availability_WHLMk4"
+        "pickup_availability_WHLMk4",
+        "liquid_HTYpEJ"
       ],
       "name": "Featured product",
       "settings": {
