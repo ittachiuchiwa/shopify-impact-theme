@@ -856,6 +856,12 @@
             "payment_button_text_color": ""
           }
         },
+        "liquid_aeB34r": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<style>\n.badge-container {\n  display: flex;\n  align-items: center;\n  gap: 8px;\n  margin: 15px 0;\n  flex-wrap: wrap;\n}\n\n.badge {\n  display: inline-flex;\n  align-items: center;\n  gap: 6px;\n  font-size: 0.8rem;\n  font-weight: 700;\n  padding: 4px 10px;\n  border-radius: 16px;\n}\n\n.badge.green {\n  background: #d9f5d9;\n  color: #006400;\n}\n\n.badge.red {\n  background: #ffe5e5;\n  color: #b40000;\n}\n\n.badge img {\n  width: 14px;\n  height: 14px;\n}\n</style>\n\n<div class=\"badge-container\">\n  <div class=\"badge green\">\n    <img src=\"https://cdn-icons-png.flaticon.com/512/3064/3064197.png\" alt=\"Satisfait ou remboursé\">\n    30J Satisfait ou remboursé\n  </div>"
+          }
+        },
         "pickup_availability_WHLMk4": {
           "type": "pickup_availability",
           "settings": {}
@@ -883,6 +889,7 @@
         "quantity_selector_QDfzPy",
         "liquid_mzrGJy",
         "buy_buttons_zjXiAE",
+        "liquid_aeB34r",
         "pickup_availability_WHLMk4",
         "liquid_HTYpEJ"
       ],
