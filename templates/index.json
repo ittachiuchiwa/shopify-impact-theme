@@ -809,6 +809,10 @@
             "show_taxes_notice": false
           }
         },
+        "conversion_bear_trust_badges_widget_pdpaNy": {
+          "type": "shopify://apps/conversion-bear-trust-badges/blocks/widget/163a9b59-0ec2-4cb7-bf5c-31408b4a9420",
+          "settings": {}
+        },
         "rating_MameFC": {
           "type": "rating",
           "settings": {
@@ -882,6 +886,7 @@
         "badges_Ap8TAg",
         "liquid_JBTPV9",
         "price_8W4V43",
+        "conversion_bear_trust_badges_widget_pdpaNy",
         "rating_MameFC",
         "separator_dVzUBY",
         "description_wXhaQq",
