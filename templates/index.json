@@ -290,6 +290,8 @@
         "allow_transparent_header": false,
         "enable_parallax": false,
         "image_size": "auto",
+        "image": "shopify://shop_images/Xionora_3.png",
+        "mobile_image": "shopify://shop_images/Xionora_3.png",
         "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-center sm:text-center",
         "text_color": "#ffffff",
@@ -316,6 +318,7 @@
         "item_nCjt8P": {
           "type": "item",
           "settings": {
+            "image": "shopify://shop_images/Xionora_45.jpg",
             "column_size": "3",
             "title": "- Joêlle L.  51 ans",
             "heading_tag": "h4",
@@ -328,6 +331,7 @@
         "item_EgKiWh": {
           "type": "item",
           "settings": {
+            "image": "shopify://shop_images/Votre_texte_de_paragraphe_6.jpg",
             "column_size": "3",
             "title": "- Christelle R. 45 ans",
             "heading_tag": "h4",
@@ -340,6 +344,7 @@
         "item_hYNNEd": {
           "type": "item",
           "settings": {
+            "image": "shopify://shop_images/Design_sans_titre_27.jpg",
             "column_size": "3",
             "title": "- Céline E. 57 ans",
             "heading_tag": "h4",
@@ -352,6 +357,7 @@
         "item_DcXhLr": {
           "type": "item",
           "settings": {
+            "image": "shopify://shop_images/61YA4ItnYHL._SY800.webp",
             "column_size": "3",
             "title": "- Chantal T. 56 ans",
             "heading_tag": "h4",
@@ -364,6 +370,7 @@
         "item_M4XkwA": {
           "type": "item",
           "settings": {
+            "image": "shopify://shop_images/Xionora_44.jpg",
             "column_size": "3",
             "title": "- Laura F. 42 ans",
             "heading_tag": "h4",
@@ -376,6 +383,7 @@
         "item_N7b3cR": {
           "type": "item",
           "settings": {
+            "image": "shopify://shop_images/Xionora_45_adafd883-9566-4261-900b-4382214a61d1.jpg",
             "column_size": "3",
             "title": "- Marie-Christine G. 62 ans",
             "heading_tag": "h4",
@@ -414,6 +422,7 @@
         "item_9J8bzN": {
           "type": "item",
           "settings": {
+            "image": "shopify://shop_images/Votre_texte_de_paragraphe_1.png",
             "image_rotation_degrees": -2,
             "subheading": "",
             "title": "",
@@ -594,6 +603,7 @@
         "image_Hdaek7": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/gempages_555070284432933968-56fffdf7-191e-49ed-bf8f-92b83683553d.webp",
             "content_max_width": 780,
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center sm:text-center",
@@ -614,6 +624,7 @@
         "image_Gi4Tx9": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/gempages_555070284432933968-e28fca95-f72c-469d-b217-585cac40fed9.webp",
             "content_max_width": 780,
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center sm:text-center",
@@ -695,6 +706,7 @@
         "item_K7WzdG": {
           "type": "item",
           "settings": {
+            "image": "shopify://shop_images/OregaZen_1_p.jpg",
             "image_rotation_degrees": -2,
             "subheading": "",
             "title": "",
