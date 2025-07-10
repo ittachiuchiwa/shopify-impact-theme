@@ -57,8 +57,6 @@
         "allow_transparent_header": false,
         "enable_parallax": false,
         "image_size": "auto",
-        "image": "shopify://shop_images/Liberez_votre_digestion_naturellement_sans_medicaments_ni_frustration..jpg",
-        "mobile_image": "shopify://shop_images/VENTRE_GONFLE_DIGESTION_LENTE_INCONFORT_APRES_CHAQUE_REPAS_1.jpg",
         "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-center sm:text-center",
         "text_color": "#ffffff",
@@ -163,6 +161,7 @@
     },
     "custom_liquid_krKgqT": {
       "type": "custom-liquid",
+      "disabled": true,
       "name": "Custom Liquid",
       "settings": {
         "full_width": true,
@@ -180,7 +179,6 @@
         "logo_ghtXkc": {
           "type": "logo",
           "settings": {
-            "logo": "shopify://shop_images/logo-seo_1_3.png",
             "logo_width": 300,
             "link": ""
           }
@@ -188,7 +186,6 @@
         "logo_pXLF8x": {
           "type": "logo",
           "settings": {
-            "logo": "shopify://shop_images/Marie_Claire_Magazine_logo.svg_1_1.png",
             "logo_width": 120,
             "link": ""
           }
@@ -196,7 +193,6 @@
         "logo_TwERWf": {
           "type": "logo",
           "settings": {
-            "logo": "shopify://shop_images/Comopolitan_Magazine_Logo_svg_1_1.png",
             "logo_width": 120,
             "link": ""
           }
@@ -204,7 +200,6 @@
         "logo_W8TYa6": {
           "type": "logo",
           "settings": {
-            "logo": "shopify://shop_images/1200px-VOGUE_revista_-_logo_1_3.png",
             "logo_width": 120,
             "link": ""
           }
@@ -294,8 +289,6 @@
         "allow_transparent_header": false,
         "enable_parallax": false,
         "image_size": "auto",
-        "image": "shopify://shop_images/Xionora_43.jpg",
-        "mobile_image": "shopify://shop_images/Xionora_43.jpg",
         "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-center sm:text-center",
         "text_color": "#ffffff",
@@ -322,7 +315,6 @@
         "item_nCjt8P": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/Design_sans_titre_27.jpg",
             "column_size": "3",
             "title": "- Joêlle L.  51 ans",
             "heading_tag": "h4",
@@ -335,7 +327,6 @@
         "item_EgKiWh": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/Votre_texte_de_paragraphe_6.jpg",
             "column_size": "3",
             "title": "- Christelle R. 45 ans",
             "heading_tag": "h4",
@@ -348,7 +339,6 @@
         "item_hYNNEd": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/Xionora_44.jpg",
             "column_size": "3",
             "title": "- Céline E. 57 ans",
             "heading_tag": "h4",
@@ -361,7 +351,6 @@
         "item_DcXhLr": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/Design_sans_titre_27_0bcf8417-63ed-47e2-ad2a-0f9e8e11cc5e.jpg",
             "column_size": "3",
             "title": "- Chantal T. 56 ans",
             "heading_tag": "h4",
@@ -374,7 +363,6 @@
         "item_M4XkwA": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/Xionora_45.jpg",
             "column_size": "3",
             "title": "- Laura F. 42 ans",
             "heading_tag": "h4",
@@ -387,7 +375,6 @@
         "item_N7b3cR": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/61YA4ItnYHL._SY800.webp",
             "column_size": "3",
             "title": "- Marie-Christine G. 62 ans",
             "heading_tag": "h4",
@@ -426,7 +413,6 @@
         "item_9J8bzN": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/certificat.webp",
             "image_rotation_degrees": -2,
             "subheading": "",
             "title": "",
@@ -607,7 +593,6 @@
         "image_Hdaek7": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/gempages_555070284432933968-56fffdf7-191e-49ed-bf8f-92b83683553d.webp",
             "content_max_width": 780,
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center sm:text-center",
@@ -628,7 +613,6 @@
         "image_Gi4Tx9": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/gempages_555070284432933968-e28fca95-f72c-469d-b217-585cac40fed9.webp",
             "content_max_width": 780,
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center sm:text-center",
@@ -710,7 +694,6 @@
         "item_K7WzdG": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/OregaZen_1_p.jpg",
             "image_rotation_degrees": -2,
             "subheading": "",
             "title": "",
@@ -808,10 +791,6 @@
             "show_taxes_notice": false
           }
         },
-        "conversion_bear_trust_badges_widget_pdpaNy": {
-          "type": "shopify://apps/conversion-bear-trust-badges/blocks/widget/163a9b59-0ec2-4cb7-bf5c-31408b4a9420",
-          "settings": {}
-        },
         "rating_MameFC": {
           "type": "rating",
           "settings": {
@@ -885,7 +864,6 @@
         "badges_Ap8TAg",
         "liquid_JBTPV9",
         "price_8W4V43",
-        "conversion_bear_trust_badges_widget_pdpaNy",
         "rating_MameFC",
         "separator_dVzUBY",
         "description_wXhaQq",
