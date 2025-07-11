@@ -897,6 +897,14 @@
             "payment_button_text_color": "#f0c417"
           }
         },
+        "image_7Bb7Gx": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Sans_titre_700_x_200_px.png",
+            "alignment": "start",
+            "max_width": 470
+          }
+        },
         "liquid_aeB34r": {
           "type": "liquid",
           "settings": {
@@ -937,6 +945,7 @@
         "liquid_mzrGJy",
         "liquid_GUrkRK",
         "buy_buttons_zjXiAE",
+        "image_7Bb7Gx",
         "liquid_aeB34r",
         "pickup_availability_WHLMk4",
         "liquid_HTYpEJ"
