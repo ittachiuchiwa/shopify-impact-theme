@@ -796,6 +796,12 @@
             "heading_tag": "h5"
           }
         },
+        "price_8W4V43": {
+          "type": "price",
+          "settings": {
+            "show_taxes_notice": false
+          }
+        },
         "liquid_bzLfbr": {
           "type": "liquid",
           "settings": {
@@ -810,13 +816,6 @@
           "type": "liquid",
           "settings": {
             "liquid": "<div class=\"quality-section\">\n  <h2 class=\"quality-title\">\n   \n  </h2>\n\n  <div class=\"quality-container\">\n\n    <div class=\"quality-block\">\n      <div class=\"quality-icon\">\n        <img src=\"https://cdn-icons-png.flaticon.com/512/847/847969.png\" alt=\"Pour tous\">\n      </div>\n      <h3>Pour tous</h3>\n      <p>Hommes & femmes</p>\n    </div>\n\n    <div class=\"quality-block\">\n      <div class=\"quality-icon\">\n        <img src=\"https://cdn-icons-png.flaticon.com/512/2910/2910768.png\" alt=\"Ultra facile\">\n      </div>\n      <h3>Ultra facile</h3>\n      <p>1 à 2 gélules par jour</p>\n    </div>\n\n    <div class=\"quality-block\">\n      <div class=\"quality-icon\">\n        <img src=\"https://cdn-icons-png.flaticon.com/512/847/847969.png\" alt=\"Agit vite\">\n      </div>\n      <h3>Agit vite</h3>\n      <p>Dès les 1res prises</p>\n    </div>\n\n  </div>\n</div>"
-          }
-        },
-        "price_8W4V43": {
-          "type": "price",
-          "disabled": true,
-          "settings": {
-            "show_taxes_notice": false
           }
         },
         "rating_MameFC": {
@@ -916,10 +915,10 @@
         "liquid_Wt9J8i",
         "liquid_MmDGCx",
         "title_z3tRVg",
+        "price_8W4V43",
         "liquid_bzLfbr",
         "badges_Ap8TAg",
         "liquid_JBTPV9",
-        "price_8W4V43",
         "rating_MameFC",
         "separator_dVzUBY",
         "description_wXhaQq",
