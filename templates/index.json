@@ -948,6 +948,12 @@
             "title": "Livraison & retour",
             "content": "<p>🚚 <strong>Livraison Offerte en France, Belgique et Suisse</strong></p><p>Expédié sous 24 à 48h – Retour gratuit sous 30 jours.</p>"
           }
+        },
+        "liquid_jCUwdQ": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<div style=\"display: flex; justify-content: space-between; gap: 10px; margin: 20px 0;\">\n  <!-- Première bulle -->\n  <div style=\"width: 80px; height: 80px; border-radius: 50%; overflow: hidden; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);\">\n    <video autoplay loop muted playsinline style=\"width: 100%; height: 100%; object-fit: cover;\">\n      <source src=\"https://cdn.shopify.com/videos/c/o/v/3d455e934df3477d99e27405e2e3177c.mp4\" type=\"video/mp4\">\n    </video>\n  </div>\n\n  <!-- Deuxième bulle -->\n  <div style=\"width: 80px; height: 80px; border-radius: 50%; overflow: hidden; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);\">\n    <video autoplay loop muted playsinline style=\"width: 100%; height: 100%; object-fit: cover;\">\n      <source src=\"https://cdn.shopify.com/videos/c/o/v/3a143326391a4e709a231a6b5e6ef984.mp4\" type=\"video/mp4\">\n    </video>\n  </div>\n\n  <!-- Troisième bulle -->\n  <div style=\"width: 80px; height: 80px; border-radius: 50%; overflow: hidden; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);\">\n    <video autoplay loop muted playsinline style=\"width: 100%; height: 100%; object-fit: cover;\">\n      <source src=\"https://cdn.shopify.com/videos/c/o/v/4ca454bd2926442e84b5aff020853b52.mp4\" type=\"video/mp4\">\n    </video>\n  </div>\n</div>"
+          }
         }
       },
       "block_order": [
@@ -980,7 +986,8 @@
         "collapsible_text_Ki6GWe",
         "collapsible_text_eprhzy",
         "collapsible_text_wzRGkd",
-        "collapsible_text_W3hp83"
+        "collapsible_text_W3hp83",
+        "liquid_jCUwdQ"
       ],
       "name": "Featured product",
       "settings": {
