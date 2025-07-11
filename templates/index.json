@@ -764,14 +764,6 @@
           "disabled": true,
           "settings": {}
         },
-        "image_jB9AfK": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/benef_2x_b6f22fdd-7b54-4469-b07d-a626636d23e1.webp",
-            "alignment": "center",
-            "max_width": 470
-          }
-        },
         "liquid_tJVytd": {
           "type": "liquid",
           "settings": {
@@ -800,6 +792,14 @@
           "type": "price",
           "settings": {
             "show_taxes_notice": false
+          }
+        },
+        "image_jB9AfK": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/benef_2x_b6f22fdd-7b54-4469-b07d-a626636d23e1.webp",
+            "alignment": "center",
+            "max_width": 470
           }
         },
         "liquid_bzLfbr": {
@@ -910,12 +910,12 @@
       },
       "block_order": [
         "vendor_NyWPKh",
-        "image_jB9AfK",
         "liquid_tJVytd",
         "liquid_Wt9J8i",
         "liquid_MmDGCx",
         "title_z3tRVg",
         "price_8W4V43",
+        "image_jB9AfK",
         "liquid_bzLfbr",
         "badges_Ap8TAg",
         "liquid_JBTPV9",
