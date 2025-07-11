@@ -814,6 +814,7 @@
         },
         "price_8W4V43": {
           "type": "price",
+          "disabled": true,
           "settings": {
             "show_taxes_notice": false
           }
