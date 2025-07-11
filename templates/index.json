@@ -951,12 +951,14 @@
         },
         "text_HhGfqc": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "<p>Share some content to your customers about your products.</p>"
           }
         },
         "text_UCztcD": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "<p>Elles l’ont intégré à leur quotidien. Impossible de s’en passer maintenant.<br/><br/></p>"
           }
