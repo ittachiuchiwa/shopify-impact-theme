@@ -849,6 +849,12 @@
             "max_width": 500
           }
         },
+        "liquid_VnE9br": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<div class=\"countdown-timer-block\" countdown-timer-id=\"cmcz67lf700izakxoycz9vyhs\"></div>"
+          }
+        },
         "countdown_timer_essential_app_block_zRhHwN": {
           "type": "shopify://apps/countdown-timer-essential/blocks/app-block/722378e8-5a70-4eae-aa89-9e44e8e9f6de",
           "settings": {
@@ -925,6 +931,7 @@
         "description_wXhaQq",
         "kaching_bundles_app_block_NnXQxT",
         "image_7cUgwC",
+        "liquid_VnE9br",
         "countdown_timer_essential_app_block_zRhHwN",
         "variant_picker_dKt3Ay",
         "quantity_selector_QDfzPy",
@@ -1112,6 +1119,19 @@
         "review_button_background": "#000000",
         "review_button_text_color": "#ffffff"
       }
+    },
+    "custom_liquid_dMV6Lp": {
+      "type": "custom-liquid",
+      "name": "Custom Liquid",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "liquid": "<div class=\"countdown-timer-block\" countdown-timer-id=\"cmcz67lf700izakxoycz9vyhs\"></div>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
     }
   },
   "order": [
@@ -1136,6 +1156,7 @@
     "custom_liquid_4ME4Hg",
     "featured_product_t9t9Jj",
     "faq",
-    "1752260280081ca3b3"
+    "1752260280081ca3b3",
+    "custom_liquid_dMV6Lp"
   ]
 }
