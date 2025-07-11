@@ -841,6 +841,14 @@
             "product": "{{section.settings.product}}"
           }
         },
+        "image_7cUgwC": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Design_sans_titre_7.png",
+            "alignment": "center",
+            "max_width": 500
+          }
+        },
         "variant_picker_dKt3Ay": {
           "type": "variant_picker",
           "settings": {
@@ -910,6 +918,7 @@
         "separator_dVzUBY",
         "description_wXhaQq",
         "kaching_bundles_app_block_NnXQxT",
+        "image_7cUgwC",
         "variant_picker_dKt3Ay",
         "quantity_selector_QDfzPy",
         "liquid_mzrGJy",
