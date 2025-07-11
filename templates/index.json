@@ -805,7 +805,7 @@
         "liquid_bzLfbr": {
           "type": "liquid",
           "settings": {
-            "liquid": "cmcz61yws00ixakxo0weqbh75"
+            "liquid": ""
           }
         },
         "badges_Ap8TAg": {
@@ -816,14 +816,6 @@
           "type": "liquid",
           "settings": {
             "liquid": "<div class=\"quality-section\">\n  <h2 class=\"quality-title\">\n   \n  </h2>\n\n  <div class=\"quality-container\">\n\n    <div class=\"quality-block\">\n      <div class=\"quality-icon\">\n        <img src=\"https://cdn-icons-png.flaticon.com/512/847/847969.png\" alt=\"Pour tous\">\n      </div>\n      <h3>Pour tous</h3>\n      <p>Hommes & femmes</p>\n    </div>\n\n    <div class=\"quality-block\">\n      <div class=\"quality-icon\">\n        <img src=\"https://cdn-icons-png.flaticon.com/512/2910/2910768.png\" alt=\"Ultra facile\">\n      </div>\n      <h3>Ultra facile</h3>\n      <p>1 à 2 gélules par jour</p>\n    </div>\n\n    <div class=\"quality-block\">\n      <div class=\"quality-icon\">\n        <img src=\"https://cdn-icons-png.flaticon.com/512/847/847969.png\" alt=\"Agit vite\">\n      </div>\n      <h3>Agit vite</h3>\n      <p>Dès les 1res prises</p>\n    </div>\n\n  </div>\n</div>"
-          }
-        },
-        "image_aKAzCg": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/Sans_titre_700_x_200_px.png",
-            "alignment": "center",
-            "max_width": 500
           }
         },
         "rating_MameFC": {
@@ -860,6 +852,12 @@
           "type": "shopify://apps/countdown-timer-essential/blocks/app-block/722378e8-5a70-4eae-aa89-9e44e8e9f6de",
           "settings": {
             "id": ""
+          }
+        },
+        "liquid_GnraMa": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<div class=\"countdown-timer-block\" countdown-timer-id=\"cmcz67lf700izakxoycz9vyhs\"></div>"
           }
         },
         "variant_picker_dKt3Ay": {
@@ -927,13 +925,13 @@
         "liquid_bzLfbr",
         "badges_Ap8TAg",
         "liquid_JBTPV9",
-        "image_aKAzCg",
         "rating_MameFC",
         "separator_dVzUBY",
         "description_wXhaQq",
         "kaching_bundles_app_block_NnXQxT",
         "image_7cUgwC",
         "countdown_timer_essential_app_block_zRhHwN",
+        "liquid_GnraMa",
         "variant_picker_dKt3Ay",
         "quantity_selector_QDfzPy",
         "liquid_mzrGJy",
