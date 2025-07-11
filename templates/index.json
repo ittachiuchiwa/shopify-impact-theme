@@ -920,6 +920,34 @@
           "settings": {
             "liquid": "<div style=\"\n  border: 1px solid #dce8dc;\n  border-radius: 12px;\n  padding: 20px;\n  max-width: 520px;\n  margin: 20px auto;\n  box-shadow: 0 2px 6px rgba(0,0,0,0.05);\n  position: relative;\n  overflow: hidden;\n\">\n\n  <!-- Liseré vert en haut -->\n  <div style=\"\n    position: absolute;\n    top: 0; left: 0; \n    width: 100%; \n    height: 4px; \n    background: linear-gradient(to right, #4fa54f, #7ac97a);\n    border-top-left-radius: 12px;\n    border-top-right-radius: 12px;\n  \"></div>\n\n  <ul style=\"list-style: none; padding: 0; margin: 0;\">\n    \n    <li style=\"display: flex; align-items: flex-start; gap: 12px; margin-bottom: 18px;\">\n      <div style=\"min-width:14px; height:14px; background:#3d6f44; border-radius:50%; box-shadow:0 2px 4px rgba(0,0,0,0.1); margin-top:6px;\"></div>\n      <div style=\"font-size: 15px; color:#2e5032;\">\n        <strong>Cure recommandée de 3 mois</strong> pour rétablir l'équilibre interne et éliminer les parasites.\n      </div>\n    </li>\n\n    <li style=\"display: flex; align-items: flex-start; gap: 12px; margin-bottom: 18px;\">\n      <div style=\"min-width:14px; height:14px; background:#3d6f44; border-radius:50%; box-shadow:0 2px 4px rgba(0,0,0,0.1); margin-top:6px;\"></div>\n      <div style=\"font-size: 15px; color:#2e5032;\">\n        <strong>Résultats visibles</strong> dès les premières semaines : ventre plus léger, énergie retrouvée.\n      </div>\n    </li>\n\n    <li style=\"display: flex; align-items: flex-start; gap: 12px;\">\n      <div style=\"min-width:14px; height:14px; background:#3d6f44; border-radius:50%; box-shadow:0 2px 4px rgba(0,0,0,0.1); margin-top:6px;\"></div>\n      <div style=\"font-size: 15px; color:#2e5032;\">\n        <strong>Bien-être durable</strong>, naturellement et sans brusquer votre corps.\n      </div>\n    </li>\n\n  </ul>\n\n</div>"
           }
+        },
+        "collapsible_text_Ki6GWe": {
+          "type": "collapsible_text",
+          "settings": {
+            "title": "Quels bienfaits ?",
+            "content": "<p><strong>Renforce naturellement votre immunité, soulage les inflammations, améliore la digestion et relance votre énergie.</strong></p><p>Grâce à la synergie unique entre l’huile d’origan et l’huile de nigelle, vous offrez à votre corps une vraie défense naturelle. Résultat : moins de fatigue, un ventre plus léger, et une sensation de bien-être durable, sans produits chimiques.<br/></p>"
+          }
+        },
+        "collapsible_text_eprhzy": {
+          "type": "collapsible_text",
+          "settings": {
+            "title": "Comment le prendre ?",
+            "content": "<p><strong>1 à 2 gélules par jour, avec un verre d’eau, de préférence pendant un repas.</strong></p><p>Facile à intégrer à votre routine. Pas de goût fort, pas d’arrière-goût. Juste un geste simple pour un vrai bénéfice. Beaucoup ressentent déjà une différence après quelques jours.<br/></p>"
+          }
+        },
+        "collapsible_text_wzRGkd": {
+          "type": "collapsible_text",
+          "settings": {
+            "title": "Ingrédients",
+            "content": "<p><strong>Des ingrédients 100 % naturels, sans additifs ni conservateurs.</strong><br/>Chaque gélule contient :</p><ul><li>Un extrait ultra-concentré d’huile d’origan (20:1), naturellement riche en <strong>carvacrol</strong> (165 mg par dose)</li><li>De l’huile de nigelle (riche en <strong>thymoquinone</strong>)</li><li>Une capsule végétale facile à digérer</li></ul><p>🌿 Sans OGM – Sans gluten – Non irritant – Testé en laboratoire</p>"
+          }
+        },
+        "collapsible_text_W3hp83": {
+          "type": "collapsible_text",
+          "settings": {
+            "title": "Livraison & retour",
+            "content": "<p>🚚 <strong>Livraison Offerte en France, Belgique et Suisse</strong></p><p>Expédié sous 24 à 48h – Retour gratuit sous 30 jours.</p>"
+          }
         }
       },
       "block_order": [
@@ -948,7 +976,11 @@
         "image_7Bb7Gx",
         "liquid_aeB34r",
         "pickup_availability_WHLMk4",
-        "liquid_HTYpEJ"
+        "liquid_HTYpEJ",
+        "collapsible_text_Ki6GWe",
+        "collapsible_text_eprhzy",
+        "collapsible_text_wzRGkd",
+        "collapsible_text_W3hp83"
       ],
       "name": "Featured product",
       "settings": {
