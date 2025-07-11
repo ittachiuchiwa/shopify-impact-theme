@@ -849,12 +849,6 @@
             "max_width": 500
           }
         },
-        "liquid_VnE9br": {
-          "type": "liquid",
-          "settings": {
-            "liquid": "<div class=\"countdown-timer-block\" countdown-timer-id=\"cmcz67lf700izakxoycz9vyhs\"></div>"
-          }
-        },
         "countdown_timer_essential_app_block_zRhHwN": {
           "type": "shopify://apps/countdown-timer-essential/blocks/app-block/722378e8-5a70-4eae-aa89-9e44e8e9f6de",
           "settings": {
@@ -931,7 +925,6 @@
         "description_wXhaQq",
         "kaching_bundles_app_block_NnXQxT",
         "image_7cUgwC",
-        "liquid_VnE9br",
         "countdown_timer_essential_app_block_zRhHwN",
         "variant_picker_dKt3Ay",
         "quantity_selector_QDfzPy",
@@ -1092,46 +1085,6 @@
         "accordion_background": "",
         "accordion_text_color": ""
       }
-    },
-    "1752260280081ca3b3": {
-      "type": "apps",
-      "blocks": {
-        "countdown_timer_essential_app_block_yzBBDG": {
-          "type": "shopify://apps/countdown-timer-essential/blocks/app-block/722378e8-5a70-4eae-aa89-9e44e8e9f6de",
-          "settings": {
-            "id": ""
-          }
-        }
-      },
-      "block_order": [
-        "countdown_timer_essential_app_block_yzBBDG"
-      ],
-      "settings": {
-        "full_width": true,
-        "remove_vertical_spacing": false,
-        "remove_horizontal_spacing": false,
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "enable_review_integration": true,
-        "review_header_gradient": "linear-gradient(135deg, rgba(255, 194, 102, 1), rgba(255, 163, 26, 1) 100%)",
-        "review_header_text_color": "#000000",
-        "review_button_background": "#000000",
-        "review_button_text_color": "#ffffff"
-      }
-    },
-    "custom_liquid_dMV6Lp": {
-      "type": "custom-liquid",
-      "name": "Custom Liquid",
-      "settings": {
-        "full_width": true,
-        "remove_vertical_spacing": false,
-        "remove_horizontal_spacing": false,
-        "liquid": "<div class=\"countdown-timer-block\" countdown-timer-id=\"cmcz67lf700izakxoycz9vyhs\"></div>",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
-      }
     }
   },
   "order": [
@@ -1155,8 +1108,6 @@
     "multiple_images_with_text_96h7ed",
     "custom_liquid_4ME4Hg",
     "featured_product_t9t9Jj",
-    "faq",
-    "1752260280081ca3b3",
-    "custom_liquid_dMV6Lp"
+    "faq"
   ]
 }
