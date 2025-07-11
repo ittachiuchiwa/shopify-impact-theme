@@ -949,6 +949,24 @@
             "content": "<p>🚚 <strong>Livraison Offerte en France, Belgique et Suisse</strong></p><p>Expédié sous 24 à 48h – Retour gratuit sous 30 jours.</p>"
           }
         },
+        "text_HhGfqc": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Share some content to your customers about your products.</p>"
+          }
+        },
+        "text_UCztcD": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Elles l’ont intégré à leur quotidien. Impossible de s’en passer maintenant.<br/><br/></p>"
+          }
+        },
+        "liquid_DwgJc7": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<div style=\"text-align: center; color: #00A341; font-size: 1.2rem; font-weight: 500; margin-top: 20px;\">\n  Elles l’ont intégré à leur quotidien. Impossible de s’en passer maintenant.\n</div>"
+          }
+        },
         "liquid_jCUwdQ": {
           "type": "liquid",
           "settings": {
@@ -987,6 +1005,9 @@
         "collapsible_text_eprhzy",
         "collapsible_text_wzRGkd",
         "collapsible_text_W3hp83",
+        "text_HhGfqc",
+        "text_UCztcD",
+        "liquid_DwgJc7",
         "liquid_jCUwdQ"
       ],
       "name": "Featured product",
