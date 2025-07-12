@@ -107,8 +107,8 @@
         "text": {
           "type": "text",
           "settings": {
-            "title": "About",
-            "content": "<p>Use this text area to tell your customers about your brand and vision. You can change it in the theme editor.</p>",
+            "title": "À propos de nous",
+            "content": "<p><strong>Chez Onessa, notre mission est simple : aider chacun à retrouver confiance, de l’intérieur.</strong>Avec nos cures naturelles à base d’origan et de nigelle, retrouvez légèreté, clarté et bien-être au quotidien.<br/><br/></p>",
             "enable_follow_on_shop": true
           }
         }
