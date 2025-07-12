@@ -416,37 +416,6 @@
         "text_color": ""
       }
     },
-    "multiple_images_with_text_Hf6fGE": {
-      "type": "multiple-images-with-text",
-      "blocks": {
-        "item_9J8bzN": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/Design_sans_titre_9.png",
-            "image_rotation_degrees": -2,
-            "subheading": "",
-            "title": "",
-            "content": "<p><strong>OregaZen</strong> : Certifié <strong>HACCP & GMP</strong>, les mêmes normes strictes que l’industrie pharmaceutique.<br/><br/><strong>Aucun compromis sur votre sécurité.</strong><br/><br/></p>",
-            "button_url": "",
-            "button_text": ""
-          }
-        }
-      },
-      "block_order": [
-        "item_9J8bzN"
-      ],
-      "name": "Multiple images with text",
-      "settings": {
-        "full_width": true,
-        "images_layout": "stacked",
-        "collage_images_alignment": "middle",
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "button_background": "",
-        "button_text_color": ""
-      }
-    },
     "custom_liquid_9XVWRc": {
       "type": "custom-liquid",
       "name": "Custom Liquid",
@@ -458,102 +427,6 @@
         "background": "#e1ffed",
         "background_gradient": "",
         "text_color": ""
-      }
-    },
-    "testimonials_tan9Et": {
-      "type": "testimonials",
-      "blocks": {
-        "testimonial_nJY8Wd": {
-          "type": "testimonial",
-          "settings": {
-            "round_avatar": true,
-            "show_rating": true,
-            "rating": 5,
-            "author": "",
-            "title": "Melissa",
-            "content": "<p>Honnêtement, je revis ! Ma digestion est tellement plus légère et je me sens bien au quotidien. Pour moi, c’est un petit prix à payer pour un tel confort. Je ne regrette vraiment pas, c’est même l’un de mes meilleurs achats.<br/><br/></p>"
-          }
-        },
-        "testimonial_kcjFHR": {
-          "type": "testimonial",
-          "settings": {
-            "round_avatar": true,
-            "show_rating": true,
-            "rating": 5,
-            "author": "",
-            "title": "Marie",
-            "content": "<p>Franchement, c’est l’un des meilleurs cadeaux que je me suis faits pour ma santé. Mon ventre est visiblement plus plat, je me sens tellement mieux — et tout ça pour un prix vraiment dérisoire !<br/><br/></p>"
-          }
-        },
-        "testimonial_pATCzf": {
-          "type": "testimonial",
-          "settings": {
-            "round_avatar": true,
-            "show_rating": true,
-            "rating": 4,
-            "author": "",
-            "title": "Genneviève",
-            "content": "<p>Ça faisait des mois que je souffrais après chaque repas. Une semaine avec cette cure et c’est le jour et la nuit : fini les ballonnements, mon ventre est plus plat et je revis !<br/><br/></p>"
-          }
-        },
-        "testimonial_BPGCR9": {
-          "type": "testimonial",
-          "settings": {
-            "round_avatar": true,
-            "show_rating": true,
-            "rating": 4,
-            "author": "",
-            "title": "Alexia",
-            "content": "<p>Super facile à prendre, sans goût bizarre, et franchement ça change tout pour mon transit. Je me sens tellement mieux !<br/><br/></p>"
-          }
-        },
-        "testimonial_hFWBCb": {
-          "type": "testimonial",
-          "settings": {
-            "round_avatar": true,
-            "show_rating": true,
-            "rating": 4,
-            "author": "",
-            "title": "Marie",
-            "content": "<p>Au début j’étais un peu sceptique à cause du prix, mais les résultats ont été bluffants dès les premières semaines. C’est largement rentabilisé : je déborde d’énergie comme jamais !<br/><br/></p>"
-          }
-        },
-        "testimonial_dgPKMP": {
-          "type": "testimonial",
-          "settings": {
-            "round_avatar": true,
-            "show_rating": true,
-            "rating": 4,
-            "author": "",
-            "title": "Julie",
-            "content": "<p>Un produit naturel super facile à prendre, sans le moindre goût désagréable. Et honnêtement, c’est bluffant pour mon transit — je me sens tellement plus légère.<br/><br/></p>"
-          }
-        }
-      },
-      "block_order": [
-        "testimonial_nJY8Wd",
-        "testimonial_kcjFHR",
-        "testimonial_pATCzf",
-        "testimonial_BPGCR9",
-        "testimonial_hFWBCb",
-        "testimonial_dgPKMP"
-      ],
-      "name": "Testimonials",
-      "settings": {
-        "full_width": false,
-        "stack_testimonials": false,
-        "subheading": "",
-        "title": "",
-        "content": "",
-        "link_url": "",
-        "link_text": "",
-        "background": "#e1ffed",
-        "background_gradient": "",
-        "text_color": "#000000",
-        "heading_color": "#bdeacf",
-        "heading_gradient": "",
-        "testimonial_card_background": "#e1ffed",
-        "testimonial_card_text_color": "#1a1a1a"
       }
     },
     "rich_text_ft66VY": {
@@ -1031,6 +904,133 @@
         "input_text_color": ""
       }
     },
+    "multiple_images_with_text_Hf6fGE": {
+      "type": "multiple-images-with-text",
+      "blocks": {
+        "item_9J8bzN": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Design_sans_titre_9.png",
+            "image_rotation_degrees": -2,
+            "subheading": "",
+            "title": "",
+            "content": "<p><strong>OregaZen</strong> : Certifié <strong>HACCP & GMP</strong>, les mêmes normes strictes que l’industrie pharmaceutique.<br/><br/><strong>Aucun compromis sur votre sécurité.</strong><br/><br/></p>",
+            "button_url": "",
+            "button_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_9J8bzN"
+      ],
+      "name": "Multiple images with text",
+      "settings": {
+        "full_width": true,
+        "images_layout": "stacked",
+        "collage_images_alignment": "middle",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "button_background": "",
+        "button_text_color": ""
+      }
+    },
+    "testimonials_tan9Et": {
+      "type": "testimonials",
+      "blocks": {
+        "testimonial_nJY8Wd": {
+          "type": "testimonial",
+          "settings": {
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 5,
+            "author": "",
+            "title": "Melissa",
+            "content": "<p>Honnêtement, je revis ! Ma digestion est tellement plus légère et je me sens bien au quotidien. Pour moi, c’est un petit prix à payer pour un tel confort. Je ne regrette vraiment pas, c’est même l’un de mes meilleurs achats.<br/><br/></p>"
+          }
+        },
+        "testimonial_kcjFHR": {
+          "type": "testimonial",
+          "settings": {
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 5,
+            "author": "",
+            "title": "Marie",
+            "content": "<p>Franchement, c’est l’un des meilleurs cadeaux que je me suis faits pour ma santé. Mon ventre est visiblement plus plat, je me sens tellement mieux — et tout ça pour un prix vraiment dérisoire !<br/><br/></p>"
+          }
+        },
+        "testimonial_pATCzf": {
+          "type": "testimonial",
+          "settings": {
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 4,
+            "author": "",
+            "title": "Genneviève",
+            "content": "<p>Ça faisait des mois que je souffrais après chaque repas. Une semaine avec cette cure et c’est le jour et la nuit : fini les ballonnements, mon ventre est plus plat et je revis !<br/><br/></p>"
+          }
+        },
+        "testimonial_BPGCR9": {
+          "type": "testimonial",
+          "settings": {
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 4,
+            "author": "",
+            "title": "Alexia",
+            "content": "<p>Super facile à prendre, sans goût bizarre, et franchement ça change tout pour mon transit. Je me sens tellement mieux !<br/><br/></p>"
+          }
+        },
+        "testimonial_hFWBCb": {
+          "type": "testimonial",
+          "settings": {
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 4,
+            "author": "",
+            "title": "Marie",
+            "content": "<p>Au début j’étais un peu sceptique à cause du prix, mais les résultats ont été bluffants dès les premières semaines. C’est largement rentabilisé : je déborde d’énergie comme jamais !<br/><br/></p>"
+          }
+        },
+        "testimonial_dgPKMP": {
+          "type": "testimonial",
+          "settings": {
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 4,
+            "author": "",
+            "title": "Julie",
+            "content": "<p>Un produit naturel super facile à prendre, sans le moindre goût désagréable. Et honnêtement, c’est bluffant pour mon transit — je me sens tellement plus légère.<br/><br/></p>"
+          }
+        }
+      },
+      "block_order": [
+        "testimonial_nJY8Wd",
+        "testimonial_kcjFHR",
+        "testimonial_pATCzf",
+        "testimonial_BPGCR9",
+        "testimonial_hFWBCb",
+        "testimonial_dgPKMP"
+      ],
+      "name": "Testimonials",
+      "settings": {
+        "full_width": false,
+        "stack_testimonials": false,
+        "subheading": "",
+        "title": "",
+        "content": "",
+        "link_url": "",
+        "link_text": "",
+        "background": "#e1ffed",
+        "background_gradient": "",
+        "text_color": "#000000",
+        "heading_color": "#bdeacf",
+        "heading_gradient": "",
+        "testimonial_card_background": "#e1ffed",
+        "testimonial_card_text_color": "#1a1a1a"
+      }
+    },
     "faq": {
       "type": "faq",
       "blocks": {
@@ -1177,7 +1177,6 @@
     "custom_liquid_UPb9Ly",
     "multi_column_jwNAQX",
     "custom_liquid_9XVWRc",
-    "testimonials_tan9Et",
     "rich_text_ft66VY",
     "slideshow_GUKWNK",
     "rich_text_QYwCYE",
@@ -1185,6 +1184,7 @@
     "custom_liquid_4ME4Hg",
     "featured_product_t9t9Jj",
     "multiple_images_with_text_Hf6fGE",
+    "testimonials_tan9Et",
     "faq"
   ]
 }
