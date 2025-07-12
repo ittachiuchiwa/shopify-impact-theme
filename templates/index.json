@@ -704,6 +704,37 @@
         "input_text_color": ""
       }
     },
+    "multiple_images_with_text_Hf6fGE": {
+      "type": "multiple-images-with-text",
+      "blocks": {
+        "item_9J8bzN": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Design_sans_titre_9.png",
+            "image_rotation_degrees": -2,
+            "subheading": "",
+            "title": "",
+            "content": "<p><strong>OregaZen</strong> : Certifié <strong>HACCP & GMP</strong>, les mêmes normes strictes que l’industrie pharmaceutique.<br/><br/><strong>Aucun compromis sur votre sécurité.</strong><br/><br/></p>",
+            "button_url": "",
+            "button_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "item_9J8bzN"
+      ],
+      "name": "Multiple images with text",
+      "settings": {
+        "full_width": true,
+        "images_layout": "stacked",
+        "collage_images_alignment": "middle",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "button_background": "",
+        "button_text_color": ""
+      }
+    },
     "rich_text_QYwCYE": {
       "type": "rich-text",
       "blocks": {
@@ -889,37 +920,6 @@
         "cycle_speed": 4,
         "background": "#ffffff",
         "background_gradient": ""
-      }
-    },
-    "multiple_images_with_text_Hf6fGE": {
-      "type": "multiple-images-with-text",
-      "blocks": {
-        "item_9J8bzN": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/Design_sans_titre_9.png",
-            "image_rotation_degrees": -2,
-            "subheading": "",
-            "title": "",
-            "content": "<p><strong>OregaZen</strong> : Certifié <strong>HACCP & GMP</strong>, les mêmes normes strictes que l’industrie pharmaceutique.<br/><br/><strong>Aucun compromis sur votre sécurité.</strong><br/><br/></p>",
-            "button_url": "",
-            "button_text": ""
-          }
-        }
-      },
-      "block_order": [
-        "item_9J8bzN"
-      ],
-      "name": "Multiple images with text",
-      "settings": {
-        "full_width": true,
-        "images_layout": "stacked",
-        "collage_images_alignment": "middle",
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "button_background": "",
-        "button_text_color": ""
       }
     },
     "custom_liquid_9XVWRc": {
@@ -1178,11 +1178,11 @@
     "multi_column_jwNAQX",
     "custom_liquid_4ME4Hg",
     "featured_product_t9t9Jj",
+    "multiple_images_with_text_Hf6fGE",
     "rich_text_QYwCYE",
     "multiple_images_with_text_96h7ed",
     "rich_text_ft66VY",
     "slideshow_GUKWNK",
-    "multiple_images_with_text_Hf6fGE",
     "custom_liquid_9XVWRc",
     "testimonials_tan9Et",
     "faq"
