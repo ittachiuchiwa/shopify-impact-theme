@@ -647,6 +647,12 @@
           "settings": {
             "liquid": "<div style=\"display: flex; justify-content: space-between; gap: 10px; margin: 20px 0;\">\n  <!-- Première bulle -->\n  <div style=\"width: 80px; height: 80px; border-radius: 50%; overflow: hidden; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);\">\n    <video autoplay loop muted playsinline style=\"width: 100%; height: 100%; object-fit: cover;\">\n      <source src=\"https://cdn.shopify.com/videos/c/o/v/3d455e934df3477d99e27405e2e3177c.mp4\" type=\"video/mp4\">\n    </video>\n  </div>\n\n  <!-- Deuxième bulle -->\n  <div style=\"width: 80px; height: 80px; border-radius: 50%; overflow: hidden; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);\">\n    <video autoplay loop muted playsinline style=\"width: 100%; height: 100%; object-fit: cover;\">\n      <source src=\"https://cdn.shopify.com/videos/c/o/v/3a143326391a4e709a231a6b5e6ef984.mp4\" type=\"video/mp4\">\n    </video>\n  </div>\n\n  <!-- Troisième bulle -->\n  <div style=\"width: 80px; height: 80px; border-radius: 50%; overflow: hidden; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);\">\n    <video autoplay loop muted playsinline style=\"width: 100%; height: 100%; object-fit: cover;\">\n      <source src=\"https://cdn.shopify.com/videos/c/o/v/4ca454bd2926442e84b5aff020853b52.mp4\" type=\"video/mp4\">\n    </video>\n  </div>\n</div>"
           }
+        },
+        "liquid_j7gBrP": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<style>\n.scrolling-banner {\n  background: #00A341;\n  color: #ffffff;\n  overflow: hidden;\n  white-space: nowrap;\n  padding: 8px 0;\n  font-size: 0.8rem;\n  font-weight: 600;\n  width: 100vw; /* prend toute la largeur viewport */\n  position: relative;\n  left: 50%;\n  right: 50%;\n  margin-left: -50vw;\n  margin-right: -50vw;\n  box-sizing: border-box;\n}\n\n.scrolling-banner .track {\n  display: inline-block;\n  animation: scroll 55s linear infinite;\n}\n\n.scrolling-banner .item {\n  display: inline-flex;\n  align-items: center;\n  gap: 8px;\n  margin: 0 25px;\n}\n\n.scrolling-banner .item i {\n  font-style: normal;\n  font-size: 1rem;\n}\n\n@keyframes scroll {\n  0%   { transform: translateX(100%); }\n  100% { transform: translateX(-100%); }\n}\n</style>\n\n<div class=\"scrolling-banner\">\n  <div class=\"track\">\n    <span class=\"item\"><i>🌱</i> VÉGÉTALIEN ET SANS CRUAUTÉ</span>\n    <span class=\"item\"><i>🧬</i> SANS OGM</span>\n    <span class=\"item\"><i>🌿</i> SANS GLUTEN</span>\n    <span class=\"item\"><i>🧪</i> TOUT NATUREL</span>\n    <span class=\"item\"><i>🔬</i> TESTÉ PAR UNE TIERCE PARTIE</span>\n    \n    <!-- doublé pour boucle fluide -->\n    <span class=\"item\"><i>🌱</i> VÉGÉTALIEN ET SANS CRUAUTÉ</span>\n    <span class=\"item\"><i>🧬</i> SANS OGM</span>\n    <span class=\"item\"><i>🌿</i> SANS GLUTEN</span>\n    <span class=\"item\"><i>🧪</i> TOUT NATUREL</span>\n    <span class=\"item\"><i>🔬</i> TESTÉ PAR UNE TIERCE PARTIE</span>\n  </div>\n</div>"
+          }
         }
       },
       "block_order": [
@@ -683,7 +689,8 @@
         "text_HhGfqc",
         "text_UCztcD",
         "liquid_DwgJc7",
-        "liquid_jCUwdQ"
+        "liquid_jCUwdQ",
+        "liquid_j7gBrP"
       ],
       "name": "Featured product",
       "settings": {
