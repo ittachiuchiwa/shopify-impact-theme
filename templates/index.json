@@ -735,6 +735,19 @@
         "button_text_color": ""
       }
     },
+    "custom_liquid_9XVWRc": {
+      "type": "custom-liquid",
+      "name": "Custom Liquid",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": true,
+        "remove_horizontal_spacing": true,
+        "liquid": "<div style=\"background: #E1FFED; padding: 20px; border-radius: 12px; text-align: center; font-family: sans-serif;\">\n  <h3 style=\"font-size: 20px; font-weight: 600; margin-bottom: 10px;\">Nos clientes en parlent le mieux</h3>\n\n  <div style=\"display: flex; justify-content: center; align-items: center; gap: 8px; margin-bottom: 6px; flex-wrap: wrap;\">\n    <span style=\"font-size: 16px;\">Excellent</span>\n    <strong style=\"font-size: 18px;\">4.7 / 5</strong>\n\n    <div style=\"display: flex; gap: 2px;\">\n      {% for i in (1..5) %}\n      <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" fill=\"#00B67A\" viewBox=\"0 0 24 24\">\n        <path d=\"M12 .587l3.668 7.431 8.2 1.151-5.934 5.663 1.402 8.168L12 18.897l-7.336 3.903 1.402-8.168L.132 9.169l8.2-1.151z\"/>\n      </svg>\n      {% endfor %}\n    </div>\n  </div>\n\n  <p style=\"font-size: 14px; color: #333; margin: 0;\">\n    Basé sur <strong>2 310 avis</strong>\n    <span style=\"display: inline-flex; align-items: center; gap: 4px; color: #000000; margin-left: 6px;\">\n      <svg width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"#00B67A\" xmlns=\"http://www.w3.org/2000/svg\">\n        <path d=\"M12 .587l3.668 7.431 8.2 1.151-5.934 5.663 1.402 8.168L12 18.897l-7.336 3.903 1.402-8.168L.132 9.169l8.2-1.151z\"/>\n      </svg>\n      <span style=\"font-weight: bold;\">Trustpilot</span>\n    </span>\n  </p>\n</div>",
+        "background": "#e1ffed",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "rich_text_QYwCYE": {
       "type": "rich-text",
       "blocks": {
@@ -920,19 +933,6 @@
         "cycle_speed": 4,
         "background": "#ffffff",
         "background_gradient": ""
-      }
-    },
-    "custom_liquid_9XVWRc": {
-      "type": "custom-liquid",
-      "name": "Custom Liquid",
-      "settings": {
-        "full_width": true,
-        "remove_vertical_spacing": true,
-        "remove_horizontal_spacing": true,
-        "liquid": "<div style=\"background: #E1FFED; padding: 20px; border-radius: 12px; text-align: center; font-family: sans-serif;\">\n  <h3 style=\"font-size: 20px; font-weight: 600; margin-bottom: 10px;\">Nos clientes en parlent le mieux</h3>\n\n  <div style=\"display: flex; justify-content: center; align-items: center; gap: 8px; margin-bottom: 6px; flex-wrap: wrap;\">\n    <span style=\"font-size: 16px;\">Excellent</span>\n    <strong style=\"font-size: 18px;\">4.7 / 5</strong>\n\n    <div style=\"display: flex; gap: 2px;\">\n      {% for i in (1..5) %}\n      <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" fill=\"#00B67A\" viewBox=\"0 0 24 24\">\n        <path d=\"M12 .587l3.668 7.431 8.2 1.151-5.934 5.663 1.402 8.168L12 18.897l-7.336 3.903 1.402-8.168L.132 9.169l8.2-1.151z\"/>\n      </svg>\n      {% endfor %}\n    </div>\n  </div>\n\n  <p style=\"font-size: 14px; color: #333; margin: 0;\">\n    Basé sur <strong>2 310 avis</strong>\n    <span style=\"display: inline-flex; align-items: center; gap: 4px; color: #000000; margin-left: 6px;\">\n      <svg width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"#00B67A\" xmlns=\"http://www.w3.org/2000/svg\">\n        <path d=\"M12 .587l3.668 7.431 8.2 1.151-5.934 5.663 1.402 8.168L12 18.897l-7.336 3.903 1.402-8.168L.132 9.169l8.2-1.151z\"/>\n      </svg>\n      <span style=\"font-weight: bold;\">Trustpilot</span>\n    </span>\n  </p>\n</div>",
-        "background": "#e1ffed",
-        "background_gradient": "",
-        "text_color": ""
       }
     },
     "testimonials_tan9Et": {
@@ -1179,12 +1179,12 @@
     "custom_liquid_4ME4Hg",
     "featured_product_t9t9Jj",
     "multiple_images_with_text_Hf6fGE",
+    "custom_liquid_9XVWRc",
+    "testimonials_tan9Et",
     "rich_text_QYwCYE",
     "multiple_images_with_text_96h7ed",
     "rich_text_ft66VY",
     "slideshow_GUKWNK",
-    "custom_liquid_9XVWRc",
-    "testimonials_tan9Et",
     "faq"
   ]
 }
