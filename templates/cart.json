@@ -16,7 +16,7 @@
           "type": "totals",
           "settings": {
             "show_order_weight": false,
-            "show_shipping_text": true
+            "show_shipping_text": false
           }
         },
         "cart_note": {
