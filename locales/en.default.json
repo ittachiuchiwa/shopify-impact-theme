@@ -477,7 +477,9 @@
           }
         },
         "card_expiry_label": "Date d'expiration",
-        "card_expiry_placeholder": "Date d'expiration"
+        "card_expiry_placeholder": "Date d'expiration",
+        "card_verification_value_label": "Code de sécurité",
+        "card_verification_value_placeholder": "Code de sécurité"
       },
       "payment_gateway": {
         "credit_card_label": "Carte de crédit"
