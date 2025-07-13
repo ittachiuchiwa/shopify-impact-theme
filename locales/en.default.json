@@ -456,7 +456,8 @@
         "address1_label": "Adresse"
       },
       "shipping": {
-        "shipping_method_title": "Mode d'expédition"
+        "shipping_method_title": "Mode d'expédition",
+        "delivery_title": "Livraison"
       },
       "general": {
         "back_to_payment_method": "Retourner au paiement",
