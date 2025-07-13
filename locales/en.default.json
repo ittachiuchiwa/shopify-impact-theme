@@ -448,7 +448,9 @@
         "first_name_label": "Prénom",
         "last_name_label": "Nom",
         "optional_first_name_label": "Prénom",
-        "address_title": "Adresse"
+        "address_title": "Adresse",
+        "address2_label": "Appartement, suite, etc. (optionnel)",
+        "optional_address2_label": "Appartement, suite, etc. (optionnel)"
       }
     }
   }
