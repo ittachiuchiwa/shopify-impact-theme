@@ -475,7 +475,9 @@
           "fields": {
             "card_number": "Numéro de carte"
           }
-        }
+        },
+        "card_expiry_label": "Date d'expiration",
+        "card_expiry_placeholder": "Date d'expiration"
       },
       "payment_gateway": {
         "credit_card_label": "Carte de crédit"
