@@ -468,7 +468,14 @@
       },
       "payment": {
         "card_security_notice": "Toutes les transactions sont sécurisées et chiffrées.",
-        "title": "Paiement"
+        "title": "Paiement",
+        "card_number_label": "Numéro de carte",
+        "card_number_placeholder": "Numéro de carte",
+        "edit_credit_card_modal": {
+          "fields": {
+            "card_number": "Numéro de carte"
+          }
+        }
       },
       "payment_gateway": {
         "credit_card_label": "Carte de crédit"
