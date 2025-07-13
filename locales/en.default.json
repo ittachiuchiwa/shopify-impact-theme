@@ -84,7 +84,7 @@
       "pre_order_button": "Pre-order",
       "sold_out_button": "Sold out",
       "unavailable_button": "Unavailable",
-      "added_to_cart": "Added to your cart!",
+      "added_to_cart": "Ajouté à votre panier ",
       "sold_out_badge": "Sold out",
       "on_sale_badge": "On sale",
       "discount_badge_html": "Save {{ savings }}",
