@@ -501,6 +501,9 @@
           "card_security_notice": "Toutes les transactions sont sécurisées et chiffrées."
         }
       }
+    },
+    "order_details": {
+      "billing_address": "Adresse de facturation"
     }
   }
 }
