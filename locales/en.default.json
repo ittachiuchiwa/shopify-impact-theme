@@ -45,7 +45,7 @@
       "subscribed_successfully": "You have been subscribed to our newsletter."
     },
     "localization": {
-      "country": "Country",
+      "country": "Pays",
       "language": "Language"
     },
     "privacy_bar": {
@@ -297,7 +297,7 @@
       "address2": "Address 2",
       "city": "City",
       "zip": "Zip code",
-      "country": "Country",
+      "country": "Pays",
       "province": "Province",
       "set_default": "Set as default address"
     }
@@ -337,7 +337,7 @@
     },
     "shipping_estimator": {
       "estimate_shipping": "Estimate shipping",
-      "country": "Country",
+      "country": "Pays",
       "province": "Province",
       "zip": "Zip code",
       "estimate": "Estimate",
