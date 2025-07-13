@@ -485,7 +485,8 @@
         "name_on_card_label": "Nom sur la carte",
         "offsite_gateway_redirect_hint": "Après avoir cliqué sur « Payer avec PayPal », vous serez redirigé(e) vers PayPal pour finaliser votre achat de façon sécurisée.",
         "billing_address_title": "Adresse de facturation",
-        "same_billing_address_label": "Identique à l’adresse de livraison"
+        "same_billing_address_label": "Identique à l’adresse de livraison",
+        "different_billing_address_label": "Utiliser une adresse de facturation différente"
       },
       "payment_gateway": {
         "credit_card_label": "Carte de crédit"
