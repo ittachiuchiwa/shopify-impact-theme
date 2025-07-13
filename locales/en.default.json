@@ -465,7 +465,9 @@
       "general": {
         "back_to_payment_method": "Retourner au paiement",
         "choose_payment_method": "Choisir une méthode de paiement",
-        "pay_now_button_label": "Valider ma commande"
+        "pay_now_button_label": "Valider ma commande",
+        "cart": "Panier",
+        "back_to_cart": "Retour au panier"
       },
       "shipping_errors": {
         "empty_state": "Saisissez votre adresse d’expédition pour voir les modes d’expédition disponibles."
