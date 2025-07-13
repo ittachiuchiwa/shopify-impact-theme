@@ -444,7 +444,8 @@
         "email_or_phone_label": "E-mail ou numéro de portable",
         "email_or_phone_placeholder": "E-mail ou numéro de portable",
         "country_label": "Pays/Region",
-        "country_code": "Pays/Région"
+        "country_code": "Pays/Région",
+        "first_name_label": "Prénom"
       }
     }
   }
