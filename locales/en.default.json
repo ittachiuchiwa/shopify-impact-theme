@@ -427,6 +427,12 @@
   "shopify": {
     "links": {
       "powered_by_shopify": " "
+    },
+    "checkout": {
+      "order_summary": {
+        "subtotal_label": "Sous-total",
+        "total_price_label": "Total"
+      }
     }
   }
 }
