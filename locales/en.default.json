@@ -467,6 +467,9 @@
       "payment": {
         "card_security_notice": "Toutes les transactions sont sécurisées et chiffrées.",
         "title": "Paiement"
+      },
+      "payment_gateway": {
+        "credit_card_label": "Carte de crédit"
       }
     }
   },
