@@ -276,7 +276,7 @@
       "refunded_amount": "Refunded amount",
       "total": "Total",
       "shipping_address": "Shipping address",
-      "billing_address": "Billing address"
+      "billing_address": "Adresse de facturation"
     },
     "addresses": {
       "no_addresses": "You haven't saved any addresses yet.",
@@ -499,6 +499,17 @@
       "card_fields": {
         "tooltip": {
           "card_security_notice": "Toutes les transactions sont sécurisées et chiffrées."
+        }
+      },
+      "payment_details": {
+        "billing_title": "Adresse de facturation"
+      },
+      "edit_payment_method": {
+        "billing_address": "Adresse de facturation"
+      },
+      "add_payment_method": {
+        "billing_address": {
+          "title": "Adresse de facturation"
         }
       }
     },
