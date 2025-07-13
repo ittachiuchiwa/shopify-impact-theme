@@ -436,6 +436,9 @@
         "shipping_label": "Expédition",
         "enter_shipping_address": "Saisir une adresse d’expédition",
         "total_savings": "ÉCONOMIES TOTALES"
+      },
+      "alternative_payment_method_banner": {
+        "express_checkout": "Paiement express"
       }
     }
   }
