@@ -463,6 +463,18 @@
       },
       "shipping_errors": {
         "empty_state": "Saisissez votre adresse d’expédition pour voir les modes d’expédition disponibles."
+      },
+      "payment": {
+        "card_security_notice": "Toutes les transactions sont sécurisées et chiffrées."
+      }
+    }
+  },
+  "customer_accounts": {
+    "payment_methods": {
+      "card_fields": {
+        "tooltip": {
+          "card_security_notice": "Toutes les transactions sont sécurisées et chiffrées."
+        }
       }
     }
   }
