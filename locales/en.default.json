@@ -447,7 +447,8 @@
         "country_code": "Pays/Région",
         "first_name_label": "Prénom",
         "last_name_label": "Nom",
-        "optional_first_name_label": "Prénom"
+        "optional_first_name_label": "Prénom",
+        "address_title": "Adresse"
       }
     }
   }
