@@ -448,11 +448,12 @@
         "first_name_label": "Prénom",
         "last_name_label": "Nom",
         "optional_first_name_label": "Prénom",
-        "address_title": "adresse",
+        "address_title": "Adresse",
         "address2_label": "Appartement, suite, etc. (optionnel)",
         "optional_address2_label": "Appartement, suite, etc. (optionnel)",
         "postal_code_label": "Code postale",
-        "city_label": "Ville"
+        "city_label": "Ville",
+        "address1_label": "Adresse"
       },
       "shipping": {
         "shipping_method_title": "Mode d'expédition"
