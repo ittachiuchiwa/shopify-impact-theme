@@ -434,7 +434,8 @@
         "total_price_label": "Total",
         "title": "Résumé de la commande",
         "shipping_label": "Expédition",
-        "enter_shipping_address": "Saisir une adresse d’expédition"
+        "enter_shipping_address": "Saisir une adresse d’expédition",
+        "total_savings": "ÉCONOMIES TOTALES"
       }
     }
   }
