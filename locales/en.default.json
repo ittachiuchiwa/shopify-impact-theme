@@ -450,7 +450,9 @@
         "optional_first_name_label": "Prénom",
         "address_title": "Adresse",
         "address2_label": "Appartement, suite, etc. (optionnel)",
-        "optional_address2_label": "Appartement, suite, etc. (optionnel)"
+        "optional_address2_label": "Appartement, suite, etc. (optionnel)",
+        "postal_code_label": "Code postale",
+        "city_label": "Ville"
       }
     }
   }
