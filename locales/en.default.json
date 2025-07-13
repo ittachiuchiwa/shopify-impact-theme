@@ -457,11 +457,15 @@
       },
       "shipping": {
         "shipping_method_title": "Mode d'expédition",
-        "delivery_title": "Livraison"
+        "delivery_title": "Livraison",
+        "duties_and_taxes_options": {
+          "ddp_title": "Valider ma commande"
+        }
       },
       "general": {
         "back_to_payment_method": "Retourner au paiement",
-        "choose_payment_method": "Choisir une méthode de paiement"
+        "choose_payment_method": "Choisir une méthode de paiement",
+        "pay_now_button_label": "Valider ma commande"
       },
       "shipping_errors": {
         "empty_state": "Saisissez votre adresse d’expédition pour voir les modes d’expédition disponibles."
@@ -493,6 +497,9 @@
       },
       "wallets": {
         "redirection_notice": "Après avoir cliqué sur « Payer avec PayPal », vous serez redirigé(e) vers PayPal pour finaliser votre achat de façon sécurisée."
+      },
+      "order_payment_collection": {
+        "pay_now": "Valider ma commande"
       }
     }
   },
