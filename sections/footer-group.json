@@ -109,7 +109,7 @@
           "settings": {
             "title": "À propos de nous",
             "content": "<p><strong>Chez Xionora, notre mission est simple : aider chacun à retrouver confiance, de l’intérieur. </strong>Avec nos cures naturelles à base d’origan et de nigelle, retrouvez légèreté, clarté et bien-être au quotidien.<br/><br/></p>",
-            "enable_follow_on_shop": true
+            "enable_follow_on_shop": false
           }
         }
       },
