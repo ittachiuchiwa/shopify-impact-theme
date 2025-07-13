@@ -432,7 +432,8 @@
       "order_summary": {
         "subtotal_label": "Sous-total",
         "total_price_label": "Total",
-        "title": "Résumé de la commande"
+        "title": "Résumé de la commande",
+        "shipping_label": "Expédition"
       }
     }
   }
