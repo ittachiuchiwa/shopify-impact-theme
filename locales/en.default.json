@@ -439,6 +439,10 @@
       },
       "alternative_payment_method_banner": {
         "express_checkout": "Paiement express"
+      },
+      "contact": {
+        "email_or_phone_label": "E-mail ou numéro de portable",
+        "email_or_phone_placeholder": "E-mail ou numéro de portable"
       }
     }
   }
