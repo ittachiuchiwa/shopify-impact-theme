@@ -487,6 +487,9 @@
       },
       "payment_gateway": {
         "credit_card_label": "Carte de crédit"
+      },
+      "wallets": {
+        "redirection_notice": "Après avoir cliqué sur « Payer avec PayPal », vous serez redirigé(e) vers PayPal pour finaliser votre achat de façon sécurisée."
       }
     }
   },
