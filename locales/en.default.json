@@ -502,7 +502,13 @@
       },
       "order_payment_collection": {
         "pay_now": "Valider ma commande"
+      },
+      "customer_account": {
+        "rollup_label": "Compte"
       }
+    },
+    "page_titles": {
+      "account": "Compte"
     }
   },
   "customer_accounts": {
