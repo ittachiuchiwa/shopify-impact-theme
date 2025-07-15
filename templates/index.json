@@ -287,11 +287,11 @@
       "name": "Image with text overlay",
       "settings": {
         "full_width": true,
-        "allow_transparent_header": false,
+        "allow_transparent_header": true,
         "enable_parallax": false,
         "image_size": "auto",
         "image": "shopify://shop_images/Xionora_3.png",
-        "mobile_image": "shopify://shop_images/Renforce_vos_defenses_naturelles.jpg",
+        "mobile_image": "shopify://shop_images/Design_sans_titre_34.jpg",
         "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-center sm:text-center",
         "text_color": "#ffffff",
