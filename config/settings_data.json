@@ -64,9 +64,9 @@
         "type": "shopify://apps/inbox/blocks/chat/841fc607-4181-4ad1-842d-e24d7f8bad6b",
         "disabled": false,
         "settings": {
-          "button_color": "#000000",
-          "secondary_color": "#FFFFFF",
-          "ternary_color": "#6A6A6A",
+          "button_color": "#05632b",
+          "secondary_color": "#ffffff",
+          "ternary_color": "#04d95b",
           "button_icon": "chat_bubble",
           "button_text": "need_help",
           "button_horizontal_position": "bottom_right",
