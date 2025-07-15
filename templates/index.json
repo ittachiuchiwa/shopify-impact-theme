@@ -1035,16 +1035,10 @@
     "rich_text_APUCp9": {
       "type": "rich-text",
       "blocks": {
-        "subheading_X6w87A": {
-          "type": "subheading",
-          "settings": {
-            "text": "Subheading"
-          }
-        },
         "heading_iTwjdG": {
           "type": "heading",
           "settings": {
-            "text": "Heading",
+            "text": "Pourquoi choisir Xionora ?",
             "heading_tag": "h1",
             "text_color": "",
             "gradient": ""
@@ -1058,7 +1052,6 @@
         }
       },
       "block_order": [
-        "subheading_X6w87A",
         "heading_iTwjdG",
         "richtext_qkTXV4"
       ],
