@@ -11,13 +11,12 @@
   "sections": {
     "custom_liquid_EzwG6y": {
       "type": "custom-liquid",
-      "disabled": true,
       "name": "Custom Liquid",
       "settings": {
         "full_width": true,
         "remove_vertical_spacing": false,
         "remove_horizontal_spacing": false,
-        "liquid": "<style>\n  .info-badges {\n    display: flex;\n    align-items: center;\n    justify-content: center;\n    gap: 8px;\n    flex-wrap: nowrap;\n    margin-top: 10px;\n    max-width: 100%;\n    overflow-x: auto;\n  }\n\n  .badge {\n    display: flex;\n    align-items: center;\n    padding: 3px 8px; /* encore plus petit */\n    border-radius: 6px;\n    font-weight: 600;\n    font-size: 0.75rem; /* plus petit texte */\n    white-space: nowrap;\n  }\n\n  .green-badge {\n    background-color: #d4f3d1;\n    color: #006400;\n  }\n\n  .red-badge {\n    background-color: #fddede;\n    color: #b30000;\n  }\n\n  .badge-icon {\n    margin-right: 1px;\n    font-size: 0.1rem; /* plus petit icône */\n  }\n</style>\n\n<div class=\"info-badges\">\n  <div class=\"badge green-badge\">\n    <span class=\"badge-icon\">🔒</span>\n    <span>30J Satisfait ou remboursé</span>\n  </div>\n  <div class=\"badge red-badge\">\n    <span class=\"badge-icon\">⏱</span>\n    <span>STOCK FAIBLE !</span>\n  </div>\n</div>",
+        "liquid": "<div class=\"comparison-table\">\n  <table>\n    <thead>\n      <tr>\n        <th></th>\n        <th class=\"highlight\">Xionora</th>\n        <th>Autres</th>\n      </tr>\n    </thead>\n    <tbody>\n      <tr>\n        <td>Formule 2 en 1</td>\n        <td class=\"yes\">Oui</td>\n        <td class=\"no\">No</td>\n      </tr>\n      <tr>\n        <td>100 % biodisponibilité</td>\n        <td class=\"yes\">Oui</td>\n        <td class=\"no\">No</td>\n      </tr>\n      <tr>\n        <td>Dosage optimal validé par des experts</td>\n        <td class=\"yes\">Oui</td>\n        <td class=\"no\">No</td>\n      </tr>\n      <tr>\n        <td>Sans OGM, sans additifs</td>\n        <td class=\"yes\">Oui</td>\n        <td class=\"no\">No</td>\n      </tr>\n    </tbody>\n  </table>\n</div>\n\n<style>\n.comparison-table table {\n  width: 100%;\n  border-collapse: separate;\n  border-spacing: 0;\n  text-align: center;\n  margin: 20px 0;\n}\n.comparison-table th,\n.comparison-table td {\n  padding: 14px;\n}\n.comparison-table th.highlight {\n  background-color: #4caf50;\n  color: white;\n  border-top-left-radius: 12px;\n  border-top-right-radius: 12px;\n}\n.comparison-table td.yes {\n  color: #4caf50;\n  font-weight: bold;\n}\n.comparison-table td.no {\n  color: #5a2b00;\n  font-weight: bold;\n}\n.comparison-table tbody td {\n  border-bottom: 1px solid #ddd;\n}\n.comparison-table tr:last-child td {\n  border-bottom: none;\n}\n.comparison-table tbody td:nth-child(2) {\n  border-left: 1px solid #4caf50;\n  border-right: 1px solid #4caf50;\n}\n</style>",
         "background": "",
         "background_gradient": "",
         "text_color": ""
