@@ -9,19 +9,6 @@
  */
 {
   "sections": {
-    "custom_liquid_EzwG6y": {
-      "type": "custom-liquid",
-      "name": "Custom Liquid",
-      "settings": {
-        "full_width": true,
-        "remove_vertical_spacing": false,
-        "remove_horizontal_spacing": false,
-        "liquid": "<div class=\"comparison-table\">\n  <table>\n    <thead>\n      <tr>\n        <th></th>\n        <th class=\"highlight\">Xionora</th>\n        <th>Autres</th>\n      </tr>\n    </thead>\n    <tbody>\n      <tr>\n        <td>Formule 2 en 1</td>\n        <td class=\"yes\">Oui</td>\n        <td class=\"no\">No</td>\n      </tr>\n      <tr>\n        <td>100 % biodisponibilité</td>\n        <td class=\"yes\">Oui</td>\n        <td class=\"no\">No</td>\n      </tr>\n      <tr>\n        <td>Dosage optimal validé par des experts</td>\n        <td class=\"yes\">Oui</td>\n        <td class=\"no\">No</td>\n      </tr>\n      <tr>\n        <td>Sans OGM, sans additifs</td>\n        <td class=\"yes\">Oui</td>\n        <td class=\"no\">No</td>\n      </tr>\n    </tbody>\n  </table>\n</div>\n\n<style>\n.comparison-table table {\n  width: 100%;\n  border-collapse: separate;\n  border-spacing: 0;\n  text-align: center;\n  margin: 20px 0;\n}\n.comparison-table th,\n.comparison-table td {\n  padding: 14px;\n}\n.comparison-table th.highlight {\n  background-color: #4caf50;\n  color: white;\n  border-top-left-radius: 12px;\n  border-top-right-radius: 12px;\n}\n.comparison-table td.yes {\n  color: #4caf50;\n  font-weight: bold;\n}\n.comparison-table td.no {\n  color: #5a2b00;\n  font-weight: bold;\n}\n.comparison-table tbody td {\n  border-bottom: 1px solid #ddd;\n}\n.comparison-table tr:last-child td {\n  border-bottom: none;\n}\n.comparison-table tbody td:nth-child(2) {\n  border-left: 1px solid #4caf50;\n  border-right: 1px solid #4caf50;\n}\n</style>",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
     "image_with_text_overlay_C89KzF": {
       "type": "image-with-text-overlay",
       "blocks": {
@@ -1045,6 +1032,59 @@
         "button_text_color": ""
       }
     },
+    "rich_text_APUCp9": {
+      "type": "rich-text",
+      "blocks": {
+        "subheading_X6w87A": {
+          "type": "subheading",
+          "settings": {
+            "text": "Subheading"
+          }
+        },
+        "heading_iTwjdG": {
+          "type": "heading",
+          "settings": {
+            "text": "Heading",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_qkTXV4": {
+          "type": "richtext",
+          "settings": {
+            "content": ""
+          }
+        }
+      },
+      "block_order": [
+        "subheading_X6w87A",
+        "heading_iTwjdG",
+        "richtext_qkTXV4"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
+    "custom_liquid_EzwG6y": {
+      "type": "custom-liquid",
+      "name": "Custom Liquid",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "liquid": "<div class=\"comparison-table\">\n  <table>\n    <thead>\n      <tr>\n        <th></th>\n        <th class=\"highlight\">Xionora</th>\n        <th>Autres</th>\n      </tr>\n    </thead>\n    <tbody>\n      <tr>\n        <td>Formule 2 en 1</td>\n        <td class=\"yes\">Oui</td>\n        <td class=\"no\">No</td>\n      </tr>\n      <tr>\n        <td>Utilisation facile</td>\n        <td class=\"yes\">Oui</td>\n        <td class=\"no\">No</td>\n      </tr>\n      <tr>\n        <td>Dosage optimal validé par des experts</td>\n        <td class=\"yes\">Oui</td>\n        <td class=\"no\">No</td>\n      </tr>\n      <tr>\n        <td>Sans OGM, sans additifs</td>\n        <td class=\"yes\">Oui</td>\n        <td class=\"no\">No</td>\n      </tr>\n    </tbody>\n  </table>\n</div>\n\n<style>\n.comparison-table table {\n  width: 100%;\n  border-collapse: separate;\n  border-spacing: 0;\n  text-align: center;\n  margin: 20px 0;\n}\n.comparison-table th,\n.comparison-table td {\n  padding: 14px;\n}\n.comparison-table th.highlight {\n  background-color: #4caf50;\n  color: white;\n  border-top-left-radius: 12px;\n  border-top-right-radius: 12px;\n}\n.comparison-table td.yes {\n  color: #4caf50;\n  font-weight: bold;\n}\n.comparison-table td.no {\n  color: #5a2b00;\n  font-weight: bold;\n}\n.comparison-table tbody td {\n  border-bottom: 1px solid #ddd;\n}\n.comparison-table tr:last-child td {\n  border-bottom: none;\n}\n.comparison-table tbody td:nth-child(2) {\n  border-left: 1px solid #4caf50;\n  border-right: 1px solid #4caf50;\n}\n</style>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "faq": {
       "type": "faq",
       "blocks": {
@@ -1212,7 +1252,6 @@
     }
   },
   "order": [
-    "custom_liquid_EzwG6y",
     "image_with_text_overlay_C89KzF",
     "slideshow",
     "custom_liquid_eUVjTR",
@@ -1232,6 +1271,8 @@
     "slideshow_GUKWNK",
     "rich_text_QYwCYE",
     "multiple_images_with_text_96h7ed",
+    "rich_text_APUCp9",
+    "custom_liquid_EzwG6y",
     "faq",
     "1752338483f297c75b"
   ]
