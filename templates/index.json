@@ -568,7 +568,7 @@
           "settings": {
             "image": "shopify://shop_images/Sans_titre_600_x_300_px_1000_x_500_px_2000_x_500_px_3000_x_500_px.jpg",
             "alignment": "start",
-            "max_width": 470
+            "max_width": 380
           }
         },
         "liquid_aeB34r": {
