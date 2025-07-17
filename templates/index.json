@@ -44,7 +44,7 @@
         "enable_parallax": false,
         "image_size": "auto",
         "image": "shopify://shop_images/VENTRE_GONFLE_DIGESTION_LENTE_INCONFORT_APRES_CHAQUE_REPAS_1.jpg",
-        "mobile_image": "shopify://shop_images/VENTRE_GONFLE_DIGESTION_LENTE_INCONFORT_APRES_CHAQUE_REPAS_1.jpg",
+        "mobile_image": "shopify://shop_images/Design_sans_titre_36.jpg",
         "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-center sm:text-center",
         "text_color": "#ffffff",
@@ -138,6 +138,7 @@
         "heading_PNjenG",
         "richtext_RJaPQT"
       ],
+      "disabled": true,
       "name": "Rich text",
       "settings": {
         "full_width": true,
@@ -150,6 +151,7 @@
     },
     "custom_liquid_krKgqT": {
       "type": "custom-liquid",
+      "disabled": true,
       "name": "Custom Liquid",
       "settings": {
         "full_width": true,
@@ -271,6 +273,7 @@
       "block_order": [
         "richtext_7afrWK"
       ],
+      "disabled": true,
       "name": "Image with text overlay",
       "settings": {
         "full_width": true,
@@ -330,6 +333,7 @@
         },
         "item_hYNNEd": {
           "type": "item",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Design_sans_titre_27.jpg",
             "column_size": "3",
@@ -343,6 +347,7 @@
         },
         "item_DcXhLr": {
           "type": "item",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/61YA4ItnYHL._SY800.webp",
             "column_size": "3",
@@ -356,6 +361,7 @@
         },
         "item_M4XkwA": {
           "type": "item",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Xionora_44.jpg",
             "column_size": "3",
@@ -369,6 +375,7 @@
         },
         "item_N7b3cR": {
           "type": "item",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Xionora_45_adafd883-9566-4261-900b-4382214a61d1.jpg",
             "column_size": "3",
@@ -474,6 +481,7 @@
         },
         "liquid_JBTPV9": {
           "type": "liquid",
+          "disabled": true,
           "settings": {
             "liquid": "<div class=\"quality-section\">\n  <h2 class=\"quality-title\">\n   \n  </h2>\n\n  <div class=\"quality-container\">\n\n    <div class=\"quality-block\">\n      <div class=\"quality-icon\">\n        <img src=\"https://cdn-icons-png.flaticon.com/512/847/847969.png\" alt=\"Pour tous\">\n      </div>\n      <h3>Pour tous</h3>\n      <p>Hommes & femmes</p>\n    </div>\n\n    <div class=\"quality-block\">\n      <div class=\"quality-icon\">\n        <img src=\"https://cdn-icons-png.flaticon.com/512/2910/2910768.png\" alt=\"Ultra facile\">\n      </div>\n      <h3>Ultra facile</h3>\n      <p>1 à 2 gélules par jour</p>\n    </div>\n\n    <div class=\"quality-block\">\n      <div class=\"quality-icon\">\n        <img src=\"https://cdn-icons-png.flaticon.com/512/847/847969.png\" alt=\"Agit vite\">\n      </div>\n      <h3>Agit vite</h3>\n      <p>Dès les 1res prises</p>\n    </div>\n\n  </div>\n</div>"
           }
@@ -887,6 +895,7 @@
         "heading_hkJywG",
         "richtext_AjUJmg"
       ],
+      "disabled": true,
       "name": "Rich text",
       "settings": {
         "full_width": true,
@@ -947,6 +956,7 @@
         "image_Hdaek7",
         "image_Gi4Tx9"
       ],
+      "disabled": true,
       "name": "Slideshow",
       "settings": {
         "full_width": false,
