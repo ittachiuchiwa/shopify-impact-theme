@@ -21,6 +21,13 @@
             "url": ""
           }
         },
+        "message_je6MnE": {
+          "type": "message",
+          "settings": {
+            "text": "Announce something here",
+            "url": ""
+          }
+        },
         "message_AMzctQ": {
           "type": "message",
           "settings": {
@@ -45,6 +52,7 @@
       },
       "block_order": [
         "message",
+        "message_je6MnE",
         "message_AMzctQ",
         "message_niV38B",
         "message_C9by3D"
@@ -54,7 +62,7 @@
         "text_size": "text-xs",
         "navigation_mode": "scrolling",
         "scrolling_speed": 10,
-        "background": "#00a341",
+        "background": "#0ab34c",
         "background_gradient": "",
         "text_color": "#ffffff"
       }
