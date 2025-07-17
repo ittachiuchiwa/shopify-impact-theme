@@ -536,7 +536,7 @@
         "liquid_mzrGJy": {
           "type": "liquid",
           "settings": {
-            "liquid": "<style>\n.stock-alert {\n  background: #ffe5e5;\n  color: #b40000;\n  padding: 3px 10px;\n  border-radius: 20px;\n  font-size: 0.75rem;\n  font-weight: 600;\n  display: inline-flex;\n  align-items: center;\n  gap: 5px;\n}\n\n.stock-dot {\n  width: 5px;\n  height: 5px;\n  background: #b40000;\n  border-radius: 50%;\n  animation: blink 1s infinite;\n}\n\n@keyframes blink {\n  0%, 100% { opacity: 1; }\n  50% { opacity: 0.3; }\n}\n</style>\n\n<div style=\"text-align: left; margin: 15px 0;\">\n  <div class=\"stock-alert\">\n    <div class=\"stock-dot\"></div>\n    Plus que 4 restant avant rupture de stock\n  </div>\n</div>"
+            "liquid": "<style>\n.stock-alert {\n  background: #ffe5e5;\n  color: #b40000;\n  padding: 3px 10px;\n  border-radius: 20px;\n  font-size: 0.75rem;\n  font-weight: 600;\n  display: inline-flex;\n  align-items: center;\n  gap: 5px;\n}\n\n.stock-dot {\n  width: 5px;\n  height: 5px;\n  background: #b40000;\n  border-radius: 50%;\n  animation: blink 1s infinite;\n}\n\n@keyframes blink {\n  0%, 100% { opacity: 1; }\n  50% { opacity: 0.3; }\n}\n</style>\n\n<div style=\"text-align: left; margin: 15px 0;\">\n  <div class=\"stock-alert\">\n    <div class=\"stock-dot\"></div>\n    2 restant avant rupture de stock\n  </div>\n</div>"
           }
         },
         "liquid_GUrkRK": {
@@ -566,7 +566,7 @@
         "image_7Bb7Gx": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Design_sans_titre_35.jpg",
+            "image": "shopify://shop_images/Sans_titre_600_x_300_px_1000_x_500_px_2000_x_500_px_3000_x_500_px.jpg",
             "alignment": "start",
             "max_width": 470
           }
