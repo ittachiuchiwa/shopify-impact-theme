@@ -757,6 +757,7 @@
     },
     "custom_liquid_9XVWRc": {
       "type": "custom-liquid",
+      "disabled": true,
       "name": "Custom Liquid",
       "settings": {
         "full_width": true,
@@ -846,6 +847,7 @@
         "testimonial_hFWBCb",
         "testimonial_dgPKMP"
       ],
+      "disabled": true,
       "name": "Testimonials",
       "settings": {
         "full_width": false,
