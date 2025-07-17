@@ -1060,6 +1060,7 @@
         "heading_iTwjdG",
         "richtext_qkTXV4"
       ],
+      "disabled": true,
       "name": "Rich text",
       "settings": {
         "full_width": true,
@@ -1098,7 +1099,7 @@
           "type": "item",
           "settings": {
             "title": "2. Quand est-ce que je vais commencer à voir mon ventre dégonfler ?",
-            "content": "<p>Les premiers résultats sont souvent spectaculaires :</p><p><strong>3-7 jours</strong> : Diminution des gaz et ballonnements</p><p><strong>10-15 jours</strong> : Ventre visiblement plus plat, surtout le matin</p><p><strong>30 jours</strong> : Digestion normalisée, plus de \"ventre de femme enceinte\" après les repas</p><p><strong>90 jours</strong> : Rééquilibrage complet, énergie retrouvée</p><p>⚠️ <strong>Important</strong> : Chaque corps est unique. Certaines personnes voient des résultats dès 48h, d'autres ont besoin de 2-3 semaines. Plus le déséquilibre est ancien, plus il faut être patiente.</p>"
+            "content": "<p><strong>3-7 jours</strong> : Diminution des gaz et ballonnements</p><p><strong>10-15 jours</strong> : Ventre visiblement plus plat, surtout le matin</p><p><strong>30 jours</strong> : Digestion normalisée, plus de \"ventre de femme enceinte\" après les repas</p><p></p>"
           }
         },
         "166442457738b23caf-2": {
@@ -1117,6 +1118,7 @@
         },
         "item_eKWaKJ": {
           "type": "item",
+          "disabled": true,
           "settings": {
             "title": "5. Pourquoi choisir Xionora plutôt qu'un autre complément ?",
             "content": "<p>Parce qu’ici, il ne s’agit pas de vous vendre une pilule miracle. <strong>Amaora, c’est un concentré d’actifs puissants, formulé avec des ingrédients de qualité supérieure.</strong> Là où beaucoup de produits bas de gamme diluent leurs principes actifs pour réduire les coûts, nous faisons exactement l’inverse : nous privilégions la pureté, la concentration et l’efficacité.<br/><br/></p>"
@@ -1124,6 +1126,7 @@
         },
         "item_gqWgnQ": {
           "type": "item",
+          "disabled": true,
           "settings": {
             "title": "6. Et si je ne suis pas satisfait(e)?",
             "content": "<p>Testez Xionora pendant <strong>30 jours en toute confiance</strong>. Si vous n’êtes pas pleinement satisfait, nous vous remboursons intégralement, sans poser de questions. C’est notre engagement qualité : vous permettre d’essayer sereinement, avec la garantie d’être remboursé si le produit ne répond pas à vos attentes.<br/><br/></p>"
@@ -1131,6 +1134,7 @@
         },
         "item_X9qMtC": {
           "type": "item",
+          "disabled": true,
           "settings": {
             "title": "7. Comment le prendre ?",
             "content": "<p>👉 <strong>Mode d’emploi simplifié :</strong> </p><p>prenez <strong>1 à 2 capsules par jour</strong> avec un grand verre d’eau. Sans aucune contrainte, Xionora s’intègre facilement à votre routine quotidienne, que ce soit le matin ou le soir, selon vos préférences.<br/><br/></p>"
@@ -1138,6 +1142,7 @@
         },
         "item_zTcXAf": {
           "type": "item",
+          "disabled": true,
           "settings": {
             "title": "8. Est-ce que je peux le prendre avec mes autres compléments ou médicaments ?",
             "content": "<p>Oui, dans la grande majorité des cas. Amaora est un produit d’origine naturelle, bien toléré. Toutefois, si vous suivez un traitement médical spécifique ou présentez une condition particulière, il est toujours préférable de demander l’avis de votre médecin ou pharmacien. Une simple mesure de précaution, par bon sens.<br/><br/></p>"
@@ -1145,6 +1150,7 @@
         },
         "item_FqbN39": {
           "type": "item",
+          "disabled": true,
           "settings": {
             "title": "9. Certifications & Garanties",
             "content": "<h3><strong>Qu'est-ce que la certification HACCP ?</strong></h3><p>La certification HACCP (Hazard Analysis Critical Control Point) est une norme internationale de sécurité alimentaire. Elle garantit que notre processus de fabrication identifie et maîtrise tous les risques potentiels. Concrètement, cela signifie que chaque étape de production d'OregaPlus est surveillée et contrôlée pour assurer votre sécurité.</p><h3><strong>Qu'est-ce que la certification GMP ?</strong></h3><p>GMP (Good Manufacturing Practices - Bonnes Pratiques de Fabrication) est le standard de qualité de l'industrie pharmaceutique. Cette certification garantit que nos produits sont fabriqués selon les mêmes normes strictes que les médicaments : pureté des ingrédients, traçabilité complète, environnement de production stérile et contrôles qualité rigoureux.</p>"
@@ -1152,6 +1158,7 @@
         },
         "item_8gnaRh": {
           "type": "item",
+          "disabled": true,
           "settings": {
             "title": "10. J'ai la maladie de Crohn/RCH/SII, puis-je le prendre ?",
             "content": "<p>Nos clientes souffrant de troubles digestifs chroniques observent souvent <strong>d’excellents résultats</strong>.<br/><br/>✨ L’action anti-inflammatoire de l’origan aide à <strong>apaiser les symptômes intestinaux</strong> et à améliorer le confort digestif.</p><p>👉 Pour démarrer, allez-y <strong>progressivement</strong> : commencez par <strong>1 gélule par jour</strong> et surveillez comment votre corps réagit durant les premiers jours.</p><p>🩺 Par précaution, informez toujours votre <strong>gastro-entérologue</strong> avant de commencer.<br/><br/>📌 À noter : certaines clientes atteintes de <strong>Crohn en poussée</strong> préfèrent attendre avant d’introduire le produit.</p>"
@@ -1159,6 +1166,7 @@
         },
         "item_twRztE": {
           "type": "item",
+          "disabled": true,
           "settings": {
             "title": "11. Pourquoi ces certifications sont-elles importante pour moi ?",
             "content": "<p>Ces certifications vous garantissent :</p><p>✅ <strong>Sécurité maximale</strong> : Aucun risque de contamination</p><p>✅ <strong>Pureté garantie</strong> : Exactement ce qui est indiqué sur l'étiquette</p><p>✅ <strong>Traçabilité complète</strong> : Chaque lot est contrôlé et documenté</p><p>✅ <strong>Efficacité optimale</strong> : Les principes actifs sont préservés</p><p>✅ <strong>Conformité légale</strong> : Respect de toutes les réglementations</p>"
@@ -1166,6 +1174,7 @@
         },
         "item_PPUirY": {
           "type": "item",
+          "disabled": true,
           "settings": {
             "title": "12. Est-ce que tous les compléments alimentaire ont ces certifications ?",
             "content": "<p>Non, et c’est justement ce qui nous différencie !</p><p>💎 Beaucoup de compléments vendus en ligne n’ont <strong>aucune certification</strong>.<br/><br/>👉 Les certifications <strong>HACCP</strong> et <strong>GMP</strong> sont pourtant <strong>exigeantes et coûteuses</strong> : seules les marques réellement sérieuses investissent dans ces garanties qualité.</p><p>C’est ce qui fait toute la différence entre un produit ordinaire et un produit digne de confiance.</p>"
@@ -1173,6 +1182,7 @@
         },
         "item_HpC8ty": {
           "type": "item",
+          "disabled": true,
           "settings": {
             "title": "13. Existe-t-il d'autres garantie sur la qualité ?",
             "content": "<p>Oui ! En plus des certifications HACCP et GMP :</p><p>🌿 Ingrédients 100% naturels et traçables</p><p>🔬 Tests de pureté en laboratoire indépendant</p><p>📦 Emballage protecteur qui préserve les principes actifs</p><p>💚 Garantie satisfait ou remboursé 30 jours</p><p>🇪🇺 Conforme à la réglementation européenne</p>"
