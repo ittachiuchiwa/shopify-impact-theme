@@ -119,8 +119,8 @@
         "heading_PNjenG": {
           "type": "heading",
           "settings": {
-            "text": "Vu sur",
-            "heading_tag": "h6",
+            "text": "VU SUR",
+            "heading_tag": "h5",
             "text_color": "",
             "gradient": ""
           }
