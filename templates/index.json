@@ -120,7 +120,7 @@
           "type": "heading",
           "settings": {
             "text": "VU SUR",
-            "heading_tag": "h5",
+            "heading_tag": "h6",
             "text_color": "",
             "gradient": ""
           }
