@@ -39,12 +39,12 @@
       ],
       "name": "Image with text overlay",
       "settings": {
-        "full_width": false,
+        "full_width": true,
         "allow_transparent_header": false,
         "enable_parallax": false,
         "image_size": "auto",
         "image": "shopify://shop_images/VENTRE_GONFLE_DIGESTION_LENTE_INCONFORT_APRES_CHAQUE_REPAS_1.jpg",
-        "mobile_image": "shopify://shop_images/Design_sans_titre_36.jpg",
+        "mobile_image": "shopify://shop_images/Votre_texte_de_paragraphe_7.jpg",
         "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-center sm:text-center",
         "text_color": "#ffffff",
@@ -504,12 +504,6 @@
             "collapse_content": false
           }
         },
-        "kaching_bundles_app_block_NnXQxT": {
-          "type": "shopify://apps/kaching-bundles/blocks/app-block/6c637362-a106-4a32-94ac-94dcfd68cdb8",
-          "settings": {
-            "product": "{{section.settings.product}}"
-          }
-        },
         "image_7cUgwC": {
           "type": "image",
           "disabled": true,
@@ -682,7 +676,6 @@
         "rating_MameFC",
         "separator_dVzUBY",
         "description_wXhaQq",
-        "kaching_bundles_app_block_NnXQxT",
         "image_7cUgwC",
         "countdown_timer_essential_app_block_mhY6aR",
         "liquid_PA69WL",
@@ -1248,23 +1241,6 @@
     },
     "1752338483f297c75b": {
       "type": "apps",
-      "blocks": {
-        "loox_reviews_loox_agg_section_UgBFHF": {
-          "type": "shopify://apps/loox-reviews/blocks/loox-agg-section/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
-          "settings": {
-            "only_photos": false,
-            "hide_thumbnails": true,
-            "product_handle": "",
-            "aggregated": true,
-            "data-limit": 4,
-            "maxwidth": 1080,
-            "is_sample": true
-          }
-        }
-      },
-      "block_order": [
-        "loox_reviews_loox_agg_section_UgBFHF"
-      ],
       "disabled": true,
       "settings": {
         "full_width": true,
