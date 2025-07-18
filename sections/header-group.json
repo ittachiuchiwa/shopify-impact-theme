@@ -21,20 +21,6 @@
             "url": ""
           }
         },
-        "message_je6MnE": {
-          "type": "message",
-          "settings": {
-            "text": "Announce something here",
-            "url": ""
-          }
-        },
-        "message_AMzctQ": {
-          "type": "message",
-          "settings": {
-            "text": "STOCK BIENTÖT ÉPUISÉS",
-            "url": ""
-          }
-        },
         "message_niV38B": {
           "type": "message",
           "settings": {
@@ -52,8 +38,6 @@
       },
       "block_order": [
         "message",
-        "message_je6MnE",
-        "message_AMzctQ",
         "message_niV38B",
         "message_C9by3D"
       ],
