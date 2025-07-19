@@ -124,30 +124,20 @@
       "blocks": {
         "subheading_wmpE8a": {
           "type": "subheading",
+          "disabled": true,
           "settings": {
             "text": ""
           }
         },
-        "heading_PNjenG": {
-          "type": "heading",
-          "settings": {
-            "text": "VU SUR",
-            "heading_tag": "h6",
-            "text_color": "",
-            "gradient": ""
-          }
-        },
         "richtext_RJaPQT": {
           "type": "richtext",
-          "disabled": true,
           "settings": {
-            "content": ""
+            "content": "<h6>VU SUR</h6>"
           }
         }
       },
       "block_order": [
         "subheading_wmpE8a",
-        "heading_PNjenG",
         "richtext_RJaPQT"
       ],
       "name": "Rich text",
