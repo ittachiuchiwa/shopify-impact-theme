@@ -14,6 +14,7 @@
       "blocks": {
         "button_mxtQLd": {
           "type": "button",
+          "disabled": true,
           "settings": {
             "style": "fill",
             "size": "sm",
@@ -181,26 +182,15 @@
             "text": ""
           }
         },
-        "heading_ANrQHC": {
-          "type": "heading",
-          "settings": {
-            "text": "Dites adieu au ventre gonflé avec OregaZen",
-            "heading_tag": "h6",
-            "text_color": "",
-            "gradient": ""
-          }
-        },
         "richtext_NEFgDY": {
           "type": "richtext",
-          "disabled": true,
           "settings": {
-            "content": ""
+            "content": "<h4><br/><strong>Ce que vous gagnez concrètement en utilisant OregaZen<br/></strong><br/></h4>"
           }
         }
       },
       "block_order": [
         "subheading_MxWbFb",
-        "heading_ANrQHC",
         "richtext_NEFgDY"
       ],
       "name": "Rich text",
