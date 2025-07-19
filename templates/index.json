@@ -12,6 +12,17 @@
     "image_with_text_overlay_C89KzF": {
       "type": "image-with-text-overlay",
       "blocks": {
+        "button_mxtQLd": {
+          "type": "button",
+          "settings": {
+            "style": "fill",
+            "size": "sm",
+            "text": "Achetez maintenant",
+            "url": "",
+            "background": "#1a1a1a",
+            "text_color": ""
+          }
+        },
         "subheading_BkzQBQ": {
           "type": "subheading",
           "settings": {
@@ -33,6 +44,7 @@
         }
       },
       "block_order": [
+        "button_mxtQLd",
         "subheading_BkzQBQ",
         "heading_qqcG3q",
         "richtext_qyjDRj"
@@ -111,7 +123,6 @@
       "blocks": {
         "subheading_wmpE8a": {
           "type": "subheading",
-          "disabled": true,
           "settings": {
             "text": ""
           }
