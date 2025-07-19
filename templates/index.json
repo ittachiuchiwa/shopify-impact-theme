@@ -148,14 +148,14 @@
         "text_color": ""
       }
     },
-    "custom_liquid_krKgqT": {
+    "custom_liquid_7Q4VBx": {
       "type": "custom-liquid",
       "name": "Custom Liquid",
       "settings": {
         "full_width": true,
         "remove_vertical_spacing": false,
         "remove_horizontal_spacing": false,
-        "liquid": "<style>\n  .press-marquee-container {\n    overflow: hidden;\n    width: 100%;\n    background: transparent;\n  }\n\n  .press-marquee-track {\n    display: flex;\n    align-items: center;\n    width: max-content;\n    animation: scroll-left 25s linear infinite;\n    gap: 60px;\n  }\n\n  .press-marquee-track img {\n    height: 40px;\n    object-fit: contain;\n    flex-shrink: 0;\n    white-space: nowrap;\n  }\n\n  @keyframes scroll-left {\n    from {\n      transform: translateX(0%);\n    }\n    to {\n      transform: translateX(-50%);\n    }\n  }\n\n  @media (max-width: 768px) {\n    .press-marquee-track {\n      gap: 40px;\n    }\n    .press-marquee-track img {\n      height: 28px;\n    }\n  }\n</style>\n\n<div class=\"press-marquee-container\">\n  <div class=\"press-marquee-track\">\n    <!-- logos x2 for infinite scroll -->\n    {% assign logos = \"\n      https://cdn.shopify.com/s/files/1/0920/2034/3158/files/1200px-VOGUE_revista_-_logo_3b923b11-a209-4aa1-9960-1abf9295591b.png?v=1747423562,\n      https://cdn.shopify.com/s/files/1/0920/2034/3158/files/Cosmopolitan-Logo.png?v=1747423365,\n      https://cdn.shopify.com/s/files/1/0920/2034/3158/files/ELLE_Magazine_Logo.png?v=1747423364,\n      https://cdn.shopify.com/s/files/1/0920/2034/3158/files/2560px-Marie_Claire_Magazine_logo.png?v=1747423365\n    \" | split: \",\" %}\n\n    {% for logo in logos %}\n      <img src=\"{{ logo | strip }}\" alt=\"Logo presse\">\n    {% endfor %}\n    {% for logo in logos %}\n      <img src=\"{{ logo | strip }}\" alt=\"Logo presse (bis)\">\n    {% endfor %}\n  </div>\n</div>",
+        "liquid": "<style>\n  .press-marquee-container {\n    width: 100%;\n    overflow: hidden;\n    background: #4a763f;\n    padding: 20px 0;\n    position: relative;\n  }\n\n  .press-marquee-viewport {\n    width: 100%;\n    overflow: hidden;\n  }\n\n  .press-marquee-track {\n    display: flex;\n    animation: scroll-left 15s linear infinite;\n    gap: 60px;\n    width: fit-content;\n  }\n\n  .press-marquee-track img {\n    height: 40px;\n    object-fit: contain;\n    flex-shrink: 0;\n    filter: brightness(0) invert(1); /* logos blancs */\n    white-space: nowrap;\n  }\n\n  @keyframes scroll-left {\n    0% {\n      transform: translateX(0%);\n    }\n    100% {\n      transform: translateX(-50%);\n    }\n  }\n\n  @media (max-width: 768px) {\n    .press-marquee-track {\n      gap: 40px;\n    }\n    .press-marquee-track img {\n      height: 28px;\n    }\n  }\n</style>\n\n<div class=\"press-marquee-container\">\n  <div class=\"press-marquee-viewport\">\n    <div class=\"press-marquee-track\">\n      {% assign logos = \"\n        https://cdn.shopify.com/s/files/1/0920/2034/3158/files/1200px-VOGUE_revista_-_logo_3b923b11-a209-4aa1-9960-1abf9295591b.png?v=1747423562,\n        https://cdn.shopify.com/s/files/1/0920/2034/3158/files/ELLE_Magazine_Logo.png?v=1747423364,\n        https://cdn.shopify.com/s/files/1/0920/2034/3158/files/2560px-Marie_Claire_Magazine_logo.png?v=1747423365\n      \" | split: \",\" %}\n\n      {% for logo in logos %}\n        <img src=\"{{ logo | strip }}\" alt=\"Logo presse\">\n      {% endfor %}\n      {% for logo in logos %}\n        <img src=\"{{ logo | strip }}\" alt=\"Logo presse (bis)\">\n      {% endfor %}\n    </div>\n  </div>\n</div>",
         "background": "",
         "background_gradient": "",
         "text_color": ""
@@ -1204,7 +1204,7 @@
     "slideshow",
     "custom_liquid_eUVjTR",
     "rich_text_6irJgH",
-    "custom_liquid_krKgqT",
+    "custom_liquid_7Q4VBx",
     "rich_text_UXzW84",
     "image_with_text_overlay_wWWrPw",
     "custom_liquid_UPb9Ly",
