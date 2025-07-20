@@ -257,7 +257,7 @@
             "column_size": "3",
             "title": "- Christelle R. 45 ans",
             "heading_tag": "h4",
-            "content": "<p>Pendant des années, j’ai vécu avec cette boule au ventre. C’était gênant, douloureux, parfois même honteux. <strong>Aujourd’hui, je respire enfin. Mon ventre est paisible.</strong> Je n’y pense plus, et pour moi, c’est ça le vrai luxe. <strong>Je me sens libre.</strong></p>",
+            "content": "<p>Pendant longtemps, j’ai vécu avec cette gêne constante au ventre. C’était pesant, parfois douloureux, souvent embarrassant. Aujourd’hui,<strong> tout a changé</strong>. Mon ventre est <strong>enfin apaisé</strong>. Je n’y pense plus. Et pour moi, c’est ça, le vrai luxe : <strong>me sentir légère et libre.<br/></strong><br/></p>",
             "link_url": "",
             "link_text": "",
             "link_style": "link"
@@ -266,7 +266,7 @@
         "item_hYNNEd": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/Design_sans_titre_27.jpg",
+            "image": "shopify://shop_images/Xionora_49.jpg",
             "column_size": "3",
             "title": "- Céline E. 57 ans",
             "heading_tag": "h4",
@@ -278,7 +278,6 @@
         },
         "item_DcXhLr": {
           "type": "item",
-          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/61YA4ItnYHL._SY800.webp",
             "column_size": "3",
@@ -305,7 +304,6 @@
         },
         "item_N7b3cR": {
           "type": "item",
-          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Xionora_45_adafd883-9566-4261-900b-4382214a61d1.jpg",
             "column_size": "3",
