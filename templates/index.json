@@ -240,11 +240,11 @@
         "item_nCjt8P": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/Xionora_45.jpg",
-            "column_size": "3",
-            "title": "- Joêlle L.  51 ans",
+            "image": "shopify://shop_images/32461836125716183612571.png",
+            "column_size": "1.5",
+            "title": "- Claire L.  37 ans",
             "heading_tag": "h4",
-            "content": "<p>Après la ménopause, mon ventre était toujours gonflé.<strong> Avec cette cure, il s’est aplati,</strong> ma digestion s’est relancée. Je revis enfin, sans me battre contre mon corps.<br/><br/></p>",
+            "content": "<p>Cela m'a <strong>soulagé de mes sinusites récurrentes </strong>et m'a même permis de résoudre certains <strong>problèmes de peau. </strong>C'est un produit indispensable.<br/><br/></p>",
             "link_url": "",
             "link_text": "",
             "link_style": "link"
@@ -265,7 +265,6 @@
         },
         "item_hYNNEd": {
           "type": "item",
-          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Design_sans_titre_27.jpg",
             "column_size": "3",
@@ -293,9 +292,8 @@
         },
         "item_M4XkwA": {
           "type": "item",
-          "disabled": true,
           "settings": {
-            "image": "shopify://shop_images/Xionora_44.jpg",
+            "image": "shopify://shop_images/85579046125717904612571.jpg",
             "column_size": "3",
             "title": "- Laura F. 42 ans",
             "heading_tag": "h4",
