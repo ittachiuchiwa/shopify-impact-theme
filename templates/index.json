@@ -237,14 +237,27 @@
     "multi_column_jwNAQX": {
       "type": "multi-column",
       "blocks": {
-        "item_nCjt8P": {
+        "item_M4XkwA": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/32461836125716183612571.png",
-            "column_size": "1.5",
-            "title": "- Claire L.  37 ans",
+            "image": "shopify://shop_images/85579046125717904612571.jpg",
+            "column_size": "3",
+            "title": "- Laura F. 42 ans",
             "heading_tag": "h4",
-            "content": "<p>Cela m'a <strong>soulagé de mes sinusites récurrentes </strong>et m'a même permis de résoudre certains <strong>problèmes de peau. </strong>C'est un produit indispensable.<br/><br/></p>",
+            "content": "<p>Franchement, j’étais sceptique, comme toujours face aux remèdes naturels. Et pourtant… dès la première semaine, <strong>j’ai ressenti une vraie différence</strong>. Maintenant, je me sens plus stable, plus solide, tout simplement mieux.<br/><br/></p>",
+            "link_url": "",
+            "link_text": "",
+            "link_style": "link"
+          }
+        },
+        "item_hYNNEd": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/Xionora_49.jpg",
+            "column_size": "3",
+            "title": "- Céline E. 42 ans",
+            "heading_tag": "h4",
+            "content": "<p>Mon ventre était constamment gonflé, même sans rien avoir mangé. J’ai tout essayé, sans résultat. Depuis que je fais cette cure, <strong>je me sens tellement plus légère, enfin normale.</strong> Plus de gêne, plus de tensions… <strong>j’ai retrouvé le vrai confort digestif.</strong> C’est une libération. <br/><br/></p>",
             "link_url": "",
             "link_text": "",
             "link_style": "link"
@@ -263,14 +276,14 @@
             "link_style": "link"
           }
         },
-        "item_hYNNEd": {
+        "item_nCjt8P": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/Xionora_49.jpg",
-            "column_size": "3",
-            "title": "- Céline E. 57 ans",
+            "image": "shopify://shop_images/32461836125716183612571.png",
+            "column_size": "1.5",
+            "title": "- Claire L.  37 ans",
             "heading_tag": "h4",
-            "content": "<p>Mon ventre était constamment gonflé, même sans rien avoir mangé. J’ai tout essayé, sans résultat. Depuis que je fais cette cure, <strong>je me sens tellement plus légère, enfin normale.</strong> Plus de gêne, plus de tensions… <strong>j’ai retrouvé le vrai confort digestif.</strong> C’est une libération. <br/><br/></p>",
+            "content": "<p>Cela m'a <strong>soulagé de mes sinusites récurrentes </strong>et m'a même permis de résoudre certains <strong>problèmes de peau. </strong>C'est un produit indispensable.<br/><br/></p>",
             "link_url": "",
             "link_text": "",
             "link_style": "link"
@@ -284,19 +297,6 @@
             "title": "- Chantal T. 56 ans",
             "heading_tag": "h4",
             "content": "<p>Depuis la ménopause, j’avais l’impression d’avoir constamment un ballon à la place du ventre. Rien n’y faisait. <strong>Grâce à cette cure, mon ventre s’est enfin apaisé, ma digestion a repris son rythme.</strong> Je me sens de nouveau moi-même, sans avoir à lutter contre mon corps.<br/><br/></p>",
-            "link_url": "",
-            "link_text": "",
-            "link_style": "link"
-          }
-        },
-        "item_M4XkwA": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/85579046125717904612571.jpg",
-            "column_size": "3",
-            "title": "- Laura F. 42 ans",
-            "heading_tag": "h4",
-            "content": "<p>Franchement, j’étais sceptique, comme toujours face aux remèdes naturels. Et pourtant… dès la première semaine, <strong>j’ai ressenti une vraie différence</strong>. Maintenant, je me sens plus stable, plus solide, tout simplement mieux.<br/><br/></p>",
             "link_url": "",
             "link_text": "",
             "link_style": "link"
@@ -317,11 +317,11 @@
         }
       },
       "block_order": [
-        "item_nCjt8P",
-        "item_EgKiWh",
-        "item_hYNNEd",
-        "item_DcXhLr",
         "item_M4XkwA",
+        "item_hYNNEd",
+        "item_EgKiWh",
+        "item_nCjt8P",
+        "item_DcXhLr",
         "item_N7b3cR"
       ],
       "name": "Multi-column",
