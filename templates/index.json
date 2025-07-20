@@ -206,15 +206,14 @@
       "block_order": [
         "richtext_7afrWK"
       ],
-      "disabled": true,
       "name": "Image with text overlay",
       "settings": {
-        "full_width": true,
-        "allow_transparent_header": true,
+        "full_width": false,
+        "allow_transparent_header": false,
         "enable_parallax": false,
         "image_size": "auto",
-        "image": "shopify://shop_images/ChatGPT_Image_Jul_17_2025_02_22_55_PM.png",
-        "mobile_image": "shopify://shop_images/ChatGPT_Image_Jul_17_2025_02_22_55_PM.png",
+        "image": "shopify://shop_images/Votre_texte_de_paragraphe_12_b722b3b2-d375-4827-ad25-ded8a40ea165.jpg",
+        "mobile_image": "shopify://shop_images/Votre_texte_de_paragraphe_12.jpg",
         "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-center sm:text-center",
         "text_color": "#ffffff",
