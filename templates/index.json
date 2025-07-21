@@ -400,6 +400,7 @@
         },
         "liquid_bzLfbr": {
           "type": "liquid",
+          "disabled": true,
           "settings": {
             "liquid": ""
           }
