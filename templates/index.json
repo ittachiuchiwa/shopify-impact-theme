@@ -377,6 +377,12 @@
             "liquid": "<style>\n.stock-alert {\n  background: #ffe5e5;\n  color: #b40000;\n  padding: 3px 10px;\n  border-radius: 20px;\n  font-size: 0.75rem;\n  font-weight: 600;\n  display: inline-flex;\n  align-items: center;\n  gap: 5px;\n}\n\n.stock-dot {\n  width: 5px;\n  height: 5px;\n  background: #b40000;\n  border-radius: 50%;\n  animation: blink 1s infinite;\n}\n\n@keyframes blink {\n  0%, 100% { opacity: 1; }\n  50% { opacity: 0.3; }\n}\n</style>\n\n<div style=\"text-align: left; margin: 15px 0;\">\n  <div class=\"stock-alert\">\n    <div class=\"stock-dot\"></div>\n    Stock presque épuisé : 4 restants seulement\n\n\n  </div>\n</div>"
           }
         },
+        "liquid_GUrkRK": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<style>\n.badge-container {\n  display: flex;\n  align-items: center;\n  gap: 8px;\n  margin: 15px 0;\n  flex-wrap: wrap;\n}\n\n.badge {\n  display: inline-flex;\n  align-items: center;\n  gap: 6px;\n  font-size: 0.8rem;\n  font-weight: 700;\n  padding: 4px 10px;\n  border-radius: 16px;\n}\n\n.badge.green {\n  background: #d9f5d9;\n  color: #006400;\n}\n\n.badge.red {\n  background: #ffe5e5;\n  color: #b40000;\n}\n\n.badge img {\n  width: 14px;\n  height: 14px;\n}\n</style>\n\n<div class=\"badge-container\">\n  <div class=\"badge green\">\n    <img src=\"https://cdn-icons-png.flaticon.com/512/3064/3064197.png\" alt=\"Satisfait ou remboursé\">\n    Livraison Gratuite\n  </div>"
+          }
+        },
         "title_z3tRVg": {
           "type": "title",
           "settings": {
@@ -492,12 +498,6 @@
             "max_width": 380
           }
         },
-        "liquid_GUrkRK": {
-          "type": "liquid",
-          "settings": {
-            "liquid": "<style>\n.badge-container {\n  display: flex;\n  align-items: center;\n  gap: 8px;\n  margin: 15px 0;\n  flex-wrap: wrap;\n}\n\n.badge {\n  display: inline-flex;\n  align-items: center;\n  gap: 6px;\n  font-size: 0.8rem;\n  font-weight: 700;\n  padding: 4px 10px;\n  border-radius: 16px;\n}\n\n.badge.green {\n  background: #d9f5d9;\n  color: #006400;\n}\n\n.badge.red {\n  background: #ffe5e5;\n  color: #b40000;\n}\n\n.badge img {\n  width: 14px;\n  height: 14px;\n}\n</style>\n\n<div class=\"badge-container\">\n  <div class=\"badge green\">\n    <img src=\"https://cdn-icons-png.flaticon.com/512/3064/3064197.png\" alt=\"Satisfait ou remboursé\">\n    Livraison Gratuite\n  </div>"
-          }
-        },
         "liquid_ne6gew": {
           "type": "liquid",
           "disabled": true,
@@ -599,6 +599,7 @@
         "liquid_tJVytd",
         "liquid_Wt9J8i",
         "liquid_mzrGJy",
+        "liquid_GUrkRK",
         "title_z3tRVg",
         "price_8W4V43",
         "image_jB9AfK",
@@ -616,7 +617,6 @@
         "quantity_selector_QDfzPy",
         "buy_buttons_zjXiAE",
         "image_7aiC8G",
-        "liquid_GUrkRK",
         "liquid_ne6gew",
         "image_7Bb7Gx",
         "liquid_aeB34r",
