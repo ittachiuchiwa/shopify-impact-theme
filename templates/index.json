@@ -484,6 +484,14 @@
             "payment_button_text_color": "#f0c417"
           }
         },
+        "image_7aiC8G": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Design_sans_titre_38.webp",
+            "alignment": "center",
+            "max_width": 380
+          }
+        },
         "liquid_GUrkRK": {
           "type": "liquid",
           "disabled": true,
@@ -608,6 +616,7 @@
         "variant_picker_dKt3Ay",
         "quantity_selector_QDfzPy",
         "buy_buttons_zjXiAE",
+        "image_7aiC8G",
         "liquid_GUrkRK",
         "liquid_ne6gew",
         "image_7Bb7Gx",
