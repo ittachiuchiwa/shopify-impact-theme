@@ -490,6 +490,14 @@
             "payment_button_text_color": "#f0c417"
           }
         },
+        "image_QkPLJy": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Dr_Gaetan_O..jpg",
+            "alignment": "start",
+            "max_width": 500
+          }
+        },
         "liquid_V7TKFP": {
           "type": "liquid",
           "settings": {
@@ -629,6 +637,7 @@
         "variant_picker_dKt3Ay",
         "quantity_selector_QDfzPy",
         "buy_buttons_zjXiAE",
+        "image_QkPLJy",
         "liquid_V7TKFP",
         "liquid_PzBFga",
         "image_7aiC8G",
