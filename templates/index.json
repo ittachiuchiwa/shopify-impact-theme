@@ -1219,19 +1219,6 @@
         "review_button_background": "#000000",
         "review_button_text_color": "#ffffff"
       }
-    },
-    "custom_liquid_UhjKTb": {
-      "type": "custom-liquid",
-      "name": "Custom Liquid",
-      "settings": {
-        "full_width": true,
-        "remove_vertical_spacing": false,
-        "remove_horizontal_spacing": false,
-        "liquid": "<style>\n.oregazen-aida {\n  background-color: #f5fdf7;\n  border-left: 4px solid #4caf50;\n  padding: 20px;\n  border-radius: 12px;\n  font-family: sans-serif;\n  margin: 25px 0;\n}\n\n.oregazen-aida h3 {\n  color: #1b4d3e;\n  font-size: 1.2rem;\n  margin-bottom: 12px;\n}\n\n.oregazen-aida ul {\n  list-style: none;\n  padding-left: 0;\n  line-height: 1.6;\n}\n\n.oregazen-aida li::before {\n  content: \"✔\";\n  color: #4caf50;\n  font-weight: bold;\n  margin-right: 8px;\n}\n</style>\n\n<div class=\"oregazen-aida\">\n  <h3>🌿 Retrouvez enfin un équilibre naturel et durable</h3>\n  <ul>\n    <li><strong>Une cure de 3 mois</strong> pour agir en profondeur sur votre système digestif et votre vitalité.</li>\n    <li><strong>Dès les premières semaines</strong>, vous ressentez un ventre plus léger et un regain d’énergie au quotidien.</li>\n    <li><strong>Une approche douce et naturelle</strong> qui respecte votre rythme et votre corps, sans effets agressifs.</li>\n  </ul>\n</div>",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
-      }
     }
   },
   "order": [
@@ -1256,7 +1243,6 @@
     "rich_text_APUCp9",
     "custom_liquid_EzwG6y",
     "faq",
-    "1752338483f297c75b",
-    "custom_liquid_UhjKTb"
+    "1752338483f297c75b"
   ]
 }
