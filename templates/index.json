@@ -545,6 +545,13 @@
             "content": "<p>OregaZen s’adresse à toutes les personnes qui veulent renforcer naturellement leur santé, sans produits chimiques ni routines complexes.</p><p>✅ <strong>Pour les personnes souvent fatiguées ou à l’énergie basse</strong><br/><br/>→ Un soutien naturel pour retrouver vitalité et clarté mentale.</p><p>✅ <strong>Pour ceux qui souffrent de troubles digestifs</strong><br/><br/>→ Ballonnements, digestion lente, inconfort intestinal ? OregaZen aide à retrouver un ventre apaisé.</p><p>✅ <strong>Pour les personnes sujettes aux inflammations</strong><br/><br/>→ Douleurs articulaires, gênes musculaires ou inflammations chroniques : un allié naturel au quotidien.</p><p>✅ <strong>Pour les défenses immunitaires affaiblies</strong><br/><br/>→ Idéal en période hivernale ou lors de changements de saison.</p><p>✅ <strong>Pour les adeptes du naturel et du bien-être holistique</strong><br/><br/>→ Vous cherchez une alternative sans produits chimiques ? Vous êtes au bon endroit.</p><p>💡 <strong>Convient aux adultes.</strong><br/><br/>🚫 <strong>Déconseillé aux femmes enceintes ou allaitantes sans avis médical.</strong><br/><br/>⚠️ <strong>Comme pour tout complément alimentaire, demandez toujours l’avis de votre médecin avant utilisation, surtout en cas de traitement ou de condition médicale particulière.</strong></p>"
           }
         },
+        "collapsible_text_LfDV6H": {
+          "type": "collapsible_text",
+          "settings": {
+            "title": "Uilisation",
+            "content": "<p><strong>Routine simple & efficace :</strong><br/><br/>• Prenez <strong>1 à 2 gélules par jour</strong>, accompagnées d’un verre d’eau<br/><br/>• De préférence <strong>au cours d’un repas</strong> pour une meilleure assimilation</p><p>• Une <strong>prise régulière pendant 30 jours</strong> permet de poser les bases<br/><br/>• Les <strong>effets optimaux</strong> sont généralement ressentis entre <strong>6 et 8 semaines</strong><br/><br/>• Intégrez-le à votre routine bien-être comme un geste santé simple et naturel</p>"
+          }
+        },
         "collapsible_text_wzRGkd": {
           "type": "collapsible_text",
           "settings": {
@@ -617,6 +624,7 @@
         "liquid_HTYpEJ",
         "collapsible_text_Ki6GWe",
         "collapsible_text_eprhzy",
+        "collapsible_text_LfDV6H",
         "collapsible_text_wzRGkd",
         "text_HhGfqc",
         "text_UCztcD",
