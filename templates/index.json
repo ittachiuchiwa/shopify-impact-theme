@@ -541,22 +541,15 @@
         "collapsible_text_eprhzy": {
           "type": "collapsible_text",
           "settings": {
-            "title": "Comment le prendre ?",
-            "content": "<p><strong>1 à 2 gélules par jour, avec un verre d’eau, de préférence pendant un repas.</strong></p><p>Facile à intégrer à votre routine. Pas de goût fort, pas d’arrière-goût. Juste un geste simple pour un vrai bénéfice. Beaucoup ressentent déjà une différence après quelques jours.<br/></p>"
+            "title": "Pour qui ?",
+            "content": "<p>OregaZen s’adresse à toutes les personnes qui veulent renforcer naturellement leur santé, sans produits chimiques ni routines complexes.</p><p>✅ <strong>Pour les personnes souvent fatiguées ou à l’énergie basse</strong><br/><br/>→ Un soutien naturel pour retrouver vitalité et clarté mentale.</p><p>✅ <strong>Pour ceux qui souffrent de troubles digestifs</strong><br/><br/>→ Ballonnements, digestion lente, inconfort intestinal ? OregaZen aide à retrouver un ventre apaisé.</p><p>✅ <strong>Pour les personnes sujettes aux inflammations</strong><br/><br/>→ Douleurs articulaires, gênes musculaires ou inflammations chroniques : un allié naturel au quotidien.</p><p>✅ <strong>Pour les défenses immunitaires affaiblies</strong><br/><br/>→ Idéal en période hivernale ou lors de changements de saison.</p><p>✅ <strong>Pour les adeptes du naturel et du bien-être holistique</strong><br/><br/>→ Vous cherchez une alternative sans produits chimiques ? Vous êtes au bon endroit.</p><p>💡 <strong>Convient aux adultes.</strong><br/><br/>🚫 <strong>Déconseillé aux femmes enceintes ou allaitantes sans avis médical.</strong><br/><br/>⚠️ <strong>Comme pour tout complément alimentaire, demandez toujours l’avis de votre médecin avant utilisation, surtout en cas de traitement ou de condition médicale particulière.</strong></p>"
           }
         },
         "collapsible_text_wzRGkd": {
           "type": "collapsible_text",
           "settings": {
-            "title": "Ingrédients",
-            "content": "<p><strong>Des ingrédients 100 % naturels, sans additifs ni conservateurs.</strong><br/>Chaque gélule contient :</p><ul><li>Un extrait ultra-concentré d’huile d’origan (20:1), naturellement riche en <strong>carvacrol</strong> (165 mg par dose)</li><li>De l’huile de nigelle (riche en <strong>thymoquinone</strong>)</li><li>Une capsule végétale facile à digérer</li></ul><p>🌿 Sans OGM – Sans gluten – Non irritant – Testé en laboratoire</p>"
-          }
-        },
-        "collapsible_text_W3hp83": {
-          "type": "collapsible_text",
-          "settings": {
-            "title": "Livraison & retour",
-            "content": "<p>🚚 <strong>Livraison Offerte en France, Belgique et Suisse</strong></p><p>Expédié sous 24 à 48h – Retour gratuit sous 30 jours.</p>"
+            "title": "Composition",
+            "content": "<p><strong>Huile d’Origan – 6 000 mg</strong><br/><br/><em>(Origanum minutiflorum – feuille)</em><br/><br/>(Axène d9-30ma 5:20, pur extrait d’huile d’origan frais – Canzaan | nature 100mg)</p><p><strong>Huile de Nigelle – 200 mg</strong><br/><br/><em>(Contient de la thymoquinone naturelle – TQI)</em></p><p><strong>Autres ingrédients :</strong><br/><br/>Gélules (gélatine végétale, glycérine, eau purifiée)</p>"
           }
         },
         "text_HhGfqc": {
@@ -625,7 +618,6 @@
         "collapsible_text_Ki6GWe",
         "collapsible_text_eprhzy",
         "collapsible_text_wzRGkd",
-        "collapsible_text_W3hp83",
         "text_HhGfqc",
         "text_UCztcD",
         "liquid_DwgJc7",
