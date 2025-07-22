@@ -493,7 +493,14 @@
         "liquid_V7TKFP": {
           "type": "liquid",
           "settings": {
-            "liquid": "<style>\n.stock-alert {\n  background: #ffe5e5;\n  color: #b40000;\n  padding: 3px 10px;\n  border-radius: 20px;\n  font-size: 0.75rem;\n  font-weight: 600;\n  display: inline-flex;\n  align-items: center;\n  gap: 5px;\n}\n\n.stock-dot {\n  width: 5px;\n  height: 5px;\n  background: #b40000;\n  border-radius: 50%;\n  animation: blink 1s infinite;\n}\n\n@keyframes blink {\n  0%, 100% { opacity: 1; }\n  50% { opacity: 0.3; }\n}\n</style>\n\n<div style=\"text-align: left; margin: 15px 0;\">\n  <div class=\"stock-alert\">\n    <div class=\"stock-dot\"></div>\n    Dépêchez-vous, les stocks sont presque épuisés !\n\n\n  </div>\n</div>"
+            "liquid": "<style>\n.stock-alert {\n  background: #ffe5e5;\n  color: #b40000;\n  padding: 6px 14px;\n  border-radius: 999px;\n  font-size: 0.85rem;\n  font-weight: 600;\n  display: inline-flex;\n  align-items: center;\n  gap: 8px;\n  max-width: 100%;\n  word-break: break-word;\n}\n\n.stock-dot {\n  width: 8px;\n  height: 8px;\n  background: #b40000;\n  border-radius: 50%;\n  animation: blink 1s infinite;\n}\n\n@keyframes blink {\n  0%, 100% { opacity: 1; }\n  50% { opacity: 0.3; }\n}\n</style>\n\n<div style=\"text-align: left; margin: 20px 0;\">\n  <div class=\"stock-alert\">\n    <div class=\"stock-dot\"></div>\n    Dépêchez-vous, les stocks sont presque épuisés !\n  </div>\n</div>"
+          }
+        },
+        "liquid_PzBFga": {
+          "type": "liquid",
+          "disabled": true,
+          "settings": {
+            "liquid": "<!DOCTYPE html>\n<html lang=\"fr\">\n<head>\n  <meta charset=\"UTF-8\">\n  <title>Visiteurs en ligne</title>\n\n  <!-- Police Inter Regular -->\n  <link href=\"https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap\" rel=\"stylesheet\">\n\n  <style>\n    body {\n      margin: 0;\n      padding: 0;\n      background: transparent;\n      font-family: 'Inter', sans-serif;\n    }\n\n    .checkout-notice {\n      font-size: 18px;\n      color: #333;\n      display: flex;\n      align-items: center;\n    }\n\n    .dot {\n      height: 10px;\n      width: 10px;\n      background-color: green;\n      border-radius: 50%;\n      margin-right: 8px;\n      animation: blink 1s infinite;\n    }\n\n    @keyframes blink {\n      0%, 100% { opacity: 1; }\n      50% { opacity: 0.2; }\n    }\n\n    .bold {\n      font-weight: 600;\n    }\n  </style>\n</head>\n<body>\n\n  <div class=\"checkout-notice\">\n    <div class=\"dot\"></div>\n    <span><span class=\"bold\" id=\"people-count\">...</span> personnes consultent cette offre en ce moment</span>\n  </div>\n\n  <script>\n    function updateCount() {\n      const min = 18;\n      const max = 59;\n      const count = Math.floor(Math.random() * (max - min + 1)) + min;\n      document.getElementById(\"people-count\").textContent = count;\n    }\n\n    // Appelle immédiatement la fonction pour afficher un nombre au chargement\n    updateCount();\n\n    // Puis toutes les 5 secondes (5000 ms)\n    setInterval(updateCount, 5000);\n  </script>\n\n</body>\n</html>"
           }
         },
         "image_7aiC8G": {
@@ -623,6 +630,7 @@
         "quantity_selector_QDfzPy",
         "buy_buttons_zjXiAE",
         "liquid_V7TKFP",
+        "liquid_PzBFga",
         "image_7aiC8G",
         "liquid_ne6gew",
         "image_7Bb7Gx",
