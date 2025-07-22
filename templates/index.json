@@ -494,7 +494,7 @@
           "type": "image",
           "settings": {
             "image": "shopify://shop_images/Dr_Gaetan_O..jpg",
-            "alignment": "start",
+            "alignment": "center",
             "max_width": 500
           }
         },
