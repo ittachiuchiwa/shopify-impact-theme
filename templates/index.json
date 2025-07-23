@@ -213,7 +213,7 @@
         "enable_parallax": false,
         "image_size": "auto",
         "image": "shopify://shop_images/Votre_texte_de_paragraphe_14.jpg",
-        "mobile_image": "shopify://shop_images/4_benefices_2.jpg",
+        "mobile_image": "shopify://shop_images/4_benefices_3.jpg",
         "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-center sm:text-center",
         "text_color": "#ffffff",
