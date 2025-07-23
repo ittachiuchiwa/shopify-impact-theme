@@ -839,16 +839,16 @@
       "blocks": {
         "subheading_rk73eA": {
           "type": "subheading",
-          "disabled": true,
           "settings": {
-            "text": "Subheading"
+            "text": "Nos ingrédients testés cliniquement"
           }
         },
         "heading_hkJywG": {
           "type": "heading",
+          "disabled": true,
           "settings": {
-            "text": "Nos actifs aux vertus naturelles",
-            "heading_tag": "h4",
+            "text": "Ingrédients testés cliniquement",
+            "heading_tag": "h3",
             "text_color": "",
             "gradient": ""
           }
