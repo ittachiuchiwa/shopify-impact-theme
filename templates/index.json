@@ -1086,6 +1086,13 @@
             "title": "Puis-je prendre ce complément pendant la grossesse ?",
             "content": "<p><br/>Nous <strong>ne recommandons pas de prendre de l’huile d’origan pendant la grossesse</strong>.<br/><br/>Certains composés actifs peuvent <strong>stimuler la circulation sanguine vers l’utérus</strong>.<br/><br/>Il est essentiel de <strong>consulter votre professionnel de santé</strong> avant de prendre tout complément alimentaire durant la grossesse.<br/><br/></p>"
           }
+        },
+        "item_zjDBPi": {
+          "type": "item",
+          "settings": {
+            "title": "Quel est le meilleur moment de la journée pour le prendre ?",
+            "content": "<p><br/>Pour une <strong>absorption optimale</strong>, prenez les gélules d’huile d’origan <strong>au moment des repas</strong>.<br/><br/>Beaucoup de nos clients trouvent qu’une prise <strong>au petit-déjeuner ou au dîner</strong> fonctionne le mieux.<br/><br/>Si vous en prenez <strong>deux fois par jour</strong>, espacez les prises d’environ <strong>6 à 8 heures</strong>.<br/><br/></p>"
+          }
         }
       },
       "block_order": [
@@ -1103,7 +1110,8 @@
         "item_PPUirY",
         "item_HpC8ty",
         "item_aFfMyn",
-        "item_bw3BHa"
+        "item_bw3BHa",
+        "item_zjDBPi"
       ],
       "settings": {
         "full_width": false,
