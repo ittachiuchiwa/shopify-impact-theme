@@ -1093,6 +1093,13 @@
             "title": "Quel est le meilleur moment de la journée pour le prendre ?",
             "content": "<p><br/>Pour une <strong>absorption optimale</strong>, prenez les gélules d’huile d’origan <strong>au moment des repas</strong>.<br/><br/>Beaucoup de nos clients trouvent qu’une prise <strong>au petit-déjeuner ou au dîner</strong> fonctionne le mieux.<br/><br/>Si vous en prenez <strong>deux fois par jour</strong>, espacez les prises d’environ <strong>6 à 8 heures</strong>.<br/><br/></p>"
           }
+        },
+        "item_TRwbrQ": {
+          "type": "item",
+          "settings": {
+            "title": "Quelle est la différence entre OregaZen et les autres marques ?",
+            "content": "<p><strong>OregaZen</strong> offre une concentration bien plus élevée en <strong>carvacrol actif</strong> (<strong>165 mg par dose</strong>) que la majorité des autres marques (généralement entre 50 et 100 mg).<br/><br/>Nous utilisons un <strong>extrait premium 20:1</strong>, associé à de l’<strong>huile de nigelle</strong> pour renforcer l’efficacité.<br/><br/>Contrairement aux huiles d’origan liquides, nos <strong>gélules OregaZen</strong> évitent toute sensation de brûlure ou goût désagréable — pour une expérience à la fois <strong>puissante et confortable</strong>.<br/><br/></p>"
+          }
         }
       },
       "block_order": [
@@ -1111,7 +1118,8 @@
         "item_HpC8ty",
         "item_aFfMyn",
         "item_bw3BHa",
-        "item_zjDBPi"
+        "item_zjDBPi",
+        "item_TRwbrQ"
       ],
       "settings": {
         "full_width": false,
