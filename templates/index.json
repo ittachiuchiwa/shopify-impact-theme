@@ -791,6 +791,46 @@
         "testimonial_card_text_color": "#1a1a1a"
       }
     },
+    "rich_text_LxrDTy": {
+      "type": "rich-text",
+      "blocks": {
+        "subheading_GKz8mc": {
+          "type": "subheading",
+          "settings": {
+            "text": "3 Raison d'intégrer OregaZen dans votre quotiden"
+          }
+        },
+        "heading_brTyBd": {
+          "type": "heading",
+          "settings": {
+            "text": "",
+            "heading_tag": "h1",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_mtednE": {
+          "type": "richtext",
+          "settings": {
+            "content": ""
+          }
+        }
+      },
+      "block_order": [
+        "subheading_GKz8mc",
+        "heading_brTyBd",
+        "richtext_mtednE"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "multiple_images_with_text_96h7ed": {
       "type": "multiple-images-with-text",
       "blocks": {
@@ -812,7 +852,7 @@
             "image_rotation_degrees": 0,
             "subheading": "",
             "title": "",
-            "content": "<p>Un système immunitaire fort est la clé de votre vitalité et de votre protection au fil des saisons.</p><p><strong>OregaZen</strong>, notre complexe 2-en-1 unique à base d’huile d’origan et d’huile de cumin noir, aide à renforcer vos défenses grâce à la synergie de puissants antioxydants comme le <strong>carvacrol</strong> et la <strong>thymoquinone</strong>.</p><p>Résultat : un soutien naturel pour votre immunité et votre bien-être au quotidien.</p>",
+            "content": "",
             "button_url": "",
             "button_text": ""
           }
@@ -1166,6 +1206,7 @@
     "featured_product_t9t9Jj",
     "custom_liquid_9XVWRc",
     "testimonials_tan9Et",
+    "rich_text_LxrDTy",
     "multiple_images_with_text_96h7ed",
     "rich_text_ft66VY",
     "slideshow_GUKWNK",
