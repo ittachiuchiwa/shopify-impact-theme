@@ -617,7 +617,7 @@
         "liquid_j7gBrP": {
           "type": "liquid",
           "settings": {
-            "liquid": "<style>\n.scrolling-banner {\n  background: #d9f5d9;\n  color: #006400;\n  overflow: hidden;\n  white-space: nowrap;\n  padding: 8px 0;\n  font-size: 0.8rem;\n  font-weight: 600;\n  width: 100%;\n  box-sizing: border-box;\n}\n\n.scrolling-banner .track {\n  display: inline-block;\n  animation: scroll 45s linear infinite;\n  padding-left: 100%; /* permet de démarrer en dehors du conteneur */\n}\n\n.scrolling-banner .item {\n  display: inline-flex;\n  align-items: center;\n  gap: 8px;\n  margin: 0 20px;\n}\n\n.scrolling-banner .item i {\n  font-style: normal;\n  font-size: 1rem;\n}\n\n@keyframes scroll {\n  0%   { transform: translateX(0); }\n  100% { transform: translateX(-100%); }\n}\n</style>\n\n<div class=\"scrolling-banner\">\n  <div class=\"track\">\n    <span class=\"item\"><i>🌱</i> VÉGAN ET NATUREL</span>\n    <span class=\"item\"><i>🧬</i> SANS OGM</span>\n    <span class=\"item\"><i>🌿</i> SANS GLUTEN</span>\n    <span class=\"item\"><i>🔬</i> TESTÉ EN LABORATOIRE</span>\n    \n    <!-- doublé pour boucle fluide -->\n    <span class=\"item\"><i>🌱</i> VÉGAN ET NATUREL</span>\n    <span class=\"item\"><i>🧬</i> SANS OGM</span>\n    <span class=\"item\"><i>🌿</i> SANS GLUTEN</span>\n    <span class=\"item\"><i>🔬</i> TESTÉ EN LABORATOIRE</span>\n  </div>\n</div>"
+            "liquid": "<style>\n.scrolling-banner {\n  background: #F5FDF7;\n  color: #000000;\n  overflow: hidden;\n  white-space: nowrap;\n  padding: 8px 0;\n  font-size: 0.8rem;\n  font-weight: 600;\n  width: 100%;\n  box-sizing: border-box;\n}\n\n.scrolling-banner .track {\n  display: inline-block;\n  animation: scroll 45s linear infinite;\n  padding-left: 100%; /* permet de démarrer en dehors du conteneur */\n}\n\n.scrolling-banner .item {\n  display: inline-flex;\n  align-items: center;\n  gap: 8px;\n  margin: 0 20px;\n}\n\n.scrolling-banner .item i {\n  font-style: normal;\n  font-size: 1rem;\n}\n\n@keyframes scroll {\n  0%   { transform: translateX(0); }\n  100% { transform: translateX(-100%); }\n}\n</style>\n\n<div class=\"scrolling-banner\">\n  <div class=\"track\">\n    <span class=\"item\"><i>🌱</i> VÉGAN ET NATUREL</span>\n    <span class=\"item\"><i>🧬</i> SANS OGM</span>\n    <span class=\"item\"><i>🌿</i> SANS GLUTEN</span>\n    <span class=\"item\"><i>🔬</i> TESTÉ EN LABORATOIRE</span>\n    \n    <!-- doublé pour boucle fluide -->\n    <span class=\"item\"><i>🌱</i> VÉGAN ET NATUREL</span>\n    <span class=\"item\"><i>🧬</i> SANS OGM</span>\n    <span class=\"item\"><i>🌿</i> SANS GLUTEN</span>\n    <span class=\"item\"><i>🔬</i> TESTÉ EN LABORATOIRE</span>\n  </div>\n</div>"
           }
         }
       },
@@ -787,7 +787,7 @@
         "text_color": "#000000",
         "heading_color": "#bdeacf",
         "heading_gradient": "",
-        "testimonial_card_background": "#e1ffed",
+        "testimonial_card_background": "#f5fdf7",
         "testimonial_card_text_color": "#1a1a1a"
       }
     },
@@ -822,7 +822,6 @@
         "heading_hkJywG",
         "richtext_AjUJmg"
       ],
-      "disabled": true,
       "name": "Rich text",
       "settings": {
         "full_width": true,
@@ -883,7 +882,6 @@
         "image_Hdaek7",
         "image_Gi4Tx9"
       ],
-      "disabled": true,
       "name": "Slideshow",
       "settings": {
         "full_width": false,
