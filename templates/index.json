@@ -804,7 +804,7 @@
         "heading_hkJywG": {
           "type": "heading",
           "settings": {
-            "text": "NOS INGRÉDIENTS CURATIFS",
+            "text": "Nos actifs aux vertus naturelles",
             "heading_tag": "h4",
             "text_color": "",
             "gradient": ""
@@ -812,6 +812,7 @@
         },
         "richtext_AjUJmg": {
           "type": "richtext",
+          "disabled": true,
           "settings": {
             "content": "<p>Chez Xionora, nous avons passé des années à perfectionner cette formule, en éliminant les additifs inutiles tout en <strong>maximisant la pureté, la puissance et l’efficacité, </strong>afin que vous obteniez de vrais résultats, et pas seulement de vaines promesses.</p>"
           }
