@@ -496,6 +496,12 @@
             "payment_button_text_color": "#f0c417"
           }
         },
+        "liquid_ckaKaL": {
+          "type": "liquid",
+          "settings": {
+            "liquid": ""
+          }
+        },
         "image_QkPLJy": {
           "type": "image",
           "settings": {
@@ -650,6 +656,7 @@
         "variant_picker_dKt3Ay",
         "quantity_selector_QDfzPy",
         "buy_buttons_zjXiAE",
+        "liquid_ckaKaL",
         "image_QkPLJy",
         "liquid_V7TKFP",
         "liquid_PzBFga",
