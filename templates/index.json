@@ -1107,6 +1107,20 @@
             "title": "Y a-t-il des traces de produits laitiers, de gluten ou de soja ?",
             "content": "<p>Non. Nos gélules d’huile d’origan <strong>ne contiennent ni produits laitiers, ni gluten, ni soja</strong>, ni aucun allergène courant.<br/><br/>Tous nos produits sont formulés pour être <strong>purs</strong>, sans <strong>agents de remplissage inutiles ni additifs artificiels</strong>.</p><p><br/><br/></p>"
           }
+        },
+        "item_iTUXyG": {
+          "type": "item",
+          "settings": {
+            "title": "Est-ce que cela peut déranger mon estomac ?",
+            "content": "<p><strong>OregaZen</strong> a été formulé pour <strong>améliorer la digestion et soutenir la santé intestinale</strong>.<br/><br/>La majorité des utilisateurs le tolèrent très bien.<br/><br/>Cependant, en raison de son <strong>puissant effet antimicrobien</strong>, certaines personnes peuvent ressentir des <strong>selles plus fréquentes durant les premiers jours</strong>, le temps que le produit <strong>élimine les déchets accumulés</strong> dans l’organisme.</p><p>C’est une réaction naturelle et temporaire, signe que le nettoyage interne est en cours.</p>"
+          }
+        },
+        "item_bjdWn3": {
+          "type": "item",
+          "settings": {
+            "title": "Et si je n’aime pas les effets ou si je n’ai pas l’impression que ça fonctionne ?",
+            "content": "<p><br/>Nous soutenons pleinement notre produit avec une <strong>garantie satisfait ou remboursé de 30 jours</strong>.<br/><br/>Si vous n’êtes pas entièrement satisfait(e) des résultats ou ressentez des effets indésirables, il vous suffit de <strong>contacter notre service client</strong> pour obtenir un <strong>remboursement complet</strong> – <strong>sans aucune question</strong> et <strong>sans avoir à retourner le produit</strong>.<br/><br/></p>"
+          }
         }
       },
       "block_order": [
@@ -1127,7 +1141,9 @@
         "item_bw3BHa",
         "item_zjDBPi",
         "item_TRwbrQ",
-        "item_46yGBe"
+        "item_46yGBe",
+        "item_iTUXyG",
+        "item_bjdWn3"
       ],
       "settings": {
         "full_width": false,
