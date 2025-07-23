@@ -1072,6 +1072,20 @@
             "title": "Puis-je prendre ce complément avec d'autres médicaments ou compléments alimentaires ?",
             "content": "<p><br/>Tous nos ingrédients sont <strong>100 % naturels et biologiques</strong>, et oui, <strong>vous pouvez le prendre avec d'autres compléments alimentaires</strong>.<br/><br/>Cependant, <strong>en cas de traitement médical en cours</strong>, il est toujours recommandé de <strong>consulter un professionnel de santé</strong> avant utilisation.<br/><br/></p>"
           }
+        },
+        "item_aFfMyn": {
+          "type": "item",
+          "settings": {
+            "title": "Ce produit contient-il des OGM ?",
+            "content": "<p>Non, notre huile d’origan est <strong>entièrement sans OGM</strong> et ne contient <strong>que des ingrédients naturels</strong>, sans aucune modification génétique.</p><p></p>"
+          }
+        },
+        "item_bw3BHa": {
+          "type": "item",
+          "settings": {
+            "title": "Puis-je prendre ce complément pendant la grossesse ?",
+            "content": "<p><br/>Nous <strong>ne recommandons pas de prendre de l’huile d’origan pendant la grossesse</strong>.<br/><br/>Certains composés actifs peuvent <strong>stimuler la circulation sanguine vers l’utérus</strong>.<br/><br/>Il est essentiel de <strong>consulter votre professionnel de santé</strong> avant de prendre tout complément alimentaire durant la grossesse.<br/><br/></p>"
+          }
         }
       },
       "block_order": [
@@ -1087,7 +1101,9 @@
         "item_8gnaRh",
         "item_twRztE",
         "item_PPUirY",
-        "item_HpC8ty"
+        "item_HpC8ty",
+        "item_aFfMyn",
+        "item_bw3BHa"
       ],
       "settings": {
         "full_width": false,
