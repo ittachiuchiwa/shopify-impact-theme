@@ -1069,8 +1069,8 @@
         "item_HpC8ty": {
           "type": "item",
           "settings": {
-            "title": "13. Existe-t-il d'autres garantie sur la qualité ?",
-            "content": "<p>Oui ! En plus des certifications HACCP et GMP :</p><p>🌿 Ingrédients 100% naturels et traçables</p><p>🔬 Tests de pureté en laboratoire indépendant</p><p>📦 Emballage protecteur qui préserve les principes actifs</p><p>💚 Garantie satisfait ou remboursé 30 jours</p><p>🇪🇺 Conforme à la réglementation européenne</p>"
+            "title": "Puis-je prendre ce complément avec d'autres médicaments ou compléments alimentaires ?",
+            "content": "<p><br/>Tous nos ingrédients sont <strong>100 % naturels et biologiques</strong>, et oui, <strong>vous pouvez le prendre avec d'autres compléments alimentaires</strong>.<br/><br/>Cependant, <strong>en cas de traitement médical en cours</strong>, il est toujours recommandé de <strong>consulter un professionnel de santé</strong> avant utilisation.<br/><br/></p>"
           }
         }
       },
