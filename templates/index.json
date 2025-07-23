@@ -1100,6 +1100,13 @@
             "title": "Quelle est la différence entre OregaZen et les autres marques ?",
             "content": "<p><strong>OregaZen</strong> offre une concentration bien plus élevée en <strong>carvacrol actif</strong> (<strong>165 mg par dose</strong>) que la majorité des autres marques (généralement entre 50 et 100 mg).<br/><br/>Nous utilisons un <strong>extrait premium 20:1</strong>, associé à de l’<strong>huile de nigelle</strong> pour renforcer l’efficacité.<br/><br/>Contrairement aux huiles d’origan liquides, nos <strong>gélules OregaZen</strong> évitent toute sensation de brûlure ou goût désagréable — pour une expérience à la fois <strong>puissante et confortable</strong>.<br/><br/></p>"
           }
+        },
+        "item_46yGBe": {
+          "type": "item",
+          "settings": {
+            "title": "Y a-t-il des traces de produits laitiers, de gluten ou de soja ?",
+            "content": "<p>Non. Nos gélules d’huile d’origan <strong>ne contiennent ni produits laitiers, ni gluten, ni soja</strong>, ni aucun allergène courant.<br/><br/>Tous nos produits sont formulés pour être <strong>purs</strong>, sans <strong>agents de remplissage inutiles ni additifs artificiels</strong>.</p><p><br/><br/></p>"
+          }
         }
       },
       "block_order": [
@@ -1119,7 +1126,8 @@
         "item_aFfMyn",
         "item_bw3BHa",
         "item_zjDBPi",
-        "item_TRwbrQ"
+        "item_TRwbrQ",
+        "item_46yGBe"
       ],
       "settings": {
         "full_width": false,
