@@ -132,7 +132,7 @@
         "richtext_RJaPQT": {
           "type": "richtext",
           "settings": {
-            "content": "<h6>VU SUR</h6>"
+            "content": "<h6><strong>VU SUR</strong></h6>"
           }
         }
       },
