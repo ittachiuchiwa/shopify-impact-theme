@@ -719,6 +719,17 @@
     "testimonials_tan9Et": {
       "type": "testimonials",
       "blocks": {
+        "testimonial_gtJUqM": {
+          "type": "testimonial",
+          "settings": {
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 4,
+            "author": "",
+            "title": "Danaé",
+            "content": "<p><em>“J’avais des parasites intestinaux qui me fatiguaient depuis des mois. Après 3 semaines avec OregaZen, les symptômes ont disparu et mes tests sont revenus négatifs. Un vrai soulagement !”<br/></em><br/></p>"
+          }
+        },
         "testimonial_nJY8Wd": {
           "type": "testimonial",
           "settings": {
@@ -726,8 +737,8 @@
             "show_rating": false,
             "rating": 5,
             "author": "",
-            "title": "Melissa",
-            "content": "<p>Honnêtement, je revis ! Ma digestion est tellement plus légère et je me sens bien au quotidien. Pour moi, c’est un petit prix à payer pour un tel confort. Je ne regrette vraiment pas, c’est même l’un de mes meilleurs achats.<br/><br/></p>"
+            "title": "Melissa L.",
+            "content": "<p><em>''Honnêtement, je revis ! Ma digestion est tellement plus légère et je me sens bien au quotidien. Pour moi, c’est un petit prix à payer pour un tel confort. Je ne regrette vraiment pas, c’est même l’un de mes meilleurs achats.''<br/><br/></em></p>"
           }
         },
         "testimonial_kcjFHR": {
@@ -737,8 +748,8 @@
             "show_rating": false,
             "rating": 5,
             "author": "",
-            "title": "Marie",
-            "content": "<p>Franchement, c’est l’un des meilleurs cadeaux que je me suis faits pour ma santé. Mon ventre est visiblement plus plat, je me sens tellement mieux — et tout ça pour un prix vraiment dérisoire !<br/><br/></p>"
+            "title": "Marie T.",
+            "content": "<p><em>''Franchement, c’est l’un des meilleurs cadeaux que je me suis faits pour ma santé. Mon ventre est visiblement plus plat, je me sens tellement mieux — et tout ça pour un prix vraiment dérisoire !''<br/><br/></em></p>"
           }
         },
         "testimonial_pATCzf": {
@@ -749,7 +760,7 @@
             "rating": 4,
             "author": "",
             "title": "Genneviève",
-            "content": "<p>Ça faisait des mois que je souffrais après chaque repas. Une semaine avec cette cure et c’est le jour et la nuit : fini les ballonnements, mon ventre est plus plat et je revis !<br/><br/></p>"
+            "content": "<p><em>''Ça faisait des mois que je souffrais après chaque repas. Une semaine avec cette cure et c’est le jour et la nuit : fini les ballonnements, mon ventre est plus plat et je revis !''<br/><br/></em></p>"
           }
         },
         "testimonial_BPGCR9": {
@@ -760,7 +771,7 @@
             "rating": 4,
             "author": "",
             "title": "Alexia",
-            "content": "<p>Super facile à prendre, sans goût bizarre, et franchement ça change tout pour mon transit. Je me sens tellement mieux !<br/><br/></p>"
+            "content": "<p><em>''Super facile à prendre, sans goût bizarre, et franchement ça change tout pour mon transit. Je me sens tellement mieux !''<br/><br/></em></p>"
           }
         },
         "testimonial_hFWBCb": {
@@ -771,7 +782,7 @@
             "rating": 4,
             "author": "",
             "title": "Marie",
-            "content": "<p>Au début j’étais un peu sceptique à cause du prix, mais les résultats ont été bluffants dès les premières semaines. C’est largement rentabilisé : je déborde d’énergie comme jamais !<br/><br/></p>"
+            "content": "<p><em>''Au début j’étais un peu sceptique à cause du prix, mais les résultats ont été bluffants dès les premières semaines. C’est largement rentabilisé : je déborde d’énergie comme jamais !''<br/><br/></em></p>"
           }
         },
         "testimonial_dgPKMP": {
@@ -782,11 +793,12 @@
             "rating": 4,
             "author": "",
             "title": "Julie",
-            "content": "<p>Un produit naturel super facile à prendre, sans le moindre goût désagréable. Et honnêtement, c’est bluffant pour mon transit — je me sens tellement plus légère.<br/><br/></p>"
+            "content": "<p><em>''Un produit naturel super facile à prendre, sans le moindre goût désagréable. Et honnêtement, c’est bluffant pour mon transit — je me sens tellement plus légère.''<br/><br/></em></p>"
           }
         }
       },
       "block_order": [
+        "testimonial_gtJUqM",
         "testimonial_nJY8Wd",
         "testimonial_kcjFHR",
         "testimonial_pATCzf",
