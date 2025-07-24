@@ -57,7 +57,7 @@
         "enable_parallax": false,
         "image_size": "auto",
         "image": "shopify://shop_images/Votre_texte_de_paragraphe_11.jpg",
-        "mobile_image": "shopify://shop_images/Note_4_55_par_plus_de_2000_clients_satisfaits.jpg",
+        "mobile_image": "shopify://shop_images/Note_4_55_par_plus_de_2000_clients_satisfaits_1.jpg",
         "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-center sm:text-center",
         "text_color": "#ffffff",
@@ -1263,7 +1263,7 @@
       "settings": {
         "videos_position": "above_description",
         "use_metafield": false,
-        "heading": "<h2>WHAT OUR FELLOWS SAY</h2>",
+        "heading": "<h2>Adopté par tous </h2>",
         "heading_custom": false,
         "heading_font": "josefin_sans_n4",
         "heading_size": 18,
