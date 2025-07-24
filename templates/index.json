@@ -496,12 +496,6 @@
             "payment_button_text_color": "#f0c417"
           }
         },
-        "liquid_n3B7iC": {
-          "type": "liquid",
-          "settings": {
-            "liquid": "<div id='ss-product-videos'></div>"
-          }
-        },
         "liquid_ckaKaL": {
           "type": "liquid",
           "settings": {
@@ -612,6 +606,12 @@
             "text": "<p>Elles l’ont intégré à leur quotidien. Impossible de s’en passer maintenant.<br/><br/></p>"
           }
         },
+        "liquid_n3B7iC": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<div id='ss-product-videos'></div>"
+          }
+        },
         "liquid_aH47HQ": {
           "type": "liquid",
           "settings": {
@@ -662,7 +662,6 @@
         "variant_picker_dKt3Ay",
         "quantity_selector_QDfzPy",
         "buy_buttons_zjXiAE",
-        "liquid_n3B7iC",
         "liquid_ckaKaL",
         "image_QkPLJy",
         "liquid_V7TKFP",
@@ -679,6 +678,7 @@
         "collapsible_text_wzRGkd",
         "text_HhGfqc",
         "text_UCztcD",
+        "liquid_n3B7iC",
         "liquid_aH47HQ",
         "liquid_DwgJc7",
         "liquid_jCUwdQ",
