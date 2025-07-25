@@ -398,7 +398,7 @@
         "image_jB9AfK": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/ddd.png",
+            "image": "shopify://shop_images/ddd_1_1_dd.webp",
             "alignment": "center",
             "max_width": 500
           }
