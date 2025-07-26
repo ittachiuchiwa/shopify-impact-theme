@@ -403,6 +403,12 @@
             "max_width": 500
           }
         },
+        "liquid_Q39C4f": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<div style=\"text-align: center;\">\n  <div style=\"\n    display: inline-flex;\n    align-items: center;\n    justify-content: center;\n    background-color: #b6edbb;\n    color: #000; /* Texte en noir */\n    font-weight: 700;\n    font-size: 14px;\n    padding: 10px 20px;\n    border-radius: 30px;\n    gap: 8px;\n    box-shadow: 0 4px 12px rgba(0,0,0,0.1);\n    letter-spacing: 0.5px;\n  \">\n   Une Formule 2-en-1\n</div>"
+          }
+        },
         "kaching_bundles_app_block_ji6Ara": {
           "type": "shopify://apps/kaching-bundles/blocks/app-block/6c637362-a106-4a32-94ac-94dcfd68cdb8",
           "settings": {
@@ -643,7 +649,7 @@
         "liquid_j7gBrP": {
           "type": "liquid",
           "settings": {
-            "liquid": "<style>\n.scrolling-banner {\n  background: #F5FDF7;\n  color: #000000;\n  overflow: hidden;\n  white-space: nowrap;\n  padding: 8px 0;\n  font-size: 0.8rem;\n  font-weight: 600;\n  width: 100%;\n  box-sizing: border-box;\n}\n\n.scrolling-banner .track {\n  display: inline-block;\n  animation: scroll 45s linear infinite;\n  padding-left: 100%; /* permet de démarrer en dehors du conteneur */\n}\n\n.scrolling-banner .item {\n  display: inline-flex;\n  align-items: center;\n  gap: 8px;\n  margin: 0 20px;\n}\n\n.scrolling-banner .item i {\n  font-style: normal;\n  font-size: 1rem;\n}\n\n@keyframes scroll {\n  0%   { transform: translateX(0); }\n  100% { transform: translateX(-100%); }\n}\n</style>\n\n<div class=\"scrolling-banner\">\n  <div class=\"track\">\n    <span class=\"item\"><i>🌱</i> VÉGAN ET NATUREL</span>\n    <span class=\"item\"><i>🧬</i> SANS OGM</span>\n    <span class=\"item\"><i>🌿</i> SANS GLUTEN</span>\n    <span class=\"item\"><i>🔬</i> TESTÉ EN LABORATOIRE</span>\n    \n    <!-- doublé pour boucle fluide -->\n    <span class=\"item\"><i>🌱</i> VÉGAN ET NATUREL</span>\n    <span class=\"item\"><i>🧬</i> SANS OGM</span>\n    <span class=\"item\"><i>🌿</i> SANS GLUTEN</span>\n    <span class=\"item\"><i>🔬</i> TESTÉ EN LABORATOIRE</span>\n  </div>\n</div>"
+            "liquid": "<style>\n.scrolling-banner {\n  background: #b6edbb;\n  color: ##b6edbb;\n  overflow: hidden;\n  white-space: nowrap;\n  padding: 8px 0;\n  font-size: 0.8rem;\n  font-weight: 600;\n  width: 100%;\n  box-sizing: border-box;\n}\n\n.scrolling-banner .track {\n  display: inline-block;\n  animation: scroll 45s linear infinite;\n  padding-left: 100%; /* permet de démarrer en dehors du conteneur */\n}\n\n.scrolling-banner .item {\n  display: inline-flex;\n  align-items: center;\n  gap: 8px;\n  margin: 0 20px;\n}\n\n.scrolling-banner .item i {\n  font-style: normal;\n  font-size: 1rem;\n}\n\n@keyframes scroll {\n  0%   { transform: translateX(0); }\n  100% { transform: translateX(-100%); }\n}\n</style>\n\n<div class=\"scrolling-banner\">\n  <div class=\"track\">\n    <span class=\"item\"><i>🌱</i> VÉGAN ET NATUREL</span>\n    <span class=\"item\"><i>🧬</i> SANS OGM</span>\n    <span class=\"item\"><i>🌿</i> SANS GLUTEN</span>\n    <span class=\"item\"><i>🔬</i> TESTÉ EN LABORATOIRE</span>\n    \n    <!-- doublé pour boucle fluide -->\n    <span class=\"item\"><i>🌱</i> VÉGAN ET NATUREL</span>\n    <span class=\"item\"><i>🧬</i> SANS OGM</span>\n    <span class=\"item\"><i>🌿</i> SANS GLUTEN</span>\n    <span class=\"item\"><i>🔬</i> TESTÉ EN LABORATOIRE</span>\n  </div>\n</div>"
           }
         }
       },
@@ -656,6 +662,7 @@
         "title_z3tRVg",
         "price_8W4V43",
         "image_jB9AfK",
+        "liquid_Q39C4f",
         "kaching_bundles_app_block_ji6Ara",
         "image_3CyiHP",
         "liquid_bzLfbr",
