@@ -569,7 +569,6 @@
         },
         "liquid_PA69WL": {
           "type": "liquid",
-          "disabled": true,
           "settings": {
             "liquid": "<div class=\"countdown-timer-block\" countdown-timer-id=\"cmcz67lf700izakxoycz9vyhs\"></div>"
           }
