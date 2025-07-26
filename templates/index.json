@@ -213,7 +213,35 @@
         "enable_parallax": false,
         "image_size": "auto",
         "image": "shopify://shop_images/4_benefices_6.jpg",
-        "mobile_image": "shopify://shop_images/4_benefices_6.jpg",
+        "mobile_image": "shopify://shop_images/4_benefices_7.jpg",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
+    "image_with_text_overlay_PYraQk": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "heading_WpMjFg": {
+          "type": "heading",
+          "settings": {
+            "text": "",
+            "heading_tag": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "heading_WpMjFg"
+      ],
+      "name": "Image with text overlay",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify://shop_images/Flacon_de_Moringa_Bio_OFFERT_1.png",
         "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-center sm:text-center",
         "text_color": "#ffffff",
@@ -1443,6 +1471,7 @@
     "custom_liquid_7Q4VBx",
     "rich_text_UXzW84",
     "image_with_text_overlay_wWWrPw",
+    "image_with_text_overlay_PYraQk",
     "custom_liquid_UPb9Ly",
     "multi_column_jwNAQX",
     "custom_liquid_4ME4Hg",
