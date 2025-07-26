@@ -302,7 +302,7 @@
         "allow_transparent_header": false,
         "enable_parallax": false,
         "image_size": "auto",
-        "image": "shopify://shop_images/Flacon_de_Moringa_Bio_OFFERT_1.png",
+        "image": "shopify://shop_images/Flacon_de_Moringa_Bio_OFFERT_3.jpg",
         "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-center sm:text-center",
         "text_color": "#ffffff",
