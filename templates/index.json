@@ -409,6 +409,14 @@
             "product": "{{section.settings.product}}"
           }
         },
+        "image_3CyiHP": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Flacon_de_Moringa_Bio_OFFERT.jpg",
+            "alignment": "center",
+            "max_width": 500
+          }
+        },
         "liquid_bzLfbr": {
           "type": "liquid",
           "settings": {
@@ -649,6 +657,7 @@
         "price_8W4V43",
         "image_jB9AfK",
         "kaching_bundles_app_block_ji6Ara",
+        "image_3CyiHP",
         "liquid_bzLfbr",
         "badges_Ap8TAg",
         "liquid_JBTPV9",
