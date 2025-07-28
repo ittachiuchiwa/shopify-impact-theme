@@ -423,5 +423,10 @@
         "other": "Il a reçu {{ count }} avis."
       }
     }
+  },
+  "shopify": {
+    "links": {
+      "powered_by_shopify": "HELH business LLC, 8206 Louisiana Blvd NE Ste B #10062 Albuquerque, New Mexico 87113"
+    }
   }
 }
