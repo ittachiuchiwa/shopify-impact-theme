@@ -212,7 +212,7 @@
         "full_width": true,
         "stack_mobile": true,
         "title": "",
-        "content": "<p><strong>VU SUR</strong></p>",
+        "content": "<h4><strong>Vu sur :</strong></h4>",
         "text_alignment": "center",
         "items_per_row": 5,
         "background": "",
