@@ -1150,6 +1150,7 @@
         },
         "item_R6EUUE": {
           "type": "item",
+          "disabled": true,
           "settings": {
             "title": "Ce produit est-il exempt d’allergènes ?",
             "content": "<p><strong>Notre huile d’origan est exempte des principaux allergènes</strong>, notamment le gluten, les produits laitiers, le soja, les fruits à coque et les crustacés.<br/><br/>Elle ne contient <strong>ni colorants, ni arômes artificiels, ni conservateurs.</strong></p>"
@@ -1157,6 +1158,7 @@
         },
         "item_eKWaKJ": {
           "type": "item",
+          "disabled": true,
           "settings": {
             "title": "Où ce produit est-il fabriqué et d’où est-il expédié ?",
             "content": "<p><strong>Nos gélules d’huile d’origan sont fabriquées aux France.</strong><br/></p>"
@@ -1164,6 +1166,7 @@
         },
         "item_gqWgnQ": {
           "type": "item",
+          "disabled": true,
           "settings": {
             "title": "Comment puis-je être sûr(e) qu’il s’agit de vraie huile d’origan et d’huile de nigelle ?",
             "content": "<p>Nous utilisons uniquement <strong>de l’huile d’origan premium et authentique</strong>, avec une teneur en carvacrol vérifiée (<strong>165 mg par dose</strong>), ainsi que <strong>de la véritable huile de nigelle</strong>.<br/><br/>Chaque lot est soumis à des tests rigoureux par des <strong>laboratoires indépendants</strong>, afin de garantir <strong>la pureté, la puissance et l’authenticité</strong> du produit.<br/><br/></p>"
@@ -1171,6 +1174,7 @@
         },
         "item_X9qMtC": {
           "type": "item",
+          "disabled": true,
           "settings": {
             "title": "La gélatine provient-elle du porc ou d’une source végétale ?",
             "content": "<p><strong>Nos gélules sont à base de cellulose végétale</strong>, sans gélatine animale.<br/><br/>Elles conviennent parfaitement aux végétariens et à toutes les personnes qui souhaitent éviter les produits d’origine animale.<br/><br/></p>"
@@ -1178,6 +1182,7 @@
         },
         "item_zTcXAf": {
           "type": "item",
+          "disabled": true,
           "settings": {
             "title": "À quelle fréquence et pendant combien de temps dois-je le prendre ?",
             "content": "<p><strong>Pour des résultats optimaux</strong>, nous recommandons de prendre l’huile d’origan <strong>quotidiennement pendant au moins 90 à 180 jours</strong>, afin de bénéficier pleinement de ses effets.<br/><br/>Beaucoup de nos clients l’intègrent dans leur <strong>routine bien-être tout au long de l’année</strong>, tandis que d’autres la prennent de façon régulière selon leurs besoins.<br/><br/><br/></p>"
@@ -1192,6 +1197,7 @@
         },
         "item_8gnaRh": {
           "type": "item",
+          "disabled": true,
           "settings": {
             "title": "Les enfants peuvent-ils en prendre ?",
             "content": "<p><strong>Ce produit est formulé pour les adultes et les enfants.</strong><br/><br/>Cependant, pour les enfants de moins de 12 ans, il est recommandé de consulter un professionnel de santé avant utilisation.</p>"
@@ -1227,6 +1233,7 @@
         },
         "item_bw3BHa": {
           "type": "item",
+          "disabled": true,
           "settings": {
             "title": "Puis-je prendre ce complément pendant la grossesse ?",
             "content": "<p><br/>Nous <strong>ne recommandons pas de prendre de l’huile d’origan pendant la grossesse</strong>.<br/><br/>Certains composés actifs peuvent <strong>stimuler la circulation sanguine vers l’utérus</strong>.<br/><br/>Il est essentiel de <strong>consulter votre professionnel de santé</strong> avant de prendre tout complément alimentaire durant la grossesse.<br/><br/></p>"
@@ -1234,6 +1241,7 @@
         },
         "item_zjDBPi": {
           "type": "item",
+          "disabled": true,
           "settings": {
             "title": "Quel est le meilleur moment de la journée pour le prendre ?",
             "content": "<p><br/>Pour une <strong>absorption optimale</strong>, prenez les gélules d’huile d’origan <strong>au moment des repas</strong>.<br/><br/>Beaucoup de nos clients trouvent qu’une prise <strong>au petit-déjeuner ou au dîner</strong> fonctionne le mieux.<br/><br/>Si vous en prenez <strong>deux fois par jour</strong>, espacez les prises d’environ <strong>6 à 8 heures</strong>.<br/><br/></p>"
@@ -1255,6 +1263,7 @@
         },
         "item_iTUXyG": {
           "type": "item",
+          "disabled": true,
           "settings": {
             "title": "Est-ce que cela peut déranger mon estomac ?",
             "content": "<p><strong>OregaZen</strong> a été formulé pour <strong>améliorer la digestion et soutenir la santé intestinale</strong>.<br/><br/>La majorité des utilisateurs le tolèrent très bien.<br/><br/>Cependant, en raison de son <strong>puissant effet antimicrobien</strong>, certaines personnes peuvent ressentir des <strong>selles plus fréquentes durant les premiers jours</strong>, le temps que le produit <strong>élimine les déchets accumulés</strong> dans l’organisme.</p><p>C’est une réaction naturelle et temporaire, signe que le nettoyage interne est en cours.</p>"
@@ -1262,6 +1271,7 @@
         },
         "item_bjdWn3": {
           "type": "item",
+          "disabled": true,
           "settings": {
             "title": "Et si je n’aime pas les effets ou si je n’ai pas l’impression que ça fonctionne ?",
             "content": "<p><br/>Nous soutenons pleinement notre produit avec une <strong>garantie satisfait ou remboursé de 30 jours</strong>.<br/><br/>Si vous n’êtes pas entièrement satisfait(e) des résultats ou ressentez des effets indésirables, il vous suffit de <strong>contacter notre service client</strong> pour obtenir un <strong>remboursement complet</strong> – <strong>sans aucune question</strong> et <strong>sans avoir à retourner le produit</strong>.<br/><br/></p>"
