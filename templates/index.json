@@ -282,36 +282,40 @@
         "overlay_opacity": 0
       }
     },
-    "image_with_text_overlay_PYraQk": {
-      "type": "image-with-text-overlay",
+    "multiple_images_with_text_cHXzrx": {
+      "type": "multiple-images-with-text",
       "blocks": {
-        "heading_WpMjFg": {
-          "type": "heading",
+        "item_3hcJKQ": {
+          "type": "item",
           "settings": {
-            "text": "",
-            "heading_tag": "h1"
+            "image": "shopify://shop_images/Nos_clientes_en_parlent_le_mieux.jpg",
+            "image_rotation_degrees": -2,
+            "subheading": "",
+            "title": "",
+            "content": "",
+            "button_url": "",
+            "button_text": ""
           }
         }
       },
       "block_order": [
-        "heading_WpMjFg"
+        "item_3hcJKQ"
       ],
-      "name": "Image with text overlay",
+      "name": "Multiple images with text",
       "settings": {
         "full_width": true,
-        "allow_transparent_header": false,
-        "enable_parallax": false,
-        "image_size": "auto",
-        "image": "shopify://shop_images/Flacon_de_Moringa_Bio_OFFERT_3.jpg",
-        "mobile_text_position": "place-self-center text-center",
-        "desktop_text_position": "sm:place-self-center sm:text-center",
-        "text_color": "#ffffff",
-        "overlay_color": "#000000",
-        "overlay_opacity": 0
+        "images_layout": "stacked",
+        "collage_images_alignment": "middle",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "button_background": "",
+        "button_text_color": ""
       }
     },
     "custom_liquid_UPb9Ly": {
       "type": "custom-liquid",
+      "disabled": true,
       "name": "Custom Liquid",
       "settings": {
         "full_width": true,
@@ -1550,7 +1554,7 @@
     "logo_list_Rwt8QQ",
     "rich_text_UXzW84",
     "image_with_text_overlay_wWWrPw",
-    "image_with_text_overlay_PYraQk",
+    "multiple_images_with_text_cHXzrx",
     "custom_liquid_UPb9Ly",
     "multi_column_jwNAQX",
     "custom_liquid_4ME4Hg",
