@@ -217,10 +217,10 @@
         "items_per_row": 4,
         "background": "",
         "background_gradient": "",
-        "text_color": "#65c36f",
+        "text_color": "#1a1a1a",
         "heading_color": "",
         "heading_gradient": "",
-        "logo_item_background": "",
+        "logo_item_background": "#f1faf2",
         "logo_item_border": ""
       }
     },
@@ -251,7 +251,7 @@
         "text_position": "center",
         "background": "",
         "background_gradient": "",
-        "text_color": "#65c36f"
+        "text_color": "#000000"
       }
     },
     "image_with_text_overlay_wWWrPw": {
@@ -1551,21 +1551,23 @@
           "type": "slide",
           "settings": {
             "media_style": "image",
+            "image": "shopify://shop_images/3.jpg",
             "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
             "controls": false,
             "stars_count": 5,
-            "text": "<p>the perfect candle replacement, obsessed with the lamps!</p>",
-            "author": "<p><strong>@tracer</strong></p>"
+            "text": "<p>''J'avais essayé des tas de choses sans résultats. Et puis, j’ai commencé une routine simple, naturelle… et petit à petit, <strong>j’ai senti mon ventre se relâcher.</strong> Aujourd’hui, je me sens plus légère et apaisée.\"</p>",
+            "author": ""
           }
         },
         "slide_x9Bp9w": {
           "type": "slide",
           "settings": {
             "media_style": "image",
+            "image": "shopify://shop_images/5.jpg",
             "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
             "controls": false,
             "stars_count": 5,
-            "text": "<p>Our kids bring them everywhere, specially when doing puzzles and drawings</p>",
+            "text": "<p>\"Après chaque repas, c’était la même histoire : ballonnements, coups de fatigue, ventre tendu. Je pensais que c’était lié à l’âge.<strong> En changeant mes habitudes, tout a changé</strong>. <strong>Ma digestion est redevenue fluide et je retrouve enfin de l’énergie au quotidien.\"</strong></p>",
             "author": "<p><strong>@theworldisyours</strong></p>"
           }
         },
@@ -1573,10 +1575,11 @@
           "type": "slide",
           "settings": {
             "media_style": "image",
+            "image": "shopify://shop_images/5.jpg",
             "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
             "controls": false,
             "stars_count": 5,
-            "text": "<p>This is the brand to go for lamps, love the quality and design, as always you get what you pay</p>",
+            "text": "<p>''Je traînais une gêne constante au niveau du ventre. Inconfort, gaz, lourdeurs… J’en avais marre. Mais récemment, tout s’est apaisé.<strong> Mon ventre est plus calme, je digère mieux, et surtout : je n’y pense plus.</strong> Quel soulagement !\"</p>",
             "author": "<p><strong>@niels_homes</strong></p>"
           }
         },
@@ -1584,10 +1587,11 @@
           "type": "slide",
           "settings": {
             "media_style": "image",
+            "image": "shopify://shop_images/6.jpg",
             "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
             "controls": false,
             "stars_count": 5,
-            "text": "<p>Love them, they give the perfect luxury touch to any room</p>",
+            "text": "<p>''Avec les années, mon ventre était devenu source d’inconfort constant. Ballonné, tendu, comme si rien ne circulait bien. J’ai tout essayé, sans succès. Et puis, en adoptant une solution plus naturelle,<strong> les choses ont changé : digestion relancée, ventre plus léger, esprit plus clair.</strong> Je me sens enfin reconnectée à mon corps.\"</p>",
             "author": "<p><strong>@allfinds</strong></p>"
           }
         },
@@ -1595,10 +1599,11 @@
           "type": "slide",
           "settings": {
             "media_style": "image",
+            "image": "shopify://shop_images/4.jpg",
             "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
             "controls": false,
             "stars_count": 5,
-            "text": "<p>The cordless lamp you've been looking for!</p>",
+            "text": "<p>''Depuis la ménopause, j’avais l’impression d’avoir constamment un ballon à la place du ventre. Rien n’y faisait. <strong>Grâce à cette cure, mon ventre s’est enfin apaisé, ma digestion a repris son rythme.</strong> Je me sens de nouveau moi-même, sans avoir à lutter contre mon corps.''</p>",
             "author": "<p><strong>@lacey</strong></p>"
           }
         },
@@ -1640,8 +1645,8 @@
         "heading": "<h2>Loved by everyone, everywhere. Don't miss out.</h2>",
         "heading_custom": false,
         "heading_font": "josefin_sans_n4",
-        "heading_size": 30,
-        "heading_size_mobile": 22,
+        "heading_size": 44,
+        "heading_size_mobile": 26,
         "heading_height": 130,
         "heading_align": "center",
         "heading_align_mobile": "center",
