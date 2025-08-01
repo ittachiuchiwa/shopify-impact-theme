@@ -235,19 +235,30 @@
         },
         "richtext_NEFgDY": {
           "type": "richtext",
+          "disabled": true,
           "settings": {
             "content": "<p><strong>Pourquoi tous les gastro-entérologue nous conseillent ?</strong></p>"
+          }
+        },
+        "heading_N3tqBB": {
+          "type": "heading",
+          "settings": {
+            "text": "Pourquoi tous les gastro-entérologue nous conseillent ?",
+            "heading_tag": "h6",
+            "text_color": "",
+            "gradient": ""
           }
         }
       },
       "block_order": [
         "subheading_MxWbFb",
-        "richtext_NEFgDY"
+        "richtext_NEFgDY",
+        "heading_N3tqBB"
       ],
       "name": "Rich text",
       "settings": {
         "full_width": true,
-        "content_width": "small",
+        "content_width": "medium",
         "text_position": "center",
         "background": "",
         "background_gradient": "",
