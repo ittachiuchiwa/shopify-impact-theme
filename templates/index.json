@@ -688,6 +688,13 @@
             "max_width": 450
           }
         },
+        "image_J6zepU": {
+          "type": "image",
+          "settings": {
+            "alignment": "start",
+            "max_width": 150
+          }
+        },
         "liquid_mzrGJy": {
           "type": "liquid",
           "settings": {
@@ -963,6 +970,7 @@
         "title_z3tRVg",
         "price_8W4V43",
         "image_jB9AfK",
+        "image_J6zepU",
         "liquid_mzrGJy",
         "liquid_GUrkRK",
         "liquid_Q39C4f",
