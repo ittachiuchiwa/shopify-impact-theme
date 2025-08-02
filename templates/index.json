@@ -502,6 +502,7 @@
       "block_order": [
         "item_3hcJKQ"
       ],
+      "disabled": true,
       "name": "Multiple images with text",
       "settings": {
         "full_width": true,
@@ -618,6 +619,7 @@
         "item_DcXhLr",
         "item_N7b3cR"
       ],
+      "disabled": true,
       "name": "Multi-column",
       "settings": {
         "full_width": true,
