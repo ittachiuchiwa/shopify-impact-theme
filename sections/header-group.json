@@ -16,6 +16,7 @@
       "blocks": {
         "message": {
           "type": "message",
+          "disabled": true,
           "settings": {
             "text": "Offre d'Été -50%",
             "url": ""
@@ -23,6 +24,7 @@
         },
         "message_niV38B": {
           "type": "message",
+          "disabled": true,
           "settings": {
             "text": "Livraison Offerte",
             "url": ""
@@ -30,8 +32,16 @@
         },
         "message_C9by3D": {
           "type": "message",
+          "disabled": true,
           "settings": {
             "text": "Stocks bientôt épuisés",
+            "url": ""
+          }
+        },
+        "message_LJYr4J": {
+          "type": "message",
+          "settings": {
+            "text": "Livraison Offerte - Expédié sous 24h",
             "url": ""
           }
         }
@@ -39,7 +49,8 @@
       "block_order": [
         "message",
         "message_niV38B",
-        "message_C9by3D"
+        "message_C9by3D",
+        "message_LJYr4J"
       ],
       "settings": {
         "enable_sticky": false,
