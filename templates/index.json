@@ -57,7 +57,7 @@
         "enable_parallax": false,
         "image_size": "auto",
         "image": "shopify://shop_images/Sans_titre_1500_x_900_px_4.jpg",
-        "mobile_image": "shopify://shop_images/Votre_texte_de_paragraphe_19.jpg",
+        "mobile_image": "shopify://shop_images/Votre_texte_de_paragraphe_20.jpg",
         "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-center sm:text-center",
         "text_color": "#ffffff",
