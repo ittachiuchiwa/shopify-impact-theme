@@ -23,8 +23,8 @@
             "icon_background_type": "circle",
             "icon_background": "#00a341",
             "icon_color": "#ffffff",
-            "title": "Livraison Gratuite",
-            "content": ""
+            "title": "",
+            "content": "<p><strong>Livraison Gratuite<br/><br/></strong></p>"
           }
         },
         "customer-support": {
@@ -36,8 +36,8 @@
             "icon_background_type": "circle",
             "icon_background": "#00a341",
             "icon_color": "#ffffff",
-            "title": "Service client 7J/7",
-            "content": ""
+            "title": "",
+            "content": "<p><strong>Service client 7J/7<br/><br/></strong></p>"
           }
         },
         "discount": {
@@ -49,8 +49,8 @@
             "icon_background_type": "circle",
             "icon_background": "#00a341",
             "icon_color": "#ffffff",
-            "title": "Paiement sécurisé",
-            "content": ""
+            "title": "",
+            "content": "<p><strong>Paiement sécurisé<br/><br/></strong></p>"
           }
         },
         "payment": {
@@ -62,8 +62,8 @@
             "icon_background_type": "circle",
             "icon_background": "#00a341",
             "icon_color": "#ffffff",
-            "title": "Satisfait ou remboursé",
-            "content": ""
+            "title": "",
+            "content": "<p><strong>Satisfait ou remboursé<br/><br/></strong></p>"
           }
         }
       },
@@ -74,8 +74,8 @@
         "payment"
       ],
       "settings": {
-        "full_width": true,
-        "stack_on_mobile": false,
+        "full_width": false,
+        "stack_on_mobile": true,
         "title": "",
         "heading_tag": "h6",
         "text_alignment": "center",
