@@ -1354,6 +1354,7 @@
         },
         "166442457738b23caf-1": {
           "type": "item",
+          "disabled": true,
           "settings": {
             "title": "Que contient chaque portion ?",
             "content": "<p><strong>Chaque prise apporte 6 000 mg d’huile d’origan</strong> (extrait concentré 20:1) contenant <strong>165 mg de carvacrol naturellement présent</strong>, ainsi que <strong>200 mg d’huile de nigelle (cumin noir)</strong> pour renforcer les bienfaits.</p>"
@@ -1423,6 +1424,7 @@
         },
         "item_twRztE": {
           "type": "item",
+          "disabled": true,
           "settings": {
             "title": "Ce produit est-il testé par un laboratoire tiers ?",
             "content": "<p>Oui, tous nos produits sont soumis à des tests rigoureux par des laboratoires tiers indépendants, afin de garantir leur pureté, leur puissance et leur qualité.<br/><br/>Nous vérifions la présence éventuelle de métaux lourds, de microbes et d’autres contaminants, pour vous offrir un complément sûr et hautement efficace.<br/><br/></p>"
@@ -1430,6 +1432,7 @@
         },
         "item_PPUirY": {
           "type": "item",
+          "disabled": true,
           "settings": {
             "title": "Offrez-vous une garantie satisfaction ?",
             "content": "<p>Absolument ! Nous soutenons notre huile d’origan avec une <strong>garantie satisfait ou remboursé de 30 jours</strong>.<br/><br/>Si vous n’êtes pas entièrement satisfait(e), il vous suffit de nous contacter pour obtenir un <strong>remboursement complet, sans aucune condition</strong>.<br/><br/></p>"
@@ -1444,6 +1447,7 @@
         },
         "item_aFfMyn": {
           "type": "item",
+          "disabled": true,
           "settings": {
             "title": "Ce produit contient-il des OGM ?",
             "content": "<p>Non, notre huile d’origan est <strong>entièrement sans OGM</strong> et ne contient <strong>que des ingrédients naturels</strong>, sans aucune modification génétique.</p><p></p>"
@@ -1474,6 +1478,7 @@
         },
         "item_46yGBe": {
           "type": "item",
+          "disabled": true,
           "settings": {
             "title": "Y a-t-il des traces de produits laitiers, de gluten ou de soja ?",
             "content": "<p>Non. Nos gélules d’huile d’origan <strong>ne contiennent ni produits laitiers, ni gluten, ni soja</strong>, ni aucun allergène courant.<br/><br/>Tous nos produits sont formulés pour être <strong>purs</strong>, sans <strong>agents de remplissage inutiles ni additifs artificiels</strong>.</p><p><br/><br/></p>"
