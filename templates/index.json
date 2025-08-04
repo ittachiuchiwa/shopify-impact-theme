@@ -1696,7 +1696,7 @@
         "card_radius": 10,
         "card_border_thickness": 0,
         "card_shadow": true,
-        "video_ratio": "portrait",
+        "video_ratio": "square",
         "video_ratio_mobile": "portrait",
         "video_overlay": 0,
         "icon_size": 34,
