@@ -401,7 +401,7 @@
         "slider_gap": 28,
         "slider_gap_mobile": 20,
         "slider_mt": 20,
-        "autoplay": false,
+        "autoplay": true,
         "autoplay_delay": 5,
         "card_padding_vertical": 20,
         "card_padding_vertical_mobile": 16,
