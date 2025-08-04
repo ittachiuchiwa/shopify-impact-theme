@@ -336,7 +336,7 @@
           "type": "slide",
           "settings": {
             "media_style": "image",
-            "image": "shopify://shop_images/Design_sans_titre_44.jpg",
+            "image": "shopify://shop_images/Design_sans_titre_45.jpg",
             "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
             "controls": false,
             "stars_count": 5,
@@ -367,6 +367,17 @@
             "text": "<p>\"J'avais l'air enceinte de 6 mois ! En 1 mois avec OregaZen, mon ventre est redevenu plat. Transformation incroyable, je n'y croyais pas !\"</p>",
             "author": "<p><strong>Anaîs F.</strong></p>"
           }
+        },
+        "slide_hdke8Y": {
+          "type": "slide",
+          "settings": {
+            "media_style": "image",
+            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+            "controls": false,
+            "stars_count": 5,
+            "text": "<p>Text</p>",
+            "author": "<p>Author</p>"
+          }
         }
       },
       "block_order": [
@@ -375,7 +386,8 @@
         "slide_DryGrd",
         "slide_CqNwp9",
         "slide_ry68eh",
-        "slide_eNcz8X"
+        "slide_eNcz8X",
+        "slide_hdke8Y"
       ],
       "name": "SS - Testimonials #12",
       "settings": {
