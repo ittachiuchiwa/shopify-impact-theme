@@ -370,6 +370,7 @@
         },
         "slide_hdke8Y": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "media_style": "image",
             "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
