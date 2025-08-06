@@ -1668,22 +1668,13 @@
             "modal_heading": "<h4>Modal Heading</h4>",
             "modal_text": "<p>Modal Text</p>"
           }
-        },
-        "video_rcBiFL": {
-          "type": "video",
-          "settings": {
-            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-            "modal_heading": "<h4>Modal Heading</h4>",
-            "modal_text": "<p>Modal Text</p>"
-          }
         }
       },
       "block_order": [
         "video_nqjC4C",
         "video_WqfYr4",
         "video_QEyTxP",
-        "video_RtFcLW",
-        "video_rcBiFL"
+        "video_RtFcLW"
       ],
       "name": "SS - Product Videos",
       "settings": {
