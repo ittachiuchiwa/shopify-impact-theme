@@ -56,8 +56,8 @@
         "allow_transparent_header": false,
         "enable_parallax": false,
         "image_size": "auto",
-        "image": "shopify://shop_images/Votre_texte_de_paragraphe_1500_x_2000_px.jpg",
-        "mobile_image": "shopify://shop_images/Votre_texte_de_paragraphe_1500_x_1500_px_1500_x_2000_px.jpg",
+        "image": "shopify://shop_images/Votre_texte_de_paragraphe_1500_x_1500_px_1500_x_2000_px_2.jpg",
+        "mobile_image": "shopify://shop_images/Votre_texte_de_paragraphe_1500_x_1500_px_1500_x_2000_px_2.jpg",
         "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-center sm:text-center",
         "text_color": "#ffffff",
@@ -598,7 +598,7 @@
           "settings": {
             "image": "shopify://shop_images/Favorise_la_digestion_2500_x_500_px_3000_x_500_px_1500_x_700_px_18.jpg",
             "alignment": "start",
-            "max_width": 470
+            "max_width": 460
           }
         },
         "liquid_mzrGJy": {
