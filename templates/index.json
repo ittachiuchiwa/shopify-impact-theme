@@ -141,19 +141,6 @@
     "rich_text_UXzW84": {
       "type": "rich-text",
       "blocks": {
-        "subheading_MxWbFb": {
-          "type": "subheading",
-          "settings": {
-            "text": ""
-          }
-        },
-        "richtext_NEFgDY": {
-          "type": "richtext",
-          "disabled": true,
-          "settings": {
-            "content": "<p><strong>Pourquoi tous les gastro-entérologue nous conseillent ?</strong></p>"
-          }
-        },
         "heading_N3tqBB": {
           "type": "heading",
           "settings": {
@@ -165,8 +152,6 @@
         }
       },
       "block_order": [
-        "subheading_MxWbFb",
-        "richtext_NEFgDY",
         "heading_N3tqBB"
       ],
       "name": "Rich text",
