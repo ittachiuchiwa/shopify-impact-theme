@@ -41,6 +41,7 @@
     "text_font_size_desktop": 18,
     "show_page_transition": true,
     "heading_apparition": "split_fade",
+    "show_vendor": false,
     "show_secondary_image": true,
     "show_quick_buy": true,
     "show_sold_out_badge": false,
