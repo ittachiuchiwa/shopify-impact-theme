@@ -1137,9 +1137,9 @@
         "background": "#ffffff",
         "background_gradient": "",
         "text_color": "#666363",
-        "heading_color": "#b6edbb",
+        "heading_color": "#1a1a1a",
         "heading_gradient": "",
-        "testimonial_card_background": "#b6edbb",
+        "testimonial_card_background": "#d6f1d8",
         "testimonial_card_text_color": "#1a1a1a"
       }
     },
