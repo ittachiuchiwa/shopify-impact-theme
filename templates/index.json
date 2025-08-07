@@ -1079,6 +1079,61 @@
     "testimonials_tan9Et": {
       "type": "testimonials",
       "blocks": {
+        "testimonial_8EYnCK": {
+          "type": "testimonial",
+          "settings": {
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 4,
+            "author": "",
+            "title": "Anaîs G.",
+            "content": "<p>\"Je ne croyais pas aux avant/après... Maintenant j'en suis une ! Fini les vêtements larges pour cacher. Je recommande à 100%.\"</p>"
+          }
+        },
+        "testimonial_GRp8yB": {
+          "type": "testimonial",
+          "settings": {
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 4,
+            "author": "",
+            "title": "Testimonial",
+            "content": "<p>Share what your customers are saying about your products, customer service or shipping rates.</p>"
+          }
+        },
+        "testimonial_j9mt7j": {
+          "type": "testimonial",
+          "settings": {
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 4,
+            "author": "",
+            "title": "Christelle T.",
+            "content": "<p>\"J'étais sceptique mais ça marche vraiment. Mon ventre ne gonfle plus et je dors mieux. Je recommande.\"</p>"
+          }
+        },
+        "testimonial_NEB7EJ": {
+          "type": "testimonial",
+          "settings": {
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 4,
+            "author": "",
+            "title": "Marie C.",
+            "content": "<p>\"J'avais une prolifération de candida depuis des mois. Avec cette cure, mon ventre est redevenu normal. Incroyable transformation !\"</p>"
+          }
+        },
+        "testimonial_pBdCYK": {
+          "type": "testimonial",
+          "settings": {
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 4,
+            "author": "",
+            "title": "Stéphani J.",
+            "content": "<p>J'avais essayé des tas de choses sans résultats. Et puis, j’ai commencé une routine simple, naturelle… et petit à petit, <strong>j’ai senti mon ventre se relâcher.</strong> Aujourd’hui, je me sens plus légère et apaisée.\"</p>"
+          }
+        },
         "testimonial_gtJUqM": {
           "type": "testimonial",
           "settings": {
@@ -1158,6 +1213,11 @@
         }
       },
       "block_order": [
+        "testimonial_8EYnCK",
+        "testimonial_GRp8yB",
+        "testimonial_j9mt7j",
+        "testimonial_NEB7EJ",
+        "testimonial_pBdCYK",
         "testimonial_gtJUqM",
         "testimonial_nJY8Wd",
         "testimonial_kcjFHR",
