@@ -1134,6 +1134,17 @@
             "content": "<p>J'avais essayé des tas de choses sans résultats. Et puis, j’ai commencé une routine simple, naturelle… et petit à petit, <strong>j’ai senti mon ventre se relâcher.</strong> Aujourd’hui, je me sens plus légère et apaisée.\"</p>"
           }
         },
+        "testimonial_eFDgpd": {
+          "type": "testimonial",
+          "settings": {
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 4,
+            "author": "",
+            "title": "Louisa C.",
+            "content": "<p>\"J'avais l'air enceinte de 6 mois ! En 1 mois avec OregaZen, mon ventre est redevenu plat. Transformation incroyable, je n'y croyais pas !\"</p>"
+          }
+        },
         "testimonial_gtJUqM": {
           "type": "testimonial",
           "settings": {
@@ -1218,6 +1229,7 @@
         "testimonial_j9mt7j",
         "testimonial_NEB7EJ",
         "testimonial_pBdCYK",
+        "testimonial_eFDgpd",
         "testimonial_gtJUqM",
         "testimonial_nJY8Wd",
         "testimonial_kcjFHR",
