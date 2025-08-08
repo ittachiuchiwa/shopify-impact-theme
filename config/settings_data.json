@@ -48,7 +48,7 @@
     "show_discount": false,
     "discount_mode": "percentage",
     "product_color_display": "swatch",
-    "product_info_alignment": "start",
+    "product_info_alignment": "center",
     "cart_show_free_shipping_threshold": false,
     "checkout_accent_color": "#f0c417",
     "checkout_button_color": "#1a1a1a",
