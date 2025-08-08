@@ -141,18 +141,18 @@
     "rich_text_UXzW84": {
       "type": "rich-text",
       "blocks": {
-        "heading_N3tqBB": {
+        "heading_pz8pVk": {
           "type": "heading",
           "settings": {
-            "text": "Pourquoi tous les médecins nous conseillent ?",
-            "heading_tag": "h5",
+            "text": "Pourquoi chosir OregaZen ?",
+            "heading_tag": "h3",
             "text_color": "",
             "gradient": ""
           }
         }
       },
       "block_order": [
-        "heading_N3tqBB"
+        "heading_pz8pVk"
       ],
       "name": "Rich text",
       "settings": {
