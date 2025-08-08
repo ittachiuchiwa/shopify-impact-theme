@@ -760,6 +760,14 @@
             "liquid": ""
           }
         },
+        "image_7aiC8G": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Design_sans_titre_38_1.jpg",
+            "alignment": "center",
+            "max_width": 500
+          }
+        },
         "image_QkPLJy": {
           "type": "image",
           "settings": {
@@ -773,14 +781,6 @@
           "disabled": true,
           "settings": {
             "liquid": "<!DOCTYPE html>\n<html lang=\"fr\">\n<head>\n  <meta charset=\"UTF-8\">\n  <title>Visiteurs en ligne</title>\n\n  <!-- Police Inter Regular -->\n  <link href=\"https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap\" rel=\"stylesheet\">\n\n  <style>\n    body {\n      margin: 0;\n      padding: 0;\n      background: transparent;\n      font-family: 'Inter', sans-serif;\n    }\n\n    .checkout-notice {\n      font-size: 18px;\n      color: #333;\n      display: flex;\n      align-items: center;\n    }\n\n    .dot {\n      height: 10px;\n      width: 10px;\n      background-color: green;\n      border-radius: 50%;\n      margin-right: 8px;\n      animation: blink 1s infinite;\n    }\n\n    @keyframes blink {\n      0%, 100% { opacity: 1; }\n      50% { opacity: 0.2; }\n    }\n\n    .bold {\n      font-weight: 600;\n    }\n  </style>\n</head>\n<body>\n\n  <div class=\"checkout-notice\">\n    <div class=\"dot\"></div>\n    <span><span class=\"bold\" id=\"people-count\">...</span> personnes consultent cette offre en ce moment</span>\n  </div>\n\n  <script>\n    function updateCount() {\n      const min = 18;\n      const max = 59;\n      const count = Math.floor(Math.random() * (max - min + 1)) + min;\n      document.getElementById(\"people-count\").textContent = count;\n    }\n\n    // Appelle immédiatement la fonction pour afficher un nombre au chargement\n    updateCount();\n\n    // Puis toutes les 5 secondes (5000 ms)\n    setInterval(updateCount, 5000);\n  </script>\n\n</body>\n</html>"
-          }
-        },
-        "image_7aiC8G": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/Design_sans_titre_38_1.jpg",
-            "alignment": "center",
-            "max_width": 500
           }
         },
         "liquid_ne6gew": {
@@ -814,6 +814,12 @@
           "disabled": true,
           "settings": {
             "liquid": "<div style=\"\n  border: 1px solid #dce8dc;\n  border-radius: 12px;\n  padding: 20px;\n  max-width: 520px;\n  margin: 20px auto;\n  box-shadow: 0 2px 6px rgba(0,0,0,0.05);\n  position: relative;\n  overflow: hidden;\n\">\n\n  <!-- Liseré vert en haut -->\n  <div style=\"\n    position: absolute;\n    top: 0; left: 0; \n    width: 100%; \n    height: 4px; \n    background: linear-gradient(to right, #4fa54f, #7ac97a);\n    border-top-left-radius: 12px;\n    border-top-right-radius: 12px;\n  \"></div>\n\n  <ul style=\"list-style: none; padding: 0; margin: 0;\">\n    \n    <li style=\"display: flex; align-items: flex-start; gap: 12px; margin-bottom: 18px;\">\n      <div style=\"min-width:14px; height:14px; background:#3d6f44; border-radius:50%; box-shadow:0 2px 4px rgba(0,0,0,0.1); margin-top:6px;\"></div>\n      <div style=\"font-size: 15px; color:#2e5032;\">\n        <strong>Cure recommandée de 3 mois</strong> pour rétablir l'équilibre interne et éliminer les parasites.\n      </div>\n    </li>\n\n    <li style=\"display: flex; align-items: flex-start; gap: 12px; margin-bottom: 18px;\">\n      <div style=\"min-width:14px; height:14px; background:#3d6f44; border-radius:50%; box-shadow:0 2px 4px rgba(0,0,0,0.1); margin-top:6px;\"></div>\n      <div style=\"font-size: 15px; color:#2e5032;\">\n        <strong>Résultats visibles</strong> dès les premières semaines : ventre plus léger, énergie retrouvée.\n      </div>\n    </li>\n\n    <li style=\"display: flex; align-items: flex-start; gap: 12px;\">\n      <div style=\"min-width:14px; height:14px; background:#3d6f44; border-radius:50%; box-shadow:0 2px 4px rgba(0,0,0,0.1); margin-top:6px;\"></div>\n      <div style=\"font-size: 15px; color:#2e5032;\">\n        <strong>Bien-être durable</strong>, naturellement et sans brusquer votre corps.\n      </div>\n    </li>\n\n  </ul>\n\n</div>"
+          }
+        },
+        "liquid_n3B7iC": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<div id='ss-product-videos'></div>"
           }
         },
         "collapsible_text_Ki6GWe": {
@@ -856,12 +862,6 @@
           "disabled": true,
           "settings": {
             "text": "<p>Elles l’ont intégré à leur quotidien. Impossible de s’en passer maintenant.<br/><br/></p>"
-          }
-        },
-        "liquid_n3B7iC": {
-          "type": "liquid",
-          "settings": {
-            "liquid": "<div id='ss-product-videos'></div>"
           }
         },
         "liquid_aH47HQ": {
@@ -923,21 +923,21 @@
         "liquid_V7TKFP",
         "liquid_RXJddz",
         "liquid_ckaKaL",
+        "image_7aiC8G",
         "image_QkPLJy",
         "liquid_PzBFga",
-        "image_7aiC8G",
         "liquid_ne6gew",
         "image_7Bb7Gx",
         "liquid_aeB34r",
         "pickup_availability_WHLMk4",
         "liquid_HTYpEJ",
+        "liquid_n3B7iC",
         "collapsible_text_Ki6GWe",
         "collapsible_text_eprhzy",
         "collapsible_text_LfDV6H",
         "collapsible_text_wzRGkd",
         "text_HhGfqc",
         "text_UCztcD",
-        "liquid_n3B7iC",
         "liquid_aH47HQ",
         "liquid_DwgJc7",
         "liquid_jCUwdQ",
