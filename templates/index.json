@@ -915,17 +915,109 @@
         "input_text_color": ""
       }
     },
-    "custom_liquid_9XVWRc": {
-      "type": "custom-liquid",
-      "name": "Custom Liquid",
+    "rich_text_ft66VY": {
+      "type": "rich-text",
+      "blocks": {
+        "subheading_rk73eA": {
+          "type": "subheading",
+          "settings": {
+            "text": "Nos ingrédients testés cliniquement"
+          }
+        },
+        "heading_hkJywG": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "text": "Ingrédients testés cliniquement",
+            "heading_tag": "h3",
+            "text_color": "",
+            "gradient": ""
+          }
+        },
+        "richtext_AjUJmg": {
+          "type": "richtext",
+          "disabled": true,
+          "settings": {
+            "content": "<p>Chez Xionora, nous avons passé des années à perfectionner cette formule, en éliminant les additifs inutiles tout en <strong>maximisant la pureté, la puissance et l’efficacité, </strong>afin que vous obteniez de vrais résultats, et pas seulement de vaines promesses.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_rk73eA",
+        "heading_hkJywG",
+        "richtext_AjUJmg"
+      ],
+      "name": "Rich text",
       "settings": {
         "full_width": true,
-        "remove_vertical_spacing": true,
-        "remove_horizontal_spacing": true,
-        "liquid": "<div style=\"background-color: #ffffff; padding: 2rem 0; text-align: center;\">\n  <h2 style=\"font-size: 1.3rem; font-weight: 700; margin-bottom: 1rem;\">\n    Nos clientes en parlent le mieux\n  </h2>\n\n  <div style=\"font-size: 1.2rem; margin-bottom: 0.5rem; display: flex; justify-content: center; align-items: center; gap: 8px; flex-wrap: wrap;\">\n    <span>Excellent <strong>4.7 / 5</strong></span>\n\n    <!-- Image Trustpilot pour 4.5 étoiles -->\n    <img\n      src=\"https://cdn.trustpilot.net/brand-assets/4.1.0/stars/stars-4.5.svg\"\n      alt=\"4.7 étoiles\"\n      style=\"height: 24px; width: auto; vertical-align: middle;\"\n    >\n  </div>\n\n  <div style=\"font-size: 1rem; color: #000; display: flex; justify-content: center; align-items: center; gap: 6px;\">\n    <span>basé sur <span style=\"text-decoration: underline;\"><strong>+1000</strong></span> avis</span>\n\n    <!-- Logo Trustpilot officiel -->\n    <span style=\"display: flex; align-items: center; gap: 4px;\">\n      <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" viewBox=\"0 0 24 24\">\n        <path fill=\"#00B67A\" d=\"M12 .587l3.668 7.568 8.332 1.151-6.001 5.837 1.417 8.293L12 18.896l-7.416 4.54 1.417-8.293-6.001-5.837 8.332-1.151z\"/>\n      </svg>\n      <span style=\"font-weight: 500;\">Trustpilot</span>\n    </span>\n  </div>\n</div>",
-        "background": "#ffffff",
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
         "background_gradient": "",
         "text_color": ""
+      }
+    },
+    "slideshow_GUKWNK": {
+      "type": "slideshow",
+      "blocks": {
+        "image_Hdaek7": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/gempages_555070284432933968-56fffdf7-191e-49ed-bf8f-92b83683553d.webp",
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "subheading": "HUILE D'ORIGAN",
+            "title": "Un extrait concentré en carvacrol, reconnu pour son action antimicrobienne naturelle et son soutien aux défenses immunitaires.",
+            "heading_tag": "h6",
+            "button_text": "",
+            "button_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30,
+            "background": "",
+            "background_gradient": ""
+          }
+        },
+        "image_Gi4Tx9": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/gempages_555070284432933968-e28fca95-f72c-469d-b217-585cac40fed9.webp",
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "subheading": "HUILE DE NIGELLE",
+            "title": "Transmise de génération en génération, cette huile de guérison est appréciée pour sa puissance naturelle et sa capacité à raviver l’énergie, la clarté et le bien-être intérieur.",
+            "heading_tag": "h6",
+            "button_text": "",
+            "button_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30,
+            "background": "",
+            "background_gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_Hdaek7",
+        "image_Gi4Tx9"
+      ],
+      "name": "Slideshow",
+      "settings": {
+        "full_width": false,
+        "allow_transparent_header": true,
+        "image_size": "auto",
+        "controls_type": "dots",
+        "transition_type": "fade_with_text",
+        "autoplay": false,
+        "cycle_speed": 4,
+        "background": "#ffffff",
+        "background_gradient": ""
       }
     },
     "testimonials_tan9Et": {
@@ -1224,111 +1316,6 @@
         "background": "",
         "background_gradient": "",
         "text_color": ""
-      }
-    },
-    "rich_text_ft66VY": {
-      "type": "rich-text",
-      "blocks": {
-        "subheading_rk73eA": {
-          "type": "subheading",
-          "settings": {
-            "text": "Nos ingrédients testés cliniquement"
-          }
-        },
-        "heading_hkJywG": {
-          "type": "heading",
-          "disabled": true,
-          "settings": {
-            "text": "Ingrédients testés cliniquement",
-            "heading_tag": "h3",
-            "text_color": "",
-            "gradient": ""
-          }
-        },
-        "richtext_AjUJmg": {
-          "type": "richtext",
-          "disabled": true,
-          "settings": {
-            "content": "<p>Chez Xionora, nous avons passé des années à perfectionner cette formule, en éliminant les additifs inutiles tout en <strong>maximisant la pureté, la puissance et l’efficacité, </strong>afin que vous obteniez de vrais résultats, et pas seulement de vaines promesses.</p>"
-          }
-        }
-      },
-      "block_order": [
-        "subheading_rk73eA",
-        "heading_hkJywG",
-        "richtext_AjUJmg"
-      ],
-      "name": "Rich text",
-      "settings": {
-        "full_width": true,
-        "content_width": "small",
-        "text_position": "center",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
-    "slideshow_GUKWNK": {
-      "type": "slideshow",
-      "blocks": {
-        "image_Hdaek7": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/gempages_555070284432933968-56fffdf7-191e-49ed-bf8f-92b83683553d.webp",
-            "content_max_width": 780,
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_text_position": "sm:place-self-center sm:text-center",
-            "subheading": "HUILE D'ORIGAN",
-            "title": "Un extrait concentré en carvacrol, reconnu pour son action antimicrobienne naturelle et son soutien aux défenses immunitaires.",
-            "heading_tag": "h6",
-            "button_text": "",
-            "button_link": "",
-            "text_color": "#ffffff",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "overlay_color": "#000000",
-            "overlay_opacity": 30,
-            "background": "",
-            "background_gradient": ""
-          }
-        },
-        "image_Gi4Tx9": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/gempages_555070284432933968-e28fca95-f72c-469d-b217-585cac40fed9.webp",
-            "content_max_width": 780,
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_text_position": "sm:place-self-center sm:text-center",
-            "subheading": "HUILE DE NIGELLE",
-            "title": "Transmise de génération en génération, cette huile de guérison est appréciée pour sa puissance naturelle et sa capacité à raviver l’énergie, la clarté et le bien-être intérieur.",
-            "heading_tag": "h6",
-            "button_text": "",
-            "button_link": "",
-            "text_color": "#ffffff",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "overlay_color": "#000000",
-            "overlay_opacity": 30,
-            "background": "",
-            "background_gradient": ""
-          }
-        }
-      },
-      "block_order": [
-        "image_Hdaek7",
-        "image_Gi4Tx9"
-      ],
-      "name": "Slideshow",
-      "settings": {
-        "full_width": false,
-        "allow_transparent_header": true,
-        "image_size": "auto",
-        "controls_type": "dots",
-        "transition_type": "fade_with_text",
-        "autoplay": false,
-        "cycle_speed": 4,
-        "background": "#ffffff",
-        "background_gradient": ""
       }
     },
     "faq": {
@@ -1921,13 +1908,12 @@
     "multi_column_jwNAQX",
     "custom_liquid_4ME4Hg",
     "featured_product_t9t9Jj",
-    "custom_liquid_9XVWRc",
+    "rich_text_ft66VY",
+    "slideshow_GUKWNK",
     "testimonials_tan9Et",
     "rich_text_LxrDTy",
     "multiple_images_with_text_96h7ed",
     "timeline_PcTQyC",
-    "rich_text_ft66VY",
-    "slideshow_GUKWNK",
     "faq",
     "1752338483f297c75b",
     "s_xQacYN",
