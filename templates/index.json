@@ -266,18 +266,6 @@
             "text": "<p>\"J'avais l'air enceinte de 6 mois ! En 1 mois avec OregaZen, mon ventre est redevenu plat. Transformation incroyable, je n'y croyais pas !\"</p>",
             "author": "<p><strong>Anaîs F.</strong></p>"
           }
-        },
-        "slide_hdke8Y": {
-          "type": "slide",
-          "disabled": true,
-          "settings": {
-            "media_style": "image",
-            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-            "controls": false,
-            "stars_count": 5,
-            "text": "<p>Text</p>",
-            "author": "<p>Author</p>"
-          }
         }
       },
       "block_order": [
@@ -286,8 +274,7 @@
         "slide_DryGrd",
         "slide_CqNwp9",
         "slide_ry68eh",
-        "slide_eNcz8X",
-        "slide_hdke8Y"
+        "slide_eNcz8X"
       ],
       "name": "SS - Testimonials #12",
       "settings": {
@@ -395,52 +382,6 @@
         "lazy": true
       }
     },
-    "multiple_images_with_text_cHXzrx": {
-      "type": "multiple-images-with-text",
-      "blocks": {
-        "item_3hcJKQ": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/Nos_clientes_en_parlent_le_mieux_1.jpg",
-            "image_rotation_degrees": -2,
-            "subheading": "",
-            "title": "",
-            "content": "",
-            "button_url": "",
-            "button_text": ""
-          }
-        }
-      },
-      "block_order": [
-        "item_3hcJKQ"
-      ],
-      "disabled": true,
-      "name": "Multiple images with text",
-      "settings": {
-        "full_width": true,
-        "images_layout": "stacked",
-        "collage_images_alignment": "middle",
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "button_background": "",
-        "button_text_color": ""
-      }
-    },
-    "custom_liquid_UPb9Ly": {
-      "type": "custom-liquid",
-      "disabled": true,
-      "name": "Custom Liquid",
-      "settings": {
-        "full_width": true,
-        "remove_vertical_spacing": false,
-        "remove_horizontal_spacing": false,
-        "liquid": "<div style=\"text-align: center; font-family: sans-serif;\">\n  <h3 style=\"font-size: 20px; font-weight: 600; margin-bottom: 10px;\">Nos clients en parlent le mieux</h3>\n  \n  <div style=\"display: flex; justify-content: center; align-items: center; gap: 8px; margin-bottom: 6px;\">\n    <span style=\"font-size: 16px;\">Excellent</span>\n    <strong style=\"font-size: 18px;\">4.7 / 5</strong>\n\n    <div style=\"display: flex; gap: 2px;\">\n      {% for i in (1..5) %}\n      <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" fill=\"#00B67A\" viewBox=\"0 0 24 24\">\n        <path d=\"M12 .587l3.668 7.431 8.2 1.151-5.934 5.663 1.402 8.168L12 18.897l-7.336 3.903 1.402-8.168L.132 9.169l8.2-1.151z\"/>\n      </svg>\n      {% endfor %}\n    </div>\n  </div>\n\n  <p style=\"font-size: 14px; color: #333;\">\n    Basé sur <strong>+2310 avis</strong>\n    <span style=\"display: inline-flex; align-items: center; gap: 4px; color: #000000;\">\n      <svg width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"#00B67A\" xmlns=\"http://www.w3.org/2000/svg\">\n        <path d=\"M12 .587l3.668 7.431 8.2 1.151-5.934 5.663 1.402 8.168L12 18.897l-7.336 3.903 1.402-8.168L.132 9.169l8.2-1.151z\"/>\n      </svg>\n      <span style=\"font-weight: bold;\">Trustpilot</span>\n    </span>\n  </p>\n</div>",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
     "multi_column_jwNAQX": {
       "type": "multi-column",
       "blocks": {
@@ -451,7 +392,7 @@
             "column_size": "3",
             "title": "- Laura F. 42 ans",
             "heading_tag": "h4",
-            "content": "<p>J'avais essayé des tas de choses sans résultats. Et puis, j’ai commencé une routine simple, naturelle… et petit à petit, <strong>j’ai senti mon ventre se relâcher.</strong> Aujourd’hui, je me sens plus légère et apaisée.\"</p>",
+            "content": "<p>Merci pour tout ! J'avais essayé des tas de choses sans résultats. Et puis, j’ai commencé une routine simple, naturelle… et petit à petit, <strong>j’ai senti mon ventre se relâcher.</strong> Aujourd’hui, je me sens plus légère et apaisée.\"</p>",
             "link_url": "",
             "link_text": "",
             "link_style": "link"
@@ -1964,8 +1905,6 @@
     "rich_text_UXzW84",
     "image_with_text_overlay_wWWrPw",
     "testimoniall_DbaG6H",
-    "multiple_images_with_text_cHXzrx",
-    "custom_liquid_UPb9Ly",
     "multi_column_jwNAQX",
     "custom_liquid_4ME4Hg",
     "featured_product_t9t9Jj",
