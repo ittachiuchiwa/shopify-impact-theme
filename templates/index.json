@@ -775,11 +775,11 @@
             "liquid": "<div style=\"\n  border: 1px solid #dce8dc;\n  border-radius: 12px;\n  padding: 20px;\n  max-width: 520px;\n  margin: 20px auto;\n  box-shadow: 0 2px 6px rgba(0,0,0,0.05);\n  position: relative;\n  overflow: hidden;\n\">\n\n  <!-- Liseré vert en haut -->\n  <div style=\"\n    position: absolute;\n    top: 0; left: 0; \n    width: 100%; \n    height: 4px; \n    background: linear-gradient(to right, #4fa54f, #7ac97a);\n    border-top-left-radius: 12px;\n    border-top-right-radius: 12px;\n  \"></div>\n\n  <ul style=\"list-style: none; padding: 0; margin: 0;\">\n    \n    <li style=\"display: flex; align-items: flex-start; gap: 12px; margin-bottom: 18px;\">\n      <div style=\"min-width:14px; height:14px; background:#3d6f44; border-radius:50%; box-shadow:0 2px 4px rgba(0,0,0,0.1); margin-top:6px;\"></div>\n      <div style=\"font-size: 15px; color:#2e5032;\">\n        <strong>Cure recommandée de 3 mois</strong> pour rétablir l'équilibre interne et éliminer les parasites.\n      </div>\n    </li>\n\n    <li style=\"display: flex; align-items: flex-start; gap: 12px; margin-bottom: 18px;\">\n      <div style=\"min-width:14px; height:14px; background:#3d6f44; border-radius:50%; box-shadow:0 2px 4px rgba(0,0,0,0.1); margin-top:6px;\"></div>\n      <div style=\"font-size: 15px; color:#2e5032;\">\n        <strong>Résultats visibles</strong> dès les premières semaines : ventre plus léger, énergie retrouvée.\n      </div>\n    </li>\n\n    <li style=\"display: flex; align-items: flex-start; gap: 12px;\">\n      <div style=\"min-width:14px; height:14px; background:#3d6f44; border-radius:50%; box-shadow:0 2px 4px rgba(0,0,0,0.1); margin-top:6px;\"></div>\n      <div style=\"font-size: 15px; color:#2e5032;\">\n        <strong>Bien-être durable</strong>, naturellement et sans brusquer votre corps.\n      </div>\n    </li>\n\n  </ul>\n\n</div>"
           }
         },
-        "collapsible_text_Ki6GWe": {
+        "collapsible_text_LfDV6H": {
           "type": "collapsible_text",
           "settings": {
-            "title": "Bénéfices",
-            "content": "<p><strong>✔️ Renforce naturellement votre immunité</strong><br/><br/>Votre corps devient plus résistant face aux virus, aux changements de saison et aux coups de fatigue.</p><p><strong>✔️ Soulage les inflammations</strong><br/><br/>Apaise les douleurs articulaires, digestives ou musculaires, pour un confort retrouvé au quotidien.</p><p><strong>✔️ Améliore la digestion</strong><br/><br/>Ventre plus léger, moins de ballonnements, meilleure assimilation des nutriments.</p><p><strong>✔️ Relance votre énergie physique et mentale</strong><br/><br/>Un vrai coup de boost naturel sans caféine ni excitants chimiques.</p><p><strong>✔️ Favorise un bien-être durable</strong><br/><br/>Moins de stress, plus d’équilibre, vous vous sentez bien dans votre corps jour après jour.</p><p><strong>✔️ 100% naturel et sans produits chimiques</strong><br/><br/>Un concentré de nature pour prendre soin de vous, sans compromis.</p><p><br/><br/></p><p><br/><br/></p><p><br/></p>"
+            "title": "Uilisation",
+            "content": "<p><strong>Routine simple & efficace :</strong><br/><br/>• Prenez <strong>1 à 2 gélules par jour</strong>, accompagnées d’un verre d’eau<br/><br/>• De préférence <strong>au cours d’un repas</strong> pour une meilleure assimilation</p><p>• Une <strong>prise régulière pendant 30 jours</strong> permet de poser les bases<br/><br/>• Intégrez-le à votre routine bien-être comme un geste santé simple et naturel</p>"
           }
         },
         "collapsible_text_eprhzy": {
@@ -789,11 +789,11 @@
             "content": "<p>OregaZen s’adresse à toutes les personnes qui veulent renforcer naturellement leur santé, sans produits chimiques ni routines complexes.</p><p>✅ <strong>Pour les personnes souvent fatiguées ou à l’énergie basse</strong><br/><br/>→ Un soutien naturel pour retrouver vitalité et clarté mentale.</p><p>✅ <strong>Pour ceux qui souffrent de troubles digestifs</strong><br/><br/>→ Ballonnements, digestion lente, inconfort intestinal ? OregaZen aide à retrouver un ventre apaisé.</p><p>✅ <strong>Pour les personnes sujettes aux inflammations</strong><br/><br/>→ Douleurs articulaires, gênes musculaires ou inflammations chroniques : un allié naturel au quotidien.</p><p>✅ <strong>Pour les défenses immunitaires affaiblies</strong><br/><br/>→ Idéal en période hivernale ou lors de changements de saison.</p><p>✅ <strong>Pour les adeptes du naturel et du bien-être holistique</strong><br/><br/>→ Vous cherchez une alternative sans produits chimiques ? Vous êtes au bon endroit.</p><p>💡 <strong>Convient aux adultes.</strong><br/><br/>🚫 <strong>Déconseillé aux femmes enceintes ou allaitantes sans avis médical.</strong><br/><br/>⚠️ <strong>Comme pour tout complément alimentaire, demandez toujours l’avis de votre médecin avant utilisation, surtout en cas de traitement ou de condition médicale particulière.</strong></p>"
           }
         },
-        "collapsible_text_LfDV6H": {
+        "collapsible_text_Ki6GWe": {
           "type": "collapsible_text",
           "settings": {
-            "title": "Uilisation",
-            "content": "<p><strong>Routine simple & efficace :</strong><br/><br/>• Prenez <strong>1 à 2 gélules par jour</strong>, accompagnées d’un verre d’eau<br/><br/>• De préférence <strong>au cours d’un repas</strong> pour une meilleure assimilation</p><p>• Une <strong>prise régulière pendant 30 jours</strong> permet de poser les bases<br/><br/>• Intégrez-le à votre routine bien-être comme un geste santé simple et naturel</p>"
+            "title": "Bénéfices",
+            "content": "<p><strong>✔️ Renforce naturellement votre immunité</strong><br/><br/>Votre corps devient plus résistant face aux virus, aux changements de saison et aux coups de fatigue.</p><p><strong>✔️ Soulage les inflammations</strong><br/><br/>Apaise les douleurs articulaires, digestives ou musculaires, pour un confort retrouvé au quotidien.</p><p><strong>✔️ Améliore la digestion</strong><br/><br/>Ventre plus léger, moins de ballonnements, meilleure assimilation des nutriments.</p><p><strong>✔️ Relance votre énergie physique et mentale</strong><br/><br/>Un vrai coup de boost naturel sans caféine ni excitants chimiques.</p><p><strong>✔️ Favorise un bien-être durable</strong><br/><br/>Moins de stress, plus d’équilibre, vous vous sentez bien dans votre corps jour après jour.</p><p><strong>✔️ 100% naturel et sans produits chimiques</strong><br/><br/>Un concentré de nature pour prendre soin de vous, sans compromis.</p><p><br/><br/></p><p><br/><br/></p><p><br/></p>"
           }
         },
         "collapsible_text_wzRGkd": {
@@ -885,9 +885,9 @@
         "image_7Bb7Gx",
         "pickup_availability_WHLMk4",
         "liquid_HTYpEJ",
-        "collapsible_text_Ki6GWe",
-        "collapsible_text_eprhzy",
         "collapsible_text_LfDV6H",
+        "collapsible_text_eprhzy",
+        "collapsible_text_Ki6GWe",
         "collapsible_text_wzRGkd",
         "text_HhGfqc",
         "text_UCztcD",
