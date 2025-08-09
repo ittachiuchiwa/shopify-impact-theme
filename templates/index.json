@@ -655,19 +655,10 @@
           "type": "quantity_selector",
           "settings": {}
         },
-        "image_bPAJM8": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/Une_solution_durable_pour_un_ventre_plat_et_sain_1080_x_500_px.jpg",
-            "alignment": "start",
-            "max_width": 490
-          }
-        },
         "image_yVE7ba": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Une_solution_durable_pour_un_ventre_plat_et_sain_1080_x_500_px_1.jpg",
+            "image": "shopify://shop_images/Une_solution_durable_pour_un_ventre_plat_et_sain_1080_x_500_px_2.jpg",
             "alignment": "center",
             "max_width": 450
           }
@@ -868,7 +859,6 @@
         "liquid_PA69WL",
         "variant_picker_dKt3Ay",
         "quantity_selector_QDfzPy",
-        "image_bPAJM8",
         "image_yVE7ba",
         "countdown_timer_essential_app_block_mhY6aR",
         "buy_buttons_zjXiAE",
