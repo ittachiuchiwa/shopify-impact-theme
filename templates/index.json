@@ -978,6 +978,48 @@
         "text_color": ""
       }
     },
+    "images_with_text_scrolling_NzNz7q": {
+      "type": "images-with-text-scrolling",
+      "blocks": {
+        "item_qwkAna": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/gempages_555070284432933968-56fffdf7-191e-49ed-bf8f-92b83683553d.webp",
+            "icon": "none",
+            "icon_width": 48,
+            "title": "Huile d'origan",
+            "content": "<p>Un extrait concentré en carvacrol, reconnu pour son action antimicrobienne naturelle et son soutien aux défenses immunitaires.</p>"
+          }
+        },
+        "item_QxP4Kg": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/gempages_555070284432933968-e28fca95-f72c-469d-b217-585cac40fed9.webp",
+            "icon": "none",
+            "icon_width": 48,
+            "title": "Huile de nigelle",
+            "content": "<p>Transmise de génération en génération, cette huile de guérison est appréciée pour sa puissance naturelle et sa capacité à raviver l’énergie, la clarté et le bien-être intérieur.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_qwkAna",
+        "item_QxP4Kg"
+      ],
+      "name": "Images and text scrolling",
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": true,
+        "show_counter": true,
+        "desktop_image_effect": "fade",
+        "image_position": "end",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
+      }
+    },
     "testimonials_tan9Et": {
       "type": "testimonials",
       "blocks": {
@@ -1741,7 +1783,7 @@
       "disabled": true,
       "name": "SS - Comparison Table #4",
       "settings": {
-        "heading": "<h2>3 Raisons d'intégrer OregaZen dans votre quotidien</h2>",
+        "heading": "<h5><em><strong>4 Raisons d'intégrer OregaZen dans votre quotidien</strong></em></h5>",
         "heading_custom": false,
         "heading_font": "assistant_n4",
         "heading_size": 26,
@@ -1853,48 +1895,6 @@
         "content_width": 120,
         "border_thickness": 0,
         "lazy": true
-      }
-    },
-    "images_with_text_scrolling_NzNz7q": {
-      "type": "images-with-text-scrolling",
-      "blocks": {
-        "item_qwkAna": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/gempages_555070284432933968-56fffdf7-191e-49ed-bf8f-92b83683553d.webp",
-            "icon": "none",
-            "icon_width": 48,
-            "title": "Huile d'origan",
-            "content": "<p>Un extrait concentré en carvacrol, reconnu pour son action antimicrobienne naturelle et son soutien aux défenses immunitaires.</p>"
-          }
-        },
-        "item_QxP4Kg": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/gempages_555070284432933968-e28fca95-f72c-469d-b217-585cac40fed9.webp",
-            "icon": "none",
-            "icon_width": 48,
-            "title": "Huile de nigelle",
-            "content": "<p>Transmise de génération en génération, cette huile de guérison est appréciée pour sa puissance naturelle et sa capacité à raviver l’énergie, la clarté et le bien-être intérieur.</p>"
-          }
-        }
-      },
-      "block_order": [
-        "item_qwkAna",
-        "item_QxP4Kg"
-      ],
-      "name": "Images and text scrolling",
-      "settings": {
-        "full_width": true,
-        "stack_on_mobile": true,
-        "show_counter": true,
-        "desktop_image_effect": "fade",
-        "image_position": "end",
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "heading_color": "",
-        "heading_gradient": ""
       }
     }
   },
