@@ -978,69 +978,6 @@
         "text_color": ""
       }
     },
-    "slideshow_GUKWNK": {
-      "type": "slideshow",
-      "blocks": {
-        "image_Hdaek7": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/gempages_555070284432933968-56fffdf7-191e-49ed-bf8f-92b83683553d.webp",
-            "content_max_width": 780,
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_text_position": "sm:place-self-center sm:text-center",
-            "subheading": "HUILE D'ORIGAN",
-            "title": "Un extrait concentré en carvacrol, reconnu pour son action antimicrobienne naturelle et son soutien aux défenses immunitaires.",
-            "heading_tag": "h6",
-            "button_text": "",
-            "button_link": "",
-            "text_color": "#ffffff",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "overlay_color": "#000000",
-            "overlay_opacity": 30,
-            "background": "",
-            "background_gradient": ""
-          }
-        },
-        "image_Gi4Tx9": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/gempages_555070284432933968-e28fca95-f72c-469d-b217-585cac40fed9.webp",
-            "content_max_width": 780,
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_text_position": "sm:place-self-center sm:text-center",
-            "subheading": "HUILE DE NIGELLE",
-            "title": "Transmise de génération en génération, cette huile de guérison est appréciée pour sa puissance naturelle et sa capacité à raviver l’énergie, la clarté et le bien-être intérieur.",
-            "heading_tag": "h6",
-            "button_text": "",
-            "button_link": "",
-            "text_color": "#ffffff",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "overlay_color": "#000000",
-            "overlay_opacity": 30,
-            "background": "",
-            "background_gradient": ""
-          }
-        }
-      },
-      "block_order": [
-        "image_Hdaek7",
-        "image_Gi4Tx9"
-      ],
-      "name": "Slideshow",
-      "settings": {
-        "full_width": false,
-        "allow_transparent_header": true,
-        "image_size": "auto",
-        "controls_type": "dots",
-        "transition_type": "fade_with_text",
-        "autoplay": false,
-        "cycle_speed": 4,
-        "background": "#ffffff",
-        "background_gradient": ""
-      }
-    },
     "testimonials_tan9Et": {
       "type": "testimonials",
       "blocks": {
@@ -1974,7 +1911,7 @@
     "custom_liquid_4ME4Hg",
     "featured_product_t9t9Jj",
     "rich_text_ft66VY",
-    "slideshow_GUKWNK",
+    "images_with_text_scrolling_NzNz7q",
     "testimonials_tan9Et",
     "rich_text_LxrDTy",
     "multiple_images_with_text_96h7ed",
@@ -1983,7 +1920,6 @@
     "1752338483f297c75b",
     "s_xQacYN",
     "17533844265221b11f",
-    "ss_comparison_MRaBRU",
-    "images_with_text_scrolling_NzNz7q"
+    "ss_comparison_MRaBRU"
   ]
 }
