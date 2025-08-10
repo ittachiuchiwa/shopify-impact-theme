@@ -1790,6 +1790,7 @@
         "item_kwEPtn",
         "item_MmmLUr"
       ],
+      "disabled": true,
       "name": "SS - Comparison Table #4",
       "settings": {
         "heading": "<h5><em><strong>4 Raisons d'intégrer OregaZen dans votre quotidien</strong></em></h5>",
@@ -1812,6 +1813,7 @@
         "first_heading": "SECTION STORE",
         "first_heading_image": "shopify://shop_images/OregaZen_4.jpg",
         "second_heading": "Autres",
+        "second_heading_image": "shopify://shop_images/40034072.webp",
         "third_heading": "",
         "four_heading": "",
         "table_heading_custom": false,
