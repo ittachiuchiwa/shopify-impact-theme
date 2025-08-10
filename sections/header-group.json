@@ -16,7 +16,6 @@
       "blocks": {
         "message": {
           "type": "message",
-          "disabled": true,
           "settings": {
             "text": "Offre d'Été -50%",
             "url": ""
@@ -24,7 +23,6 @@
         },
         "message_niV38B": {
           "type": "message",
-          "disabled": true,
           "settings": {
             "text": "Livraison Offerte",
             "url": ""
@@ -32,7 +30,6 @@
         },
         "message_C9by3D": {
           "type": "message",
-          "disabled": true,
           "settings": {
             "text": "Stocks bientôt épuisés",
             "url": ""
@@ -40,6 +37,7 @@
         },
         "message_LJYr4J": {
           "type": "message",
+          "disabled": true,
           "settings": {
             "text": "Offre estivale exclusive : Livraison gratuite",
             "url": ""
@@ -55,7 +53,7 @@
       "settings": {
         "enable_sticky": false,
         "text_size": "text-xs",
-        "navigation_mode": "arrows",
+        "navigation_mode": "scrolling",
         "scrolling_speed": 10,
         "background": "#1a1a1a",
         "background_gradient": "",
