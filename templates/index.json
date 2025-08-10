@@ -585,6 +585,14 @@
             "max_width": 500
           }
         },
+        "image_z7teRJ": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Sans_titre_800_x_800_px_3000_x_1000_px_3.jpg",
+            "alignment": "start",
+            "max_width": 500
+          }
+        },
         "image_CnnaBk": {
           "type": "image",
           "disabled": true,
@@ -874,6 +882,7 @@
         "title_z3tRVg",
         "price_8W4V43",
         "image_jB9AfK",
+        "image_z7teRJ",
         "image_CnnaBk",
         "liquid_mzrGJy",
         "liquid_GUrkRK",
