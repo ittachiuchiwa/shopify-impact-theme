@@ -56,143 +56,137 @@
         "allow_transparent_header": false,
         "enable_parallax": false,
         "image_size": "auto",
-        "image": "shopify://shop_images/Votre_texte_de_paragraphe_1500_x_1500_px_1500_x_2000_px_1500_x_1500_px_1500_x_2000_px_1.jpg",
-        "mobile_image": "shopify://shop_images/Votre_texte_de_paragraphe_1500_x_1500_px_1500_x_2000_px_1500_x_1500_px_1500_x_2000_px_1.jpg",
         "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-center sm:text-center",
         "text_color": "#ffffff",
-        "overlay_color": "#ffffff",
+        "overlay_color": "#000000",
         "overlay_opacity": 0
       }
     },
-    "custom_liquid_7Q4VBx": {
+    "slideshow": {
+      "type": "slideshow",
+      "blocks": {
+        "slide-1": {
+          "type": "image",
+          "settings": {
+            "content_max_width": 1200,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "subheading": "",
+            "title": "",
+            "heading_tag": "h0",
+            "button_text": "",
+            "button_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "background": "",
+            "background_gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "slide-1"
+      ],
+      "settings": {
+        "full_width": false,
+        "allow_transparent_header": true,
+        "image_size": "auto",
+        "controls_type": "numbers",
+        "transition_type": "fade_with_text",
+        "autoplay": true,
+        "cycle_speed": 6,
+        "background": "#ffffff",
+        "background_gradient": ""
+      }
+    },
+    "custom_liquid_eUVjTR": {
       "type": "custom-liquid",
-      "disabled": true,
       "name": "Custom Liquid",
       "settings": {
         "full_width": true,
         "remove_vertical_spacing": false,
-        "remove_horizontal_spacing": true,
-        "liquid": "<style>\n  .press-marquee-container {\n    width: 100%;\n    background: #b6edbb; /* fond vert */\n    padding: 2px 0;\n    overflow: hidden;\n  }\n\n  .press-marquee-inner {\n    display: flex;\n    animation: scroll-left 5s linear infinite;\n    gap: 60px;\n    width: fit-content;\n  }\n\n  .press-marquee-inner img {\n    height: 40px;\n    filter: grayscale(100%) brightness(0) invert(0); /* Rend les logos noirs en ajoutant un filtre */\n    object-fit: contain;\n    flex-shrink: 0;\n  }\n\n  @keyframes scroll-left {\n    0% { transform: translateX(0%); }\n    100% { transform: translateX(-50%); }\n  }\n\n  @media (max-width: 768px) {\n    .press-marquee-inner {\n      gap: 40px;\n    }\n    .press-marquee-inner img {\n      height: 28px;\n    }\n  }\n</style>\n\n<div class=\"press-marquee-container\">\n  <div class=\"press-marquee-inner\">\n    {% assign logos = \"\n      https://cdn.shopify.com/s/files/1/0920/2034/3158/files/1200px-VOGUE_revista_-_logo_3b923b11-a209-4aa1-9960-1abf9295591b.png?v=1747423562,\n      https://cdn.shopify.com/s/files/1/0920/2034/3158/files/ELLE_Magazine_Logo.png?v=1747423364,\n      https://cdn.shopify.com/s/files/1/0920/2034/3158/files/2560px-Marie_Claire_Magazine_logo.png?v=1747423365\n    \" | split: \",\" %}\n\n    {% for logo in logos %} \n      <img src=\"{{ logo | strip }}\" alt=\"Logo presse\">\n    {% endfor %}\n    {% for logo in logos %}\n      <img src=\"{{ logo | strip }}\" alt=\"Logo presse (bis)\">\n    {% endfor %}\n  </div>\n</div>",
+        "remove_horizontal_spacing": false,
+        "liquid": "<style>\n  .quality-section {\n    background-color: #f0f7f0; /* un vert plus foncé que #f8fdf7 */\n    padding: 1.5rem 1rem;\n    border-radius: 12px;\n    border: 1px solid #c7dcc8;\n  }\n\n  .quality-container {\n    display: flex;\n    justify-content: space-between;\n    align-items: stretch;\n    flex-wrap: nowrap;\n    max-width: 100%;\n    margin: 0 auto;\n    gap: 1rem;\n  }\n\n  .quality-block {\n    flex: 1;\n    min-width: 0;\n    text-align: center;\n    background: #ffffff;\n    padding: 1rem 0.5rem;\n    border-radius: 10px;\n    box-shadow: 0 2px 8px rgba(0,0,0,0.08);\n    transition: all 0.3s ease;\n  }\n\n  .quality-block:hover {\n    transform: translateY(-4px);\n    box-shadow: 0 8px 20px rgba(0,0,0,0.12);\n  }\n\n  .quality-icon {\n    background-color: #bfdac1; /* plus foncé */\n    border-radius: 50%;\n    width: 60px;\n    height: 60px;\n    margin: 0 auto 0.8rem;\n    display: flex;\n    align-items: center;\n    justify-content: center;\n  }\n\n  .quality-block img {\n    width: 28px;\n    height: 28px;\n  }\n\n  .quality-block h3 {\n    font-size: 1rem;\n    font-weight: 600;\n    color: #153c1e; /* plus foncé */\n    margin: 0.3rem 0;\n  }\n\n  .quality-block p {\n    font-size: 0.8rem;\n    color: #314d35; /* plus foncé */\n    margin: 0;\n  }\n</style>\n\n<div class=\"quality-section\">\n  <h2 style=\"text-align:center; font-size: 1.4rem; font-weight: 600; color:#153c1e; margin-bottom: 1.5rem;\">\n    Qualité & Sécurité Garantis\n  </h2>\n\n  <div class=\"quality-container\">\n\n    <!-- Bloc 1 -->\n    <div class=\"quality-block\">\n      <div class=\"quality-icon\">\n        <img src=\"https://cdn.shopify.com/s/files/1/0913/2759/4876/files/icons8-stopwatch-100.png?v=1751558023\" alt=\"Standards Européens\">\n      </div>\n      <h3>100% Naturel</h3>\n      <p>Sans additifs & Sans OGM</p>\n    </div>\n\n    <!-- Bloc 2 -->\n    <div class=\"quality-block\">\n      <div class=\"quality-icon\">\n        <img src=\"https://cdn.shopify.com/s/files/1/0913/2759/4876/files/icons8-pill-100.png?v=1751558040\" alt=\"Laboratoire Certifié\">\n      </div>\n      <h3>Testé & Approuvé</h3>\n      <p>+5000 femmes satisfaites</p>\n    </div>\n\n    <!-- Bloc 3 -->\n    <div class=\"quality-block\">\n      <div class=\"quality-icon\">\n        <img src=\"https://cdn.shopify.com/s/files/1/0913/2759/4876/files/icons8-user-groups-100.png?v=1751558047\" alt=\"Contrôles Qualité\">\n      </div>\n      <h3>Zéro Risque</h3>\n      <p>Garantie 30 jours</p>\n    </div>\n\n  </div>\n</div>",
         "background": "",
         "background_gradient": "",
         "text_color": ""
       }
     },
-    "multiple_images_with_text_xbrm7W": {
-      "type": "multiple-images-with-text",
+    "rich_text_6irJgH": {
+      "type": "rich-text",
       "blocks": {
-        "item_UHYVwP": {
-          "type": "item",
+        "subheading_wmpE8a": {
+          "type": "subheading",
+          "disabled": true,
           "settings": {
-            "image": "shopify://shop_images/Flacon_de_Moringa_Bio_OFFERT_2.png",
-            "image_rotation_degrees": -2,
-            "subheading": "",
-            "title": "",
-            "content": "",
-            "button_url": "",
-            "button_text": ""
+            "text": ""
+          }
+        },
+        "richtext_RJaPQT": {
+          "type": "richtext",
+          "settings": {
+            "content": "<h6>VU SUR</h6>"
           }
         }
       },
       "block_order": [
-        "item_UHYVwP"
+        "subheading_wmpE8a",
+        "richtext_RJaPQT"
       ],
-      "name": "Multiple images with text",
+      "name": "Rich text",
       "settings": {
-        "full_width": true,
-        "images_layout": "stacked",
-        "collage_images_alignment": "middle",
-        "background": "",
+        "full_width": false,
+        "content_width": "medium",
+        "text_position": "center",
+        "background": "rgba(0,0,0,0)",
         "background_gradient": "",
-        "text_color": "",
-        "button_background": "",
-        "button_text_color": ""
+        "text_color": ""
       }
     },
-    "logo_list_Rwt8QQ": {
-      "type": "logo-list",
-      "blocks": {
-        "logo_Ny4fDw": {
-          "type": "logo",
-          "settings": {
-            "logo": "shopify://shop_images/Design_sans_titre_15.png",
-            "logo_width": 300,
-            "link": ""
-          }
-        },
-        "logo_n699BG": {
-          "type": "logo",
-          "settings": {
-            "logo": "shopify://shop_images/Design_sans_titre_16.png",
-            "logo_width": 300,
-            "link": ""
-          }
-        },
-        "logo_mz3KHH": {
-          "type": "logo",
-          "settings": {
-            "logo": "shopify://shop_images/Design_sans_titre_19.png",
-            "logo_width": 300,
-            "link": ""
-          }
-        },
-        "logo_PhptHC": {
-          "type": "logo",
-          "settings": {
-            "logo": "shopify://shop_images/Design_sans_titre_21.png",
-            "logo_width": 300,
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "logo_Ny4fDw",
-        "logo_n699BG",
-        "logo_mz3KHH",
-        "logo_PhptHC"
-      ],
-      "name": "Logo list",
+    "custom_liquid_7Q4VBx": {
+      "type": "custom-liquid",
+      "name": "Custom Liquid",
       "settings": {
         "full_width": true,
-        "stack_mobile": true,
-        "title": "",
-        "content": "<h3><strong>Vu sur :</strong></h3>",
-        "text_alignment": "center",
-        "items_per_row": 4,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": true,
+        "liquid": "<style>\n  .press-marquee-container {\n    width: 100%;\n    background: #0DA04E; /* fond vert */\n    padding: 2px 0;\n    overflow: hidden;\n  }\n\n  .press-marquee-inner {\n    display: flex;\n    animation: scroll-left 5s linear infinite;\n    gap: 60px;\n    width: fit-content;\n  }\n\n  .press-marquee-inner img {\n    height: 40px;\n    filter: brightness(0) invert(1); /* transforme en blanc */\n    object-fit: contain;\n    flex-shrink: 0;\n  }\n\n  @keyframes scroll-left {\n    0% { transform: translateX(0%); }\n    100% { transform: translateX(-50%); }\n  }\n\n  @media (max-width: 768px) {\n    .press-marquee-inner {\n      gap: 40px;\n    }\n    .press-marquee-inner img {\n      height: 28px;\n    }\n  }\n</style>\n\n<div class=\"press-marquee-container\">\n  <div class=\"press-marquee-inner\">\n    {% assign logos = \"\n      https://cdn.shopify.com/s/files/1/0920/2034/3158/files/1200px-VOGUE_revista_-_logo_3b923b11-a209-4aa1-9960-1abf9295591b.png?v=1747423562,\n      https://cdn.shopify.com/s/files/1/0920/2034/3158/files/ELLE_Magazine_Logo.png?v=1747423364,\n      https://cdn.shopify.com/s/files/1/0920/2034/3158/files/2560px-Marie_Claire_Magazine_logo.png?v=1747423365\n    \" | split: \",\" %}\n\n    {% for logo in logos %}\n      <img src=\"{{ logo | strip }}\" alt=\"Logo presse\">\n    {% endfor %}\n    {% for logo in logos %}\n      <img src=\"{{ logo | strip }}\" alt=\"Logo presse (bis)\">\n    {% endfor %}\n  </div>\n</div>",
         "background": "",
         "background_gradient": "",
-        "text_color": "#1a1a1a",
-        "heading_color": "",
-        "heading_gradient": "",
-        "logo_item_background": "#f1faf2",
-        "logo_item_border": ""
+        "text_color": ""
       }
     },
     "rich_text_UXzW84": {
       "type": "rich-text",
       "blocks": {
-        "heading_pz8pVk": {
-          "type": "heading",
+        "subheading_MxWbFb": {
+          "type": "subheading",
           "settings": {
-            "text": "Pourquoi choisir OregaZen ?",
-            "heading_tag": "h4",
-            "text_color": "",
-            "gradient": ""
+            "text": ""
+          }
+        },
+        "richtext_NEFgDY": {
+          "type": "richtext",
+          "settings": {
+            "content": "<h4><br/><strong>Ce que vous gagnez concrètement en utilisant OregaZen<br/></strong><br/></h4>"
           }
         }
       },
       "block_order": [
-        "heading_pz8pVk"
+        "subheading_MxWbFb",
+        "richtext_NEFgDY"
       ],
       "name": "Rich text",
       "settings": {
         "full_width": true,
-        "content_width": "medium",
+        "content_width": "small",
         "text_position": "center",
         "background": "",
         "background_gradient": "",
-        "text_color": "#000000"
+        "text_color": ""
       }
     },
     "image_with_text_overlay_wWWrPw": {
@@ -214,8 +208,6 @@
         "allow_transparent_header": true,
         "enable_parallax": false,
         "image_size": "auto",
-        "image": "shopify://shop_images/6_benefices_5.jpg",
-        "mobile_image": "shopify://shop_images/6_benefices_5.jpg",
         "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-center sm:text-center",
         "text_color": "#ffffff",
@@ -223,204 +215,14 @@
         "overlay_opacity": 0
       }
     },
-    "testimoniall_DbaG6H": {
-      "type": "testimoniall",
-      "blocks": {
-        "slide_9ab3Xh": {
-          "type": "slide",
-          "settings": {
-            "media_style": "image",
-            "image": "shopify://shop_images/Capture_d_ecran_2025-07-19_a_22.25.24.png",
-            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-            "controls": false,
-            "stars_count": 5,
-            "text": "<p>''En 3 ans j'avais dépensé 2,400€ !!<br/>en naturopathes, probiotiques, régimes... RIEN. OregaZen a résolu en 3 semaines ce que PERSONNE n'arrivait à soigner.''<br/><br/></p>",
-            "author": "<p>Sophie N.</p>"
-          }
-        },
-        "slide_x9Bp9w": {
-          "type": "slide",
-          "settings": {
-            "media_style": "image",
-            "image": "shopify://shop_images/821059FE-98B4-4B40-9BB7-53AF4B7AB84E.jpg",
-            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-            "controls": false,
-            "stars_count": 5,
-            "text": "<p>\"J'étais sceptique mais ça marche vraiment. Mon ventre ne gonfle plus et je dors mieux. Je recommande.\"</p>",
-            "author": "<p><strong>Caroline T.</strong></p>"
-          }
-        },
-        "slide_DryGrd": {
-          "type": "slide",
-          "settings": {
-            "media_style": "image",
-            "image": "shopify://shop_images/41.png",
-            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-            "controls": false,
-            "stars_count": 5,
-            "text": "<p>''Merci pour tout ! J'avais essayé des tas de choses sans résultats. Et puis, j’ai commencé une routine simple, naturelle… et petit à petit, <strong>j’ai senti mon ventre se relâcher.</strong> Aujourd’hui, je me sens plus légère et apaisée.\"</p>",
-            "author": "<p><strong>Aurélie F.</strong></p>"
-          }
-        },
-        "slide_CqNwp9": {
-          "type": "slide",
-          "settings": {
-            "media_style": "image",
-            "image": "shopify://shop_images/Design_sans_titre_45.jpg",
-            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-            "controls": false,
-            "stars_count": 5,
-            "text": "<p>\"J'avais une prolifération de candida depuis des mois. Avec une cure de 2 mois, mon ventre est redevenu normal. Incroyable transformation !\"</p>",
-            "author": "<p><strong>Ophélie S.</strong></p>"
-          }
-        },
-        "slide_ry68eh": {
-          "type": "slide",
-          "settings": {
-            "media_style": "image",
-            "image": "shopify://shop_images/Design_sans_titre_48.jpg",
-            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-            "controls": false,
-            "stars_count": 5,
-            "text": "<p>\"Depuis la ménopause, j'avais constamment un ballon à la place du ventre. Grâce à cette cure, mon ventre s'est enfin apaisé et ma digestion a repris son rythme. Je me sens de nouveau moi-même !\"</p>",
-            "author": "<p><strong>Olivia E.</strong></p>"
-          }
-        },
-        "slide_eNcz8X": {
-          "type": "slide",
-          "settings": {
-            "media_style": "image",
-            "image": "shopify://shop_images/images.jpg",
-            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-            "controls": false,
-            "stars_count": 5,
-            "text": "<p>\"J'avais l'air enceinte de 6 mois ! En 1 mois avec OregaZen, mon ventre est redevenu plat. Transformation incroyable, je n'y croyais pas !\"</p>",
-            "author": "<p><strong>Anaîs F.</strong></p>"
-          }
-        }
-      },
-      "block_order": [
-        "slide_9ab3Xh",
-        "slide_x9Bp9w",
-        "slide_DryGrd",
-        "slide_CqNwp9",
-        "slide_ry68eh",
-        "slide_eNcz8X"
-      ],
-      "name": "SS - Testimonials #12",
-      "settings": {
-        "heading": "<h2><strong>Plus de 1,000 femmes l'ont adopté, et vous ?</strong></h2>",
-        "heading_custom": false,
-        "heading_font": "josefin_sans_n4",
-        "heading_size": 44,
-        "heading_size_mobile": 26,
-        "heading_height": 130,
-        "heading_align": "center",
-        "heading_align_mobile": "center",
-        "sub_heading": "",
-        "sub_heading_custom": false,
-        "sub_heading_font": "josefin_sans_n4",
-        "sub_heading_size": 30,
-        "sub_heading_size_mobile": 22,
-        "sub_heading_height": 130,
-        "sub_heading_mt": 12,
-        "sub_heading_align": "center",
-        "sub_heading_align_mobile": "center",
-        "slider_view": 5.4,
-        "slider_view_mobile": 1.5,
-        "slider_gap": 28,
-        "slider_gap_mobile": 20,
-        "slider_mt": 20,
-        "autoplay": true,
-        "autoplay_delay": 5,
-        "card_padding_vertical": 20,
-        "card_padding_vertical_mobile": 16,
-        "card_padding_horizontal": 20,
-        "card_padding_horizontal_mobile": 16,
-        "card_radius": 20,
-        "card_border_thickness": 1,
-        "card_shadow": false,
-        "media_radius": 20,
-        "media_border_thickness": 0,
-        "media_ratio": "square",
-        "media_ratio_mobile": "square",
-        "content_padding_vertical": 0,
-        "content_padding_vertical_mobile": 0,
-        "content_padding_horizontal": 0,
-        "content_padding_horizontal_mobile": 0,
-        "hide_content": false,
-        "stars_size": 16,
-        "stars_mt": 12,
-        "stars_align": "center",
-        "stars_align_mobile": "center",
-        "text_custom": false,
-        "text_font": "josefin_sans_n4",
-        "text_size": 16,
-        "text_size_mobile": 16,
-        "text_height": 130,
-        "text_mt": 12,
-        "text_align": "center",
-        "text_align_mobile": "center",
-        "author_custom": false,
-        "author_font": "josefin_sans_n4",
-        "author_size": 14,
-        "author_size_mobile": 14,
-        "author_height": 130,
-        "author_mt": 12,
-        "author_align": "center",
-        "author_align_mobile": "center",
-        "navigation_mt": 40,
-        "navigation_gap": 20,
-        "navigation_align": "center",
-        "navigation_align_mobile": "center",
-        "arrow_size": 50,
-        "arrow_size_mobile": 50,
-        "arrow_show_desktop": true,
-        "arrow_show_mobile": false,
-        "dots_size": 10,
-        "dots_size_mobile": 10,
-        "dots_show_desktop": false,
-        "dots_show_mobile": true,
-        "btn_icon_size": 50,
-        "btn_icon_size_mobile": 40,
-        "card_bg_color": "#ffffff",
-        "card_bg_gradient": "",
-        "card_border_color": "#b6edbb",
-        "card_shadow_color": "#000000",
-        "media_border_color": "#000000",
-        "stars_color": "#00a341",
-        "text_color": "#323232",
-        "author_color": "#323232",
-        "video_icon_bg_color": "#ffffff",
-        "video_icon_color": "#000000",
-        "arrow_color": "#ffffff",
-        "arrow_hover_color": "#ffffff",
-        "dots_color": "#ffffff",
-        "heading_color": "#1a1a1a",
-        "sub_heading_color": "#837c5c",
-        "background_color": "#ffffff",
-        "background_gradient": "",
-        "border_color": "#000000",
-        "margin_top": 0,
-        "margin_bottom": 0,
-        "padding_top": 36,
-        "padding_bottom": 36,
-        "padding_horizontal": 0,
-        "padding_horizontal_mobile": 0,
-        "full_width": true,
-        "content_width": 120,
-        "border_thickness": 0,
-        "lazy": true
-      }
-    },
-    "custom_liquid_t7GcQE": {
+    "custom_liquid_UPb9Ly": {
       "type": "custom-liquid",
       "name": "Custom Liquid",
       "settings": {
         "full_width": true,
         "remove_vertical_spacing": false,
         "remove_horizontal_spacing": false,
-        "liquid": "<div style=\"background-color: #ffffff; padding: 2rem 0; text-align: center;\">\n  <h2 style=\"font-size: 1.3rem; font-weight: 700; margin-bottom: 1rem;\">\n    Nos clientes en parlent le mieux\n  </h2>\n\n  <div style=\"font-size: 1.2rem; margin-bottom: 0.5rem; display: flex; justify-content: center; align-items: center; gap: 8px; flex-wrap: wrap;\">\n    <span>Excellent <strong>4.7 / 5</strong></span>\n\n    <!-- Image Trustpilot pour 4.5 étoiles -->\n    <img\n      src=\"https://cdn.trustpilot.net/brand-assets/4.1.0/stars/stars-4.5.svg\"\n      alt=\"4.7 étoiles\"\n      style=\"height: 24px; width: auto; vertical-align: middle;\"\n    >\n  </div>\n\n  <div style=\"font-size: 1rem; color: #000; display: flex; justify-content: center; align-items: center; gap: 6px;\">\n    <span>basé sur <span style=\"text-decoration: underline;\"><strong>+1000</strong></span> avis</span>\n\n    <!-- Logo Trustpilot officiel -->\n    <span style=\"display: flex; align-items: center; gap: 4px;\">\n      <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" viewBox=\"0 0 24 24\">\n        <path fill=\"#00B67A\" d=\"M12 .587l3.668 7.568 8.332 1.151-6.001 5.837 1.417 8.293L12 18.896l-7.416 4.54 1.417-8.293-6.001-5.837 8.332-1.151z\"/>\n      </svg>\n      <span style=\"font-weight: 500;\">Trustpilot</span>\n    </span>\n  </div>\n</div>",
+        "liquid": "<div style=\"text-align: center; font-family: sans-serif;\">\n  <h3 style=\"font-size: 20px; font-weight: 600; margin-bottom: 10px;\">Nos clients en parlent le mieux</h3>\n  \n  <div style=\"display: flex; justify-content: center; align-items: center; gap: 8px; margin-bottom: 6px;\">\n    <span style=\"font-size: 16px;\">Excellent</span>\n    <strong style=\"font-size: 18px;\">4.7 / 5</strong>\n\n    <div style=\"display: flex; gap: 2px;\">\n      {% for i in (1..5) %}\n      <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" fill=\"#00B67A\" viewBox=\"0 0 24 24\">\n        <path d=\"M12 .587l3.668 7.431 8.2 1.151-5.934 5.663 1.402 8.168L12 18.897l-7.336 3.903 1.402-8.168L.132 9.169l8.2-1.151z\"/>\n      </svg>\n      {% endfor %}\n    </div>\n  </div>\n\n  <p style=\"font-size: 14px; color: #333;\">\n    Basé sur <strong>+2310 avis</strong>\n    <span style=\"display: inline-flex; align-items: center; gap: 4px; color: #000000;\">\n      <svg width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"#00B67A\" xmlns=\"http://www.w3.org/2000/svg\">\n        <path d=\"M12 .587l3.668 7.431 8.2 1.151-5.934 5.663 1.402 8.168L12 18.897l-7.336 3.903 1.402-8.168L.132 9.169l8.2-1.151z\"/>\n      </svg>\n      <span style=\"font-weight: bold;\">Trustpilot</span>\n    </span>\n  </p>\n</div>",
         "background": "",
         "background_gradient": "",
         "text_color": ""
@@ -432,11 +234,10 @@
         "item_M4XkwA": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/1_cc4d8572-8991-4983-a24f-b0ee3abad44a.jpg",
             "column_size": "3",
             "title": "- Laura F. 42 ans",
             "heading_tag": "h4",
-            "content": "<p>Merci pour tout ! J'avais essayé des tas de choses sans résultats. Et puis, j’ai commencé une routine simple, naturelle… et petit à petit, <strong>j’ai senti mon ventre se relâcher.</strong> Aujourd’hui, je me sens plus légère et apaisée.\"</p>",
+            "content": "<p>Franchement, j’étais sceptique, comme toujours face aux remèdes naturels. Et pourtant… dès la première semaine, <strong>j’ai ressenti une vraie différence</strong>. Maintenant, je me sens plus stable, plus solide, tout simplement mieux.<br/><br/></p>",
             "link_url": "",
             "link_text": "",
             "link_style": "link"
@@ -445,11 +246,10 @@
         "item_hYNNEd": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/3.jpg",
             "column_size": "3",
             "title": "- Céline E. 42 ans",
             "heading_tag": "h4",
-            "content": "<p>\"Après chaque repas, c’était la même histoire : ballonnements, coups de fatigue, ventre tendu. Je pensais que c’était lié à l’âge.<strong> En changeant mes habitudes, tout a changé</strong>. <strong>Ma digestion est redevenue fluide et je retrouve enfin de l’énergie au quotidien.\"</strong></p>",
+            "content": "<p>Mon ventre était constamment gonflé, même sans rien avoir mangé. J’ai tout essayé, sans résultat. Depuis que je fais cette cure, <strong>je me sens tellement plus légère, enfin normale.</strong> Plus de gêne, plus de tensions… <strong>j’ai retrouvé le vrai confort digestif.</strong> C’est une libération. <br/><br/></p>",
             "link_url": "",
             "link_text": "",
             "link_style": "link"
@@ -458,11 +258,10 @@
         "item_EgKiWh": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/5.jpg",
             "column_size": "3",
             "title": "- Christelle R. 45 ans",
             "heading_tag": "h4",
-            "content": "<p>''Je traînais une gêne constante au niveau du ventre. Inconfort, gaz, lourdeurs… J’en avais marre. Mais récemment, tout s’est apaisé.<strong> Mon ventre est plus calme, je digère mieux, et surtout : je n’y pense plus.</strong> Quel soulagement !\"</p>",
+            "content": "<p>Pendant longtemps, j’ai vécu avec cette gêne constante au ventre. C’était pesant, parfois douloureux, souvent embarrassant. Aujourd’hui,<strong> tout a changé</strong>. Mon ventre est <strong>enfin apaisé</strong>. Je n’y pense plus. Et pour moi, c’est ça, le vrai luxe : <strong>me sentir légère et libre.<br/></strong><br/></p>",
             "link_url": "",
             "link_text": "",
             "link_style": "link"
@@ -471,11 +270,10 @@
         "item_nCjt8P": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/Votre_texte_de_paragraphe_6.jpg",
             "column_size": "1.5",
             "title": "- Claire L.  37 ans",
             "heading_tag": "h4",
-            "content": "<p>''Avec les années, mon ventre était devenu source d’inconfort constant. Ballonné, tendu, comme si rien ne circulait bien. J’ai tout essayé, sans succès. Et puis, en adoptant une solution plus naturelle,<strong> les choses ont changé : digestion relancée, ventre plus léger, esprit plus clair.</strong> Je me sens enfin reconnectée à mon corps.\"</p>",
+            "content": "<p>\"Ce produit m’a vraiment<strong> aidé à soulager mes sinusites</strong> à répétition, et j’ai même vu <strong>une nette amélioration sur ma peau.</strong> Aujourd’hui, je ne pourrais plus m’en passer.\"<br/></p>",
             "link_url": "",
             "link_text": "",
             "link_style": "link"
@@ -484,11 +282,10 @@
         "item_DcXhLr": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/6.jpg",
             "column_size": "3",
             "title": "- Chantal T. 56 ans",
             "heading_tag": "h4",
-            "content": "<p>Depuis la ménopause, j’avais l’impression d’avoir constamment un ballon à la place du ventre. Rien n’y faisait. <strong>Grâce à cette cure, mon ventre s’est enfin apaisé, ma digestion a repris son rythme.</strong> Je me sens de nouveau moi-même, sans avoir à lutter contre mon corps.</p>",
+            "content": "<p>Depuis la ménopause, j’avais l’impression d’avoir constamment un ballon à la place du ventre. Rien n’y faisait. <strong>Grâce à cette cure, mon ventre s’est enfin apaisé, ma digestion a repris son rythme.</strong> Je me sens de nouveau moi-même, sans avoir à lutter contre mon corps.<br/><br/></p>",
             "link_url": "",
             "link_text": "",
             "link_style": "link"
@@ -497,11 +294,10 @@
         "item_N7b3cR": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/7.jpg",
             "column_size": "3",
             "title": "- Marie-Christine G. 62 ans",
             "heading_tag": "h4",
-            "content": "<p>Avant, aller aux toilettes relevait du défi. <strong>Entre laxatifs et tisanes, rien ne fonctionnait </strong>vraiment. Aujourd’hui, tout s’est rééquilibré, naturellement.<strong> Fini la lourdeur, </strong>fini ce ventre tendu. <strong>Je me sens enfin bien dans mon corps</strong> — c’est le jour et la nuit.</p>",
+            "content": "<p>Avant, aller aux toilettes relevait du défi. <strong>Entre laxatifs et tisanes, rien ne fonctionnait </strong>vraiment. Aujourd’hui, tout s’est rééquilibré, naturellement.<strong> Fini la lourdeur, </strong>fini ce ventre tendu. <strong>Je me sens enfin bien dans mon corps</strong> — c’est le jour et la nuit<br/><br/></p>",
             "link_url": "",
             "link_text": "",
             "link_style": "link"
@@ -537,7 +333,7 @@
         "full_width": true,
         "remove_vertical_spacing": false,
         "remove_horizontal_spacing": false,
-        "liquid": "<div style=\"text-align: center;\">\n  <div style=\"\n    display: inline-flex;\n    align-items: center;\n    justify-content: center;\n    background-color: #b6edbb;\n    color: #000; /* Texte en noir */\n    font-weight: 700;\n    font-size: 14px;\n    padding: 10px 20px;\n    border-radius: 30px;\n    gap: 8px;\n    box-shadow: 0 4px 12px rgba(0,0,0,0.1);\n    letter-spacing: 0.5px;\n  \">\n    +1,000 Françaises ont retrouvé leur bien-être digestif\n    <img src=\"https://upload.wikimedia.org/wikipedia/en/c/c3/Flag_of_France.svg\" alt=\"France\" style=\"width:20px; height:auto;\">\n  </div>\n</div>",
+        "liquid": "<div style=\"text-align: center;\">\n  <div style=\"\n    display: inline-flex;\n    align-items: center;\n    justify-content: center;\n    background-color: #00A341;\n    color: white;\n    font-weight: 700;\n    font-size: 14px;\n    padding: 10px 20px;\n    border-radius: 30px;\n    gap: 8px;\n    box-shadow: 0 4px 12px rgba(0,0,0,0.1);\n    letter-spacing: 0.5px;\n  \">\n    Le choix bien-être de milliers de femmes en France\n    <img src=\"https://upload.wikimedia.org/wikipedia/en/c/c3/Flag_of_France.svg\" alt=\"France\" style=\"width:20px; height:auto;\">\n  </div>\n</div>",
         "background": "",
         "background_gradient": "",
         "text_color": ""
@@ -554,13 +350,25 @@
         "liquid_tJVytd": {
           "type": "liquid",
           "settings": {
-            "liquid": "<div style=\"display: flex; align-items: center; gap: 8px; margin: 15px 0;\">\n\n  <!-- Étoiles Trustpilot -->\n  <div style=\"display: flex; gap: 2px;\">\n    <!-- Étoile 1 -->\n    <div style=\"width: 20px; height: 20px; background: #00B67A; display: flex; align-items: center; justify-content: center; border-radius: 3px;\">\n      <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"white\" width=\"14\" height=\"14\"><path d=\"M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z\"/></svg>\n    </div>\n    <!-- Étoile 2 -->\n    <div style=\"width: 20px; height: 20px; background: #00B67A; display: flex; align-items: center; justify-content: center; border-radius: 3px;\">\n      <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"white\" width=\"14\" height=\"14\"><path d=\"M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z\"/></svg>\n    </div>\n    <!-- Étoile 3 -->\n    <div style=\"width: 20px; height: 20px; background: #00B67A; display: flex; align-items: center; justify-content: center; border-radius: 3px;\">\n      <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"white\" width=\"14\" height=\"14\"><path d=\"M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z\"/></svg>\n    </div>\n    <!-- Étoile 4 -->\n    <div style=\"width: 20px; height: 20px; background: #00B67A; display: flex; align-items: center; justify-content: center; border-radius: 3px;\">\n      <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"white\" width=\"14\" height=\"14\"><path d=\"M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z\"/></svg>\n    </div>\n    <!-- Étoile 5 -->\n    <div style=\"width: 20px; height: 20px; background: #00B67A; display: flex; align-items: center; justify-content: center; border-radius: 3px;\">\n      <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"white\" width=\"14\" height=\"14\"><path d=\"M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z\"/></svg>\n    </div>\n  </div>\n\n  <!-- Texte notation -->\n  <div style=\"font-size: 14px; color: #000;\">\n    Noté <strong>4.7/5</strong> sur <strong>1363 avis </strong>\n  </div>\n\n</div>"
+            "liquid": "<div style=\"display: flex; align-items: center; gap: 8px; margin: 15px 0;\">\n\n  <!-- Étoiles Trustpilot -->\n  <div style=\"display: flex; gap: 2px;\">\n    <!-- Étoile 1 -->\n    <div style=\"width: 20px; height: 20px; background: #00B67A; display: flex; align-items: center; justify-content: center; border-radius: 3px;\">\n      <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"white\" width=\"14\" height=\"14\"><path d=\"M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z\"/></svg>\n    </div>\n    <!-- Étoile 2 -->\n    <div style=\"width: 20px; height: 20px; background: #00B67A; display: flex; align-items: center; justify-content: center; border-radius: 3px;\">\n      <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"white\" width=\"14\" height=\"14\"><path d=\"M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z\"/></svg>\n    </div>\n    <!-- Étoile 3 -->\n    <div style=\"width: 20px; height: 20px; background: #00B67A; display: flex; align-items: center; justify-content: center; border-radius: 3px;\">\n      <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"white\" width=\"14\" height=\"14\"><path d=\"M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z\"/></svg>\n    </div>\n    <!-- Étoile 4 -->\n    <div style=\"width: 20px; height: 20px; background: #00B67A; display: flex; align-items: center; justify-content: center; border-radius: 3px;\">\n      <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"white\" width=\"14\" height=\"14\"><path d=\"M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z\"/></svg>\n    </div>\n    <!-- Étoile 5 -->\n    <div style=\"width: 20px; height: 20px; background: #00B67A; display: flex; align-items: center; justify-content: center; border-radius: 3px;\">\n      <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"white\" width=\"14\" height=\"14\"><path d=\"M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z\"/></svg>\n    </div>\n  </div>\n\n  <!-- Texte notation -->\n  <div style=\"font-size: 14px; color: #000;\">\n    Noté <strong>4.9/5</strong> sur <strong>2310 avis</strong>\n  </div>\n\n</div>"
           }
         },
         "liquid_Wt9J8i": {
           "type": "liquid",
           "settings": {
             "liquid": ""
+          }
+        },
+        "liquid_mzrGJy": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<style>\n.stock-alert {\n  background: #ffe5e5;\n  color: #b40000;\n  padding: 3px 10px;\n  border-radius: 20px;\n  font-size: 0.75rem;\n  font-weight: 600;\n  display: inline-flex;\n  align-items: center;\n  gap: 5px;\n}\n\n.stock-dot {\n  width: 5px;\n  height: 5px;\n  background: #b40000;\n  border-radius: 50%;\n  animation: blink 1s infinite;\n}\n\n@keyframes blink {\n  0%, 100% { opacity: 1; }\n  50% { opacity: 0.3; }\n}\n</style>\n\n<div style=\"text-align: left; margin: 15px 0;\">\n  <div class=\"stock-alert\">\n    <div class=\"stock-dot\"></div>\n    Stock presque épuisé : 4 restants seulement\n\n\n  </div>\n</div>"
+          }
+        },
+        "liquid_GUrkRK": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<style>\n.badge-container {\n  display: flex;\n  align-items: center;\n  gap: 8px;\n  margin: 15px 0;\n  flex-wrap: wrap;\n}\n\n.badge {\n  display: inline-flex;\n  align-items: center;\n  gap: 6px;\n  font-size: 0.8rem;\n  font-weight: 700;\n  padding: 4px 10px;\n  border-radius: 16px;\n}\n\n.badge.green {\n  background: #d9f5d9;\n  color: #006400;\n}\n\n.badge.red {\n  background: #ffe5e5;\n  color: #b40000;\n}\n\n.badge img {\n  width: 14px;\n  height: 14px;\n}\n</style>\n\n<div class=\"badge-container\">\n  <div class=\"badge green\">\n    <img src=\"https://cdn-icons-png.flaticon.com/512/3144/3144456.png\" alt=\"Livraison gratuite\">\n    Livraison Gratuite\n  </div>\n</div>"
           }
         },
         "title_z3tRVg": {
@@ -571,65 +379,11 @@
         },
         "price_8W4V43": {
           "type": "price",
-          "disabled": true,
           "settings": {
             "show_taxes_notice": false
           }
         },
         "image_jB9AfK": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/Favorise_la_digestion_2500_x_500_px_3000_x_500_px_1500_x_700_px_18.jpg",
-            "alignment": "center",
-            "max_width": 500
-          }
-        },
-        "image_z7teRJ": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/Sans_titre_800_x_800_px_3000_x_1000_px_3.jpg",
-            "alignment": "start",
-            "max_width": 500
-          }
-        },
-        "image_CnnaBk": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/Sans_titre_800_x_800_px_3000_x_1000_px.jpg",
-            "alignment": "center",
-            "max_width": 500
-          }
-        },
-        "liquid_mzrGJy": {
-          "type": "liquid",
-          "settings": {
-            "liquid": "<style>\n.stock-alert {\n  background: #ffe5e5;\n  color: #b40000;\n  padding: 3px 10px;\n  border-radius: 20px;\n  font-size: 0.75rem;\n  font-weight: 600;\n  display: inline-flex;\n  align-items: center;\n  gap: 5px;\n}\n\n.stock-dot {\n  width: 5px;\n  height: 5px;\n  background: #b40000;\n  border-radius: 50%;\n  animation: blink 1s infinite;\n}\n\n@keyframes blink {\n  0%, 100% { opacity: 1; }\n  50% { opacity: 0.3; }\n}\n</style>\n\n<div style=\"text-align: left; margin: 15px 0;\">\n  <div class=\"stock-alert\">\n    <div class=\"stock-dot\"></div>\n    Stock bientôt épuisé : 9 restants \n\n\n  </div>\n</div>"
-          }
-        },
-        "liquid_GUrkRK": {
-          "type": "liquid",
-          "disabled": true,
-          "settings": {
-            "liquid": "<style>\n.badge-container {\n  display: flex;\n  align-items: center;\n  gap: 8px;\n  margin: 15px 0;\n  flex-wrap: wrap;\n}\n\n.badge {\n  display: inline-flex;\n  align-items: center;\n  gap: 6px;\n  font-size: 0.8rem;\n  font-weight: 700;\n  padding: 4px 10px;\n  border-radius: 16px;\n}\n\n.badge.green {\n  background: #d9f5d9;\n  color: #006400;\n}\n\n.badge.red {\n  background: #ffe5e5;\n  color: #b40000;\n}\n\n.badge img {\n  width: 14px;\n  height: 14px;\n}\n</style>\n\n<div class=\"badge-container\">\n  <div class=\"badge green\">\n    <img src=\"https://cdn-icons-png.flaticon.com/512/3144/3144456.png\" alt=\"Livraison gratuite\">\n    Livraison Gratuite\n  </div>\n</div>"
-          }
-        },
-        "liquid_Q39C4f": {
-          "type": "liquid",
-          "disabled": true,
-          "settings": {
-            "liquid": "<div style=\"text-align: center;\">\n  <div style=\"\n    display: inline-flex;\n    align-items: center;\n    justify-content: center;\n    background-color: #b6edbb;\n    color: #000; /* Texte en noir */\n    font-weight: 700;\n    font-size: 14px;\n    padding: 10px 20px;\n    border-radius: 30px;\n    gap: 8px;\n    box-shadow: 0 4px 12px rgba(0,0,0,0.1);\n    letter-spacing: 0.5px;\n  \">\n   Une Formule 2-en-1\n</div>"
-          }
-        },
-        "kaching_bundles_app_block_ji6Ara": {
-          "type": "shopify://apps/kaching-bundles/blocks/app-block/6c637362-a106-4a32-94ac-94dcfd68cdb8",
-          "settings": {
-            "product": "{{section.settings.product}}"
-          }
-        },
-        "image_3CyiHP": {
           "type": "image",
           "settings": {
             "alignment": "center",
@@ -675,10 +429,19 @@
             "collapse_content": false
           }
         },
+        "image_7cUgwC": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "alignment": "center",
+            "max_width": 300
+          }
+        },
         "liquid_PA69WL": {
           "type": "liquid",
+          "disabled": true,
           "settings": {
-            "liquid": ""
+            "liquid": "<div class=\"countdown-timer-block\" countdown-timer-id=\"cmcz67lf700izakxoycz9vyhs\"></div>"
           }
         },
         "variant_picker_dKt3Ay": {
@@ -695,47 +458,15 @@
           "type": "quantity_selector",
           "settings": {}
         },
-        "image_yVE7ba": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/Une_solution_durable_pour_un_ventre_plat_et_sain_1080_x_500_px_2.jpg",
-            "alignment": "center",
-            "max_width": 450
-          }
-        },
-        "countdown_timer_essential_app_block_mhY6aR": {
-          "type": "shopify://apps/countdown-timer-essential/blocks/app-block/722378e8-5a70-4eae-aa89-9e44e8e9f6de",
-          "settings": {
-            "id": "cmcz67lf700izakxoycz9vyhs"
-          }
-        },
         "buy_buttons_zjXiAE": {
           "type": "buy_buttons",
           "settings": {
             "show_payment_button": false,
             "show_gift_card_recipient": false,
-            "atc_button_background": "#1dac2c",
+            "atc_button_background": "#f0c417",
             "atc_button_text_color": "#ffffff",
             "payment_button_background": "#f0c417",
             "payment_button_text_color": "#f0c417"
-          }
-        },
-        "conversion_bear_trust_badges_widget_U4cEwP": {
-          "type": "shopify://apps/conversion-bear-trust-badges/blocks/widget/163a9b59-0ec2-4cb7-bf5c-31408b4a9420",
-          "settings": {}
-        },
-        "liquid_V7TKFP": {
-          "type": "liquid",
-          "disabled": true,
-          "settings": {
-            "liquid": "<style>\n.stock-alert {\n  background: #ffe5e5;\n  color: #b40000;\n  padding: 6px 14px;\n  border-radius: 999px;\n  font-size: 0.85rem;\n  font-weight: 600;\n  display: inline-flex;\n  align-items: center;\n  gap: 8px;\n  max-width: 100%;\n  word-break: break-word;\n}\n\n.stock-dot {\n  width: 8px;\n  height: 8px;\n  background: #b40000;\n  border-radius: 50%;\n  animation: blink 1s infinite;\n}\n\n@keyframes blink {\n  0%, 100% { opacity: 1; }\n  50% { opacity: 0.3; }\n}\n</style>\n\n<div style=\"text-align: left; margin: 20px 0;\">\n  <div class=\"stock-alert\">\n    <div class=\"stock-dot\"></div>\n    Stock faible\n  </div>\n</div>"
-          }
-        },
-        "liquid_RXJddz": {
-          "type": "liquid",
-          "disabled": true,
-          "settings": {
-            "liquid": "<style>\n.badge-container {\n  display: flex;\n  align-items: center;\n  gap: 8px;\n  margin: 15px 0;\n  flex-wrap: wrap;\n}\n\n.badge {\n  display: inline-flex;\n  align-items: center;\n  gap: 6px;\n  font-size: 0.8rem;\n  font-weight: 700;\n  padding: 4px 10px;\n  border-radius: 16px;\n}\n\n.badge.green {\n  background: #d9f5d9;\n  color: #006400;\n}\n\n.badge.red {\n  background: #ffe5e5;\n  color: #b40000;\n}\n\n.badge img {\n  width: 14px;\n  height: 14px;\n}\n</style>\n\n<div class=\"badge-container\">\n  <div class=\"badge green\">\n    <img src=\"https://cdn-icons-png.flaticon.com/512/3144/3144456.png\" alt=\"Livraison gratuite\">\n    Garantie satisfait ou remboursé 30 jours\n  </div>\n</div>"
           }
         },
         "liquid_ckaKaL": {
@@ -744,32 +475,17 @@
             "liquid": ""
           }
         },
-        "image_7aiC8G": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/Design_sans_titre_38_1.jpg",
-            "alignment": "center",
-            "max_width": 500
-          }
-        },
-        "liquid_n3B7iC": {
-          "type": "liquid",
-          "settings": {
-            "liquid": "<div id='ss-product-videos'></div>"
-          }
-        },
         "image_QkPLJy": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Dr_Gaetan_O._4.jpg",
             "alignment": "center",
             "max_width": 500
           }
         },
-        "liquid_aeB34r": {
+        "liquid_V7TKFP": {
           "type": "liquid",
           "settings": {
-            "liquid": ""
+            "liquid": "<style>\n.stock-alert {\n  background: #ffe5e5;\n  color: #b40000;\n  padding: 6px 14px;\n  border-radius: 999px;\n  font-size: 0.85rem;\n  font-weight: 600;\n  display: inline-flex;\n  align-items: center;\n  gap: 8px;\n  max-width: 100%;\n  word-break: break-word;\n}\n\n.stock-dot {\n  width: 8px;\n  height: 8px;\n  background: #b40000;\n  border-radius: 50%;\n  animation: blink 1s infinite;\n}\n\n@keyframes blink {\n  0%, 100% { opacity: 1; }\n  50% { opacity: 0.3; }\n}\n</style>\n\n<div style=\"text-align: left; margin: 20px 0;\">\n  <div class=\"stock-alert\">\n    <div class=\"stock-dot\"></div>\n    Dépêchez-vous, les stocks sont presque épuisés !\n  </div>\n</div>"
           }
         },
         "liquid_PzBFga": {
@@ -777,6 +493,13 @@
           "disabled": true,
           "settings": {
             "liquid": "<!DOCTYPE html>\n<html lang=\"fr\">\n<head>\n  <meta charset=\"UTF-8\">\n  <title>Visiteurs en ligne</title>\n\n  <!-- Police Inter Regular -->\n  <link href=\"https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap\" rel=\"stylesheet\">\n\n  <style>\n    body {\n      margin: 0;\n      padding: 0;\n      background: transparent;\n      font-family: 'Inter', sans-serif;\n    }\n\n    .checkout-notice {\n      font-size: 18px;\n      color: #333;\n      display: flex;\n      align-items: center;\n    }\n\n    .dot {\n      height: 10px;\n      width: 10px;\n      background-color: green;\n      border-radius: 50%;\n      margin-right: 8px;\n      animation: blink 1s infinite;\n    }\n\n    @keyframes blink {\n      0%, 100% { opacity: 1; }\n      50% { opacity: 0.2; }\n    }\n\n    .bold {\n      font-weight: 600;\n    }\n  </style>\n</head>\n<body>\n\n  <div class=\"checkout-notice\">\n    <div class=\"dot\"></div>\n    <span><span class=\"bold\" id=\"people-count\">...</span> personnes consultent cette offre en ce moment</span>\n  </div>\n\n  <script>\n    function updateCount() {\n      const min = 18;\n      const max = 59;\n      const count = Math.floor(Math.random() * (max - min + 1)) + min;\n      document.getElementById(\"people-count\").textContent = count;\n    }\n\n    // Appelle immédiatement la fonction pour afficher un nombre au chargement\n    updateCount();\n\n    // Puis toutes les 5 secondes (5000 ms)\n    setInterval(updateCount, 5000);\n  </script>\n\n</body>\n</html>"
+          }
+        },
+        "image_7aiC8G": {
+          "type": "image",
+          "settings": {
+            "alignment": "center",
+            "max_width": 500
           }
         },
         "liquid_ne6gew": {
@@ -790,9 +513,14 @@
           "type": "image",
           "disabled": true,
           "settings": {
-            "image": "shopify://shop_images/Sans_titre_600_x_300_px_1000_x_500_px_2000_x_500_px_3000_x_500_px.jpg",
             "alignment": "start",
             "max_width": 380
+          }
+        },
+        "liquid_aeB34r": {
+          "type": "liquid",
+          "settings": {
+            "liquid": ""
           }
         },
         "pickup_availability_WHLMk4": {
@@ -806,11 +534,11 @@
             "liquid": "<div style=\"\n  border: 1px solid #dce8dc;\n  border-radius: 12px;\n  padding: 20px;\n  max-width: 520px;\n  margin: 20px auto;\n  box-shadow: 0 2px 6px rgba(0,0,0,0.05);\n  position: relative;\n  overflow: hidden;\n\">\n\n  <!-- Liseré vert en haut -->\n  <div style=\"\n    position: absolute;\n    top: 0; left: 0; \n    width: 100%; \n    height: 4px; \n    background: linear-gradient(to right, #4fa54f, #7ac97a);\n    border-top-left-radius: 12px;\n    border-top-right-radius: 12px;\n  \"></div>\n\n  <ul style=\"list-style: none; padding: 0; margin: 0;\">\n    \n    <li style=\"display: flex; align-items: flex-start; gap: 12px; margin-bottom: 18px;\">\n      <div style=\"min-width:14px; height:14px; background:#3d6f44; border-radius:50%; box-shadow:0 2px 4px rgba(0,0,0,0.1); margin-top:6px;\"></div>\n      <div style=\"font-size: 15px; color:#2e5032;\">\n        <strong>Cure recommandée de 3 mois</strong> pour rétablir l'équilibre interne et éliminer les parasites.\n      </div>\n    </li>\n\n    <li style=\"display: flex; align-items: flex-start; gap: 12px; margin-bottom: 18px;\">\n      <div style=\"min-width:14px; height:14px; background:#3d6f44; border-radius:50%; box-shadow:0 2px 4px rgba(0,0,0,0.1); margin-top:6px;\"></div>\n      <div style=\"font-size: 15px; color:#2e5032;\">\n        <strong>Résultats visibles</strong> dès les premières semaines : ventre plus léger, énergie retrouvée.\n      </div>\n    </li>\n\n    <li style=\"display: flex; align-items: flex-start; gap: 12px;\">\n      <div style=\"min-width:14px; height:14px; background:#3d6f44; border-radius:50%; box-shadow:0 2px 4px rgba(0,0,0,0.1); margin-top:6px;\"></div>\n      <div style=\"font-size: 15px; color:#2e5032;\">\n        <strong>Bien-être durable</strong>, naturellement et sans brusquer votre corps.\n      </div>\n    </li>\n\n  </ul>\n\n</div>"
           }
         },
-        "collapsible_text_LfDV6H": {
+        "collapsible_text_Ki6GWe": {
           "type": "collapsible_text",
           "settings": {
-            "title": "Uilisation",
-            "content": "<p><strong>Routine simple & efficace :</strong><br/><br/>• Prenez <strong>1 à 2 gélules par jour</strong>, accompagnées d’un verre d’eau<br/><br/>• De préférence <strong>au cours d’un repas</strong> pour une meilleure assimilation</p><p>• Une <strong>prise régulière pendant 30 jours</strong> permet de poser les bases<br/><br/>• Intégrez-le à votre routine bien-être comme un geste santé simple et naturel</p>"
+            "title": "Bénéfices",
+            "content": "<p><strong>✔️ Renforce naturellement votre immunité</strong><br/><br/>Votre corps devient plus résistant face aux virus, aux changements de saison et aux coups de fatigue.</p><p><strong>✔️ Soulage les inflammations</strong><br/><br/>Apaise les douleurs articulaires, digestives ou musculaires, pour un confort retrouvé au quotidien.</p><p><strong>✔️ Améliore la digestion</strong><br/><br/>Ventre plus léger, moins de ballonnements, meilleure assimilation des nutriments.</p><p><strong>✔️ Relance votre énergie physique et mentale</strong><br/><br/>Un vrai coup de boost naturel sans caféine ni excitants chimiques.</p><p><strong>✔️ Favorise un bien-être durable</strong><br/><br/>Moins de stress, plus d’équilibre, vous vous sentez bien dans votre corps jour après jour.</p><p><strong>✔️ 100% naturel et sans produits chimiques</strong><br/><br/>Un concentré de nature pour prendre soin de vous, sans compromis.</p><p><br/><br/></p><p><br/><br/></p><p><br/></p>"
           }
         },
         "collapsible_text_eprhzy": {
@@ -820,11 +548,11 @@
             "content": "<p>OregaZen s’adresse à toutes les personnes qui veulent renforcer naturellement leur santé, sans produits chimiques ni routines complexes.</p><p>✅ <strong>Pour les personnes souvent fatiguées ou à l’énergie basse</strong><br/><br/>→ Un soutien naturel pour retrouver vitalité et clarté mentale.</p><p>✅ <strong>Pour ceux qui souffrent de troubles digestifs</strong><br/><br/>→ Ballonnements, digestion lente, inconfort intestinal ? OregaZen aide à retrouver un ventre apaisé.</p><p>✅ <strong>Pour les personnes sujettes aux inflammations</strong><br/><br/>→ Douleurs articulaires, gênes musculaires ou inflammations chroniques : un allié naturel au quotidien.</p><p>✅ <strong>Pour les défenses immunitaires affaiblies</strong><br/><br/>→ Idéal en période hivernale ou lors de changements de saison.</p><p>✅ <strong>Pour les adeptes du naturel et du bien-être holistique</strong><br/><br/>→ Vous cherchez une alternative sans produits chimiques ? Vous êtes au bon endroit.</p><p>💡 <strong>Convient aux adultes.</strong><br/><br/>🚫 <strong>Déconseillé aux femmes enceintes ou allaitantes sans avis médical.</strong><br/><br/>⚠️ <strong>Comme pour tout complément alimentaire, demandez toujours l’avis de votre médecin avant utilisation, surtout en cas de traitement ou de condition médicale particulière.</strong></p>"
           }
         },
-        "collapsible_text_Ki6GWe": {
+        "collapsible_text_LfDV6H": {
           "type": "collapsible_text",
           "settings": {
-            "title": "Bénéfices",
-            "content": "<p><strong>✔️ Renforce naturellement votre immunité</strong><br/><br/>Votre corps devient plus résistant face aux virus, aux changements de saison et aux coups de fatigue.</p><p><strong>✔️ Soulage les inflammations</strong><br/><br/>Apaise les douleurs articulaires, digestives ou musculaires, pour un confort retrouvé au quotidien.</p><p><strong>✔️ Améliore la digestion</strong><br/><br/>Ventre plus léger, moins de ballonnements, meilleure assimilation des nutriments.</p><p><strong>✔️ Relance votre énergie physique et mentale</strong><br/><br/>Un vrai coup de boost naturel sans caféine ni excitants chimiques.</p><p><strong>✔️ Favorise un bien-être durable</strong><br/><br/>Moins de stress, plus d’équilibre, vous vous sentez bien dans votre corps jour après jour.</p><p><strong>✔️ 100% naturel et sans produits chimiques</strong><br/><br/>Un concentré de nature pour prendre soin de vous, sans compromis.</p><p><br/><br/></p><p><br/><br/></p><p><br/></p>"
+            "title": "Uilisation",
+            "content": "<p><strong>Routine simple & efficace :</strong><br/><br/>• Prenez <strong>1 à 2 gélules par jour</strong>, accompagnées d’un verre d’eau<br/><br/>• De préférence <strong>au cours d’un repas</strong> pour une meilleure assimilation</p><p>• Une <strong>prise régulière pendant 30 jours</strong> permet de poser les bases<br/><br/>• Les <strong>effets optimaux</strong> sont généralement ressentis entre <strong>6 et 8 semaines</strong><br/><br/>• Intégrez-le à votre routine bien-être comme un geste santé simple et naturel</p>"
           }
         },
         "collapsible_text_wzRGkd": {
@@ -850,9 +578,8 @@
         },
         "liquid_aH47HQ": {
           "type": "liquid",
-          "disabled": true,
           "settings": {
-            "liquid": "<style>\n.oregazen-aida {\n  background-color: #b6edbb;\n  border-left: 3px solid #4caf50;\n  padding: 16px 20px;\n  border-radius: 10px;\n  font-family: \"Helvetica Neue\", Helvetica, Arial, sans-serif;\n  font-size: 14px;\n  color: #333;\n  margin: 20px 0;\n}\n\n.oregazen-aida h3 {\n  color: #1a3c34;\n  font-size: 15px;\n  font-weight: 600;\n  margin-bottom: 10px;\n}\n\n.oregazen-aida ul {\n  list-style: none;\n  padding-left: 0;\n  line-height: 1.5;\n  margin: 0;\n}\n\n.oregazen-aida li::before {\n  content: \"✔\";\n  color: #4caf50;\n  font-weight: bold;\n  margin-right: 8px;\n}\n</style>\n\n<div class=\"oregazen-aida\">\n  <h3>🌿 Retrouvez enfin un équilibre naturel et durable :</h3>\n  <ul>\n    <li><strong>Cure naturel de 10-15 semaines</strong>\n    <li><strong>Premiers effets dès les premières</strong>\n    <li><strong>Formule douce et végétale</strong>\n  </ul>\n</div>"
+            "liquid": "<style>\n.oregazen-aida {\n  background-color: #f5fdf7;\n  border-left: 3px solid #4caf50;\n  padding: 16px 20px;\n  border-radius: 10px;\n  font-family: \"Helvetica Neue\", Helvetica, Arial, sans-serif;\n  font-size: 14px;\n  color: #333;\n  margin: 20px 0;\n}\n\n.oregazen-aida h3 {\n  color: #1a3c34;\n  font-size: 15px;\n  font-weight: 600;\n  margin-bottom: 10px;\n}\n\n.oregazen-aida ul {\n  list-style: none;\n  padding-left: 0;\n  line-height: 1.5;\n  margin: 0;\n}\n\n.oregazen-aida li::before {\n  content: \"✔\";\n  color: #4caf50;\n  font-weight: bold;\n  margin-right: 8px;\n}\n</style>\n\n<div class=\"oregazen-aida\">\n  <h3>🌿 Retrouvez enfin un équilibre naturel et durable</h3>\n  <ul>\n    <li><strong>Programme naturel de 90 jours</strong> pour rééquilibrer votre digestion et relancer votre énergie naturellement.</li>\n    <li><strong>Premiers effets dès les premières semaines :</strong> ventre plus léger, esprit plus clair, fatigue réduite.</li>\n    <li><strong>Formule douce et végétale</strong> conçue pour respecter votre organisme, sans agresser.</li>\n  </ul>\n</div>"
           }
         },
         "liquid_DwgJc7": {
@@ -872,7 +599,7 @@
         "liquid_j7gBrP": {
           "type": "liquid",
           "settings": {
-            "liquid": "<style>\n.scrolling-banner {\n  background: #FFFFF;\n  color: ##b6edbb;\n  overflow: hidden;\n  white-space: nowrap;\n  padding: 8px 0;\n  font-size: 0.8rem;\n  font-weight: 600;\n  width: 100%;\n  box-sizing: border-box;\n}\n\n.scrolling-banner .track {\n  display: inline-block;\n  animation: scroll 45s linear infinite;\n  padding-left: 100%; /* permet de démarrer en dehors du conteneur */\n}\n\n.scrolling-banner .item {\n  display: inline-flex;\n  align-items: center;\n  gap: 8px;\n  margin: 0 20px;\n}\n\n.scrolling-banner .item i {\n  font-style: normal;\n  font-size: 1rem;\n}\n\n@keyframes scroll {\n  0%   { transform: translateX(0); }\n  100% { transform: translateX(-100%); }\n}\n</style>\n\n<div class=\"scrolling-banner\">\n  <div class=\"track\">\n    <span class=\"item\"><i>🌱</i> VÉGAN ET NATUREL</span>\n    <span class=\"item\"><i>🧬</i> SANS OGM</span>\n    <span class=\"item\"><i>🌿</i> SANS GLUTEN</span>\n    <span class=\"item\"><i>🔬</i> TESTÉ EN LABORATOIRE</span>\n    \n    <!-- doublé pour boucle fluide -->\n    <span class=\"item\"><i>🌱</i> VÉGAN ET NATUREL</span>\n    <span class=\"item\"><i>🧬</i> SANS OGM</span>\n    <span class=\"item\"><i>🌿</i> SANS GLUTEN</span>\n    <span class=\"item\"><i>🔬</i> TESTÉ EN LABORATOIRE</span>\n  </div>\n</div>"
+            "liquid": "<style>\n.scrolling-banner {\n  background: #F5FDF7;\n  color: #000000;\n  overflow: hidden;\n  white-space: nowrap;\n  padding: 8px 0;\n  font-size: 0.8rem;\n  font-weight: 600;\n  width: 100%;\n  box-sizing: border-box;\n}\n\n.scrolling-banner .track {\n  display: inline-block;\n  animation: scroll 45s linear infinite;\n  padding-left: 100%; /* permet de démarrer en dehors du conteneur */\n}\n\n.scrolling-banner .item {\n  display: inline-flex;\n  align-items: center;\n  gap: 8px;\n  margin: 0 20px;\n}\n\n.scrolling-banner .item i {\n  font-style: normal;\n  font-size: 1rem;\n}\n\n@keyframes scroll {\n  0%   { transform: translateX(0); }\n  100% { transform: translateX(-100%); }\n}\n</style>\n\n<div class=\"scrolling-banner\">\n  <div class=\"track\">\n    <span class=\"item\"><i>🌱</i> VÉGAN ET NATUREL</span>\n    <span class=\"item\"><i>🧬</i> SANS OGM</span>\n    <span class=\"item\"><i>🌿</i> SANS GLUTEN</span>\n    <span class=\"item\"><i>🔬</i> TESTÉ EN LABORATOIRE</span>\n    \n    <!-- doublé pour boucle fluide -->\n    <span class=\"item\"><i>🌱</i> VÉGAN ET NATUREL</span>\n    <span class=\"item\"><i>🧬</i> SANS OGM</span>\n    <span class=\"item\"><i>🌿</i> SANS GLUTEN</span>\n    <span class=\"item\"><i>🔬</i> TESTÉ EN LABORATOIRE</span>\n  </div>\n</div>"
           }
         }
       },
@@ -880,16 +607,11 @@
         "vendor_NyWPKh",
         "liquid_tJVytd",
         "liquid_Wt9J8i",
+        "liquid_mzrGJy",
+        "liquid_GUrkRK",
         "title_z3tRVg",
         "price_8W4V43",
         "image_jB9AfK",
-        "image_z7teRJ",
-        "image_CnnaBk",
-        "liquid_mzrGJy",
-        "liquid_GUrkRK",
-        "liquid_Q39C4f",
-        "kaching_bundles_app_block_ji6Ara",
-        "image_3CyiHP",
         "liquid_bzLfbr",
         "badges_Ap8TAg",
         "liquid_JBTPV9",
@@ -897,28 +619,24 @@
         "separator_dVzUBY",
         "liquid_adRynU",
         "description_wXhaQq",
+        "image_7cUgwC",
         "liquid_PA69WL",
         "variant_picker_dKt3Ay",
         "quantity_selector_QDfzPy",
-        "image_yVE7ba",
-        "countdown_timer_essential_app_block_mhY6aR",
         "buy_buttons_zjXiAE",
-        "conversion_bear_trust_badges_widget_U4cEwP",
-        "liquid_V7TKFP",
-        "liquid_RXJddz",
         "liquid_ckaKaL",
-        "image_7aiC8G",
-        "liquid_n3B7iC",
         "image_QkPLJy",
-        "liquid_aeB34r",
+        "liquid_V7TKFP",
         "liquid_PzBFga",
+        "image_7aiC8G",
         "liquid_ne6gew",
         "image_7Bb7Gx",
+        "liquid_aeB34r",
         "pickup_availability_WHLMk4",
         "liquid_HTYpEJ",
-        "collapsible_text_LfDV6H",
-        "collapsible_text_eprhzy",
         "collapsible_text_Ki6GWe",
+        "collapsible_text_eprhzy",
+        "collapsible_text_LfDV6H",
         "collapsible_text_wzRGkd",
         "text_HhGfqc",
         "text_UCztcD",
@@ -946,235 +664,90 @@
         "input_text_color": ""
       }
     },
-    "rich_text_ft66VY": {
-      "type": "rich-text",
-      "blocks": {
-        "subheading_rk73eA": {
-          "type": "subheading",
-          "settings": {
-            "text": "Nos ingrédients testés cliniquement"
-          }
-        },
-        "heading_hkJywG": {
-          "type": "heading",
-          "disabled": true,
-          "settings": {
-            "text": "Ingrédients testés cliniquement",
-            "heading_tag": "h3",
-            "text_color": "",
-            "gradient": ""
-          }
-        },
-        "richtext_AjUJmg": {
-          "type": "richtext",
-          "disabled": true,
-          "settings": {
-            "content": "<p>Chez Xionora, nous avons passé des années à perfectionner cette formule, en éliminant les additifs inutiles tout en <strong>maximisant la pureté, la puissance et l’efficacité, </strong>afin que vous obteniez de vrais résultats, et pas seulement de vaines promesses.</p>"
-          }
-        }
-      },
-      "block_order": [
-        "subheading_rk73eA",
-        "heading_hkJywG",
-        "richtext_AjUJmg"
-      ],
-      "disabled": true,
-      "name": "Rich text",
+    "custom_liquid_9XVWRc": {
+      "type": "custom-liquid",
+      "name": "Custom Liquid",
       "settings": {
         "full_width": true,
-        "content_width": "small",
-        "text_position": "center",
-        "background": "",
+        "remove_vertical_spacing": true,
+        "remove_horizontal_spacing": true,
+        "liquid": "<div style=\"background: #FFFFFF; padding: 20px; border-radius: 12px; text-align: center; font-family: sans-serif;\">\n  <h3 style=\"font-size: 20px; font-weight: 600; margin-bottom: 10px;\">Nos clientes en parlent le mieux</h3>\n\n  <div style=\"display: flex; justify-content: center; align-items: center; gap: 8px; margin-bottom: 6px; flex-wrap: wrap;\">\n    <span style=\"font-size: 16px;\">Excellent</span>\n    <strong style=\"font-size: 18px;\">4.7 / 5</strong>\n\n    <div style=\"display: flex; gap: 2px;\">\n      {% for i in (1..5) %}\n      <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"20\" height=\"20\" fill=\"#00B67A\" viewBox=\"0 0 24 24\">\n        <path d=\"M12 .587l3.668 7.431 8.2 1.151-5.934 5.663 1.402 8.168L12 18.897l-7.336 3.903 1.402-8.168L.132 9.169l8.2-1.151z\"/>\n      </svg>\n      {% endfor %}\n    </div>\n  </div>\n\n  <p style=\"font-size: 14px; color: #333; margin: 0;\">\n    Basé sur <strong>2 510 avis</strong>\n    <span style=\"display: inline-flex; align-items: center; gap: 4px; color: #000000; margin-left: 6px;\">\n      <svg width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"#00B67A\" xmlns=\"http://www.w3.org/2000/svg\">\n        <path d=\"M12 .587l3.668 7.431 8.2 1.151-5.934 5.663 1.402 8.168L12 18.897l-7.336 3.903 1.402-8.168L.132 9.169l8.2-1.151z\"/>\n      </svg>\n      <span style=\"font-weight: bold;\">Trustpilot</span>\n    </span>\n  </p>\n</div>",
+        "background": "#ffffff",
         "background_gradient": "",
         "text_color": ""
-      }
-    },
-    "images_with_text_scrolling_NzNz7q": {
-      "type": "images-with-text-scrolling",
-      "blocks": {
-        "item_qwkAna": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/gempages_555070284432933968-56fffdf7-191e-49ed-bf8f-92b83683553d.webp",
-            "icon": "none",
-            "icon_width": 48,
-            "title": "Huile d'origan",
-            "content": "<p>Un extrait concentré en carvacrol, reconnu pour son action antimicrobienne naturelle et son soutien aux défenses immunitaires.</p>"
-          }
-        },
-        "item_QxP4Kg": {
-          "type": "item",
-          "settings": {
-            "image": "shopify://shop_images/gempages_555070284432933968-e28fca95-f72c-469d-b217-585cac40fed9.webp",
-            "icon": "none",
-            "icon_width": 48,
-            "title": "Huile de nigelle",
-            "content": "<p>Transmise de génération en génération, cette huile de guérison est appréciée pour sa puissance naturelle et sa capacité à raviver l’énergie, la clarté et le bien-être intérieur.</p>"
-          }
-        }
-      },
-      "block_order": [
-        "item_qwkAna",
-        "item_QxP4Kg"
-      ],
-      "disabled": true,
-      "name": "Images and text scrolling",
-      "settings": {
-        "full_width": true,
-        "stack_on_mobile": true,
-        "show_counter": true,
-        "desktop_image_effect": "fade",
-        "image_position": "end",
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "heading_color": "",
-        "heading_gradient": ""
       }
     },
     "testimonials_tan9Et": {
       "type": "testimonials",
       "blocks": {
-        "testimonial_8EYnCK": {
-          "type": "testimonial",
-          "settings": {
-            "round_avatar": true,
-            "show_rating": true,
-            "rating": 4,
-            "author": "Cliente vérifiée",
-            "title": "Anaîs G.",
-            "content": "<p>\"Je ne croyais pas aux avant/après... Maintenant j'en suis une ! Fini les vêtements larges pour cacher. Je recommande à 100%.\"</p>"
-          }
-        },
-        "testimonial_j9mt7j": {
-          "type": "testimonial",
-          "settings": {
-            "round_avatar": true,
-            "show_rating": true,
-            "rating": 4,
-            "author": "Cliente vérifiée",
-            "title": "Christelle T.",
-            "content": "<p>\"J'étais sceptique mais ça marche vraiment. Mon ventre ne gonfle plus et je dors mieux. Je recommande.\"</p>"
-          }
-        },
-        "testimonial_NEB7EJ": {
-          "type": "testimonial",
-          "settings": {
-            "round_avatar": true,
-            "show_rating": true,
-            "rating": 4,
-            "author": "Cliente vérifiée",
-            "title": "Marie C.",
-            "content": "<p>\"J'avais une prolifération de candida depuis des mois. Avec cette cure, mon ventre est redevenu normal. Incroyable transformation !\"</p>"
-          }
-        },
-        "testimonial_pBdCYK": {
-          "type": "testimonial",
-          "settings": {
-            "round_avatar": true,
-            "show_rating": true,
-            "rating": 4,
-            "author": "Cliente vérifiée",
-            "title": "Stéphani J.",
-            "content": "<p>J'avais essayé des tas de choses sans résultats. Et puis, j’ai commencé une routine simple, naturelle… et petit à petit, j’ai senti mon ventre se relâcher. Aujourd’hui, je me sens plus légère et apaisée.\"</p>"
-          }
-        },
-        "testimonial_eFDgpd": {
-          "type": "testimonial",
-          "settings": {
-            "round_avatar": true,
-            "show_rating": true,
-            "rating": 4,
-            "author": "Cliente vérifiée",
-            "title": "Louisa C.",
-            "content": "<p>\"J'avais l'air enceinte de 6 mois ! En 1 mois avec OregaZen, mon ventre est redevenu plat. Transformation incroyable, je n'y croyais pas !\"</p>"
-          }
-        },
-        "testimonial_gtJUqM": {
-          "type": "testimonial",
-          "settings": {
-            "round_avatar": false,
-            "show_rating": true,
-            "rating": 5,
-            "author": "Cliente vérifiée",
-            "title": "Danaé V.",
-            "content": "<p><em>“J’avais des parasites intestinaux qui me fatiguaient depuis des mois. Après 3 semaines avec OregaZen, les symptômes ont disparu et mes tests sont revenus négatifs. Un vrai soulagement !”</em></p>"
-          }
-        },
         "testimonial_nJY8Wd": {
           "type": "testimonial",
           "settings": {
             "round_avatar": true,
-            "show_rating": true,
+            "show_rating": false,
             "rating": 5,
-            "author": "Cliente vérifiée",
-            "title": "Melissa L.",
-            "content": "<p><em>''Honnêtement, je revis ! Ma digestion est tellement plus légère et je me sens bien au quotidien. Pour moi, c’est un petit prix à payer pour un tel confort. Je ne regrette vraiment pas, c’est même l’un de mes meilleurs achats.''</em></p>"
+            "author": "",
+            "title": "Melissa",
+            "content": "<p>Honnêtement, je revis ! Ma digestion est tellement plus légère et je me sens bien au quotidien. Pour moi, c’est un petit prix à payer pour un tel confort. Je ne regrette vraiment pas, c’est même l’un de mes meilleurs achats.<br/><br/></p>"
           }
         },
         "testimonial_kcjFHR": {
           "type": "testimonial",
           "settings": {
             "round_avatar": true,
-            "show_rating": true,
+            "show_rating": false,
             "rating": 5,
-            "author": "Cliente vérifiée",
-            "title": "Marie T.",
-            "content": "<p><em>''Franchement, c’est l’un des meilleurs cadeaux que je me suis faits pour ma santé. Mon ventre est visiblement plus plat, je me sens tellement mieux — et tout ça pour un prix vraiment dérisoire !''</em></p>"
+            "author": "",
+            "title": "Marie",
+            "content": "<p>Franchement, c’est l’un des meilleurs cadeaux que je me suis faits pour ma santé. Mon ventre est visiblement plus plat, je me sens tellement mieux — et tout ça pour un prix vraiment dérisoire !<br/><br/></p>"
           }
         },
         "testimonial_pATCzf": {
           "type": "testimonial",
           "settings": {
             "round_avatar": true,
-            "show_rating": true,
-            "rating": 5,
-            "author": "Cliente vérifiée",
-            "title": "Genneviève F.",
-            "content": "<p><em>''Ça faisait des mois que je souffrais après chaque repas. Une semaine avec cette cure et c’est le jour et la nuit : fini les ballonnements, mon ventre est plus plat et je revis !''</em></p>"
+            "show_rating": false,
+            "rating": 4,
+            "author": "",
+            "title": "Genneviève",
+            "content": "<p>Ça faisait des mois que je souffrais après chaque repas. Une semaine avec cette cure et c’est le jour et la nuit : fini les ballonnements, mon ventre est plus plat et je revis !<br/><br/></p>"
           }
         },
         "testimonial_BPGCR9": {
           "type": "testimonial",
           "settings": {
             "round_avatar": true,
-            "show_rating": true,
-            "rating": 5,
-            "author": "Cliente vérifiée",
-            "title": "Alexia D.",
-            "content": "<p><em>''Super facile à prendre, sans goût bizarre, et franchement ça change tout pour mon transit. Je me sens tellement mieux !''</em></p>"
+            "show_rating": false,
+            "rating": 4,
+            "author": "",
+            "title": "Alexia",
+            "content": "<p>Super facile à prendre, sans goût bizarre, et franchement ça change tout pour mon transit. Je me sens tellement mieux !<br/><br/></p>"
           }
         },
         "testimonial_hFWBCb": {
           "type": "testimonial",
           "settings": {
             "round_avatar": true,
-            "show_rating": true,
-            "rating": 5,
-            "author": "Cliente vérifiée",
-            "title": "Marie T.",
-            "content": "<p><em>''Au début j’étais un peu sceptique à cause du prix, mais les résultats ont été bluffants dès les premières semaines. C’est largement rentabilisé : je déborde d’énergie comme jamais !''</em></p>"
+            "show_rating": false,
+            "rating": 4,
+            "author": "",
+            "title": "Marie",
+            "content": "<p>Au début j’étais un peu sceptique à cause du prix, mais les résultats ont été bluffants dès les premières semaines. C’est largement rentabilisé : je déborde d’énergie comme jamais !<br/><br/></p>"
           }
         },
         "testimonial_dgPKMP": {
           "type": "testimonial",
           "settings": {
             "round_avatar": true,
-            "show_rating": true,
-            "rating": 5,
-            "author": "Cliente vérifiée",
-            "title": "Julie L.",
-            "content": "<p><em>''Un produit naturel super facile à prendre, sans le moindre goût désagréable. Et honnêtement, c’est bluffant pour mon transit — je me sens tellement plus légère.''</em></p>"
+            "show_rating": false,
+            "rating": 4,
+            "author": "",
+            "title": "Julie",
+            "content": "<p>Un produit naturel super facile à prendre, sans le moindre goût désagréable. Et honnêtement, c’est bluffant pour mon transit — je me sens tellement plus légère.<br/><br/></p>"
           }
         }
       },
       "block_order": [
-        "testimonial_8EYnCK",
-        "testimonial_j9mt7j",
-        "testimonial_NEB7EJ",
-        "testimonial_pBdCYK",
-        "testimonial_eFDgpd",
-        "testimonial_gtJUqM",
         "testimonial_nJY8Wd",
         "testimonial_kcjFHR",
         "testimonial_pATCzf",
@@ -1182,7 +755,6 @@
         "testimonial_hFWBCb",
         "testimonial_dgPKMP"
       ],
-      "disabled": true,
       "name": "Testimonials",
       "settings": {
         "full_width": false,
@@ -1194,10 +766,10 @@
         "link_text": "",
         "background": "#ffffff",
         "background_gradient": "",
-        "text_color": "#666363",
-        "heading_color": "#1a1a1a",
+        "text_color": "#000000",
+        "heading_color": "#bdeacf",
         "heading_gradient": "",
-        "testimonial_card_background": "#d6f1d8",
+        "testimonial_card_background": "#f5fdf7",
         "testimonial_card_text_color": "#1a1a1a"
       }
     },
@@ -1247,7 +819,6 @@
         "item_K7WzdG": {
           "type": "item",
           "settings": {
-            "image": "shopify://shop_images/Copy_of_100_Templates_di_Creative_per_Ads_4.jpg",
             "image_rotation_degrees": -2,
             "subheading": "",
             "title": "",
@@ -1284,51 +855,109 @@
         "button_text_color": ""
       }
     },
-    "timeline_PcTQyC": {
-      "type": "timeline",
+    "rich_text_ft66VY": {
+      "type": "rich-text",
       "blocks": {
-        "slide_ezaadD": {
-          "type": "slide",
+        "subheading_rk73eA": {
+          "type": "subheading",
           "settings": {
-            "image": "shopify://shop_images/100_WATER_PROVE_4.png",
-            "navigation_label": "1-7 jours",
-            "subheading": "",
-            "title": "Le soulagement digestif commence maintenant ou jamais",
-            "content": "<p>Fini les ballonnements et gaz gênants. Retrouvez une digestion apaisée et un confort intestinal durable<br/><br/></p>"
+            "text": "Nos ingrédients testés cliniquement"
           }
         },
-        "slide_YiHLD8": {
-          "type": "slide",
+        "heading_hkJywG": {
+          "type": "heading",
+          "disabled": true,
           "settings": {
-            "image": "shopify://shop_images/100_WATER_PROVE_4.png",
-            "navigation_label": "30 jours",
-            "subheading": "",
-            "title": "Régénération Intestinale",
-            "content": "<p>Profitez d'un rééquilibrage interne complet qui élimine le candida tenace, renforce vos défenses naturelles et apaise les inflammations dans tout l'organisme.</p><p>Nos utilisateurs constatent rapidement des sinus plus dégagés, une diminution des réactions allergiques et une peau visiblement plus belle.</p><p>Votre corps retrouve enfin son équilibre naturel pour un bien-être durable.</p>"
+            "text": "Ingrédients testés cliniquement",
+            "heading_tag": "h3",
+            "text_color": "",
+            "gradient": ""
           }
         },
-        "slide_qjzcwH": {
-          "type": "slide",
+        "richtext_AjUJmg": {
+          "type": "richtext",
+          "disabled": true,
           "settings": {
-            "image": "shopify://shop_images/100_WATER_PROVE_4.png",
-            "navigation_label": "1-3 mois",
-            "subheading": "",
-            "title": "Transformation complète du bien-être",
-            "content": "<p>Découvrez la puissance thérapeutique de l'origan : immunité boostée, digestion fluide, clarté mentale et énergie durable. Protection optimale contre les aléas saisonniers grâce aux composés curatifs ancestraux parfaitement intégrés.<br/></p>"
+            "content": "<p>Chez Xionora, nous avons passé des années à perfectionner cette formule, en éliminant les additifs inutiles tout en <strong>maximisant la pureté, la puissance et l’efficacité, </strong>afin que vous obteniez de vrais résultats, et pas seulement de vaines promesses.</p>"
           }
         }
       },
       "block_order": [
-        "slide_ezaadD",
-        "slide_YiHLD8",
-        "slide_qjzcwH"
+        "subheading_rk73eA",
+        "heading_hkJywG",
+        "richtext_AjUJmg"
       ],
-      "name": "Timeline",
+      "name": "Rich text",
       "settings": {
         "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
         "background": "",
         "background_gradient": "",
         "text_color": ""
+      }
+    },
+    "slideshow_GUKWNK": {
+      "type": "slideshow",
+      "blocks": {
+        "image_Hdaek7": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/gempages_555070284432933968-56fffdf7-191e-49ed-bf8f-92b83683553d.webp",
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "subheading": "HUILE D'ORIGAN",
+            "title": "Un extrait concentré en carvacrol, reconnu pour son action antimicrobienne naturelle et son soutien aux défenses immunitaires.",
+            "heading_tag": "h6",
+            "button_text": "",
+            "button_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30,
+            "background": "",
+            "background_gradient": ""
+          }
+        },
+        "image_Gi4Tx9": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/gempages_555070284432933968-e28fca95-f72c-469d-b217-585cac40fed9.webp",
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "subheading": "HUILE DE NIGELLE",
+            "title": "Transmise de génération en génération, cette huile de guérison est appréciée pour sa puissance naturelle et sa capacité à raviver l’énergie, la clarté et le bien-être intérieur.",
+            "heading_tag": "h6",
+            "button_text": "",
+            "button_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30,
+            "background": "",
+            "background_gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_Hdaek7",
+        "image_Gi4Tx9"
+      ],
+      "name": "Slideshow",
+      "settings": {
+        "full_width": false,
+        "allow_transparent_header": true,
+        "image_size": "auto",
+        "controls_type": "dots",
+        "transition_type": "fade_with_text",
+        "autoplay": false,
+        "cycle_speed": 4,
+        "background": "#ffffff",
+        "background_gradient": ""
       }
     },
     "faq": {
@@ -1343,7 +972,6 @@
         },
         "166442457738b23caf-1": {
           "type": "item",
-          "disabled": true,
           "settings": {
             "title": "Que contient chaque portion ?",
             "content": "<p><strong>Chaque prise apporte 6 000 mg d’huile d’origan</strong> (extrait concentré 20:1) contenant <strong>165 mg de carvacrol naturellement présent</strong>, ainsi que <strong>200 mg d’huile de nigelle (cumin noir)</strong> pour renforcer les bienfaits.</p>"
@@ -1358,7 +986,6 @@
         },
         "item_R6EUUE": {
           "type": "item",
-          "disabled": true,
           "settings": {
             "title": "Ce produit est-il exempt d’allergènes ?",
             "content": "<p><strong>Notre huile d’origan est exempte des principaux allergènes</strong>, notamment le gluten, les produits laitiers, le soja, les fruits à coque et les crustacés.<br/><br/>Elle ne contient <strong>ni colorants, ni arômes artificiels, ni conservateurs.</strong></p>"
@@ -1366,7 +993,6 @@
         },
         "item_eKWaKJ": {
           "type": "item",
-          "disabled": true,
           "settings": {
             "title": "Où ce produit est-il fabriqué et d’où est-il expédié ?",
             "content": "<p><strong>Nos gélules d’huile d’origan sont fabriquées aux France.</strong><br/></p>"
@@ -1374,7 +1000,6 @@
         },
         "item_gqWgnQ": {
           "type": "item",
-          "disabled": true,
           "settings": {
             "title": "Comment puis-je être sûr(e) qu’il s’agit de vraie huile d’origan et d’huile de nigelle ?",
             "content": "<p>Nous utilisons uniquement <strong>de l’huile d’origan premium et authentique</strong>, avec une teneur en carvacrol vérifiée (<strong>165 mg par dose</strong>), ainsi que <strong>de la véritable huile de nigelle</strong>.<br/><br/>Chaque lot est soumis à des tests rigoureux par des <strong>laboratoires indépendants</strong>, afin de garantir <strong>la pureté, la puissance et l’authenticité</strong> du produit.<br/><br/></p>"
@@ -1382,7 +1007,6 @@
         },
         "item_X9qMtC": {
           "type": "item",
-          "disabled": true,
           "settings": {
             "title": "La gélatine provient-elle du porc ou d’une source végétale ?",
             "content": "<p><strong>Nos gélules sont à base de cellulose végétale</strong>, sans gélatine animale.<br/><br/>Elles conviennent parfaitement aux végétariens et à toutes les personnes qui souhaitent éviter les produits d’origine animale.<br/><br/></p>"
@@ -1390,7 +1014,6 @@
         },
         "item_zTcXAf": {
           "type": "item",
-          "disabled": true,
           "settings": {
             "title": "À quelle fréquence et pendant combien de temps dois-je le prendre ?",
             "content": "<p><strong>Pour des résultats optimaux</strong>, nous recommandons de prendre l’huile d’origan <strong>quotidiennement pendant au moins 90 à 180 jours</strong>, afin de bénéficier pleinement de ses effets.<br/><br/>Beaucoup de nos clients l’intègrent dans leur <strong>routine bien-être tout au long de l’année</strong>, tandis que d’autres la prennent de façon régulière selon leurs besoins.<br/><br/><br/></p>"
@@ -1405,7 +1028,6 @@
         },
         "item_8gnaRh": {
           "type": "item",
-          "disabled": true,
           "settings": {
             "title": "Les enfants peuvent-ils en prendre ?",
             "content": "<p><strong>Ce produit est formulé pour les adultes et les enfants.</strong><br/><br/>Cependant, pour les enfants de moins de 12 ans, il est recommandé de consulter un professionnel de santé avant utilisation.</p>"
@@ -1413,7 +1035,6 @@
         },
         "item_twRztE": {
           "type": "item",
-          "disabled": true,
           "settings": {
             "title": "Ce produit est-il testé par un laboratoire tiers ?",
             "content": "<p>Oui, tous nos produits sont soumis à des tests rigoureux par des laboratoires tiers indépendants, afin de garantir leur pureté, leur puissance et leur qualité.<br/><br/>Nous vérifions la présence éventuelle de métaux lourds, de microbes et d’autres contaminants, pour vous offrir un complément sûr et hautement efficace.<br/><br/></p>"
@@ -1421,7 +1042,6 @@
         },
         "item_PPUirY": {
           "type": "item",
-          "disabled": true,
           "settings": {
             "title": "Offrez-vous une garantie satisfaction ?",
             "content": "<p>Absolument ! Nous soutenons notre huile d’origan avec une <strong>garantie satisfait ou remboursé de 30 jours</strong>.<br/><br/>Si vous n’êtes pas entièrement satisfait(e), il vous suffit de nous contacter pour obtenir un <strong>remboursement complet, sans aucune condition</strong>.<br/><br/></p>"
@@ -1436,7 +1056,6 @@
         },
         "item_aFfMyn": {
           "type": "item",
-          "disabled": true,
           "settings": {
             "title": "Ce produit contient-il des OGM ?",
             "content": "<p>Non, notre huile d’origan est <strong>entièrement sans OGM</strong> et ne contient <strong>que des ingrédients naturels</strong>, sans aucune modification génétique.</p><p></p>"
@@ -1444,7 +1063,6 @@
         },
         "item_bw3BHa": {
           "type": "item",
-          "disabled": true,
           "settings": {
             "title": "Puis-je prendre ce complément pendant la grossesse ?",
             "content": "<p><br/>Nous <strong>ne recommandons pas de prendre de l’huile d’origan pendant la grossesse</strong>.<br/><br/>Certains composés actifs peuvent <strong>stimuler la circulation sanguine vers l’utérus</strong>.<br/><br/>Il est essentiel de <strong>consulter votre professionnel de santé</strong> avant de prendre tout complément alimentaire durant la grossesse.<br/><br/></p>"
@@ -1452,7 +1070,6 @@
         },
         "item_zjDBPi": {
           "type": "item",
-          "disabled": true,
           "settings": {
             "title": "Quel est le meilleur moment de la journée pour le prendre ?",
             "content": "<p><br/>Pour une <strong>absorption optimale</strong>, prenez les gélules d’huile d’origan <strong>au moment des repas</strong>.<br/><br/>Beaucoup de nos clients trouvent qu’une prise <strong>au petit-déjeuner ou au dîner</strong> fonctionne le mieux.<br/><br/>Si vous en prenez <strong>deux fois par jour</strong>, espacez les prises d’environ <strong>6 à 8 heures</strong>.<br/><br/></p>"
@@ -1467,7 +1084,6 @@
         },
         "item_46yGBe": {
           "type": "item",
-          "disabled": true,
           "settings": {
             "title": "Y a-t-il des traces de produits laitiers, de gluten ou de soja ?",
             "content": "<p>Non. Nos gélules d’huile d’origan <strong>ne contiennent ni produits laitiers, ni gluten, ni soja</strong>, ni aucun allergène courant.<br/><br/>Tous nos produits sont formulés pour être <strong>purs</strong>, sans <strong>agents de remplissage inutiles ni additifs artificiels</strong>.</p><p><br/><br/></p>"
@@ -1475,7 +1091,6 @@
         },
         "item_iTUXyG": {
           "type": "item",
-          "disabled": true,
           "settings": {
             "title": "Est-ce que cela peut déranger mon estomac ?",
             "content": "<p><strong>OregaZen</strong> a été formulé pour <strong>améliorer la digestion et soutenir la santé intestinale</strong>.<br/><br/>La majorité des utilisateurs le tolèrent très bien.<br/><br/>Cependant, en raison de son <strong>puissant effet antimicrobien</strong>, certaines personnes peuvent ressentir des <strong>selles plus fréquentes durant les premiers jours</strong>, le temps que le produit <strong>élimine les déchets accumulés</strong> dans l’organisme.</p><p>C’est une réaction naturelle et temporaire, signe que le nettoyage interne est en cours.</p>"
@@ -1483,7 +1098,6 @@
         },
         "item_bjdWn3": {
           "type": "item",
-          "disabled": true,
           "settings": {
             "title": "Et si je n’aime pas les effets ou si je n’ai pas l’impression que ça fonctionne ?",
             "content": "<p><br/>Nous soutenons pleinement notre produit avec une <strong>garantie satisfait ou remboursé de 30 jours</strong>.<br/><br/>Si vous n’êtes pas entièrement satisfait(e) des résultats ou ressentez des effets indésirables, il vous suffit de <strong>contacter notre service client</strong> pour obtenir un <strong>remboursement complet</strong> – <strong>sans aucune question</strong> et <strong>sans avoir à retourner le produit</strong>.<br/><br/></p>"
@@ -1549,391 +1163,27 @@
         "review_button_background": "#000000",
         "review_button_text_color": "#ffffff"
       }
-    },
-    "s_xQacYN": {
-      "type": "s",
-      "blocks": {
-        "video_nqjC4C": {
-          "type": "video",
-          "settings": {
-            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-            "preload_video": "shopify://files/videos/0724(2).mp4",
-            "modal_heading": "<h4>Modal Heading</h4>",
-            "modal_text": "<p>Modal Text</p>"
-          }
-        },
-        "video_WqfYr4": {
-          "type": "video",
-          "settings": {
-            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-            "preload_video": "shopify://files/videos/0724.mp4",
-            "modal_heading": "<h4>Modal Heading</h4>",
-            "modal_text": "<p>Modal Text</p>"
-          }
-        },
-        "video_QEyTxP": {
-          "type": "video",
-          "settings": {
-            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-            "preload_video": "shopify://files/videos/0724(3).mp4",
-            "modal_heading": "<h4>Modal Heading</h4>",
-            "modal_text": "<p>Modal Text</p>"
-          }
-        },
-        "video_RtFcLW": {
-          "type": "video",
-          "settings": {
-            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-            "preload_video": "shopify://files/videos/0724(2).mp4",
-            "modal_heading": "<h4>Modal Heading</h4>",
-            "modal_text": "<p>Modal Text</p>"
-          }
-        }
-      },
-      "block_order": [
-        "video_nqjC4C",
-        "video_WqfYr4",
-        "video_QEyTxP",
-        "video_RtFcLW"
-      ],
-      "name": "SS - Product Videos",
-      "settings": {
-        "videos_position": "above_description",
-        "use_metafield": false,
-        "heading": "<h2>Adopté par tous </h2>",
-        "heading_custom": false,
-        "heading_font": "josefin_sans_n4",
-        "heading_size": 42,
-        "heading_size_mobile": 16,
-        "heading_height": 130,
-        "heading_align": "center",
-        "heading_align_mobile": "center",
-        "slider_view": 3,
-        "slider_view_mobile": 3,
-        "slider_gap": 16,
-        "slider_gap_mobile": 16,
-        "slider_mt": 20,
-        "card_radius": 10,
-        "card_border_thickness": 0,
-        "card_shadow": true,
-        "video_ratio": "square",
-        "video_ratio_mobile": "portrait",
-        "video_overlay": 0,
-        "icon_size": 34,
-        "icon_size_mobile": 34,
-        "icon_border_thickness": 1,
-        "icon_position_mobile": "bottom_left",
-        "icon_position": "bottom_left",
-        "hide_icon": false,
-        "arrow_size": 35,
-        "arrow_size_mobile": 35,
-        "arrow_radius": 5,
-        "arrow_border_thickness": 0,
-        "arrow_hover_shadow": true,
-        "arrow_show_desktop": true,
-        "arrow_show_mobile": true,
-        "show_content": true,
-        "modal_width": 70,
-        "modal_width_mobile": 95,
-        "modal_padding_vertical": 0,
-        "modal_padding_vertical_mobile": 0,
-        "modal_padding_horizontal": 0,
-        "modal_padding_horizontal_mobile": 0,
-        "modal_radius": 16,
-        "modal_border_thickness": 0,
-        "modal_overlay": 50,
-        "close_size": 42,
-        "close_size_mobile": 42,
-        "close_radius": 8,
-        "close_border_thickness": 0,
-        "buttons_size": 48,
-        "buttons_size_mobile": 48,
-        "buttons_radius": 8,
-        "buttons_border_thickness": 0,
-        "modal_video_radius": 0,
-        "modal_video_border_thickness": 0,
-        "modal_video_ratio": "portrait",
-        "modal_video_ratio_mobile": "portrait",
-        "modal_heading_custom": false,
-        "modal_heading_font": "josefin_sans_n4",
-        "modal_heading_size": 28,
-        "modal_heading_size_mobile": 28,
-        "modal_heading_height": 130,
-        "modal_heading_align": "center",
-        "modal_heading_align_mobile": "center",
-        "modal_text_custom": false,
-        "modal_text_font": "josefin_sans_n4",
-        "modal_text_size": 16,
-        "modal_text_size_mobile": 16,
-        "modal_text_height": 130,
-        "modal_text_align": "center",
-        "modal_text_align_mobile": "center",
-        "modal_text_mt": 16,
-        "card_bg_color": "#ffffff",
-        "card_border_color": "#000000",
-        "card_shadow_color": "#000000",
-        "video_overlay_color": "#000000",
-        "icon_bg_color": "#000000",
-        "icon_border_color": "#ffffff",
-        "icon_color": "#ffffff",
-        "arrow_bg_color": "#ffffff",
-        "arrow_bg_hover_color": "#ffffff",
-        "arrow_border_color": "#000000",
-        "arrow_border_hover_color": "#000000",
-        "arrow_icon_color": "#1c1c1c",
-        "arrow_icon_hover_color": "#1c1c1c",
-        "modal_bg_color": "#ffffff",
-        "modal_border_color": "#000000",
-        "close_bg_color": "#ffffff",
-        "close_border_color": "#000000",
-        "close_icon_color": "#ffffff",
-        "buttons_bg_color": "#ffffff",
-        "buttons_border_color": "#000000",
-        "buttons_icon_color": "#ffffff",
-        "modal_video_border_color": "#000000",
-        "modal_content_bg_color": "#ffffff",
-        "modal_content_border_color": "#000000",
-        "modal_heading_color": "#000000",
-        "modal_text_color": "#000000",
-        "heading_color": "#000000",
-        "background_color": "#ffffff",
-        "background_gradient": "",
-        "border_color": "#000000",
-        "margin_top": 0,
-        "margin_bottom": 0,
-        "padding_top": 20,
-        "padding_bottom": 20,
-        "padding_horizontal": 0,
-        "padding_horizontal_mobile": 0,
-        "border_thickness": 0,
-        "lazy": true
-      }
-    },
-    "17533844265221b11f": {
-      "type": "apps",
-      "blocks": {
-        "loox_reviews_loox_agg_section_3WdtgK": {
-          "type": "shopify://apps/loox-reviews/blocks/loox-agg-section/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
-          "settings": {
-            "only_photos": false,
-            "hide_thumbnails": true,
-            "product_handle": "",
-            "aggregated": false,
-            "data-limit": 5,
-            "maxwidth": 1080,
-            "is_sample": false
-          }
-        }
-      },
-      "block_order": [
-        "loox_reviews_loox_agg_section_3WdtgK"
-      ],
-      "settings": {
-        "full_width": true,
-        "remove_vertical_spacing": false,
-        "remove_horizontal_spacing": false,
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "enable_review_integration": true,
-        "review_header_gradient": "linear-gradient(135deg, rgba(255, 194, 102, 1), rgba(255, 163, 26, 1) 100%)",
-        "review_header_text_color": "#000000",
-        "review_button_background": "#000000",
-        "review_button_text_color": "#ffffff"
-      }
-    },
-    "ss_comparison_MRaBRU": {
-      "type": "ss-comparison",
-      "blocks": {
-        "item_DnkDM8": {
-          "type": "item",
-          "settings": {
-            "row_heading": "Formule 2 en 1",
-            "first_column": "Oui",
-            "second_column": "Oui",
-            "third_column": "Oui",
-            "four_column": "Oui"
-          }
-        },
-        "item_frUAYq": {
-          "type": "item",
-          "settings": {
-            "row_heading": "Pureté la plus elevé",
-            "first_column": "Oui",
-            "second_column": "No",
-            "third_column": "",
-            "four_column": ""
-          }
-        },
-        "item_kwEPtn": {
-          "type": "item",
-          "settings": {
-            "row_heading": "200+ HIGHLY CUSTOMISABLE SECTIONS",
-            "first_column": "Oui",
-            "second_column": "No",
-            "third_column": "",
-            "four_column": ""
-          }
-        },
-        "item_MmmLUr": {
-          "type": "item",
-          "settings": {
-            "row_heading": "THE SLEEKEST LOOKING DESIGNS",
-            "first_column": "Oui",
-            "second_column": "No",
-            "third_column": "",
-            "four_column": ""
-          }
-        }
-      },
-      "block_order": [
-        "item_DnkDM8",
-        "item_frUAYq",
-        "item_kwEPtn",
-        "item_MmmLUr"
-      ],
-      "disabled": true,
-      "name": "SS - Comparison Table #4",
-      "settings": {
-        "heading": "<h5><em><strong>4 Raisons d'intégrer OregaZen dans votre quotidien</strong></em></h5>",
-        "heading_custom": false,
-        "heading_font": "assistant_n4",
-        "heading_size": 26,
-        "heading_size_mobile": 24,
-        "heading_height": 130,
-        "heading_align": "center",
-        "heading_align_mobile": "center",
-        "table_width": 70,
-        "table_columns": 2,
-        "table_align": "center",
-        "table_mt": 44,
-        "table_column_active": "1",
-        "table_column_active_radius": 16,
-        "table_column_active_border_thickness": 2,
-        "table_heading_image_size": 66,
-        "table_heading_image_size_mobile": 40,
-        "first_heading": "SECTION STORE",
-        "first_heading_image": "shopify://shop_images/OregaZen_4.jpg",
-        "second_heading": "Autres",
-        "second_heading_image": "shopify://shop_images/40034072.webp",
-        "third_heading": "",
-        "four_heading": "",
-        "table_heading_custom": false,
-        "table_heading_font": "assistant_n4",
-        "table_heading_size": 22,
-        "table_heading_size_mobile": 1,
-        "table_heading_height": 100,
-        "table_heading_align": "center",
-        "table_heading_padding_horizontal": 12,
-        "table_heading_padding_horizontal_mobile": 4,
-        "table_heading_padding_vertical": 10,
-        "table_heading_padding_vertical_mobile": 10,
-        "table_row_padding_horizontal": 16,
-        "table_row_padding_horizontal_mobile": 10,
-        "table_row_padding_vertical": 16,
-        "table_row_padding_vertical_mobile": 10,
-        "table_row_border_thickness": 1,
-        "table_row_heading_image_size": 66,
-        "table_row_heading_image_size_mobile": 40,
-        "table_row_heading_width_mobile": 66,
-        "table_row_heading_custom": false,
-        "table_row_heading_font": "assistant_n4",
-        "table_row_heading_size": 22,
-        "table_row_heading_size_mobile": 16,
-        "table_row_heading_height": 130,
-        "table_row_heading_align": "left",
-        "table_row_text_custom": false,
-        "table_row_text_font": "assistant_n4",
-        "table_row_text_size": 20,
-        "table_row_text_size_mobile": 16,
-        "table_row_text_height": 130,
-        "table_row_text_align": "center",
-        "table_row_image_size": 52,
-        "table_row_image_size_mobile": 40,
-        "buttons_mt": 44,
-        "buttons_gap": 16,
-        "button": "OUR STORY",
-        "button_url": "",
-        "button_custom": false,
-        "button_font": "josefin_sans_n4",
-        "button_size": 22,
-        "button_size_mobile": 18,
-        "button_height": 100,
-        "button_padding_vertical": 20,
-        "button_padding_horizontal": 40,
-        "button_radius": 6,
-        "button_border_thickness": 2,
-        "second_button": "EXPLORE ALL SECTIONS",
-        "second_button_url": "",
-        "second_button_custom": false,
-        "second_button_font": "josefin_sans_n4",
-        "second_button_size": 22,
-        "second_button_size_mobile": 18,
-        "second_button_height": 100,
-        "second_button_padding_vertical": 20,
-        "second_button_padding_horizontal": 40,
-        "second_button_radius": 6,
-        "second_button_border_thickness": 2,
-        "table_heading_color": "#b6edbb",
-        "table_heading_active_color": "#ffffff",
-        "table_heading_bg_active_color": "#b6edbb",
-        "table_column_active_bg_color": "#ffffff",
-        "table_column_active_border_color": "#b6edbb",
-        "table_row_border_color": "#ffffff",
-        "table_row_heading_color": "#2f1718",
-        "table_row_text_color": "#2f1718",
-        "table_row_active_text_color": "#1a1a1a",
-        "button_color": "#0e7339",
-        "button_hover_color": "#1a1a1a",
-        "button_bg_color": "",
-        "button_bg_hover_color": "#0e7339",
-        "button_border_color": "#0e7339",
-        "button_border_hover_color": "#0e7339",
-        "second_button_color": "#1a1a1a",
-        "second_button_hover_color": "#1a1a1a",
-        "second_button_bg_color": "#0e7339",
-        "second_button_bg_hover_color": "#1a1a1a",
-        "second_button_border_color": "#0e7339",
-        "second_button_border_hover_color": "#0e7339",
-        "heading_color": "#0e7339",
-        "background_color": "#ffffff",
-        "background_gradient": "",
-        "border_color": "#0e7339",
-        "margin_top": 0,
-        "margin_bottom": 0,
-        "padding_top": 72,
-        "padding_bottom": 72,
-        "padding_horizontal": 5,
-        "padding_horizontal_mobile": 1.5,
-        "full_width": false,
-        "content_width": 120,
-        "border_thickness": 0,
-        "lazy": true
-      }
     }
   },
   "order": [
     "image_with_text_overlay_C89KzF",
+    "slideshow",
+    "custom_liquid_eUVjTR",
+    "rich_text_6irJgH",
     "custom_liquid_7Q4VBx",
-    "multiple_images_with_text_xbrm7W",
-    "logo_list_Rwt8QQ",
     "rich_text_UXzW84",
     "image_with_text_overlay_wWWrPw",
-    "testimoniall_DbaG6H",
-    "custom_liquid_t7GcQE",
+    "custom_liquid_UPb9Ly",
     "multi_column_jwNAQX",
     "custom_liquid_4ME4Hg",
     "featured_product_t9t9Jj",
-    "rich_text_ft66VY",
-    "images_with_text_scrolling_NzNz7q",
+    "custom_liquid_9XVWRc",
     "testimonials_tan9Et",
     "rich_text_LxrDTy",
     "multiple_images_with_text_96h7ed",
-    "timeline_PcTQyC",
+    "rich_text_ft66VY",
+    "slideshow_GUKWNK",
     "faq",
-    "1752338483f297c75b",
-    "s_xQacYN",
-    "17533844265221b11f",
-    "ss_comparison_MRaBRU"
+    "1752338483f297c75b"
   ]
 }
