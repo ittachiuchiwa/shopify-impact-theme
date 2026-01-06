@@ -90,6 +90,7 @@
       "block_order": [
         "slide-1"
       ],
+      "disabled": true,
       "settings": {
         "full_width": false,
         "allow_transparent_header": true,
@@ -104,6 +105,7 @@
     },
     "custom_liquid_eUVjTR": {
       "type": "custom-liquid",
+      "disabled": true,
       "name": "Custom Liquid",
       "settings": {
         "full_width": true,

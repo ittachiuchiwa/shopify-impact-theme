@@ -16,6 +16,7 @@
       "blocks": {
         "message": {
           "type": "message",
+          "disabled": true,
           "settings": {
             "text": "Offre d'Été -50%",
             "url": ""
@@ -23,6 +24,7 @@
         },
         "message_niV38B": {
           "type": "message",
+          "disabled": true,
           "settings": {
             "text": "Livraison Offerte",
             "url": ""
@@ -30,6 +32,7 @@
         },
         "message_C9by3D": {
           "type": "message",
+          "disabled": true,
           "settings": {
             "text": "Stocks bientôt épuisés",
             "url": ""
@@ -37,7 +40,6 @@
         },
         "message_LJYr4J": {
           "type": "message",
-          "disabled": true,
           "settings": {
             "text": "Offre estivale exclusive : Livraison gratuite",
             "url": ""
@@ -53,7 +55,7 @@
       "settings": {
         "enable_sticky": false,
         "text_size": "text-xs",
-        "navigation_mode": "scrolling",
+        "navigation_mode": "arrows",
         "scrolling_speed": 10,
         "background": "#1a1a1a",
         "background_gradient": "",
@@ -65,7 +67,7 @@
       "settings": {
         "enable_sticky": true,
         "hide_on_scroll": false,
-        "logo": "shopify://shop_images/Votre_texte_de_paragraphe_2500_x_500_px_1.png",
+        "logo": "shopify://shop_images/CERVIUM_8.jpg",
         "logo_max_width": 300,
         "logo_mobile_max_width": 170,
         "menu": "main-menu",
@@ -81,7 +83,7 @@
         "show_country_name": true,
         "transparent_header_text_color": "#00a341",
         "reduce_padding": true,
-        "background_opacity": 100,
+        "background_opacity": 0,
         "background_blur_radius": 0
       }
     }
